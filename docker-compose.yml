@@ -6,7 +6,15 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: discuz
-
+  adminer:
+    image: adminer
+    depends_on:
+      - db
+    environment:
+      ADMINER_DEFAULT_DB_HOST: db
+      ADMINER_DEFAULT_DB_NAME: root
+    ports:
+      - 8080:8080
   discuz:
     build: .
     links:

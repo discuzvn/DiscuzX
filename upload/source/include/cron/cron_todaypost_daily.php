@@ -20,7 +20,7 @@ $hpostarray = explode("\t", $historypost);
 $_G['setting']['historyposts'] = $hpostarray[1] < $yesterdayposts ? "$yesterdayposts\t$yesterdayposts" : "$yesterdayposts\t$hpostarray[1]";
 
 C::t('common_setting')->update('historyposts', $_G['setting']['historyposts']);
-$date = date('d-m-Y', TIMESTAMP - 86400);
+$date = date('Y-m-d', TIMESTAMP - 86400);
 
 C::t('forum_statlog')->insert_stat_log($date);
 C::t('forum_forum')->clear_todayposts();

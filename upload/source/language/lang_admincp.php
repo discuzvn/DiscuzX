@@ -718,7 +718,7 @@ $lang = array(
     'home_dev_links' => 'Liên kết',
     'setting' => 'Tổng thể',
     'setting_tips' =>
-        '<li>Các tùy chọn được ghạch chân mầu đỏ cần chú ý khi thay đổi để đạt hiệu quả và tốc độ tối ưu cho website</li>',
+        '<li>Các tùy chọn được gạch chân mầu đỏ cần chú ý khi thay đổi để đạt hiệu quả và tốc độ tối ưu cho website</li>',
     'setting_multi_tips' =>
         '<li>Giữ phím ALT và nhấp vào, kiểm tra các tùy chọn để chọn ngang</li>',
     'setting_basic' => 'Cơ bản',
@@ -1084,7 +1084,7 @@ $lang = array(
     'setting_styles_index_online_more_members' => 'Hiển thị tối đa online',
     'setting_styles_index_online_more_members_comment' =>
         'Thiết lập này được kích hoạt khi người sử dụng hiển thị trực tuyến. Đặt 0 là ko thiết lập.',
-    'setting_styles_index_disfixednv' => '关闭顶部导航固定',
+    'setting_styles_index_disfixednv' => 'Bỏ cố định thanh điều hướng',
     'setting_styles_index_disfixednv_comment' =>
         '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
     'setting_styles_forumdisplay' => 'Danh sách bài',
@@ -1127,11 +1127,11 @@ $lang = array(
     'setting_styles_forumdisplay_fastsmilies_comment' =>
         'Hiển thị biểu cảm trong mục đăng bài nhanh',
     'setting_styles_forumdisplay_forumpicstyle_thumbwidth' =>
-        'Chiều rộng của Ảnh thu nhỏ',
+        'Chiều rộng ảnh thumb',
     'setting_styles_forumdisplay_forumpicstyle_thumbwidth_comment' =>
-        '当版块开启图片列表模式时有效，0或不填 将使用默认值(203)。变更宽高建议重建主题封面，<a href="' .
+        'Khi bài hiển thị ở chế độ hình ảnh, giá trị 0 hoặc không điền thì mặc định là 203. thay đổi chiều rộng và cao cần build lại, <a href="' .
         ADMINSCRIPT .
-        '?action=counter" target="_blank">点此重建</a>',
+        '?action=counter" target="_blank">bấm để build lại</a>',
     'setting_styles_forumdisplay_forumpicstyle_thumbheight' =>
         'Chiều cao của thumb',
     'setting_styles_forumdisplay_forumpicstyle_thumbheight_comment' =>
@@ -1146,7 +1146,7 @@ $lang = array(
     'setting_styles_forumdisplay_disfixednv_forumdisplay' => '关闭顶部导航固定',
     'setting_styles_forumdisplay_disfixednv_forumdisplay_comment' =>
         '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
-    'setting_styles_forumdisplay_threadpreview' => '关闭主题预览',
+    'setting_styles_forumdisplay_threadpreview' => 'Tắt xem trước bài viết',
     'setting_styles_forumdisplay_threadpreview_comment' =>
         '关闭后将不可在主题列表页预览帖子内容',
     'setting_styles_viewthread' => 'Bài viết',
@@ -1160,7 +1160,7 @@ $lang = array(
     'setting_styles_viewthread_maxsigrows_comment' =>
         'Thiết lập chiều cao chữ ký',
     'setting_styles_viewthread_sigviewcond' => 'Ký tự có thể dùng trong chữ ký',
-    'setting_styles_viewthread_sigimgclick_on' => '取消签名图片的动态放大功能',
+    'setting_styles_viewthread_sigimgclick_on' => 'Tắt tính năng zoom ảnh trong chữ ký',
     'setting_styles_viewthread_sigviewcond_comment' =>
         'So với quy định số từ trong bài viết chỉ số hiển thị sau khi đăng nhập',
     'setting_styles_viewthread_author_onleft' =>
@@ -1248,48 +1248,48 @@ $lang = array(
     'setting_styles_viewthread_imgcontent' => '主题内容生成图片宽度',
     'setting_styles_viewthread_imgcontent_comment' =>
         '本功能需要PHP支持GD库，内容里有中文需要将中文 TTF 字体文件放到 static/image/seccode/font/ch/ 目录下。默认100个汉字，字体不同宽度略有差别，请跟据实际效果调整。',
-    'setting_styles_viewthread_fast_reply' => '开启主题帖快速回复',
+    'setting_styles_viewthread_fast_reply' => 'Mở chủ đề trả lời nhanh',
     'setting_styles_viewthread_fast_reply_comment' =>
-        '开启后将在主题帖下方展示快速回复框',
-    'setting_styles_viewthread_allow_replybg' => '开启帖子快速回复框背景',
+        'Hộp trả lời nhanh sẽ hiện bên dưới chủ đề',
+    'setting_styles_viewthread_allow_replybg' => 'Tắt ảnh nền cho phần trả lời nhanh bài viết',
     'setting_styles_viewthread_allow_replybg_comment' =>
         '开启后允许给帖子快速回复框添加背景图片',
     'setting_styles_viewthread_global_reply_background' =>
         '全局帖子快速回复框背景',
     'setting_styles_viewthread_global_reply_background_comment' =>
         '设置全局帖子快速回复框背景图片，版块设置优先',
-    'setting_threadprofile' => '布局方案设置',
-    'setting_styles_threadprofile' => '帖内用户信息',
-    'setting_styles_threadprofile_group' => '用户组方案设置',
-    'setting_styles_threadprofile_project' => '布局方案列表',
-    'setting_styles_threadprofile_name' => '名称',
-    'setting_styles_threadprofile_plan' => '方案',
-    'setting_styles_threadprofile_addplan' => '添加新方案',
+    'setting_threadprofile' => 'Thiết đặt layout',
+    'setting_styles_threadprofile' => 'Thông tin người dùng trong bài',
+    'setting_styles_threadprofile_group' => 'Nhóm người dùng',
+    'setting_styles_threadprofile_project' => 'Danh sách layout',
+    'setting_styles_threadprofile_name' => 'Tên',
+    'setting_styles_threadprofile_plan' => 'Layout',
+    'setting_styles_threadprofile_addplan' => 'Thêm layout',
     'setting_styles_threadprofile_attrcard' => '属性名片',
     'setting_styles_threadprofile_groupicon' => '用户组图标',
     'setting_styles_threadprofile_groupname' => '用户组名称',
     'setting_styles_threadprofile_groupstep' => '等级进度',
     'setting_styles_threadprofile_eccredit_seller' => '卖家信用',
     'setting_styles_threadprofile_eccredit_buyer' => '买家信用',
-    'setting_styles_threadprofile_leftinfoprofile' => '左侧信息模板',
-    'setting_styles_threadprofile_avatarprofile' => '头像菜单模板',
-    'setting_styles_forumdisplay_disfixednv_viewthread' => '关闭顶部导航固定',
+    'setting_styles_threadprofile_leftinfoprofile' => 'Thông tin bên cột trái',
+    'setting_styles_threadprofile_avatarprofile' => 'Thông tin trong menu avatar',
+    'setting_styles_forumdisplay_disfixednv_viewthread' => 'Bỏ cố định thanh top navigation',
     'setting_styles_forumdisplay_disfixednv_viewthread_comment' =>
         '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
-    'setting_styles_forumdisplay_disfixedavatar' => '关闭头像区域固定',
+    'setting_styles_forumdisplay_disfixedavatar' => 'Bỏ cố định avatar khi cuộn xuống',
     'setting_styles_forumdisplay_disfixedavatar_comment' =>
-        '当滚动屏幕时，左侧头像区域将跟随右侧帖子内容浮动，填充帖子内容区域很高时导致的左侧空白',
-    'setting_styles_forumdisplay_threadguestlite' => '游客阅读简化模式',
+        'Khi cuộn màn hình, avatar bên trái sẽ chạy theo bài đăng bên phải',
+    'setting_styles_forumdisplay_threadguestlite' => 'Chế độ đọc đơn giản cho khách',
     'setting_styles_forumdisplay_threadguestlite_comment' =>
         '启用后，游客阅读主题时，将不显示用户的具体资料信息。',
-    'setting_styles_viewthread_close_leftinfo' => '关闭左侧信息栏',
+    'setting_styles_viewthread_close_leftinfo' => 'Đóng thanh thông tin bên trái',
     'setting_styles_viewthread_close_leftinfo_comment' =>
         '帖子左侧用户信息栏是否默认关闭',
     'setting_styles_viewthread_close_leftinfo_userctrl' =>
-        '左侧信息栏允许用户控制',
+        'Cho phép người dùng chỉnh thanh thông tin bên trái',
     'setting_styles_viewthread_close_leftinfo_userctrl_comment' =>
         '浏览主题时，用户是否可以控制左侧信息栏的显示状态',
-    'setting_styles_viewthread_guestviewthumb' => '游客看小图',
+    'setting_styles_viewthread_guestviewthumb' => 'Khách xem ảnh nhỏ',
     'setting_styles_viewthread_guestviewthumb_comment' =>
         '游客浏览主题时，帖内的图片将以指定大小的小图显示，可提高会员注册数和活跃量',
     'setting_styles_viewthread_guestviewthumb_width' => '小图宽度',
@@ -1298,7 +1298,7 @@ $lang = array(
     'setting_styles_viewthread_guestviewthumb_height' => '小图高度',
     'setting_styles_viewthread_guestviewthumb_height_comment' =>
         '指定小图的高度，默认值为100',
-    'setting_styles_viewthread_guesttipsinthread' => '帖内游客登录提示',
+    'setting_styles_viewthread_guesttipsinthread' => 'Nhắc đăng nhập trong bài đăng',
     'setting_styles_viewthread_guesttipsinthread_comment' =>
         '游客在浏览主题时，在主题的顶部显示提示文字',
     'setting_styles_viewthread_guesttipsinthread_text' => '登录提示提示文字',
@@ -1578,8 +1578,8 @@ $lang = array(
     'setting_profile_tips' =>
         '<li>Người dùng phải bật ít nhất một phần của một nhóm, nếu không kích hoạt mặc định cho tất cả các kích hoạt</li>',
     'setting_threadprofile_tpl_tpls' =>
-        '<li>{<b>标记</b>} 不含参数的贴内用户信息标记调用。</li><li>{<b>标记</b>=<b>参数</b>} 含参数的贴内用户信息标记调用，多个参数用","分割</li><li>{<b>标记</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>标记</b>} 当有调用内容有值时显示 {*} 前后的 HTML 内容</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li>',
-    'setting_numbercard' => '用户属性名片',
+        '<li>{<b>tag</b>} Thông tin không có tham số</li><li>{<b>tag</b>=<b>tham số</b>} Tag thông tin trong bài viết với tham số, nhiều tham số cách nhau bằng dấu ","</li><li>{<b>tag</b>}<b>HTML</b>{<b>*</b>}<b>HTML</b>{/<b>tag</b>} Hiển thị HTML trước và sau {*} khi dùng với giá trị</li><li>“<b>plugin:插件标识</b>”格式的<b>标记</b>为插件增加的贴内用户信息标记调用。插件开发人员在设计新的贴内用户信息标记前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li>',
+    'setting_numbercard' => 'Thuộc tính trên card visit',
     'setting_numbercard_row' => '第 {i} 列',
     'setting_numbercard_type_threads' => '主题数',
     'setting_numbercard_type_posts' => '帖子数',
@@ -4640,7 +4640,7 @@ $lang = array(
     'members_profile_edit' => 'Chỉnh sửa',
     'members_profile_list' => 'Danh sách field',
     'members_profile_group' => 'Nhóm danh sách',
-    'members_profile_numbercard' => '属性名片',
+    'members_profile_numbercard' => 'Thẻ thông tin',
     'members_profile_numbercard_tips' =>
         '<li>可以设置用户头像下数字栏显示的用户资料项</li>',
     'members_profile_tips' =>

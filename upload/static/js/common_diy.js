@@ -715,7 +715,7 @@ var Util = {
 				var dom = document.createElement('div');
 				dom.className = 'edit hide';
 				dom.id = id+'_edit';
-				dom.innerHTML = '<span id="'+id+'_edit_menu">编辑</span>';
+				dom.innerHTML = '<span id="'+id+'_edit_menu">Sửa</span>';
 				ele.appendChild(dom);
 				$(id+'_edit_menu').onclick = function (e){Drag.prototype.toggleMenu.call(_method, e, this);};
 			}

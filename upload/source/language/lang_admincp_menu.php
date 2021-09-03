@@ -187,5 +187,5 @@ $lang = array(
     'menu_setting_manyou' => 'Manyou',
     'menu_setting_qqconnect' => 'QQ',
     'menu_cloud_doctor' => 'Diagnostic tools',
-    'admincp_title' => $_G['setting']['bbname'] . ' 管理中心',
+    'admincp_title' => $_G['setting']['bbname'],
 );

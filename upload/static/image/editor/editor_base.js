@@ -40,10 +40,10 @@ function renewContent() {
 		}
 	};
 
-	if(window.confirm('您确定要恢复上次保存?')) {
+	if(window.confirm('Bạn có chắc muốn khôi phục dữ liệu đã lưu lần cuối?')) {
 		var data = loadUserdata('home');
 		if(in_array((data = trim(data)), ['', 'null', 'false', null, false])) {
-			parent.showDialog('没有可以恢复的数据！');
+			parent.showDialog('Không có dữ liệu để khôi phục');
 			return;
 		}
 		var data = data.split(/\x09\x09/);
@@ -205,13 +205,13 @@ function format(type, para){
 	if(!gIsIE){
 		switch(type){
 			case "Cut":
-				sAlert = "您的浏览器安全设置不允许编辑器自动执行剪切操作,请使用键盘快捷键(Ctrl+X)来完成";
+				sAlert = "Your browser's security settings do not allow the editor to automatically perform the cutting operation, please use the keyboard shortcut (Ctrl+X) to complete";
 				break;
 			case "Copy":
-				sAlert = "您的浏览器安全设置不允许编辑器自动执行拷贝操作,请使用键盘快捷键(Ctrl+C)来完成";
+				sAlert = "Your browser security settings do not allow the editor to automatically perform the copy operation, please use the keyboard shortcut (Ctrl+C) to complete";
 				break;
 			case "Paste":
-				sAlert = "您的浏览器安全设置不允许编辑器自动执行粘贴操作,请使用键盘快捷键(Ctrl+V)来完成";
+				sAlert = "Your browser security settings do not allow the editor to automatically perform the paste operation, please use the keyboard shortcut (Ctrl+V) to complete";
 				break;
 		}
 	}
@@ -295,7 +295,7 @@ function doodleBox(event, id) {
 	if(parent.$('uchome-ttHtmlEditor') != null) {
 		parent.showWindow(id, 'home.php?mod=magic&mid=doodle&showid=blog_doodle&target=uchome-ttHtmlEditor&from=editor');
 	} else {
-		alert("找不到涂鸦板初始化数据");
+		alert("Can't find initial data for Tuya board");
 	}
 }
 function backColor(e){
@@ -445,7 +445,7 @@ function fSetBorderMouseDown(obj) {
 }
 function fDisplayElement(element,displayValue) {
 	if(gIEVer<=5.01 && gIsIE){
-		alert('只支持IE 5.01以上版本');
+		alert('Only supports IE 5.01 and above');
 		return;
 	}
 	fHideMenu();
@@ -481,7 +481,7 @@ function fSetModeTip(obj){
 		dv.style.padding = "2px";
 		dv.style.border = "1px #000000 solid";
 		dv.style.backgroundColor = "#FFFFCC";
-		dv.innerHTML = "编辑源码";
+		dv.innerHTML = "Edit source";
 		document.body.appendChild(dv);
 	}else{
 		dvModeTip.style.display = "";
@@ -604,7 +604,7 @@ function changeEditType(flag, ev){
 			}
 			ev = ev || event;
 			if(ev){
-				if(window.confirm("转换为纯文本时将会遗失某些格式。\n您确定要继续吗？")){
+				if(window.confirm("Một số thuộc tính định dạng sẽ bị mất.\nBạn có muốn tiếp tục?")){
 					$('uchome-editstatus').value = 'text';
 					sub1();
 				}else{
@@ -622,7 +622,7 @@ function changeEditFull(flag, ev) {
 		parent.changeEditFull(flag);
 		ev = ev || event;
 		var ele = ev.target || ev.srcElement;
-		ele.innerHTML = flag ? '返回' : '全屏';
+		ele.innerHTML = flag ? 'Trở lại' : 'Toàn màn hình';
 		ele.onclick = function() {changeEditFull(!flag, ev)};
 	}
 }

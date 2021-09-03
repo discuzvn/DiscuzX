@@ -107,7 +107,7 @@ $lang = array(
     'header_diy_backup_tip' => 'Bạn có thể sao lưu bằng cách xuất các mẫu',
     'header_diy_i_know' => 'Tôi biết',
     'header_diy_sample_mode' =>
-        'Để sửa đổi, cập nhật các thuộc tính của <strong>Module</strong>, bạn chỉ cần thực hiện kéo thả. <a href="javascript:;" onclick="spaceDiy.init();" class="xw1 xi2">Nâng cao</a>',
+        'Để thay đổi vị trí các <strong>khối</strong>, bạn chỉ cần kéo thả. <a href="javascript:;" onclick="spaceDiy.init();" class="xw1 xi2">Nâng cao</a>',
     'header_export' => 'Xuất DIY',
     'header_export_desc' => 'Đang xuất dữ liệu DIY',
     'header_frame' => 'Frame',
@@ -163,8 +163,8 @@ $lang = array(
     'report' => 'Báo cáo',
     'report_reason' => 'Lý do',
     'report_reason_message' =>
-        "['广告垃圾','违规内容','恶意灌水','重复发帖','其他']",
-    'report_reason_other' => '请填写举报内容',
+        "['Quảng cáo spam','Vi phạm chính sách','Độc hại','Trùng nội dung','Khác']",
+    'report_reason_other' => 'Hãy điền nội dung muốn report',
     'seccode' => 'Mã',
     'seccode_change' => 'Đổi cái khác',
     'secqaa' => 'Câu hỏi an toàn',
@@ -178,7 +178,7 @@ $lang = array(
     'e_url' => 'Thêm liên kết',
     'attach_forward' =>
         'Nếu sau {$refreshsecond} giây hệ thống không thực hiện, bấm vào đây.',
-    'board_message' => 'Hiện tin nhắn',
+    'board_message' => 'Thông báo',
     'cancel' => 'Hủy',
     'message_closetime' => ' giây sau sẽ đóng trang',
     'message_forward' => 'Click vào đây nếu hệ thống không tự động chuyển',

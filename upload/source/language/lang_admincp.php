@@ -34,7 +34,7 @@ $lang = array(
     'modify' => 'Sửa đổi',
     'start' => 'Bắt đầu',
     'tips' => 'Chú ý',
-    'setseotips' => 'SEO tối ưu hóa các thiết lập thủ thuật',
+    'setseotips' => 'Cấu hình hỗ trợ SEO',
     'tips_all' => 'Hiển thị tất cả chú ý',
     'tips_textarea' => 'Kích đúp vào để mở rộng/thu nhỏ',
     'name' => 'Tên',
@@ -74,7 +74,7 @@ $lang = array(
     'subject' => 'Tiêu đề',
     'nosubject' => 'Chưa có tiêu đề',
     'message' => 'Nội dung',
-    'mergeto' => 'Nhập',
+    'mergeto' => 'Gộp',
     'doings' => 'Tâm trạng',
     'blogs' => 'Blogs',
     'albums' => 'Album',
@@ -269,7 +269,7 @@ $lang = array(
     'xml_http_data_in_processed' => 'Thành công, dữ liệu đang xử lý...',
     'admincp_maptext' => 'Sơ đồ (Ẩn ESC)',
     'admincp_maptitle' => 'Danh mục AdminCP',
-    'tiny_bbcode_support' => '<em>(支持[color][b][u][i][s])</em>',
+    'tiny_bbcode_support' => '<em>(Hỗ trợ[color][b][u][i][s])</em>',
     'nav_newwin' => 'Cửa sổ mới',
     'nav_index' => 'Trang chủ',
     'nav_global' => 'Tổng thể',
@@ -982,9 +982,9 @@ $lang = array(
     'setting_styles_global_creditnotice' => 'Nhắc nhở',
     'setting_styles_global_creditnotice_comment' =>
         'Khi một người sử dụng diễn đàn trong các hoạt động có một thay đổi trong điểm số cửa sổ pop-up tin nhắn sẽ thông báo cho người sử dụng',
-    'setting_styles_global_showusercard' => 'Hiển thị các thẻ người dùng',
+    'setting_styles_global_showusercard' => 'Hiển thị các thẻ thông tin',
     'setting_styles_global_showusercard_comment' =>
-        'Đặt tên người dùng khi con chuột di chuyển đến vị trí thẻ kinh doanh của mình được hiển thị',
+        'Hiện thẻ thông tin người dùng khi rê chuột qua tên hoặc avatar',
     'setting_styles_global_anonymoustext' =>
         'Vô danh của người sử dụng biệt danh',
     'setting_styles_global_anonymoustext_comment' =>
@@ -1048,7 +1048,7 @@ $lang = array(
     'setting_styles_index_subforumsindex' => 'Hiện diễn đàn con',
     'setting_styles_index_subforumsindex_comment' =>
         'Cho phép hiển thị diễn đàn con( sub forum )',
-    'setting_styles_index_forumlinkstatus' => 'Hiển thị liên kết',
+    'setting_styles_index_forumlinkstatus' => 'Hiển thị liên kết với các trang khác',
     'setting_styles_index_forumlinkstatus_comment' =>
         'Cho phép hiện các link liên kết với diễn đàn ngoài trang Index',
     'setting_styles_index_forumallowside' => 'Hiện Sidebar',
@@ -1069,9 +1069,9 @@ $lang = array(
     'setting_styles_index_hideprivate_comment' =>
         'Không hiện trong danh sách hay nội dung diễn đàn khi thành viên truy cập ( bài viết, box...)',
     'setting_styles_index_showfollowcollection' =>
-        '首页显示用户订阅的淘专辑数量',
+        'The homepage shows the number of albums subscribed by the user',
     'setting_styles_index_showfollowcollection_comment' =>
-        '在首页显示用户订阅的淘专辑数量',
+        'Display the number of albums subscribed by the user on the homepage',
     'setting_styles_index_members' =>
         '<span class="spectitle">Hiển thị số sinh nhật thành viên</span>',
     'setting_styles_index_members_comment' =>
@@ -1143,7 +1143,7 @@ $lang = array(
         'Chọn "Yes", mặc định không hiển thị danh sách các hình ảnh, người dùng có thể chọn',
     'setting_styles_forumdisplay_newbie' => 'Bài biểu tượng',
     'setting_styles_forumdisplay_newbie_comment' => 'Bài đầu biểu tượng trống',
-    'setting_styles_forumdisplay_disfixednv_forumdisplay' => '关闭顶部导航固定',
+    'setting_styles_forumdisplay_disfixednv_forumdisplay' => 'Tắt cố định thanh top navigation',
     'setting_styles_forumdisplay_disfixednv_forumdisplay_comment' =>
         '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
     'setting_styles_forumdisplay_threadpreview' => 'Tắt xem trước bài viết',
@@ -1549,13 +1549,13 @@ $lang = array(
     'setting_domain' => 'Thiết lập tên miền',
     'setting_domain_base' => 'Cơ bản',
     'setting_domain_base_tips' => "<li>保留二级域名设置后所有人都无法申请或使用该域名</li><li>个人空间、群组的二级域名开启后需要到<strong>根域名设置</strong>中设置<strong>{$_G[setting][navs][3][navname]}、{$_G[setting][navs][4][navname]}</strong>的根域名</li>",
-    'setting_domain_app' => 'Ứng dụng tên miền',
+    'setting_domain_app' => 'Tên miền ứng dụng',
     'setting_domain_app_domain' => 'Tên miền',
     'setting_domain_app_tips' =>
         '<li>各自绑定的域名不能相同，域名不需要添加“<strong>http://</strong>”，也不要以“<strong>/</strong>”结尾，例如：portal.comsenz.com</li><li>任意开启一项域名，需要配置默认域名，否则会造成多入口问题</li><li>当开启多域名时，请在 config/config_global.php 中修改 cookiedomain 值来设置 cookie 作用域</li>',
     'setting_domain_app_mobile_tips' =>
         'Khi cấu hình các miền điện thoại di động, trình duyệt không phải di động sẽ tự động chuyển đến các tên miền mặc định',
-    'setting_domain_root' => 'Đặt tên miền gốc',
+    'setting_domain_root' => 'Tên miền root',
     'setting_domain_root_tips' => "<li>可以为<strong>个人空间、{$_G[setting][navs][3][navname]}、版块、专题、频道</strong>设置一个二级域名的根域名。例：用户申请XXX.comsenz.com,根域名填：comsenz.com</li><li><strong>个人空间、{$_G[setting][navs][3][navname]}</strong>设置完二级域名的根后，还需要在<strong>基本设置</strong>中开启相应的二级域名开关，用户才能在相应的地方申请绑定二级域名，同时受限于用户组的二级域名长度</li><li><strong>频道</strong>启用二级域名如果是绑定目录的，需要自已在环境中配置相关的绑定操作</li><li>不建议中途将不同的根域变更为相同的根域</li>",
     'setting_domain_allow_space' => 'Tạo tên miền cấp 2',
     'setting_domain_allow_space_comment' =>
@@ -2342,9 +2342,9 @@ $lang = array(
     'setting_permissions_minpostsize' => 'Số ký tự tối thiểu khi gửi bài mới',
     'setting_permissions_minpostsize_comment' =>
         'Nhóm quản lý không bị ảnh hưởng, 0 là ko giới hạn',
-    'setting_permissions_minpostsize_mobile' => '手机客户端发帖最小字数(字节)',
+    'setting_permissions_minpostsize_mobile' => 'Số ký tự tối thiểu',
     'setting_permissions_minpostsize_mobile_comment' =>
-        '是否单独为手机客户端设置发帖的最小字节数，0 为不单独设置',
+        'Số ký tự tối thiểu cho bản mobile, 0 là không đặt',
     'setting_permissions_maxpostsize' => 'Số ký tự tối đa khi gửi bài mới',
     'setting_permissions_maxpostsize_comment' =>
         'Nhóm quản lý không bị ảnh hưởng',
@@ -2365,9 +2365,9 @@ $lang = array(
         'Bài viết chức năng bổ sung được kích hoạt',
     'setting_permissions_post_append_comment' =>
         'Khi đã được kích hoạt khi người dùng có thể chỉnh sửa bài viết của bạn, bạn có thể thêm nội dung',
-    'setting_permissions_nsprofiles' => '个人空间内不展现个人信息',
+    'setting_permissions_nsprofiles' => 'Personal information is not displayed in the personal space',
     'setting_permissions_nsprofiles_comment' =>
-        '启用后个人空间内将不展现个人信息',
+        'Personal information will not be displayed in the personal space after activation',
     'setting_permissions_modasban' => '不忽略审核关键词',
     'setting_permissions_modasban_comment' =>
         '启用后在不支持审核关键词的模块内发现此类关键词将拒绝提交，关闭则允许提交',
@@ -3110,14 +3110,14 @@ $lang = array(
         'Kiểm tra các cột mà bạn muốn mở các tìm kiếm',
     'setting_search_onoff' => 'Mở',
     'search_item_name' => 'Tìm kiếm các dự án',
-    'setting_search_srchsetting' => '搜索选项设置',
-    'setting_search_srchcensor' => '搜索受词语过滤控制',
+    'setting_search_srchsetting' => 'Lựa chọn tìm kiếm',
+    'setting_search_srchcensor' => 'Kiểm soát bộ lọc từ cho tìm kiếm',
     'setting_search_srchhotkeywords' => 'Từ khóa phổ biến',
     'setting_search_srchhotkeywords_comment' => 'Mỗi dòng một từ',
     'setting_search_srchhotkeywords_disabled' =>
-        '<strong>您已开启纵横搜索服务，搜索相关设置请到 <a href="' .
+        '<strong>You have turned on the Latitude search service, please go to <a href="' .
         ADMINSCRIPT .
-        '?action=cloud&operation=search">云平台->纵横搜索</a> 设置</strong>',
+        '?action=cloud&operation=search">Cloud Platform->Longitudinal Search</a> để cài đặt</strong>',
     'settings_sphinx' => 'Sphinx cài đặt tìm kiếm',
     'settings_sphinx_sphinxon' => 'Bật',
     'settings_sphinx_sphinxon_comment' =>
@@ -3267,20 +3267,20 @@ $lang = array(
         'Mở trình duyệt bằng điện thoại web sẽ tự chuyển',
     'setting_mobile_mobileforward_comment' =>
         'Khi người dùng mở trình duyệt bằng điện thoại để truy diễn đàn sẽ tự động chuyển đến trang chủ',
-    'setting_mobile_otherindex' => '允许非论坛作为首页',
+    'setting_mobile_otherindex' => 'Cho phép phần không phải diễn đàn làm trang chủ',
     'setting_mobile_otherindex_comment' =>
-        '开启后手机版也可以将插件、门户等页面设置为首页',
+        'Ở bản mobile, bạn có thể đặt ứng dụng, portal hoặc bất cứ trang nào làm trang chủ',
     'setting_mobile_preview' => 'Xem phiên bản Mobile trên máy tính',
     'setting_mobile_preview_comment' =>
         'Người dùng có thể xem trước giao diện của phiên bản WAP mobile trên máy tính',
     'setting_mobile_register' => 'Cho đăng ký thành viên',
     'setting_mobile_register_comment' =>
         'Mobile registration feature is turned on, your mobile phone is not part of the user registration page required for testing<br />Yêu cầu cẩn thận khi cho phép đăng ký qua Mobile',
-    'setting_mobile_hotthread' => '是否开启热帖',
-    'setting_mobile_hotthread_comment' => '“触屏版”功能，开启则在首页显示热贴',
-    'setting_mobile_displayorder3' => '是否显示置顶贴',
+    'setting_mobile_hotthread' => 'Open hot thread',
+    'setting_mobile_hotthread_comment' => '"Touch screen version" function. When it is turned on, hot stickers will be displayed on the home page',
+    'setting_mobile_displayorder3' => 'Whether to display the top post',
     'setting_mobile_displayorder3_comment' =>
-        '“触屏版”功能，在帖子列表页面中是否显示置顶贴，否为不显示',
+        '"Touch screen version" function, whether to display the top post in the post list page, or not',
     'setting_mobile_simpletype' => 'Định dạng Mobile',
     'setting_mobile_simpletype_comment' =>
         'Mặc định là Giao diện chuẩn với đầy đủ tính năng hiển thị, thông kê. Giao diện đơn giản ẩn một số thông tin thống kê, biểu tượng, danh sách...<br />Người dùng có thể tự do chuyển đổi chế độ',
@@ -3301,40 +3301,40 @@ $lang = array(
     'setting_mobile_come_from' => 'Viết bài từ Mobile',
     'setting_mobile_come_from_comment' =>
         'Mặc định bỏ trống, nếu các bài được viết từ Mobile, có thể thêm văn bản tùy chỉnh biểu tượng riêng<br />Như:&lt;a href=\'http://m.x.com\'&gt;Mobile Channel&lt;/a&gt;<br />Không hỗ trợ HTML：&lt;a&gt;&lt;font&gt;&lt;span&gt;&lt;strong&gt;&lt;b&gt;&lt;img&gt;<br />Nếu bạn sử dụng biểu tượng， hãy đảm bảo chiều cao ảnh nhỏ hơn 16px',
-    'setting_mobile_wml' => '是否启用WML版',
+    'setting_mobile_wml' => 'Enable WML version',
     'setting_mobile_wml_comment' =>
-        'WML版为一些仅支持WML语言的较早期的设备浏览网站的内容',
+        'WML version is for some earlier devices that only support WML language to browse the content of the website',
     'pack' => 'Thu gọn',
     'unwind' => 'Mở rộng',
-    'setting_antitheft' => '防采集设置',
+    'setting_antitheft' => 'Anti acquisition settings',
     'setting_antitheft_tips' =>
-        '<li>防采集功能不影响正常用户浏览检验。</li><li>可防止本站主题、文章和日志被非法采集。</li><li><font style="color:red">当IP同时存在于黑/白名单时，白名单优先。</font></li><li>开启防采集功能后帖子列表页面的帖子预览功能将不可使用。</li>',
-    'setting_antitheft_status' => '防采集全局设置',
-    'setting_antitheft_allow' => '是否开启防采集',
-    'setting_antitheft_black' => '黑名单防采集过滤IP',
+        '<li>The anti acquisition function does not affect the browsing and inspection of normal users.</li><li>It can prevent topics, articles and logs of this site from being illegally collected.</li><li><font style="color:red">When IP exists in the black / white list at the same time, the white list takes precedence.</font></li><li>After the anti collection function is enabled, the post preview function on the post list page will not be available.</li>',
+    'setting_antitheft_status' => 'Anti acquisition global settings',
+    'setting_antitheft_allow' => 'Enable anti acquisition',
+    'setting_antitheft_black' => 'Blacklist anti collection filtering IP',
     'setting_antitheft_black_comment' =>
-        '当用户处于本列表中的 IP 地址时，全部进行防采集过滤。每个 IP 一行，既可输入完整地址，也可只输入 IP 开头，例如 "192.168."(不含引号) 可匹配 192.168.0.0～192.168.255.255 范围内的所有地址，留空为不设置',
-    'setting_antitheft_white' => '白名单防采集过滤IP',
+        'When the user is at the IP address in this list, anti collection filtering is performed for all. For each IP line, you can enter either the full address or only the beginning of the IP. For example, "192.168." (without quotation marks) can match all addresses in the range of 192.168.0.0 ~ 192.168.255.255. Leave blank to not set',
+    'setting_antitheft_white' => 'White list anti collection filtering IP',
     'setting_antitheft_white_comment' =>
-        '当用户处于本列表中的 IP 地址时，可无限次数访问，不进行防采集过滤。每个 IP 一行，既可输入完整地址，也可只输入 IP 开头，例如 "192.168."(不含引号) 可匹配 192.168.0.0～192.168.255.255 范围内的所有地址，留空为不设置',
-    'setting_antitheft_24_max' => '每日最大访问量',
+        'When the user is at the IP address in this list, it can be accessed unlimited times without anti collection filtering. For each IP line, you can enter either the full address or only the beginning of the IP. For example, "192.168." (without quotation marks) can match all addresses in the range of 192.168.0.0 ~ 192.168.255.255. Leave blank to not set',
+    'setting_antitheft_24_max' => 'Maximum daily visits',
     'setting_antitheft_24_max_comment' =>
-        '设置独立IP每日最大访问次数，推荐值200',
-    'setting_antitheft_iplist' => '访问列表',
+        'Set the maximum daily access times of independent IP. The recommended value is 200',
+    'setting_antitheft_iplist' => 'Access list',
     'setting_antitheft_ip' => 'IP',
-    'setting_antitheft_view' => '次数',
-    'setting_antitheft_op' => '操作',
-    'setting_antitheft_disable' => '不进行防采集的内容',
-    'setting_antitheft_disable_thread' => '主题',
-    'setting_antitheft_disable_article' => '文章',
-    'setting_antitheft_disable_blog' => '日志',
-    'setting_antitheft_choose_ip' => '请选择需要处理的IP地址',
-    'setting_antitheft_add_white' => '加入白名单成功，访问记录已删除',
-    'setting_antitheft_add_black' => '加入黑名单成功，访问记录已删除',
-    'setting_antitheft_delete_view' => '访问记录删除成功',
-    'setting_antitheft_choose_optype' => '请指定要进行的操作',
-    'setting_antitheft_addwhitelist' => '加入白名单',
-    'setting_antitheft_addblacklist' => '加入黑名单',
+    'setting_antitheft_view' => 'frequency',
+    'setting_antitheft_op' => 'operation',
+    'setting_antitheft_disable' => 'Content without anti acquisition',
+    'setting_antitheft_disable_thread' => 'Chủ đề',
+    'setting_antitheft_disable_article' => 'Bài viết',
+    'setting_antitheft_disable_blog' => 'Blog',
+    'setting_antitheft_choose_ip' => 'Please select the IP address to be processed',
+    'setting_antitheft_add_white' => 'Successfully added to the white list, and the access record has been deleted',
+    'setting_antitheft_add_black' => 'Successfully added to the blacklist, and the access record has been deleted',
+    'setting_antitheft_delete_view' => 'Access record deleted successfully',
+    'setting_antitheft_choose_optype' => 'Please specify the operation to be performed',
+    'setting_antitheft_addwhitelist' => 'Add white list',
+    'setting_antitheft_addblacklist' => 'Add blacklist',
     'setting_uc' => 'Quản lý UCenter',
     'setting_uc_tips' =>
         '<li>Chú ý khi thay đổi cấu hình trong này, sao lưu file config.inc.php khi làm, thay đổi ở đây có thể forum ko hoạt động hoặc thiếu 1 số tính năng</ li>',
@@ -3465,8 +3465,8 @@ $lang = array(
     'forums_edit_basic_display' => 'Hiện diễn đàn',
     'forums_edit_basic_display_comment' =>
         'Chọn "Hiện" thì diễn đàn tạm thời ẩn, nhưng nội dung diễn đàn sẽ vẫn còn, và người dùng vẫn có thể truy cập vào',
-    'forums_edit_basic_shownav' => '在导航显示',
-    'forums_edit_basic_shownav_comment' => '选择是否在主导航中显示',
+    'forums_edit_basic_shownav' => 'Hiên trên thanh nav',
+    'forums_edit_basic_shownav_comment' => 'Tạo menu trên thanh nav chính',
     'forums_edit_basic_up' => 'Diễn đàn cha',
     'forums_edit_basic_up_comment' => 'Diễn đàn cha của diễn đàn hiện tại',
     'forums_edit_basic_redirect' => 'URL chuyển hướng',
@@ -3494,7 +3494,7 @@ $lang = array(
     'forums_edit_basic_threadtable_comment' =>
         'Đây là bảng hiện các chủ đề liên quan, ở dưới bài viết đầu tiên.',
     'forums_edit_basic_threadtable_norelate' => 'Không liên quan',
-    'forums_edit_basic_keys' => 'Tên cố định(SEO)',
+    'forums_edit_basic_keys' => 'Slug',
     'forums_edit_basic_keys_comment' =>
         '绑定后当站点开启 URL 静态化后可通过别名访问此版块，如设置别名为“developer”那么版块的 URL 将变为“' .
         $_G['siteurl'] .
@@ -3612,10 +3612,8 @@ $lang = array(
     'forums_edit_extend_recommend_dateline' => 'Thời gian giới thiệu chủ đề:',
     'forums_edit_extend_recommend_dateline_comment' =>
         'Theo tuần tự thiết đặt này, bạn biết diễn đàn thời gian truy cập lớn nhất vào lúc nào thì khi viết một bài sẽ tự động cập nhật bài viết giới thiệu,0 là bất cứ lúc nào',
-    'forums_edit_extend_recommend_top' =>
-        'Cho thấy tình hình chung và cài đặt--đầu trang đầu trang phân loại các đối tượng:',
-    'forums_edit_extend_recommend_top_comment' =>
-        'Phiên bản này sẽ được hiển thị ở phía trên cùng của tình hình chung và phiên bản phụ của bộ-đầu trang',
+    'forums_edit_extend_recommend_top' => 'Show topics for global topping and category topping',
+    'forums_edit_extend_recommend_top_comment' => 'Whether to display global topping and split topping in this version',
     'forums_edit_sub_multi_tips' =>
         '<span class="lightfont">Chuyên mục mà không sửa đổi</span>',
     'forums_edit_posts' => 'Sửa bài viết',
@@ -3696,19 +3694,19 @@ $lang = array(
         'Dùng dấu phẩy để cách nhiều loại. Để trống là cho phép theo nhóm người dùng.',
     'forums_edit_posts_allowfeed' => 'Được phép gửi Feed',
     'forums_edit_posts_allowfeed_comment' =>
-        '开启后默认允许用户发送广播和动态，同时用户也可以选择不发送，<strong>隐私版块建议设为否</strong>。如果关闭广播功能，该设置将无效。',
+        'When enabled, users are allowed to send broadcast and dynamic messages by default. At the same time, users can choose not to send them. It is recommended to set the <strong>Privacy section<strong /> to no. If the broadcast function is turned off, this setting will have no effect.',
     'forums_edit_posts_commentitem' => 'Bình luận quan điểm định sẵn',
     'forums_edit_posts_commentitem_comment' =>
         'Mỗi dòng 1 điểm. Nếu có một dòng trắng, dòng trống bên dưới nội dung sẽ xuất hiện trong menu thả xuống như là một điểm thay thế. Đăng Nhận xét tính năng chỉ mở cửa để có hiệu lực thiết lập này, chẳng hạn như vào khoảng trống mà việc sử dụng một "chủ đề chung của các ý kiến trước khi xem" toàn cầu thiết lập',
-    'forums_edit_posts_noantitheft' => '关闭防采集',
+    'forums_edit_posts_noantitheft' => 'Tắt chống spam',
     'forums_edit_posts_noantitheft_comment' =>
-        '关闭防采集功能可节省少量服务器资源，建议灌水类版块关闭防采集功能。',
-    'forums_edit_posts_noforumhidewater' => '关闭隐藏水帖',
+        'Tắt chức năng chống spam có thể sảm 1 chút tài nguyên server',
+    'forums_edit_posts_noforumhidewater' => 'Close hidden posts',
     'forums_edit_posts_noforumhidewater_comment' =>
-        '可单独关闭本版的隐藏水帖功能，适用于灌水类版块。',
-    'forums_edit_posts_noforumrecommend' => '关闭推荐回复',
+        'The hidden water post function of this edition can be turned off separately, which is suitable for irrigation sections.',
+    'forums_edit_posts_noforumrecommend' => 'Turn off recommended responses',
     'forums_edit_posts_noforumrecommend_comment' =>
-        '可单独关闭本版的推荐回复功能，适用于灌水类版块。',
+        'The recommended reply function of this version can be turned off separately, which is suitable for irrigation section.',
     'forums_edit_attachtype' => 'Loại File đính kèm',
     'forums_edit_attachtype_tips' =>
         '<li>Tính năng này có thể giới hạn kích thước tối đa của một loại file đính kèm trong diễn đàn này, khi kích thước của tập hợp ở đây là ít hơn kích thước tối đa cho phép nhóm người sử dụng, chỉ định các loại giới hạn kích thước tập tin đính kèm sẽ có trong chủ đề này tập hợp. </li> <li> Bạn có thể thiết lập kích thước tối đa của một số loại file đính kèm cho lệnh cấm tổng thể về file đính kèm được tải lên. </li> kích thước loại tập tin đính kèm "<li> đây để thiết lập một chuỗi sản phẩm nào để sử dụng các thiết lập toàn cầu.</li>',
@@ -3855,7 +3853,7 @@ $lang = array(
     'forums_moderators_edit' => 'Chỉnh sửa quản lý',
     'forums_delete_comment' =>
         'Xóa diễn dàn này và tất cả các bài viết bên trong',
-    'forums_merge' => 'Hợp diễn đàn',
+    'forums_merge' => 'Gộp diễn đàn',
     'forums_merge_source' => 'Chọn nguồn',
     'forums_merge_source_comment' =>
         'Tất cả các bài viết từ Box nguồn sẽ nhập vào Box đích',
@@ -6194,9 +6192,9 @@ $lang = array(
     'misc_link' => 'Liên kết',
     'misc_link_add' => 'Thêm Liên kết',
     'misc_link_tips' =>
-        '<li>如果您不想在论坛首页显示友情链接，可以在“<a href="' .
+        '<li>Nếu bạn không muốn hiện links, bạn có thể tuỳ chọn trọng <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=styles&anchor=index">界面设置</a>”中关闭。</li><li>未填写文字说明的项目将以紧凑型显示。</li>
+        '?action=setting&operation=styles&anchor=index">cài đặt giao diện</a> để ẩn</li><li>未填写文字说明的项目将以紧凑型显示。</li>
 						<li>友情链接分组只供 DIY 的展示类模块使用。</li>',
     'misc_link_edit' => 'Sửa Liên kết',
     'misc_link_edit_name' => 'Tên diễn đàn',
@@ -6526,7 +6524,7 @@ $lang = array(
     'plugins_edit_modules_type_26' => 'My posts',
     'plugins_edit_modules_type_27' => 'Top of the project navigation',
     'plugins_edit_modules_type_28' => 'Embedded in the page - Mobile',
-    'plugins_edit_modules_type_29' => '管理中心 - 列表链接',
+    'plugins_edit_modules_type_29' => 'Management Center - List Link',
     'plugins_edit_modules_type_g1' => 'Program links',
     'plugins_edit_modules_type_g2' => 'Program Script',
     'plugins_edit_modules_type_g3' => 'Extended projects',

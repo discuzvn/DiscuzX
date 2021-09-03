@@ -21,20 +21,19 @@ $lang = array(
     'threadlist_items' => 'Các hàng còn lại.',
     'threadlist_items_comment' =>
         'Thiết lập số lượng hàng mà bạn muốn hiển thị, nó phải số nguyên lớn hơn 0.',
-    'threadlist_titlelength' => 'Tiêu đề danh sách bài viết',
+    'threadlist_titlelength' => 'Độ dài tiêu đề',
     'threadlist_titlelength_comment' => 'Thiết lập độ dài tối đa của tiêu đề',
     'threadlist_fnamelength' => 'Tên tiêu đề diễn đàn',
     'threadlist_fnamelength_comment' =>
         'Thiết lập độ dài tối đa tiêu đề bao gồm cả tên diễn đàn',
-    'threadlist_summarylength' => 'Mô tả danh sách bài viết',
+    'threadlist_summarylength' => 'Độ dài miêu tả',
     'threadlist_summarylength_comment' =>
         'Thiết lập độ dài của bản mô tả, để 0 sẽ giá trị mặc ​​định (255 ký tự)',
     'threadlist_tids' => 'Chủ đề danh sách',
     'threadlist_tids_comment' =>
         'Thiết lập id chủ đề cụ thể mà bạn muốn hiển thị, sử dụng "," ngăn cách nhiều tids',
     'threadlist_keyword' => 'Từ khóa',
-    'threadlist_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+    'threadlist_keyword_comment' => 'Set the keywords contained in the title. Note: leave blank for no filtering; Wildcards * can be used in keywords; Matches all of multiple keywords, which can be connected by spaces or and. Such as Win32 and UNIX; Match multiple keywords, some of which can be connected by | or or. Such as Win32 or UNIX',
     'threadlist_tagkeyword' => 'Tags',
     'threadlist_tagkeyword_comment' =>
         'Chọn Tags (keywords). Lưu ý: Để trống không bộ lọc từ khóa có thể sử dụng ký tự đại diện "*" Đối với trận đấu một hoặc nhiều từ khóa sử dụng | hoặc "OR" dấu phân cách, tức là "win32 OR unix"',
@@ -46,7 +45,7 @@ $lang = array(
     'threadlist_sortids_comment' =>
         'Thiết lập các phân loại chủ đề.Lưu ý: nếu chọn không sẽ vô hiệu hóa tính năng này.',
     'threadlist_sortids_all' => 'Tất cả danh mục',
-    'threadlist_reply' => '无回复主题过滤',
+    'threadlist_reply' => 'No response topic filtering',
     'threadlist_digest' => 'Lọc phân loại',
     'threadlist_digest_comment' =>
         'Chọn chủ đề: để có tính năng lọc chủ đề. Lưu ý: nếu chọn không sẽ vô hiệu hóa tính năng này.',

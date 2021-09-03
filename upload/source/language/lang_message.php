@@ -1043,7 +1043,7 @@ $lang = array(
     'no_privilege' =>
         'Có lỗi, Hiện tại, bạn không được phép làm điều này <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
     'favorite_cannot_favorite' => 'Có lỗi, Bạn có thể thu thập thông tin',
-    'favorite_repeat' => 'Có lỗi, Không đặt Yêu thích 2 lần cùng một chủ đề',
+    'favorite_repeat' => 'Bạn đã thích chủ đề này',
     'favorite_do_success' => 'Thông tin bộ sưu tập thành công ',
     'feed_no_found' =>
         'Có lỗi, Để xem các hoạt động mà bạn chỉ định không tồn tại',
@@ -1060,7 +1060,7 @@ $lang = array(
     'follow_input_word_limit' => 'Lý do của bạn nhiều hơn 140 từ rồi',
     'follow_only_allow_the_relay_time' =>
         'Xin lỗi, theo phải trả lời điều hành',
-    'relay_feed_success' => 'Theo thành công',
+    'relay_feed_success' => 'Chia sẻ lên tường',
     'follow_specify_follow_not_exist' => 'Kỷ lục theo không tồn tại',
     'friend_self_error' => 'Có lỗi, Bạn không thể kết bạn với chính bạn',
     'friends_add' => 'Bạn và {username} đã trở thành bạn bè',
@@ -1179,7 +1179,7 @@ $lang = array(
     'no_privilege_commentadd' => 'Có lỗi, Bạn không có quyền nhận xét',
     'do_success_thread_share_mod' =>
         'Chia sẻ thành công, xin vui lòng chờ phê duyệt từ ban quản trị',
-    'spacecp_share_repeat' => 'Có lỗi, Bạn đã chia sẻ bài này rồi.',
+    'spacecp_share_repeat' => 'Bạn đã chia sẻ bài viết này rồi',
     'showcredit_fuid_error' =>
         'Có lỗi, Người dùng không phải là bạn của bạn, hãy chắc chắn',
     'showcredit_friend_do_success' =>

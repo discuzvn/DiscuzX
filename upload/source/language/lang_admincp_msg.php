@@ -126,7 +126,7 @@ $lang = array(
     'specialuser_defaultuser_added_invalid' =>
         'Người dùng đã được thêm vào một',
     'specialuser_defaultuser_nouser_invalid' => 'Người dùng không tồn tại',
-    'styles_edit_succeed' => 'cập nhật giao diện chương trình thành công ',
+    'styles_edit_succeed' => 'Sửa giao diện thành công',
     'parameters_error' => 'Thông số lỗi',
     'tasks_succeed' => 'thêm Task & cập nhật thành công ',
     'tasks_basic_invalid' => 'thiết lập nhiệm vụ không hoàn thành',
@@ -702,7 +702,7 @@ $lang = array(
     'styles_delete_invalid' =>
         'You cannot directly delete the template style in use. You can delete it after choosing to use other template styles as the default',
     'styles_install_succeed' =>
-        '界面方案安装完成<br /><br /><a href="https://addon.dismall.com?view=templates" target="_top">点击这里返回应用中心</a><br />',
+        'Cài đặt giao diện thành công',
     'styles_restore_succeed' =>
         'The interface scheme has been restored to the initial settings',
     'styles_import_succeed_renamed' =>

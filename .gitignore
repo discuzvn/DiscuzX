@@ -3,4 +3,4 @@
 /upload/config/config_ucenter.php
 /upload/uc_client/data/
 /upload/uc_server/data/
-/upload/install/index.php
+# /upload/install/index.php

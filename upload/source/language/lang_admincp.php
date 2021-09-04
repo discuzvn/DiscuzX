@@ -3508,9 +3508,9 @@ $lang = array(
         'Số lượt truy cập vào các phong cách được sử dụng bởi các chương trình diễn đàn',
     'forums_edit_extend_domain' => 'Tên miền cố định',
     'forums_edit_extend_domain_comment' =>
-        '根域名设置完后，此处域名绑定才能生效，<a href="' .
+        'Cần đặt tên miền chính trước khi cài đặt sub domain ở đây,<a href="' .
         ADMINSCRIPT .
-        '?action=domain&operation=root"><strong>设置根域名</strong></a>',
+        '?action=domain&operation=root"><strong>đặt tên miền chính</strong></a>',
     'forums_edit_extend_forum_horizontal' =>
         'Lower horizontal sub-forum Forum Index',
     'forums_edit_extend_forum_horizontal_comment' =>
@@ -7956,7 +7956,7 @@ $lang = array(
         'Không có trang quản lý, xin vui lòng quay trở lại',
     'portalcategory_article_perm_tips' =>
         '<li>Add the user name where the user group need to have the &quot;Allow authorized management article&quot; permissions</li><li>Only add the user name, do not select any permission to do this user can post/management supervisor channel part, but can not publish/manage the channel section (which requires a higher level inherited permission section in this channel, and the higher authority in the user name)</li><li>Permission determine rules: from small to large (permission to sub-channel category is greater than the parent channel part of the permissions)</li>',
-    'portalcategory_catname' => 'Tên cột',
+    'portalcategory_catname' => 'Tên chuyên mục',
     'portalcategory_domain' => 'Tên miền',
     'portalcategory_is_closed' => 'Kích hoạt',
     'portalcategory_is_closed_comment' =>
@@ -7967,9 +7967,9 @@ $lang = array(
     'portalcategory_allowcomment' => 'Bình luận',
     'portalcategory_allowcomment_comment' =>
         'Set this category is allowed to comment articles',
-    'portalcategory_noantitheft' => '关闭防采集',
+    'portalcategory_noantitheft' => 'Turn off anti-acquisition',
     'portalcategory_noantitheft_comment' =>
-        '关闭防采集功能可节省少量服务器资源，建议灌水类频道关闭防采集功能。',
+        'Turning off the anti-collection function can save a small amount of server resources. It is recommended to turn off the anti-collection function for irrigation channels.',
     'portalcategory_perm' => 'Quyền hạn',
     'portalcategory_detail' => 'Thiết lập kênh Thông tin chi tiết',
     'portalcategory_upname' => 'Kênh nâng cao',

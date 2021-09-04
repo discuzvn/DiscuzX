@@ -109,7 +109,7 @@ function addMailEvent(mailObj) {
 	};
 	mailObj.onblur = function () {
 		if(mailObj.value == '') {
-			errormessage(mailObj.id, '请输入邮箱地址');
+			errormessage(mailObj.id, 'Hãy điền email');
 		}
 		emailMenuOp(3, null, mailObj.id);
 	};

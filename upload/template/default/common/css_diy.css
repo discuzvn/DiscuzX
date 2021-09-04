@@ -50,7 +50,7 @@ body { padding-top: 170px; }
 		#contentblockclass li.module-group ol { background-image: url({STATICURL}image/diy/module-group.png); }
 		#contentblockclass li.module-portal ol { background-image: url({STATICURL}image/diy/module-article.png); }
 		#contentblockclass li.module-member ol { background-image: url({STATICURL}image/diy/module-member.png); }
-		#contentblockclass ol label { margin-top: 3px; width: 60px; height: 24px; border: 1px dotted #B6C7EC; line-height: 24px; overflow: hidden; }
+		#contentblockclass ol label { margin-top: 3px; width: 90px; height: 24px; border: 1px dotted #B6C7EC; line-height: 24px; overflow: hidden; }
 			#contentblockclass ol label.hover { border-style: solid; background: none; }
 	#cpfooter { padding: 0 10px 10px; border-bottom: 1px solid #FFF; }
 		#cpfooter td { height: 6px; background: #FFF; line-height: 0; overflow: hidden; }

@@ -84,7 +84,7 @@ $lang = array(
         'Mời bạn <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>Đăng nhập</strong></a><br />Hoặc vui lòng <a href="member.php?mod={$_G[setting][regname]}" class="xi2 xw1">$_G[\'setting\'][\'reglinkname\']</a>',
     'open_diy' => 'Mở DIY',
     'pm_center' => 'Tin nhắn',
-    'portal_block_manage' => 'Module quản lý',
+    'portal_block_manage' => 'Quản lý block',
     'portal_manage' => 'Quản lý trang tin',
     'remind' => 'Thông báo',
     'setup' => 'Thiết đặt',

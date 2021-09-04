@@ -102,12 +102,12 @@ $lang = array(
     'block_expire_time_comment' => 'Để trống mà không có hạn',
     'block_favorite' => 'Yêu thích',
     'block_id' => 'Module ID',
-    'block_isblank' => 'Chấp nhận đẩy dữ liệu',
+    'block_isblank' => 'Chỉ chấp nhận dữ liệu được đẩy',
     'block_isblank_tips' =>
-        'Check ô này sau đó ấn đẩy Module dữ liệu hiển thị, tập hợp dữ liệu không tự động',
+        'Lựa chọn này chỉ hiển thị dữ liệu được đẩy, không tự động lấy dữ liệu',
     'block_item_display_num' => 'Hiển thị số bài',
     'block_itemdata' => 'Thư viện',
-    'block_management' => 'Module quản lý',
+    'block_management' => 'Quản lý block',
     'block_moreurl' => 'Thiết đặt thêm nhiều trang',
     'block_properties' => 'Module tài sản',
     'block_properties_comment' =>
@@ -277,7 +277,7 @@ $lang = array(
     'push' => 'Đẩy bài',
     'push_dateline' => 'Đẩy thời gian',
     'push_people' => 'Đẩy bởi',
-    'push_updateblock' => 'Tham gia đợi cập nhật',
+    'push_updateblock' => 'Update block',
     'push_updateblock_tips' =>
         'Đã gia nhập danh sách, các module không được cập nhật ngay lập tức, khi mô-đun này trên trang của bạn được truy cập thì cập nhật được kích hoạt, hãy kiên nhẫn',
     'show_push' => 'Hiển thị đẩy',

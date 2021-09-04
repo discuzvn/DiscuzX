@@ -231,7 +231,7 @@ $lang = array(
     'panel_login_password' => 'Mật khẩu',
     'panel_login_username' => 'Tên',
     'panel_notice_login' =>
-        'Đây là lần đầu truy cập trang quản trị, bạn phải nhập pass mới truy cập được. Bạn chỉ được thử 5 lần, nếu quá 5 lần tài khoản sẽ bị khóa 15 phút',
+        'Đăng nhập trang quản lý. Nếu sai mật khẩu quá 5 lần tài khoản sẽ bị khóa 15 phút',
     'select_all' => 'Chọn tất',
     'e_at_title' => '@Bạn bè và những người hâm mộ',
     'e_attach' => 'Đính kèm',

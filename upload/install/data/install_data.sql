@@ -947,21 +947,24 @@ INSERT INTO pre_forum_typeoption SET `optionid`=6, `title`='Phân loại F';
 
 
 
-INSERT INTO pre_home_click VALUES ('1','Bỏ qua','luguo.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('2','Phản đối','leiren.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('3','Tán thành','woshou.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('4','Tặng hoa','xianhua.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('5','Trứng thối','jidan.gif','blogid','1','0');
-INSERT INTO pre_home_click VALUES ('6','Yêu rồi','piaoliang.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('7','Cool','kubi.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('8','Phản đối','leiren.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('9','Tặng hoa','xianhua.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('10','Trứng thối','jidan.gif','picid','1','0');
-INSERT INTO pre_home_click VALUES ('11','Bỏ qua','luguo.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('12','Phản đối','leiren.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('13','Tán thành','woshou.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('14','Tặng hoa','xianhua.gif','aid','1','0');
-INSERT INTO pre_home_click VALUES ('15','Trứng thối','jidan.gif','aid','1','0');
+INSERT INTO pre_home_click VALUES ('1','Thích','like.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('2','Thả tim','love.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('3','Haha','haha.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('4','Wow','wow.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('5','Buồn','sad.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('6','Phẫn nộ','angry.png','blogid','1','0');
+INSERT INTO pre_home_click VALUES ('7','Thích','like.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('8','Thả tim','love.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('9','Haha','haha.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('10','Wow','wow.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('11','Buồn','sad.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('12','Phẫn nộ','angry.png','picid','1','0');
+INSERT INTO pre_home_click VALUES ('13','Thích','like.png','aid','1','0');
+INSERT INTO pre_home_click VALUES ('14','Thả tim','love.png','aid','1','0');
+INSERT INTO pre_home_click VALUES ('15','Haha','haha.png','aid','1','0');
+INSERT INTO pre_home_click VALUES ('16','Wow','wow.png','aid','1','0');
+INSERT INTO pre_home_click VALUES ('17','Buồn','sad.png','aid','1','0');
+INSERT INTO pre_home_click VALUES ('18','Phẫn nộ','angry.png','aid','1','0');
 
 INSERT INTO pre_common_district (`id`, `name`, `level`, `upid`, `usetype`) VALUES (1, 'TP Hà Nội', 1, 0, 3);
 INSERT INTO pre_common_district (`id`, `name`, `level`, `upid`, `usetype`) VALUES (2, 'Bắc Giang', 1, 0, 3);

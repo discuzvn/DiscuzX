@@ -432,7 +432,7 @@ $lang = array(
     'nav_misc_links' => 'Liên kết',
     'nav_misc_relatedlink' => 'Liên kết liên quan',
     'nav_posting_censor' => 'Từ cấm',
-    'nav_remoderate' => '内容重新审核',
+    'nav_remoderate' => 'Kiểm duyệt nội dung',
     'nav_posting_bbcode' => 'BBCODE',
     'nav_thread_icon' => 'Icon',
     'nav_thread_stamp' => 'Dấu tem',
@@ -1086,7 +1086,7 @@ $lang = array(
         'Thiết lập này được kích hoạt khi người sử dụng hiển thị trực tuyến. Đặt 0 là ko thiết lập.',
     'setting_styles_index_disfixednv' => 'Bỏ cố định thanh điều hướng',
     'setting_styles_index_disfixednv_comment' =>
-        '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
+        'Cố định top navigation khi cuộn trang',
     'setting_styles_forumdisplay' => 'Danh sách bài',
     'setting_styles_forumdisplay_tpp' => 'Chủ đề mỗi trang',
     'setting_styles_forumdisplay_tpp_comment' =>
@@ -1145,7 +1145,7 @@ $lang = array(
     'setting_styles_forumdisplay_newbie_comment' => 'Bài đầu biểu tượng trống',
     'setting_styles_forumdisplay_disfixednv_forumdisplay' => 'Tắt cố định thanh top navigation',
     'setting_styles_forumdisplay_disfixednv_forumdisplay_comment' =>
-        '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
+        'Cố định top navigation khi cuộn trang',
     'setting_styles_forumdisplay_threadpreview' => 'Tắt xem trước bài viết',
     'setting_styles_forumdisplay_threadpreview_comment' =>
         '关闭后将不可在主题列表页预览帖子内容',
@@ -1245,15 +1245,15 @@ $lang = array(
     'setting_styles_viewthread_maxsmilies_comment' =>
         'Thiết lập số hình vui được hiển thị trong bài viết',
     'setting_styles_viewthread_usernamepos' => 'Hiển thị vị trí tên người dùng',
-    'setting_styles_viewthread_imgcontent' => '主题内容生成图片宽度',
+    'setting_styles_viewthread_imgcontent' => 'Theme content generated image width',
     'setting_styles_viewthread_imgcontent_comment' =>
-        '本功能需要PHP支持GD库，内容里有中文需要将中文 TTF 字体文件放到 static/image/seccode/font/ch/ 目录下。默认100个汉字，字体不同宽度略有差别，请跟据实际效果调整。',
+        'This function requires PHP to support the GD library. If there is Chinese in the content, the Chinese TTF font file needs to be placed in the static/image/seccode/font/ch/ directory. The default is 100 Chinese characters, the width of the font is slightly different, please adjust according to the actual effect.',
     'setting_styles_viewthread_fast_reply' => 'Mở chủ đề trả lời nhanh',
     'setting_styles_viewthread_fast_reply_comment' =>
         'Hộp trả lời nhanh sẽ hiện bên dưới chủ đề',
     'setting_styles_viewthread_allow_replybg' => 'Tắt ảnh nền cho phần trả lời nhanh bài viết',
     'setting_styles_viewthread_allow_replybg_comment' =>
-        '开启后允许给帖子快速回复框添加背景图片',
+        'Allows to add a background image to the post quick reply box after it is enabled',
     'setting_styles_viewthread_global_reply_background' =>
         '全局帖子快速回复框背景',
     'setting_styles_viewthread_global_reply_background_comment' =>
@@ -1275,23 +1275,23 @@ $lang = array(
     'setting_styles_threadprofile_avatarprofile' => 'Thông tin trong menu avatar',
     'setting_styles_forumdisplay_disfixednv_viewthread' => 'Bỏ cố định thanh top navigation',
     'setting_styles_forumdisplay_disfixednv_viewthread_comment' =>
-        '当向上滚动屏幕时，主导航将即时出现在屏幕的顶部',
+        'Cố định top navigation khi cuộn trang',
     'setting_styles_forumdisplay_disfixedavatar' => 'Bỏ cố định avatar khi cuộn xuống',
     'setting_styles_forumdisplay_disfixedavatar_comment' =>
         'Khi cuộn màn hình, avatar bên trái sẽ chạy theo bài đăng bên phải',
     'setting_styles_forumdisplay_threadguestlite' => 'Chế độ đọc đơn giản cho khách',
     'setting_styles_forumdisplay_threadguestlite_comment' =>
-        '启用后，游客阅读主题时，将不显示用户的具体资料信息。',
+        'Ở chế độ đọc, thông tin người dùng sẽ không hiện',
     'setting_styles_viewthread_close_leftinfo' => 'Đóng thanh thông tin bên trái',
     'setting_styles_viewthread_close_leftinfo_comment' =>
-        '帖子左侧用户信息栏是否默认关闭',
+        'Đóng thanh thông tin người dùng ở bên trái',
     'setting_styles_viewthread_close_leftinfo_userctrl' =>
         'Cho phép người dùng chỉnh thanh thông tin bên trái',
     'setting_styles_viewthread_close_leftinfo_userctrl_comment' =>
-        '浏览主题时，用户是否可以控制左侧信息栏的显示状态',
+        'Khi đọc bài, người dùng có thể tuỳ chỉnh hiện/tắt thanh thông tin bên trái',
     'setting_styles_viewthread_guestviewthumb' => 'Khách xem ảnh nhỏ',
     'setting_styles_viewthread_guestviewthumb_comment' =>
-        '游客浏览主题时，帖内的图片将以指定大小的小图显示，可提高会员注册数和活跃量',
+        'Khi khách xem bài viết, hình ảnh sẽ hiển thị dạng nhỏ, có thể hiện to lên khi khách đăng nhập',
     'setting_styles_viewthread_guestviewthumb_width' => '小图宽度',
     'setting_styles_viewthread_guestviewthumb_width_comment' =>
         '指定小图的宽度,默认值为100',
@@ -1300,7 +1300,7 @@ $lang = array(
         '指定小图的高度，默认值为100',
     'setting_styles_viewthread_guesttipsinthread' => 'Nhắc đăng nhập trong bài đăng',
     'setting_styles_viewthread_guesttipsinthread_comment' =>
-        '游客在浏览主题时，在主题的顶部显示提示文字',
+        'Khi khách xem bài, 1 dòng chữ sẽ hiện lên trên đầu bài viết nhắc đăng nhập',
     'setting_styles_viewthread_guesttipsinthread_text' => '登录提示提示文字',
     'setting_styles_viewthread_guesttipsinthread_text_comment' =>
         '自定义显示提示文字,默认为：马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。',
@@ -1490,7 +1490,7 @@ $lang = array(
     'setting_home_privacy_new_user' =>
         'Người dùng mới mặc định cài đặt bảo mật',
     'setting_home_privacy_view_index' => 'Không gian',
-    'setting_home_privacy_view_profile' => '个人空间资料',
+    'setting_home_privacy_view_profile' => 'Thông tin cá nhân',
     'setting_home_privacy_alluser' => 'Tất cả đều nhìn thấy',
     'setting_home_privacy_friend' => 'Chỉ bạn bè mới có thể nhìn thấy',
     'setting_home_privacy_self' => 'Chỉ mình nhìn thấy',
@@ -1519,7 +1519,7 @@ $lang = array(
     'setting_home_privacy_view_poll_comment' =>
         'Trong danh sách của tất cả các trạm bỏ phiếu thông tin bỏ phiếu có thể xuất hiện. ',
     'setting_home_privacy_default_feed' =>
-        'Xuất bản các thiết lập mặc định năng động',
+        'Tự động tạo feed với các hoạt động sau',
     'setting_home_privacy_default_feed_doing' => 'Ghi',
     'setting_home_privacy_default_feed_blog' => 'Viết một bản ghi',
     'setting_home_privacy_default_feed_upload' => 'Up load một ảnh',
@@ -1548,7 +1548,7 @@ $lang = array(
         '(Không phải nhiều hơn 25 ký tự) tự động bạn bè để chào đón những nội dung mới. ',
     'setting_domain' => 'Thiết lập tên miền',
     'setting_domain_base' => 'Cơ bản',
-    'setting_domain_base_tips' => "<li>保留二级域名设置后所有人都无法申请或使用该域名</li><li>个人空间、群组的二级域名开启后需要到<strong>根域名设置</strong>中设置<strong>{$_G[setting][navs][3][navname]}、{$_G[setting][navs][4][navname]}</strong>的根域名</li>",
+    'setting_domain_base_tips' => "<li>After keeping the second-level domain name settings, no one can apply for or use the domain name</li><li>After opening the second-level domain name of personal space and group, you need to set it in <strong>Root domain</strong></li>",
     'setting_domain_app' => 'Tên miền ứng dụng',
     'setting_domain_app_domain' => 'Tên miền',
     'setting_domain_app_tips' =>
@@ -1757,7 +1757,7 @@ $lang = array(
     'setting_seo_rewritestatus_viewrule' =>
         '<a href="' .
         ADMINSCRIPT .
-        '?action=checktools&operation=rewrite&frame=no" target="_blank">Xem lại quy tắc Rewrite URL</a>',
+        '?action=checktools&operation=rewrite&frame=no" target="_blank">Review URL Rewrite Rules</a>',
     'setting_seo_rewritecompatible' => 'Thông tin file .htaccess',
     'setting_seo_rewritecompatible_comment' =>
         'Nếu máy chủ của bạn hỗ trợ Rewrite chọn "Có".',
@@ -2368,9 +2368,9 @@ $lang = array(
     'setting_permissions_nsprofiles' => 'Personal information is not displayed in the personal space',
     'setting_permissions_nsprofiles_comment' =>
         'Personal information will not be displayed in the personal space after activation',
-    'setting_permissions_modasban' => '不忽略审核关键词',
+    'setting_permissions_modasban' => 'Don’t ignore review keywords',
     'setting_permissions_modasban_comment' =>
-        '启用后在不支持审核关键词的模块内发现此类关键词将拒绝提交，关闭则允许提交',
+        'After enabling, if such keywords are found in modules that do not support audit keywords, they will refuse to submit, and when disabled, they will be allowed to submit.',
     'setting_credits' => 'Thiết lập điểm',
     'setting_credits_base' => 'Cơ bản',
     'setting_credits_scheme_title' => 'Chương trình điểm',
@@ -2464,7 +2464,7 @@ $lang = array(
     'setting_credits_trans_comment' =>
         'Điểm thưởng là một giao dịch do người sử dụng để chuyển giao giữa các giao dịch mua bán ra của các bộ chủ đề của các loại thưởng, bạn có thể chỉ định một giao dịch như một điểm. Nếu bạn không xác định điểm giao dịch của người sử dụng điểm kinh doanh giữa các chức năng sẽ không thể sử dụng. Chú thích: Các giao dịch phải được cho phép bộ điểm xác định, nếu không tham mưu để thay đổi khác trước đó hồ sơ của giao dịch và có thể gây ra các vấn đề',
     'setting_credits_trans_credits' => 'Sử dụng tổng số điểm',
-    'setting_credits_trans_used' => 'Hội nhập với kinh doanh',
+    'setting_credits_trans_used' => 'Sử dụng giao dịch điểm',
     'setting_credits_trans1' => 'Bán đính kèm',
     'setting_credits_trans1_comment' => 'Bán đính kèm',
     'setting_credits_trans2' => 'Sử dụng điểm thưởng',
@@ -2497,8 +2497,8 @@ $lang = array(
     'setting_credits_trans11' => 'Bài viết giới hạn ',
     'setting_credits_trans11_comment' =>
         'Tham gia trong việc sử dụng tích hợp sàn điểm của bài viết.',
-    'setting_credits_trans12' => '创建群组消耗积分',
-    'setting_credits_trans12_comment' => '创建群组时要消耗的积分',
+    'setting_credits_trans12' => 'Tạo nhóm để dùng điểm',
+    'setting_credits_trans12_comment' => 'Points to be consumed when creating a group',
     'setting_credits_tax' => 'Các khoản tín dụng giao dịch thuế',
     'setting_credits_tax_comment' =>
         'Diện giao dịch thuế (tổn thất) cho người sử dụng để sử dụng các điểm chuyển giao để trao đổi mua bán của các khấu trừ thuế trong phạm vi 0 đến 1 giữa float ví dụ như được cài là 0,2 các thành viên trong đơn vị chuyển đổi 100 điểm mất điểm ra của 20 đơn vị không có thiệt hại cho 0',
@@ -2752,7 +2752,7 @@ $lang = array(
     'setting_datetime_timeformat' => 'Định dạng giờ',
     'setting_datetime_dateformat' => 'Định dạng ngày',
     'setting_datetime_dateformat_comment' =>
-        'Sử dụng yyyy (yy) là năm, mm là tháng, dd là ngày. Ví dụ yyyy-mm-dd sẽ hiện 1985-4-19',
+        'Sử dụng yyyy (yy) là năm, mm là tháng, dd là ngày. Ví dụ dd-mm-yyyy sẽ hiện 19-4-1985',
     'setting_datetime_dateconvert' => 'Tự định dạng',
     'setting_datetime_dateconvert_comment' =>
         'Chọn "Yes", trang web sẽ hiển thị thời gian để "phút n trước đây", "Hôm nay", "n ngày trước" và các hình thức khác',
@@ -2880,12 +2880,12 @@ $lang = array(
     'setting_attach_image_thumb_preview_btn' =>
         '<input type="button" class="btn" onclick="var oldaction = $(\'cpform\').action;var oldoperation = $(\'cpform\').operation.value;$(\'cpform\').operation.value = \'imagepreview\';$(\'cpform\').action=\'' .
         ADMINSCRIPT .
-        '?action=checktools&operation=imagepreview&previewthumb=yes&frame=no\';$(\'cpform\').target=\'_blank\';$(\'cpform\').submit();$(\'cpform\').action=oldaction;$(\'cpform\').operation.value=oldoperation;$(\'cpform\').target=\'\';return false;" value="预览缩略图效果" style="vertical-align: middle">',
+        '?action=checktools&operation=imagepreview&previewthumb=yes&frame=no\';$(\'cpform\').target=\'_blank\';$(\'cpform\').submit();$(\'cpform\').action=oldaction;$(\'cpform\').operation.value=oldoperation;$(\'cpform\').target=\'\';return false;" value="Preview thumbnail" style="vertical-align: middle">',
     'setting_attach_remote_preview_btn' =>
         '<input type="button" class="btn" onclick="var oldaction = $(\'cpform\').action;var oldoperation = $(\'cpform\').operation.value;$(\'cpform\').operation.value = \'ftpcheck\';$(\'cpform\').action=\'' .
         ADMINSCRIPT .
-        '?action=checktools&operation=ftpcheck&frame=no\';this.form.target=\'ftpcheckiframe\';this.form.submit();$(\'cpform\').action=oldaction;$(\'cpform\').operation.value=oldoperation;$(\'cpform\').target=\'\';return false;" value="测试远程附件" style="vertical-align: middle"><iframe name="ftpcheckiframe" style="display: none"></iframe>',
-    'setting_attach_image_lib' => 'Loại thư viện xử lý ảnh',
+        '?action=checktools&operation=ftpcheck&frame=no\';this.form.target=\'ftpcheckiframe\';this.form.submit();$(\'cpform\').action=oldaction;$(\'cpform\').operation.value=oldoperation;$(\'cpform\').target=\'\';return false;" value="Test remote attachment" style="vertical-align: middle"><iframe name="ftpcheckiframe" style="display: none"></iframe>',
+    'setting_attach_image_lib' => 'Thư viện xử lý ảnh',
     'setting_attach_image_lib_comment' =>
         'Để sử lý hình thu nhỏ và chế biến thư viện hình ảnh watermark. GD được nhiều nhất được sử dụng rộng rãi, nhưng trong quan hệ với các chi tiết tài nguyên hệ thống. ImageMagick tốc độ hệ thống mất ít nguồn tài nguyên, nhưng cần phải có một máy phục vụ việc triển khai thực hiện các lệnh-dòng lệnh có thẩm quyền. Nhưng máy chủ của bạn để cài đặt chương trình điều kiện, vào <a href=\\"http://www.imagemagick.org\\" target=\\"_blank\\"> http://www.imagemagick.org </ a> để tải, cài đặt',
     'setting_attach_image_watermarktype_GD' => 'GD',
@@ -2908,15 +2908,15 @@ $lang = array(
         'Original scaling the size of',
     'setting_attach_image_thumbsourcewidthheight_comment' =>
         'Set the size of the original, larger than this size image attachment will be reduced to the specified size',
-    'setting_attach_image_gdlimit' => 'GD 图片像素点上限',
+    'setting_attach_image_gdlimit' => 'GD picture pixel upper limit',
     'setting_attach_image_gdlimit_comment' =>
         '设置 GD 图片像素点上限，数值越大需要的服务器内存也越多，超过默认值 16777216 的站点需要在 php.ini 中设置更大的 memory_limit 以适应此配置',
     'setting_attach_image_thumbquality' => 'Chất lượng ảnh',
     'setting_attach_image_thumbquality_comment' =>
-        'Thiết đặt từ 0 đến 100(80 là ngon)',
-    'setting_attach_image_disabledmobile' => '是否生成手机版缩略图',
+        'Thiết đặt từ 0 đến 100',
+    'setting_attach_image_disabledmobile' => 'Bật  tạo thumbnail cho phiên bản mobile',
     'setting_attach_image_disabledmobile_comment' =>
-        '设置是否为每个附件生成手机版的缩略图',
+        'Set whether to generate a thumbnail of the mobile version for each attachment',
     'setting_attach_image_thumbwidthheight' => 'Thu nhỏ kích thước',
     'setting_attach_image_thumbwidthheight_comment' =>
         'Thiết lập kích thước hình nhỏ, nếu nhỏ hơn kích thước này thì hình ảnh sẽ không tạo hình thu nhỏ',
@@ -3169,11 +3169,11 @@ $lang = array(
         'Không tham gia vào bảng xếp hạng diễn đàn / nhóm',
     'setting_ranklist_ignorefid_comment' =>
         'Điền vào ID diễn đàn hoặc nhóm ID tương ứng với chủ đề của diễn đàn và sau đây sẽ không nhập vào danh sách, hãy sử dụng một dấu phẩy giữa nhiều ID diễn đàn "," tách',
-    'setting_ranklist_member_show' => '竞价排名功能开启',
-    'setting_ranklist_member_show_comment' => '开启用户模块下竞价排名功能',
-    'setting_ranklist_member_show_announcement' => '竞价排名功能公告信息',
+    'setting_ranklist_member_show' => 'The bidding ranking function is turned on',
+    'setting_ranklist_member_show_comment' => 'Turn on the bidding ranking function under the user module',
+    'setting_ranklist_member_show_announcement' => 'Bidding ranking function announcement information',
     'setting_ranklist_member_show_announcement_comment' =>
-        '填入竞价排名功能公告信息',
+        'Fill in the bidding ranking function announcement information',
     'setting_ranklist_show_num' => 'Số hiển thị',
     'setting_ranklist_block_comment' =>
         'Load theo máy chủ, thiết lập một khoảng thời gian hợp lý cập nhật. Ít nhất là không ít hơn 5 giờ. Hiển thị số lượng mặc định là 20.',
@@ -5483,9 +5483,9 @@ $lang = array(
     'usergroups_edit_group_build' => 'Được phép thành lập số lượng các nhóm',
     'usergroups_edit_group_build_comment' =>
         'Tạo một nhóm không được phép phạm vi 1-255,0',
-    'usergroups_edit_group_buildcredits' => '创建群组消耗积分',
+    'usergroups_edit_group_buildcredits' => 'Tạo nhóm để dùng điểm',
     'usergroups_edit_group_buildcredits_comment' =>
-        '创建群组需要消耗和积分数量，0为不需要积分',
+        'Creating a group requires consumption and the number of points, 0 means no points are required',
     'usergroups_edit_portal' => 'Portal',
     'usergroups_edit_portal_allow_post_article' => 'Được đăng bài viết',
     'usergroups_edit_portal_allow_down_local_img' => 'Cho phép tải ảnh',
@@ -7351,30 +7351,30 @@ $lang = array(
     'counter_tips' => '<li>The following data is not normal, you can use this function to update the data correction. Please try to avoid the peak time of the member access</li>
 				<li>Update the number in each cycle: the value in a reasonable range, not too large, otherwise give the server a load pressure</li>
 				',
-    'remoderate' => '内容重新审核',
-    'remoderate_thread' => '主题/帖子标题及内容重新审核',
-    'remoderate_blog' => '日志标题及内容重新审核',
-    'remoderate_pic' => '图片标题重新审核',
-    'remoderate_doing' => '记录内容重新审核',
-    'remoderate_share' => '分享内容重新审核',
-    'remoderate_comment' => '家园评论内容重新审核',
-    'remoderate_article' => '文章标题及内容重新审核',
-    'remoderate_articlecomment' => '文章评论内容重新审核',
-    'remoderate_topiccomment' => '专题评论内容重新审核',
-    'remoderate_amount' => '每个循环更新数量',
-    'remoderate_processing' => '正在处理 从 {current} 到 {next}',
-    'remoderate_tips' => '<li>当词语过滤参数有较大变动或邻近敏感时间点时，可以使用此功能对历史数据进行重新审核。请尽量避开会员访问的高峰时间</li>
-				<li>每个循环更新数量：数值请在一个合理范围，不要过大，否则会给服务器带来负载压力</li>
+    'remoderate' => 'Review nội dung',
+    'remoderate_thread' => 'Review tiêu đề và nội dung',
+    'remoderate_blog' => 'Review tiêu đề blog và nội dung',
+    'remoderate_pic' => 'Review hình ảnh',
+    'remoderate_doing' => 'Review tweet',
+    'remoderate_share' => 'Review nội dung chia sẻ',
+    'remoderate_comment' => 'Review bình luận',
+    'remoderate_article' => 'Review tiêu đề và nội dung tin tức',
+    'remoderate_articlecomment' => 'Review bình luận tin tức',
+    'remoderate_topiccomment' => 'Review nội dung bình luận chủ đề',
+    'remoderate_amount' => 'Số lần update mỗi lần review',
+    'remoderate_processing' => 'Xử lý từ {current} đến {next}',
+    'remoderate_tips' => '<li>When the word filtering parameters have changed significantly or are near sensitive time points, you can use this function to review the historical data. Please try to avoid the peak time of member visits</li>
+				<li>Number of updates per cycle: Please keep the value in a reasonable range, not too large, otherwise it will bring load pressure to the server</li>
 				',
     'db' => 'Database',
     'db_export' => 'Sao lưu',
-    'db_method' => '方式',
+    'db_method' => 'Phương thức',
     'db_shell' => 'Shell',
     'db_multivol' => 'Chia nhỏ',
     'db_zip' => 'ZIP',
     'db_volume' => 'Số lượng',
     'db_export_tips_nouc' =>
-        '<li><font color="blue"><b>您当前的数据备份不包含 UCenter，会影响到您的会员数据，请点击<a href="{uc_backup_url}">这里</a>单独备份 UCenter 数据</b></font></li><li>Bạn có thể backup dữ liệu tại đây, ngoài ra có thể dùng các chương trình khác như mysqldumper, sypex, phpmyadmin</li>',
+        '<li><font color="blue"><b>Sao lưu hiện tại của bạn không bao gồm UCenter, có thể ảnh hưởng đến dữ liệu thành viên của bạn. Bấm<a href="{uc_backup_url}">sao lưu Ucenter</a> để sao lưu riêng</b></font></li><li>Bạn có thể backup dữ liệu tại đây, ngoài ra có thể dùng các chương trình khác như mysqldumper, sypex, phpmyadmin</li>',
     'db_export_tips_uc' =>
         '<li>Data backup back up all your choice Discuz! And UCenter data, export data files available "data recovery" feature or phpMyAdmin to import.</li>',
     'db_export_tips' =>

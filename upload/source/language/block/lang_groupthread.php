@@ -20,7 +20,7 @@ $lang = array(
         'Thiết lập người dùng mà bạn muốn hiển thị.Sử dụng ","  ngăn cách các UIDs',
     'groupthread_keyword' => 'Từ khóa',
     'groupthread_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+        'Đặt từ khoá xuất hiện trong tiêu đề. Lưu ý: để trống là không lọc, có thể dùng wildcard *; Kết hợp nhiều từ khoá bằng toán tử AND hoặc OR.',
     'groupthread_startrow' => 'Hàng đầu tiên',
     'groupthread_startrow_comment' =>
         'Nếu bạn cần phải thiết lập hàng đầu, vui lòng nhập một số, 0 là hàng đầu tiên.',
@@ -43,7 +43,7 @@ $lang = array(
         'Thiết lập các chủ đề quy định tid bạn muốn hiển thị, sử dụng "," để ngăn cách các tids',
     'groupthread_keyword' => 'Từ khóa',
     'groupthread_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+        'Đặt từ khoá xuất hiện trong tiêu đề. Lưu ý: để trống là không lọc, có thể dùng wildcard *; Kết hợp nhiều từ khoá bằng toán tử AND hoặc OR.',
     'groupthread_typeids' => 'Loại chủ đề',
     'groupthread_typeids_comment' =>
         'Chọn loại chủ đề cụ thể. Lưu ý: Chọn tất cả hoặc Xóa tất cả để vô hiệu hóa chọn lọc.',

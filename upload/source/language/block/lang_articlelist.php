@@ -33,7 +33,7 @@ $lang = array(
         'Dành cho các bài viết đăng trước thời gian quy định.',
     'articlelist_catid' => 'Điều loại',
     'articlelist_catid_comment' => 'Chọn điều loại',
-    'articlelist_picrequired' => 'Chọn lọc ảnh',
+    'articlelist_picrequired' => 'Có ảnh',
     'articlelist_picrequired_comment' => 'Lọc các bài viết',
     'articlelist_orderby' => 'Sắp xếp theo',
     'articlelist_orderby_comment' => 'Thiết lập các chọn lọc bài viết',
@@ -49,5 +49,5 @@ $lang = array(
     'articlelist_publishdateline_month' => 'Bài mới nhất trong tháng',
     'articlelist_keyword' => 'Từ khóa',
     'articlelist_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+        'Đặt từ khoá xuất hiện trong tiêu đề. Lưu ý: để trống là không lọc, có thể dùng wildcard *; Kết hợp nhiều từ khoá bằng toán tử AND hoặc OR.',
 );

@@ -31,7 +31,7 @@ $lang = array(
         'Thiết lập id chủ đề cụ thể mà bạn muốn hiển thị, sử dụng "," ngăn cách nhiều tids',
     'categorylist_keyword' => 'Từ khóa',
     'categorylist_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+        'Đặt từ khoá xuất hiện trong tiêu đề. Lưu ý: để trống là không lọc, có thể dùng wildcard *; Kết hợp nhiều từ khoá bằng toán tử AND hoặc OR.',
     'categorylist_sortids' => 'Sắp xếp ID',
     'categorylist_sortids_comment' =>
         'Chọn loại chủ đề cụ thể.  Lưu ý: nếu chọn không sẽ vô hiệu hóa tính năng này.',

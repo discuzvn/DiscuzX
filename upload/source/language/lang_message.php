@@ -442,9 +442,7 @@ $lang = array(
     'group_category_error' => '抱歉，选择{_G/setting/navs/3/navname}分类错误',
     'group_create_mod_succeed' =>
         'Yêu cầu {_G/setting/navs/3/navname} đã được gửi, chúng tôi sẽ xem xét sớm',
-    'group_create_succeed' => 'Tạo {_G/setting/navs/3/navname} thành công
-
-',
+    'group_create_succeed' => 'Tạo {_G/setting/navs/3/navname} thành công',
     'group_edit_only_founder' =>
         '抱歉，只有{_G/setting/navs/3/navname}创始人可以修改{_G/setting/navs/3/navname}名称或{_G/setting/navs/3/navname}分类',
     'group_close_only_founder' =>
@@ -453,7 +451,7 @@ $lang = array(
         'Đã được xem xét bởi các thành viên được chỉ định',
     'group_moderate_failed' => 'Các thành viên được chỉ định đã bị bỏ qua',
     'group_only_one_moderator' =>
-        '抱歉，只剩最后一个群主，必须由管理员在后台删除{_G/setting/navs/3/navname}',
+        'Sorry, there is only the last group owner, which must be deleted by the administrator in the background {_G/setting/navs/3/navname}',
     'group_choose_member' => 'Hãy chọn thành viên',
     'group_level_cannot_do' =>
         'Có lỗi, hiện tại cấp {_G/setting/navs/3/navname} của bạn không thực hiện được tính năng này',
@@ -467,12 +465,9 @@ $lang = array(
         'Vì lý do bảo mật, vui lòng nhập mật khẩu của bạn',
     'group_demise_password_error' => 'Có lỗi, sai mật khẩu',
     'group_demise_receiver_cannot_do' =>
-        '抱歉，接收者不能再拥有新的{_G/setting/navs/3/navname}',
-    'group_demise_succeed' => 'Đã chuyển {_G/setting/navs/3/navname} thành công
-',
-    'group_demise_founder_only' => 'Xin lỗi, chỉ người sáng lập {_G/setting/navs/3/navname} mới có thể chuyển {_G/setting/navs/3/navname}
-
-',
+        'Sorry, the recipient can no longer have new {_G/setting/navs/3/navname}',
+    'group_demise_succeed' => 'Đã chuyển {_G/setting/navs/3/navname} thành công',
+    'group_demise_founder_only' => 'Xin lỗi, chỉ người sáng lập {_G/setting/navs/3/navname} mới có thể chuyển {_G/setting/navs/3/navname}',
     'grouprecommend_succeed' => 'Hoạt động thành công',
     'payonline_succeed' => 'Thanh toán thành công ',
     'attachment_credit' => 'Tài khoản của bạn {policymsg} để tải "{filename}"',
@@ -615,7 +610,7 @@ $lang = array(
     'redirect_nextoldset_nonexistence' =>
         'Có lỗi, không sớm hơn so với các chủ đề hiện tại',
     'trade_credits_no_enough' =>
-        '抱歉，您的 {credittitle} 不足，无法用 {credittitle} 换取商品的优惠',
+        'Xin lỗi, {credittitle} của bạn không đủ',
     'trade_directtopay' =>
         'Đặt hàng thành công và bây giờ sẽ chuyển đến trang thanh toán ',
     'trade_password_error' =>
@@ -712,10 +707,10 @@ $lang = array(
     'buyinvitecode_email_error' => 'Địa chỉ e-mail là không đúng hoặc bị sai',
     'buyinvitecode_no_id' =>
         'Các lời mời đã không tìm thấy mã tương ứng, nếu có thắc mắc, xin vui lòng liên hệ với quản trị viên',
-    'faq_content_empty' => '抱歉，指定的帮助项目不存在',
+    'faq_content_empty' => 'Xin lỗi, nội dung không tồn tại',
     'faq_keywords_empty' => 'Có lỗi, Bạn chưa nhập các từ khóa để tìm kiếm',
     'login_reward_succeed' => 'Đăng nhập thành công!',
-    'login_reward_error' => '抱歉，您今天已经签过到了哦！',
+    'login_reward_error' => 'Xin lỗi, bạn đã tham gia hôm nay!',
     'imagepreview_errorcode_0' =>
         'Hình ảnh không đáp ứng các điều kiện chế biến không thể được xử lý',
     'imagepreview_errorcode_-1' =>
@@ -1338,8 +1333,8 @@ $lang = array(
     'magic_is_closed' => 'Thẻ này đã bị vô hiệu',
     'magic_not_for_sale' => 'Thẻ này không thể mua',
     'magic_groupid_limit' =>
-        'Có lỗi, Hiện tại nhóm sử dụng của bạn không được phép mua đạo cụ',
-    'magics_locked' => '当前道具正在使用/卖出/赠送中，请稍后再试。',
+        'Có lỗi, hiện tại nhóm sử dụng của bạn không được phép mua thẻ magic',
+    'magics_locked' => 'The current item is being used/sold/gifted, please try again later.',
     'bad_buynum' => 'Có lỗi, Bạn nhập sai số lượng để mua',
     'not_enough_coupon' => 'Có lỗi, Không đủ số lượng chứng từ của bạn',
     'credit_is_not_enough' => 'Có lỗi, Điểm của bạn không đủ dể mua thẻ này',
@@ -1419,18 +1414,18 @@ $lang = array(
     'register_manual_verify_location' =>
         '<a href="home.php?mod=space&do=home">Mời ghé thăm</a>',
     'register_succeed' =>
-        'Cảm ơn bạn đã đăng ký tại {bbname},Bạn được đưa vào nhóm {usergroup}.',
+        'Cảm ơn bạn đã đăng ký tài khoản {bbname}, bạn thuộc nhóm {usergroup}.',
     'register_succeed_location' =>
         '<a href="home.php?mod=spacecp">Để cập nhập thông tin</a> <a href="home.php?mod=space&do=home">mời ghé thăm</a>',
-    'task_offline' => 'Có lỗi, Nhiệm vụ đang đóng ',
-    'task_full' => 'Có lỗi, Nhiệm vụ đã đầy ',
+    'task_offline' => 'Có lỗi, nhiệm vụ đang đóng ',
+    'task_full' => 'Có lỗi, nhiệm vụ đã hết lượt thực hiện',
     'task_doing_rt' =>
         'Bạn đã hoàn thành nhiệm vụ {csc}%, còn lại {t} thời gian, để chơi!',
     'task_doing' => 'Bạn đã hoàn thành nhiệm vụ {csc}%,tiếp nhiên liệu!',
     'task_waiting_rt' => 'Bạn chưa bắt đầu nhiệm vụ,thời gian còn lại {t} giờ!',
     'task_waiting' => 'Bạn chưa thực hiện nhiệm vụ!',
     'board_closed' =>
-        'Có lỗi, Trang web đang tạm thời đóng cửa, xin vui lòng <a href="mailto:"Liên hệ với quản trị viên</a>',
+        'Có lỗi, trang web đang tạm thời đóng cửa, xin vui lòng <a href="mailto:"Liên hệ với quản trị viên</a>',
     'admin_cpanel_noaccess' =>
         'Có lỗi, Bạn không có quyền truy cập vào bảng quản trị, xin đăng nhập lại, và sau đó thử lại',
     'admin_cpanel_locked' =>
@@ -1446,12 +1441,12 @@ $lang = array(
     'magics_friendadd_message' => 'Bạn có {num} người bạn',
     'magics_credit_message' => 'Xin chúc mừng bạn nhận được {credit}',
     'magics_thunder_message' => '{magicname} đã dùng thành công',
-    'topicadmin_live_noset_error' => '该主题并没有设置为直播帖',
-    'no_privilege_livethread' => '抱歉，您没有权限设置直播帖',
+    'topicadmin_live_noset_error' => 'The topic is not set as a live post',
+    'no_privilege_livethread' => 'Sorry, you do not have permission to set up live posts',
     'portal_category_has_no_folder_name' =>
-        '抱歉，文章所属的频道没有设置目录名称',
-    'noreply_replynum_error' => '对不起，你已经达到本主题的回帖上限。',
-    'author_not_uploadpic' => '楼主暂时没有上传图片',
-    'noreply_yourself_error' => '您不能对自己的回帖进行投票',
-    'noreply_voted_error' => '您已经对此回帖投过票了',
+        'Sorry, the channel that the article belongs to does not have a directory name set',
+    'noreply_replynum_error' => 'Sorry, you have reached the maximum number of replies for this topic.',
+    'author_not_uploadpic' => 'The host has not uploaded a picture temporarily',
+    'noreply_yourself_error' => 'You cannot vote on your replies',
+    'noreply_voted_error' => 'You have already voted for this reply',
 );

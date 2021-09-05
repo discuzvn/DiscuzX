@@ -1660,7 +1660,7 @@ $lang = array(
     'setting_seo_global_tips' =>
         '<li>Chèn biến phải bao gồm các thông số trong móc nhọn "{}", khi không được hỗ trợ bởi biến, biến sẽ không được hiển thị ở phía trước (sau các biến phân cách không được hiển thị), bỏ trống các thiết lập mặc định cho hệ thống, SEO từ quy định để hỗ trợ các dạng chữ viết tay. <br> Dưới đây là các biến SEO:<br></li>',
     'setting_seo_portal_tips' =>
-        '<li>Site name&nbsp;<font class="highlight">{bbname}</font>(Ứng dụng: Tất cả các địa điểm)</li><li>Tên kênh hiện tại&nbsp;<font class="highlight">{curcat}</font>Ứng dụng bên ngoài chủ</li><li>Tên kênh 1&nbsp;<font class="highlight">{firstcat}</font>Ứng dụng bên ngoài chủ</li><li>Tên kênh 2&nbsp;<font class="highlight">{secondcat}</font>Ứng dụng bên ngoài chủ</li><li>Tiêu đề của danh&nbsp;<font class="highlight">{subject}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Tóm tắt&nbsp;<font class="highlight">{summary}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Tác giả&nbsp;<font class="highlight">{user}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Trang&nbsp;<font class="highlight">{page}</font>(Ứng dụng: trang danh sách bài viết, nội dung bài viết trang)</li>',
+        '<li>Site name&nbsp;<font class="highlight">{bbname}</font>(Ứng dụng: Tất cả các địa điểm)</li><li>Tên chuyên mục hiện tại&nbsp;<font class="highlight">{curcat}</font>Ứng dụng bên ngoài chủ</li><li>Tên chuyên mục 1&nbsp;<font class="highlight">{firstcat}</font>Ứng dụng bên ngoài chủ</li><li>Tên chuyên mục 2&nbsp;<font class="highlight">{secondcat}</font>Ứng dụng bên ngoài chủ</li><li>Tiêu đề của danh&nbsp;<font class="highlight">{subject}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Tóm tắt&nbsp;<font class="highlight">{summary}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Tác giả&nbsp;<font class="highlight">{user}</font>(Ứng dụng: nội dung của trang bài viết)</li><li>Trang&nbsp;<font class="highlight">{page}</font>(Ứng dụng: trang danh sách bài viết, nội dung bài viết trang)</li>',
     'setting_seo_articlelist' => 'Danh sách bài',
     'setting_seo_article' => 'Nội dung bài viết',
     'setting_seo_forum' => 'Diễn đàn chính',
@@ -1688,13 +1688,13 @@ $lang = array(
     'setting_seo_seodescription_comment' =>
         'Mô tả xuất hiện trên trang đầu của các thẻ Meta cho các bản ghi của trang web này và một bản tóm tắt mô tả về',
     'setting_seo_code_bbname' => 'Tên website',
-    'setting_seo_code_articlelist_curcat' => 'Kênh hiện tại',
-    'setting_seo_code_articlelist_firstcat' => 'Kênh 1',
-    'setting_seo_code_articlelist_secondcat' => 'Tên kênh 2',
-    'setting_seo_code_articlelist_page' => 'List kênh của trang phụ',
-    'setting_seo_code_article_curcat' => 'Kênh hiện tại',
-    'setting_seo_code_article_firstcat' => 'Kênh 1',
-    'setting_seo_code_article_secondcat' => 'Kênh 2',
+    'setting_seo_code_articlelist_curcat' => 'Chuyên mục hiện tại',
+    'setting_seo_code_articlelist_firstcat' => 'Chuyên mục 1',
+    'setting_seo_code_articlelist_secondcat' => 'Chuyên mục 2',
+    'setting_seo_code_articlelist_page' => 'List Chuyên mục của trang con',
+    'setting_seo_code_article_curcat' => 'Chuyên mục hiện tại',
+    'setting_seo_code_article_firstcat' => 'Chuyên mục 1',
+    'setting_seo_code_article_secondcat' => 'Chuyên mục 2',
     'setting_seo_code_article_subject' => 'Tên bài',
     'setting_seo_code_article_summary' => 'Tóm tắt',
     'setting_seo_code_article_user' => 'Tác giả',
@@ -2252,10 +2252,10 @@ $lang = array(
     'setting_functions_other_disableipnotice' => '关闭登录安全提醒',
     'setting_functions_other_disableipnotice_comment' =>
         '选择“是”将关闭用户登录地区异常安全提醒功能',
-    'setting_functions_other_global_sign' => '全局签名内容',
+    'setting_functions_other_global_sign' => 'Global signature content',
     'setting_functions_other_global_sign_comment' =>
         '该设置必须开启签名后有效，如果用户没有设置签名就显示该签名内容',
-    'setting_functions_other_shortcut' => '提醒添加桌面快捷的积分下限',
+    'setting_functions_other_shortcut' => 'Remind to add the lower limit of points for desktop shortcuts',
     'setting_functions_other_shortcut_comment' =>
         '大于等于设置积分的用户将看到添加桌面快捷的顶部提醒，0或不填为关闭此功能',
     'setting_functions_activity' => 'Chủ đề',
@@ -7939,7 +7939,7 @@ $lang = array(
     'diytemplate_dateline_comment' => 'Cập nhật lần cuối DIY',
     'diytemplate_list' => 'Danh sách DIY',
     'diytemplate_path' => 'Đường dẫn:',
-    'diytemplate_perm' => 'Quản lý quyền',
+    'diytemplate_perm' => 'Quyền hạn',
     'diytemplate_uid' => 'Theo ID',
     'diytemplate_username' => 'Thay đổi tên',
     'diytemplate_username_comment' => 'Who last modified the name of DIY',
@@ -7960,7 +7960,7 @@ $lang = array(
     'portalcategory_domain' => 'Tên miền',
     'portalcategory_is_closed' => 'Kích hoạt',
     'portalcategory_is_closed_comment' =>
-        'Chọn Không để chỉ người quản trị có thể xem các kênh',
+        'Chọn Không để chỉ người quản trị có thể xem các chuyên mục',
     'portalcategory_shownav' => 'Hiển thị chuyển hướng',
     'portalcategory_shownav_comment' =>
         'Option is displayed at the head of navigation',
@@ -7971,8 +7971,8 @@ $lang = array(
     'portalcategory_noantitheft_comment' =>
         'Turning off the anti-collection function can save a small amount of server resources. It is recommended to turn off the anti-collection function for irrigation channels.',
     'portalcategory_perm' => 'Quyền hạn',
-    'portalcategory_detail' => 'Thiết lập kênh Thông tin chi tiết',
-    'portalcategory_upname' => 'Kênh nâng cao',
+    'portalcategory_detail' => 'Thiết lập chi tiết chuyên mục',
+    'portalcategory_upname' => 'Chuyên mục mẹ',
     'portalcategory_dateline' => 'Lần tạo',
     'portalcategory_username' => 'Tác giả',
     'portalcategory_filewrite_error' =>
@@ -7994,7 +7994,7 @@ $lang = array(
     'portalcategory_seotitle' => 'Title',
     'portalcategory_url' => 'Custom URL',
     'portalcategory_url_comment' => 'Define the link to jump',
-    'portalcategory_listprimaltplname' => 'List page template name',
+    'portalcategory_listprimaltplname' => 'Template cho trang danh sách bài viết',
     'portalcategory_listprimaltplname_comment' =>
         'Upload template files to the template/default/portalDirectory, file name must be <font color="red">list</font>_*.htm, use * for custom file name<br />If you want to re-select a template, Please ensure that the new templates can be dragged with the original template has the same area ID, Otherwise it will lose some or all of the original DIY data',
     'portalcategory_viewprimaltplname' => 'Article page template name',
@@ -8199,7 +8199,7 @@ $lang = array(
     'block_page_pub' => 'Trang công khai',
     'block_page_unused' => 'Không sử dụng',
     'block_page_nopage' => 'Không có gì trong trang',
-    'block_perm' => 'Quản lý quyền',
+    'block_perm' => 'Quyền hạn',
     'block_perm_edit' => 'Module cho phép chỉnh sửa',
     'block_perm_inheritance' => 'Thừa kế quyền nơi trang',
     'block_perm_manage' => 'Cho phép quản lý',

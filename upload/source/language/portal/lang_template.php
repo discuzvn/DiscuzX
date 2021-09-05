@@ -89,7 +89,7 @@ $lang = array(
     'block_adddata' => 'Thêm',
     'block_adddata_comment' => 'Thêm dữ liệu',
     'block_cancel_favorite' => 'Hủy yêu thích',
-    'block_data' => 'Module dữ liệu',
+    'block_data' => 'Dữ liệu',
     'block_data_block' => 'Bảo vệ dữ liệu',
     'block_data_custom' => 'Tuỳ chỉnh nội dung',
     'block_data_from_datasource' => 'Thu được từ các nguồn dữ liệu',
@@ -109,13 +109,13 @@ $lang = array(
     'block_itemdata' => 'Thư viện',
     'block_management' => 'Quản lý block',
     'block_moreurl' => 'Thiết đặt thêm nhiều trang',
-    'block_properties' => 'Module tài sản',
+    'block_properties' => 'Thuộc tính',
     'block_properties_comment' =>
         'Xác định bởi các thuộc tính của dữ liệu mô-đun',
     'block_start_time' => 'Thời gian bắt đầu',
     'block_start_time_comment' => 'Để trống là bắt đầu ngay',
     'block_stop' => 'Ẩn',
-    'block_template' => 'Module mẫu',
+    'block_template' => 'Template',
     'block_type' => 'Loại Module',
     'block_type_convert_tips' =>
         '<font color=\'red\'>Lưu ý:</font>Chọn danh sách loại module thả xuống ngay lập tức sau khi sự thay đổi trong mô-đun phân loại.',
@@ -312,7 +312,7 @@ $lang = array(
     'topic_edit' => 'Sửa đề tài',
     'topic_keyword' => 'Từ khóa SEO',
     'topic_keyword_comment' =>
-        'Các từ khóa để tối ưu hóa công cụ tìm kiếm, trên thẻ meta từ khoá, các từ khóa nhiều hơn, hãy sử dụng dấu phẩy giữa "," phân cách',
+        'Từ khoá tối ưu SEO, sử dụng dấu , để ngăn cách nhiều từ',
     'topic_navs' => 'Danh mục chính',
     'topic_opened' => 'Được bật',
     'topic_page_bottom' => 'Thông tin cuối trang web',

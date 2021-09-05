@@ -16,8 +16,8 @@ $lang = array(
     'activitylist_uids' => 'UID của tác giả',
     'activitylist_uids_comment' =>
         'Thiết lập người dùng mà bạn muốn hiển thị.Sử dụng ","  ngăn cách các UIDs',
-    'activitylist_startrow' => 'Hàng đầu tiên',
-    'activitylist_startrow_comment' => 'Điền số 0 nếu muốn là hàng đầu tiên.',
+    'activitylist_startrow' => 'Offset',
+    'activitylist_startrow_comment' => '0 là từ đầu',
     'activitylist_items' => 'Các hàng còn lại.',
     'activitylist_items_comment' =>
         'Thiết lập số lượng hàng mà bạn muốn hiển thị, nó phải số nguyên lớn hơn 0.',
@@ -34,7 +34,7 @@ $lang = array(
         'Thiết lập id chủ đề cụ thể mà bạn muốn hiển thị, sử dụng "," ngăn cách nhiều tids',
     'activitylist_keyword' => 'Từ khóa',
     'activitylist_keyword_comment' =>
-        'Thiết lập các từ khóa được sử dụng.<br />Bạn có thể sử dụng ký tự đại diện "*" trong từ khóa.<br />Nếu bạn muốn sử dụng một số từ khóa tại cùng một thời điểm, bạn có thể sử dụng "AND". Ví dụ: win32 AND Unix.<br />Nếu bạn muốn sử dụng chỉ cần một từ khóa, bạn có thể sử dụng "|" hoặc "OR". Ví dụ: win32 OR unix',
+        'Đặt từ khoá xuất hiện trong tiêu đề. Lưu ý: để trống là không lọc, có thể dùng wildcard *; Kết hợp nhiều từ khoá bằng toán tử AND hoặc OR.',
     'activitylist_typeids' => 'Các loại chủ đề',
     'activitylist_typeids_comment' =>
         'Thiết lập các loại chủ đề. Lưu ý: nếu chọn không sẽ vô hiệu hóa tính năng này.',

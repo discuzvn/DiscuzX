@@ -14,7 +14,7 @@ $lang = array(
         'Phiên bản {req} ({now_ver}) quá cũ, trang web có thể hoạt động không như mong đợi. Hãy nâng cấp lên phiên bản {sug_ver}, tối thiểu {req_ver} để hoạt động bình thường.',
     'req_not_found' =>
         'Phiên bản {req} chưa được cài đặt nên trang web không thể chạy như mong đợi. Hãy cài đặt nó.',
-    'req_ok' => 'Môi trường hiện tại phù hợp với phiên bản Discuz! {version}。',
+    'req_ok' => 'Môi trường hiện tại phù hợp với phiên bản Discuz! {version}.',
     'subscribe_comsenz_email' =>
         'Điền Email của bạn để nhận các bản vá lỗi và phiên bản mới',
     'scan_discuz_qrcode' =>
@@ -1957,27 +1957,27 @@ $lang = array(
     'setting_functions_curscript_message' => 'Nhắn tin',
     'setting_functions_curscript_ranklist' => 'TOP',
     'setting_functions_curscript_portal_intro' =>
-        'Thông qua cổng thông tin, trang web sẽ hiển thị những bài viết phổ biến nhất, các bài báo, các hoạt động, và các thông tin khác cho người sử dụng',
+        'Sử dụng như một hệ thống CMS, có chứng năng hiển thị và kéo bài từ diễn đàn, blog.',
     'setting_functions_curscript_group_intro' =>
-        'Một nơi tập hợp người cùng chí hướng, chuyên nghiệp hơn và nhiều hơn nữa thân mật trao đổi thiên đường',
+        'Tạo hội nhóm các thành viên có chung sở thích, mục tiêu có thể thao luận đăng bài chia sẻ với nhau.',
     'setting_functions_curscript_follow_intro' =>
-        'Nghe những người quan tâm để chia sẻ những điều thú vị, nhanh chóng phổ biến thông tin công cụ',
+        'Follow và tương tác lẫn nhau',
     'setting_functions_curscript_collection_intro' =>
-        'Nội dung trang web chất lượng của việc thu thập và phân loại các hoạt động của nội dung trang web là điều cần thiết là một trợ lý tốt',
+        'Chia sẻ những bộ sưu tập các bài viết theo chủ đề',
     'setting_functions_curscript_guide_intro' =>
-        'Tự động tập hợp các trang web tranh luận nhiều nhất, phổ biến nhất, tốt nhất, phiên bản mới nhất, " ở hầu hết các" diễn đàn',
+        'Tổng hợp lại các bài viết từ các nguồn diễn đàn, tin tức, blog, mạng xã hội',
     'setting_functions_curscript_feed_intro' =>
-        'Sự hiểu biết của các trang web có liên quan về các xu hướng trong các kênh trực tiếp của trang web bạn bè, vì vậy người dùng không còn cảm thấy cô đơn',
+        'Tính năng newsfeed giúp người dùng được update thông tin lẫn nhau, hoạt động như mạng xã hội',
     'setting_functions_curscript_blog_intro' =>
-        'Trang blog để ghi lại các kiến thức hàng ngày, chia sẻ những hiểu biết về cuộc sống, cảm giác người sử dụng',
+        'Trang blog để ghi lại các kiến thức hàng ngày, chia sẻ những hiểu biết về cuộc sống, cảm xúc riêng tư',
     'setting_functions_curscript_album_intro' =>
-        'Khuôn mặt xinh đẹp của các nam thanh nữ tú, ngọn núi xinh đẹp và các con sông của quê hương, đó là những vẻ đẹp trong từng album ảnh. Cảnh cáo cấm ảnh đổi trụy nhá.',
+        'Chia sẻ những bức hình đẹp',
     'setting_functions_curscript_share_intro' =>
-        'Nội dung được đề nghị cho bạn bè hãy chia sẻ và kết bạn nhé.',
+        'Chia sẻ bài viết tới bạn bè',
     'setting_functions_curscript_doing_intro' =>
-        'Chia sẻ cảm hứng, để bày tỏ cảm xúc, để ghi lại bất cứ lúc nào suy nghĩ và điều',
+        'Chia sẻ những dòng tweets ngắn tới những người đang follow bạn',
     'setting_functions_curscript_message_intro' =>
-        'Tin nhắn, bạn có thể liên lạc với bạn bè hoặc những người khác mà ko sợ sẽ bỏ lỡ cái gì cả.',
+        'Nhắn tin với bạn bè',
     'setting_functions_curscript_ranklist_intro' =>
         'Thông qua danh sách, bạn có thể xem nội dung xếp hạng của các bài viết',
     'setting_functions_mod' => 'Quản lý',

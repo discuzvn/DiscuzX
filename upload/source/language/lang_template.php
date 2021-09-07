@@ -35,8 +35,7 @@ $lang = array(
     'need_money' => 'Tiền tệ thanh toán',
     'reg_continue' => 'Tiếp tục',
     'trade_type' => 'Thanh toán',
-    'e_fontoptions' =>
-        '"Font", "Bold", "Times New Roman", "Microsoft font", "Trebuchet MS", "Tahoma", "Arial", "Impact", "Verdana", "Times New Roman"',
+    'e_fontoptions' => '"Arial", "Verdana", "Helvetica", "Trebuchet MS", "Tahoma", "Impact", "Times New Roman"',
     'editor_increase' => 'Mở rộng',
     'editor_narrow' => 'Thu hẹp',
     'post_autosave_restore' => 'Phục hồi dữ liệu',

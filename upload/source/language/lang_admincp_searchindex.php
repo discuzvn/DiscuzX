@@ -3533,7 +3533,7 @@ $lang = array(
             38 => '每个淘帖专辑可以共同参与维护的人数。',
             39 => 'setting_functions_other_shortcut',
             40 => '提醒添加桌面快捷的积分下限',
-            41 => '大于等于设置积分的用户将看到添加桌面快捷的顶部提醒，0或不填为关闭此功能',
+            41 => 'Users who are greater than or equal to the set points will see the top reminder to add desktop shortcuts, 0 or not fill in to close this function',
             42 => 'setting_functions_other_closeforumorderby',
             43 => '关闭主题列表页排序功能',
             44 => '选择“是”用户将只能按默认排序查看，否则，用户自选排序将会增加系统压力。',
@@ -3545,7 +3545,7 @@ $lang = array(
             50 => '选择“是”将开启小黑屋，用户可以在右下角导航中进入小黑屋，查看被禁言禁止访问用户',
             51 => 'setting_functions_other_global_sign',
             52 => '全局签名内容',
-            53 => '该设置必须开启签名后有效，如果用户没有设置签名就显示该签名内容',
+            53 => 'The setting must be valid after the signature is turned on. If the user does not set a signature, the content of the signature will be displayed',
         ),
     ),
     251 => array(

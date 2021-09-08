@@ -10,14 +10,14 @@ if (!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 $lang = array(
-    'articlelist_aids' => 'Thiết lập bài viết',
+    'articlelist_aids' => 'ID bài viết',
     'articlelist_aids_comment' =>
-        'Xin vui lòng điền vào ID bài viết cụ thể (aid). Sử dụng dấu phẩy (,) đối với nhiều bài viết.',
-    'articlelist_uids' => 'UID bài viết',
+        'Vui lòng điền vào ID bài viết cụ thể (aid), dùng dấu (,) cho nhiều ids',
+    'articlelist_uids' => 'ID tác giả',
     'articlelist_uids_comment' =>
-        'Xin vui lòng điền vào ID người dùng cụ thể (uid). Sử dụng một dấu phẩy (,) đối với nhiều thành viên.',
-    'articlelist_startrow' => 'Hàng đầu tiên',
-    'articlelist_startrow_comment' => 'Điền số 0 nếu muốn là hàng đầu tiên.',
+        'Vui lòng điền vào ID tác giả cụ thể (aid), dùng dấu (,) cho nhiều ids',
+    'articlelist_startrow' => 'Offset',
+    'articlelist_startrow_comment' => '0 là bắt đầu vị trí đầu tiên',
     'articlelist_tag' => 'Từ khóa',
     'articlelist_tag_comment' => 'Chỉ định các tổng hợp',
     'articlelist_titlelength' => 'Tiêu đề',
@@ -31,8 +31,8 @@ $lang = array(
     'articlelist_endtime' => 'Thời gian kết',
     'articlelist_endtime_comment' =>
         'Dành cho các bài viết đăng trước thời gian quy định.',
-    'articlelist_catid' => 'Điều loại',
-    'articlelist_catid_comment' => 'Chọn điều loại',
+    'articlelist_catid' => 'Chuyên mục',
+    'articlelist_catid_comment' => 'Chọn chuyên mục',
     'articlelist_picrequired' => 'Có ảnh',
     'articlelist_picrequired_comment' => 'Lọc các bài viết',
     'articlelist_orderby' => 'Sắp xếp theo',

@@ -178,7 +178,7 @@ $lang = array(
         'Bạn nhập vào quảng cáo kết thúc trước thời điểm bắt đầu của thời hiện tại hoặc quảng cáo',
     'adv_parameter_invalid' =>
         'Và cho thấy cách bạn không hoàn thành nội dung yêu cầu của tương ứng',
-    'adv_succeed' => 'Quảng cáo đã được thêm vào và cập nhật thành công',
+    'adv_succeed' => 'Quảng cáo đã được thêm thành công',
     'album_move_succeed' => 'thành công chuyển đến các album thể loại nào',
     'album_choose_at_least_one_operation' => 'Chọn một hành động',
     'album_choose_at_least_one_album' => 'Vui lòng chọn ít nhất một album',

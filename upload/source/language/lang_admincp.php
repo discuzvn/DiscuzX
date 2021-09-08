@@ -190,7 +190,7 @@ $lang = array(
     'enable' => 'Sử dụng',
     'apply' => 'Áp dụng',
     'start_time' => 'Bắt đầu',
-    'end_time' => 'Kết thức',
+    'end_time' => 'Kết thúc',
     'validity' => 'Có hạn',
     'pm' => 'Tin nhắn',
     'grouppm' => 'Tin nhắn riêng',
@@ -385,7 +385,7 @@ $lang = array(
     'nav_prune_group' => 'Xóa bài của nhóm',
     'nav_doing' => 'Tâm trạng',
     'nav_blog' => 'Blogs',
-    'nav_blog_recycle_bin' => '日志回收站',
+    'nav_blog_recycle_bin' => 'Recycle Bin Blog',
     'nav_feed' => 'Feed RSS',
     'nav_album' => 'Album',
     'nav_pic' => 'Hình ảnh',
@@ -398,7 +398,7 @@ $lang = array(
     'nav_infoside' => 'SideBar',
     'nav_updatecounters' => 'Bộ đếm',
     'nav_admingroups' => 'Nhóm Admin',
-    'nav_usergroups' => 'Nhóm Member',
+    'nav_usergroups' => 'Nhóm thành viên',
     'nav_forums' => 'Diễn đàn',
     'nav_forums_edit' => 'Sửa diễn đàn',
     'nav_forums_rules' => 'Nội quy',
@@ -408,7 +408,7 @@ $lang = array(
     'nav_members_add' => 'Thêm member',
     'nav_members_profile' => 'Thông tin',
     'nav_members_profile_group' => 'Thông tin nhóm người dùng',
-    'nav_members_profile_card' => '用户属性名片',
+    'nav_members_profile_card' => 'Thuộc tính business card',
     'nav_members_verify' => 'Xác nhận',
     'nav_members_stat' => 'Thống kê',
     'nav_members_search' => 'Tìm kiếm',
@@ -485,8 +485,8 @@ $lang = array(
     'nav_article' => 'Quản lý bài',
     'nav_threadsort_sortlist' => 'Sắp xếp',
     'nav_threadsort_optionlist' => 'Thể loại',
-    'nav_founder_perm_group' => 'Công việc nhóm',
-    'nav_founder_perm_member' => 'Thành viên trong nhóm',
+    'nav_founder_perm_group' => 'Quyền hạn nhóm',
+    'nav_founder_perm_member' => 'Quản trị viên',
     'nav_founder_perm_notifyusers' => 'Quản lý thông tin',
     'nav_postsplit_manage' => 'Quản lý bài viết',
     'nav_postsplit_move' => 'Di chyển bài viết',
@@ -574,7 +574,7 @@ $lang = array(
     'founder_optimizer_checking_js' => '检测中...，已检测',
     'founder_optimizer_option_js' => '项',
     'founder_optimizer_recheck_js' => '重新检测',
-    'founder_optimizer_check_complete_js' => '检测完成，共检测',
+    'founder_optimizer_check_complete_js' => 'Test completed, total test',
     'founder_optimizer_optimizer' => '优化',
     'founder_optimizer_view' => '查看',
     'founder_optimizer_scan' => '扫描',
@@ -2198,17 +2198,17 @@ $lang = array(
         'Kích hoạt tính năng mã hóa mật khẩu',
     'setting_functions_other_pwdsafety_comment' =>
         'Chọn "Có", các diễn đàn về mật khẩu để đăng nhập vào thời điểm đã được mã hóa trước khi truyền',
-    'setting_functions_other_uidlogin' => '启用UID登录',
+    'setting_functions_other_uidlogin' => 'Đăng nhập bằng UID',
     'setting_functions_other_uidlogin_comment' =>
-        '选择“是”，站点登录时允许通过 UID的方式登录验证',
+        'Chọn "Có" để cho phép đăng nhập bằng UID',
     'setting_functions_other_autoidselect' =>
         'Đăng nhập tự động lựa chọn mở tài khoản',
     'setting_functions_other_autoidselect_comment' =>
         'Chọn "Yes", trang web sẽ được tự động đăng nhập bởi UID, E-mail, tên người dùng từng người một để phù hợp với thứ tự',
     'setting_functions_other_submitlock' =>
-        '<span class="spectitle">启用表单防并发功能</span>',
+        '<span class="spectitle">Bật chức năng chống lặp cho các form</span>',
     'setting_functions_other_submitlock_comment' =>
-        '选择“是”，将会防止用户同一时间提交多次表单，可有效防止可能刷分的问题。注意: 在未使用内存缓存(Redis、Memcached)的情况下，本功能可能会加重服务器负担',
+        'Selecting "Yes" will prevent users from submitting multiple forms at the same time, which can effectively prevent possible scoring problems. Note: In the case of not using memory cache (Redis, Memcached), this function may increase the burden on the server',
     'setting_functions_other_rssstatus' =>
         '<span class="spectitle">Sử dụng RSS</span>:',
     'setting_functions_other_rssstatus_comment' =>
@@ -2232,11 +2232,11 @@ $lang = array(
         'Nhận thông tin báo cáo(UID，nhiều người thì sử dụng dấu phân cách)',
     'setting_functions_other_pmreportuser_comment' =>
         'Căn cứ vào thông báo hoặc nhắc nhở của người dùng, có thể kịp thời xử lý, xóa tin nhắn thành viên, để trống là không bật chức năng báo cáo.',
-    'setting_functions_other_at_anyone' => '@ Anyone when posting',
+    'setting_functions_other_at_anyone' => 'Tag bất cứ ai khi đăng bài',
     'setting_functions_other_at_anyone_comment' =>
-        'Select No, said the only @ in the list and friends of the user to listen to when',
+        'Nếu chọn "Không" chỉ có thể tag trong danh sách bạn bè',
     'setting_functions_other_chatpmrefreshtime' =>
-        'Tự động cập nhập nội dung thông tin chat nhóm cách(giây)',
+        'Tự động cập nhập nội dung thông tin chat nhóm sau (giây)',
     'setting_functions_other_chatpmrefreshtime_comment' =>
         'Dùng trong cập nhập nội dung tin nhắn chat nhóm, thời gian càng ngắn sẽ càng làm tăng áp lực cho máy chủ, 0 là không cập nhập',
     'setting_functions_other_collectionteamworkernum' => 'Album bảo trì chung',
@@ -2246,18 +2246,18 @@ $lang = array(
         'Đóng danh sách chức năng phân loại chủ đề trang',
     'setting_functions_other_closeforumorderby_comment' =>
         'Chọn "Yes" cho người sử dụng sẽ chỉ xem bằng cách sắp xếp mặc định Nếu không, các loại người sử dụng lựa chọn sẽ làm tăng hệ thống.',
-    'setting_functions_other_darkroom' => '开启小黑屋',
+    'setting_functions_other_darkroom' => 'Open the little black house',
     'setting_functions_other_darkroom_comment' =>
-        '选择“是”将开启小黑屋，用户可以在右下角导航中进入小黑屋，查看被禁言禁止访问用户',
-    'setting_functions_other_disableipnotice' => '关闭登录安全提醒',
+        'Selecting "Yes" will open the small black room, and the user can enter the small black room in the navigation in the lower right corner to view the banned users.',
+    'setting_functions_other_disableipnotice' => 'Turn off login security reminder',
     'setting_functions_other_disableipnotice_comment' =>
-        '选择“是”将关闭用户登录地区异常安全提醒功能',
+        'Selecting "Yes" will turn off the abnormal security reminder function of the user login area',
     'setting_functions_other_global_sign' => 'Global signature content',
     'setting_functions_other_global_sign_comment' =>
-        '该设置必须开启签名后有效，如果用户没有设置签名就显示该签名内容',
+        'The setting must be valid after the signature is turned on. If the user does not set a signature, the content of the signature will be displayed',
     'setting_functions_other_shortcut' => 'Remind to add the lower limit of points for desktop shortcuts',
     'setting_functions_other_shortcut_comment' =>
-        '大于等于设置积分的用户将看到添加桌面快捷的顶部提醒，0或不填为关闭此功能',
+        'Users who are greater than or equal to the set points will see the top reminder to add desktop shortcuts, 0 or not fill in to close this function',
     'setting_functions_activity' => 'Chủ đề',
     'setting_functions_activity_type' => 'Loại chủ đề',
     'setting_functions_activity_type_comment' =>
@@ -2515,13 +2515,13 @@ $lang = array(
         'Thời gian bán chủ đề(đính kèm) cao nhất(giờ)',
     'setting_credits_maxchargespan_comment' =>
         'Khi cài đặt chủ đề (Phụ lục) đã được bán hàng cho tác giả của hệ thống cho phép các chủ đề từ (các Phụ lục) từ thời điểm phát hành, mà có thể được bán ra trong thời gian dài. Trải qua thời gian này sẽ trở thành một chủ đề thông thường (Phụ lục) là người đọc không cần phải trả tiền để mua số điểm tác giả sẽ không còn nhận được đơn của cách tương ứng như là một đơn vị không có giới hạn 0 cho',
-    'setting_mail' => 'E-mail',
+    'setting_mail' => 'Email',
     'setting_mail_setting' => 'Cài đặt',
     'setting_mail_setting_silent' => 'Ẩn tất cả thư trong các lỗi',
-    'setting_mail_setting_send' => 'Gửi E-mail',
+    'setting_mail_setting_send' => 'Gửi Email',
     'setting_mail_setting_send_comment' =>
-        '如需使用 SSL 加密的 SMTP 发送，请在服务器地址前添加 ssl:// 并调整端口号。',
-    'setting_mail_setting_send_1' => 'Sử dụng hamgf của PHP để gửi(nên dùng)',
+        'If you need to use SSL encrypted SMTP sending, please add ssl:// before the server address and adjust the port number',
+    'setting_mail_setting_send_1' => 'Sử dụng hàm của PHP để gửi(nên dùng)',
     'setting_mail_setting_send_2' =>
         'Dùng máy chủ SMTP để gửi(ESMTP phải hỗ trợ)',
     'setting_mail_setting_send_3' =>
@@ -2546,11 +2546,11 @@ $lang = array(
     'setting_mail_setting_includeuser_comment' =>
         'Chọn "Có" trong những người nhận là địa chỉ e-mail bao gồm tên người sử dụng trong diễn đàn',
     'setting_mail_setting_edit_addnew' => 'Thêm một máy chủ SMTP mới',
-    'setting_mail_check' => 'Thử nghiệm',
-    'setting_mail_check_test_from' => 'Kiểm tra người gửi',
-    'setting_mail_check_test_to' => 'Kiểm tra người nhận',
+    'setting_mail_check' => 'Test email',
+    'setting_mail_check_test_from' => 'Gửi từ',
+    'setting_mail_check_test_to' => 'Người nhận',
     'setting_mail_check_test_to_comment' =>
-        'Nếu như muốn thử nghiệm có hiện tên bạn không?, dạng của nó“username &lt;user@domain.com&gt;”. muốn thêm email thì thêm dấu phẩy.',
+        'Nếu như muốn test hiện tên bạn không?, định dạng là “username &lt;user@domain.com&gt;”. muốn thêm email thì thêm dấu phẩy.',
     'setting_mail_check_submit' => 'Thiết đặt kiểm tra email gửi',
     'setting_mail_check_title_1' => 'Phương thức tiêu chuẩn gửi Email',
     'setting_mail_check_message_1' => 'Thông qua PHP máy chủ Unix sendmail gửi
@@ -2570,8 +2570,8 @@ $lang = array(
     'setting_mail_check_success_2' => 'Email gửi đã thành công, mời kiểm tra',
     'setting_mail_check_error' => 'Thông tin Email gửi có lỗi:\\n',
     'setting_sec' => 'Bảo mật',
-    'setting_seccheck' => '验证设置',
-    'setting_accountguard' => '帐号保镖',
+    'setting_seccheck' => 'Verify settings',
+    'setting_accountguard' => 'Account bodyguard',
     'setting_sec_code_tips' =>
         '<li>Sử dụng một hình ảnh dạng mã văn bản, ngẫu nhiên từ 24 ký tự "2346789BCEFGHJKMPQRTVWXY", và là GIF có  nền trong suốt. Sau khi thực hiện sẽ tạo ra một thư mục mới images/seccode/gif</li><li>Hình nền sẽ được tạo trong images/seccode/background</li><li>Sử dụng chữ latin sẽ có TTF nằm trong images/fonts/en</li><li>Dùng font Chinese thì phải có Chinese TTF font trong images/fonts/ch</li>',
     'setting_sec_qaa_tips' =>
@@ -2664,11 +2664,11 @@ $lang = array(
     'setting_sec_seccode_height' => 'Chiều cao hình ảnh',
     'setting_sec_seccode_height_comment' =>
         'Chiều cao của mã xác nhận hình ảnh, trong khoảng từ 50-80',
-    'setting_sec_seccode_cloudip' => '云端IP库检测',
+    'setting_sec_seccode_cloudip' => 'Cloud IP library detection',
     'setting_sec_seccode_cloudip_comment' =>
-        '启用后当用户的登录 IP 在云端可疑 IP 库中时，用户的注册、登录、发表等操作会自动启用验证码',
-    'setting_sec_seccode_rule_min' => '分钟',
-    'setting_sec_seccode_rule_hour' => '小时',
+        'After enabling, when the user\'s login IP is in the cloud suspicious IP library, the user\'s registration, login, publishing and other operations will automatically enable the verification code',
+    'setting_sec_seccode_rule_min' => 'Phút',
+    'setting_sec_seccode_rule_hour' => 'Giờ',
     'setting_sec_seccode_rule_register' => '注册时启用验证码',
     'setting_sec_seccode_rule_register_comment' => '设置注册时验证码的启用规则',
     'setting_sec_seccode_rule_register_auto' => '智能启用',
@@ -4906,7 +4906,7 @@ $lang = array(
     'warn_user' => 'Cảnh báo người dùng',
     'warn_reason' => 'Lý do cảnh báo: ',
     'warn_url' => 'Địa chỉ trang: ',
-    'founder_cpgroupname' => 'Vị trí công việc',
+    'founder_cpgroupname' => 'Nhóm quản trị',
     'founder_username' => 'Tài khoản',
     'founder_usergname' => 'Cấp độ',
     'founder_admin' => 'Founder',
@@ -6168,7 +6168,7 @@ $lang = array(
     'misc_customnav_add_menu' => 'Thêm Menu',
     'misc_customnav_add_submenu' => 'Thêm Menu con',
     'misc_customnav_add_ucenter' => 'Thêm ứng dụng UCenter',
-    'announce' => 'Thông báo lên diễn đàn',
+    'announce' => 'Thông báo diễn đàn',
     'announce_tips' =>
         '<ul><li>Nếu như bạn không phải là quản trị của diễn đàn này, bạn chỉ có thể tự thực thi hành động của mình thôi</ul>',
     'announce_edit' => 'Chỉnh sửa thông báo',
@@ -6489,7 +6489,7 @@ $lang = array(
     'plugins_edit_langexists_comment' =>
         'If there is a language pack for the plug-in, select "Yes"',
     'plugins_edit_modules' => 'Plug-in modules, and custom menu',
-    'plugins_edit_modules_name' => 'Module name (required)',
+    'plugins_edit_modules_name' => 'Module name (yêu cầu)',
     'plugins_edit_modules_param' => '模块参数',
     'plugins_edit_modules_menu' => 'Menu item name',
     'plugins_edit_modules_menu_url' => 'Direct Link URL',
@@ -7570,7 +7570,7 @@ $lang = array(
     'crime_customstatus' => 'Clear Custom Title',
     'crime_checkrecord' => 'View Gig',
     'adv' => 'Quảng cáo',
-    'adv_admin' => 'Trang quảng cáo',
+    'adv_admin' => 'Quảng cáo trang',
     'adv_admin_setting' => 'Cài đặt',
     'adv_admin_list' => 'Quảng cáo',
     'adv_admin_listall' => 'Tất cả quảng cáo',
@@ -7606,7 +7606,7 @@ $lang = array(
     'adv_style_text' => 'Text',
     'adv_style_image' => 'Ảnh',
     'adv_style_flash' => 'Flash',
-    'adv_targets' => 'Put in scope',
+    'adv_targets' => 'Lọc',
     'adv_thread_down' => 'Post below',
     'adv_thread_up' => 'Top posts',
     'adv_thread_right' => 'The right side of the post',
@@ -7622,40 +7622,40 @@ $lang = array(
     'adv_nonexistence' =>
         'Did not find the ad module, please file upload script advertising module to source/class/adv/directory, then refresh the page. ',
     'adv_custom' => 'Customized advertising',
-    'adv_custom_add' => 'Add a custom advertising',
+    'adv_custom_add' => 'Thêm quảng cáo tuỳ chọn',
     'adv_custom_edit' => 'Edit custom advertising',
     'adv_custom_delete' => 'Remove this custom advertising it? ',
     'adv_customnamenew' => 'Please enter this custom advertising the new name:',
     'adv_list_tip' =>
-        '<li> You can use the "Custom Advertising" anywhere in the page to add advertising <li> install the new advertising, advertising script will be uploaded to the source/class/adv/directory, then you can used in the following list </li> ',
+        '<li>Bạn có thể sử dụng "Quảng cáo tuỳ chọn" ở bất cứ đâu trên trang để đặt quảng cáo</li><li>Để thêm quảng cáo mới, script quảng cáo sẽ được upload vào source/class/adv/directory, và bạn có thể chọn ở danh sách dưới đây</li> ',
     'adv_custom_target' =>
         'Since the scope of the definition of running, enter the site root of the file name (without extension), a number of comma-separated',
-    'adv_edit' => 'Sửa Adv',
-    'adv_add' => 'Thêm Adv',
-    'adv_list' => 'Danh sách adv',
-    'adv_edit_style' => 'To show the way:',
+    'adv_edit' => 'Sửa quảng cáo',
+    'adv_add' => 'Thêm quảng cáo',
+    'adv_list' => 'Danh sách quảng cáo',
+    'adv_edit_style' => 'Loại quảng cáo:',
     'adv_edit_style_comment' => 'Please select the ads to show the way',
-    'adv_edit_title' => 'Ad title (Required):',
+    'adv_edit_title' => 'Tiêu đề quảng cáo (yêu cầu):',
     'adv_edit_title_comment' =>
         'Note: The title of the ad only to identify the recognition of the ad entry and does not appear in the ad',
-    'adv_edit_targets' => 'Ads on the scope of (the election will):',
+    'adv_edit_targets' => 'Phạm vi quảng cáo:',
     'adv_edit_targets_comment' =>
         'Set up the ad is page or the scope of the forum, you can hold down theCTRL Choose, select "All" does not limit the scope of the choice of ads',
-    'adv_edit_targets_member' => 'Register/Login',
-    'adv_edit_targets_portal' => 'Door',
-    'adv_edit_targets_forum' => 'Forum',
-    'adv_edit_targets_group' => 'Groups',
-    'adv_edit_targets_home' => 'Space',
-    'adv_edit_targets_search' => 'Search',
-    'adv_edit_targets_userapp' => 'Applications',
-    'adv_edit_targets_plugin' => 'Independent plug-in',
-    'adv_edit_showtype' => 'Ad display mode:',
+    'adv_edit_targets_member' => 'Đăng nhập/ Đăng ký',
+    'adv_edit_targets_portal' => 'Trang tin',
+    'adv_edit_targets_forum' => 'Diễn đàn',
+    'adv_edit_targets_group' => 'Hội nhóm',
+    'adv_edit_targets_home' => 'Mạng xã hội',
+    'adv_edit_targets_search' => 'Tìm kiếm',
+    'adv_edit_targets_userapp' => 'Ứng dụng',
+    'adv_edit_targets_plugin' => 'Plug-in',
+    'adv_edit_showtype' => 'Chế độ hiển thị Ad:',
     'adv_edit_showtype_0' => 'Page in the direct output',
     'adv_edit_showtype_1' => 'IFRAME sync output',
-    'adv_edit_starttime' => 'Ads start time (optional):',
+    'adv_edit_starttime' => 'Thời gian bắt đầu (tuỳ chọn):',
     'adv_edit_starttime_comment' =>
         'Setting the initial entry into force of the advertising time format yyyy-mm-dd, Left blank for limiting the initial period',
-    'adv_edit_endtime' => 'The end of the advertising time (optional):',
+    'adv_edit_endtime' => 'Thời gian kết thúc (tuỳ chọn):',
     'adv_edit_endtime_comment' =>
         'Ad set the end of the ad time format yyyy-mm-dd, Left blank for limiting the time the end of the',
     'adv_edit_style_code' => 'HTML Code',
@@ -7663,45 +7663,45 @@ $lang = array(
     'adv_edit_style_code_html_comment' =>
         'Please enter the need to show the ad HTML code',
     'adv_edit_style_text' => 'Text ads',
-    'adv_edit_style_text_title' => 'Text (Required):',
+    'adv_edit_style_text_title' => 'Text (yêu cầu):',
     'adv_edit_style_text_title_comment' =>
         'Please enter the text content of the ad display',
-    'adv_edit_style_text_link' => 'Text Link (Required):',
+    'adv_edit_style_text_link' => 'Text Link (yêu cầu):',
     'adv_edit_style_text_link_comment' =>
         'Please enter text ad point to the URL address of the link',
-    'adv_edit_style_text_size' => 'The size of text (optional):',
+    'adv_edit_style_text_size' => 'Cỡ chữ (tuỳ chọn):',
     'adv_edit_style_text_size_comment' =>
         'Please enter the text content of the ads displayed fonts can be used pt,px,em Unit',
     'adv_edit_style_custom' => 'Custom',
     'adv_edit_style_image' => 'Image ads',
-    'adv_edit_style_image_url' => 'Photo Address (Required):',
+    'adv_edit_style_image_url' => 'Photo Address (yêu cầu):',
     'adv_edit_style_image_url_comment' =>
         'Please enter the picture image ads call Address',
-    'adv_edit_style_image_link' => 'Photo link (Required):',
+    'adv_edit_style_image_link' => 'Photo link (yêu cầu):',
     'adv_edit_style_image_link_comment' =>
         'Enter the URL of the image ads to link address',
-    'adv_edit_style_image_width' => 'Width of the image (optional):',
+    'adv_edit_style_image_width' => 'Width of the image (tuỳ chọn):',
     'adv_edit_style_image_width_comment' =>
         'Enter the width of the image ad unit for the pixels',
-    'adv_edit_style_image_height' => 'A high degree of picture (optional):',
+    'adv_edit_style_image_height' => 'A high degree of picture (tuỳ chọn):',
     'adv_edit_style_image_height_comment' =>
         'Please enter a high degree of image ads, the unit pixel',
-    'adv_edit_style_image_alt' => 'Photo replace text (optional):',
+    'adv_edit_style_image_alt' => 'Photo replace text (tuỳ chọn):',
     'adv_edit_style_image_alt_comment' =>
         'Enter the mouse over an image ad text message',
     'adv_edit_style_image_size' => 'Picture recommended size',
     'adv_edit_style_image_size_comment' =>
         'You can choose the size that we recommend you also can customize the size',
     'adv_edit_style_flash' => 'Flash Ad',
-    'adv_edit_style_flash_url' => 'Flash Address (Required):',
+    'adv_edit_style_flash_url' => 'Flash Address (yêu cầu):',
     'adv_edit_style_flash_url_comment' => 'Enter the address of Flash call ad',
     'adv_edit_style_flash_size' => 'Flash recommended size',
     'adv_edit_style_flash_size_comment' =>
         'You can choose the size that we recommend you also can customize the size',
-    'adv_edit_style_flash_width' => 'Flash Width (Required):',
+    'adv_edit_style_flash_width' => 'Flash Width (yêu cầu):',
     'adv_edit_style_flash_width_comment' =>
         'Enter the width of the Flash ad units for the pixel',
-    'adv_edit_style_flash_height' => 'Flash Height (Required):',
+    'adv_edit_style_flash_height' => 'Flash Height (yêu cầu):',
     'adv_edit_style_flash_height_comment' =>
         'Please enter a high degree of Flash ad units for the pixels',
     'adv_edit_position_thread' => 'Ad position',
@@ -8308,7 +8308,7 @@ $lang = array(
     'optimizer_serversec_tips' =>
         '<li>体检可以帮助您发现网站底层问题，消除安全风险</li>',
     'optimizer_performance_tips' =>
-        '<li>体检可以帮助您发现网站性能问题，增强网站性能</li>',
+        '<li>Physical examination can help you discover website performance problems and enhance website performance</li>',
     'optimizer_check_unit_optimizer_plugin' => '检测应用是否有新的更新',
     'optimizer_check_unit_optimizer_upgrade' => '查看是否有新的产品版本',
     'optimizer_check_unit_optimizer_patch' => '检测产品是有有漏洞补丁发布',

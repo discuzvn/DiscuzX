@@ -11,15 +11,12 @@ if (!defined('IN_DISCUZ')) {
 }
 $lang = array(
     'banner_pic' => 'Link ảnh',
-    'banner_width' => 'Chiều rộng ảnh',
-    'banner_height' => 'Chiều dài ảnh',
+    'banner_width' => 'Chiều rộng',
+    'banner_height' => 'Chiều dài',
     'banner_url' => 'Link quảng cáo',
-    'banner_text' => 'Mô tả hình ảnh',
-    'banner_atarget' => 'Cách mở liên kết',
-    'banner_atarget_top' =>
-        'Opens the linked document in the full body of the window',
-    'banner_atarget_blank' =>
-        'Opens the linked document in a new window or tab',
-    'banner_atarget_self' =>
-        'Opens the linked document in the same frame as it was clicked (this is the default)',
+    'banner_text' => 'Mô tả',
+    'banner_atarget' => 'Link target',
+    'banner_atarget_top' => '_top',
+    'banner_atarget_blank' => '_blank',
+    'banner_atarget_self' => '_self',
 );

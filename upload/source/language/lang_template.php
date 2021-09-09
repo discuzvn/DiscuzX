@@ -435,7 +435,7 @@ $lang = array(
     'connect_fill_profile_to_visit' =>
         'Hãy <a class="xi2" href="member.php?mod=connect"><strong>điền đầy đủ thông tin</strong></a> để sử dụng menu nhanh.',
     'ipnoice_current' => 'IP đăng nhập hiện tại',
-    'ipnoice_last' => 'IP đăng nhập cuối cùng',
+    'ipnoice_last' => 'IP đăng nhập lần cuối',
     'ipnoice_lasttime' => 'Thời gian đăng nhập lần cuối',
     'ipnoice_title' => 'Kiểm tra bảo mật',
     'ipnoice_link' => 'Có đăng nhập bất thường, hãy đổi mật khẩu ngay',

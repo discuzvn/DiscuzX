@@ -1933,7 +1933,7 @@ $lang = array(
         'index' => array(),
         'text' => array(
             0 => 'makehtml_tips_all',
-            1 => '生成指定起始时间以后发布的文章的HTML文件生成指定起始时间以后发布过文章的频道HTML文件生成门户首页的HTML文件',
+            1 => '生成指定起始时间以后发布的文章的HTML文件Generate channel HTML files that have published articles after the specified start time生成门户首页的HTML文件',
             2 => 'start_time',
             3 => '起始时间',
         ),

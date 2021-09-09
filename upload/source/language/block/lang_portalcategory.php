@@ -10,13 +10,13 @@ if (!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 $lang = array(
-    'portalcategory_thecatid' => 'Loại Portal',
+    'portalcategory_thecatid' => 'ID chuyên mục',
     'portalcategory_thecatid_comment' =>
-        'Thiết lập ID thể loại riêng biệt, nếu nhiều ID thì ngăn cách bằng dấu phẩy (,)',
-    'portalcategory_catid' => 'Loại chuyên mục nguồn',
-    'portalcategory_catid_comment' => 'Chọn chuyên mục nguồn',
+        'ID các chuyên mục nếu nhiều ID thì phân cách bằng dấu ,',
+    'portalcategory_catid' => 'Chuyên mục',
+    'portalcategory_catid_comment' => 'Chọn chuyên mục',
     'portalcategory_orderby' => 'Sắp xếp',
-    'portalcategory_orderby_comment' => 'Thiết lập thứ tự của danh mục',
+    'portalcategory_orderby_comment' => 'Thiết lập thứ tự danh mục',
     'portalcategory_orderby_displayorder' => 'Mặc định',
     'portalcategory_orderby_articles' => 'Các bài viết',
 );

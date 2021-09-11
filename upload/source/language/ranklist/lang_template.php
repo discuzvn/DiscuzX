@@ -31,7 +31,7 @@ $lang = array(
     'ranklist_thread_share' => 'Chia sẻ',
     'ranklist_today' => 'Hôm nay',
     'ranklist_update' =>
-        'Bảng xếp hạng đã được cập nhập, lân trước lúc $lastupdate , lần tới lúc $nextupdate',
+        'Bảng xếp hạng đã được cập nhật vào $lastupdate, lần tiếp theo $nextupdate',
     'ranklist_week' => 'Tuần này',
     'blog_ranklist' => 'Nhật ký',
     'comment' => 'Bình luận',

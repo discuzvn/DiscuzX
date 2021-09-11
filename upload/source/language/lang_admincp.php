@@ -554,42 +554,42 @@ $lang = array(
     'founder_upgrade_select_version' =>
         'Phát hiện một phiên bản mới để nâng cấp, bạn có thể chọn tự động nâng cấp hoặc tải về và cài đặt gói nâng cấp.',
     'founder_upgrade_continue' => 'Tiếp tục làm gia tăng',
-    'founder_upgrade_recheck' => '重新检测',
+    'founder_upgrade_recheck' => 'Test again',
     'founder_upgrade_dbupdate' => 'Nâng cấp cơ sở dữ liệu',
     'upgrade_right_now' =>
         'Hiện đang sử dụng mã nguồn Discuz! Một chương trình phát hành mới, hãy nâng cấp<span> online nhé</span>',
-    'nav_founder_optimizer' => '优化大师',
-    'founder_optimizer_index' => '优化首页',
-    'founder_optimizer_setting' => '设置项优化',
-    'founder_optimizer_setting_option' => '设置项',
-    'founder_optimizer_setting_option_description' => '设置项描述',
-    'founder_optimizer_setting_description' => '优化描述',
-    'founder_optimizer_checking' => '正在检测',
-    'founder_optimizer_start_check' => '开始检测',
+    'nav_founder_optimizer' => 'Optimization master',
+    'founder_optimizer_index' => 'Optimize the homepage',
+    'founder_optimizer_setting' => 'Settings optimization',
+    'founder_optimizer_setting_option' => 'Setting item',
+    'founder_optimizer_setting_option_description' => 'Setting item description',
+    'founder_optimizer_setting_description' => 'Optimized description',
+    'founder_optimizer_checking' => 'Testing',
+    'founder_optimizer_start_check' => 'Start testing',
     'founder_optimizer_first_use' =>
-        '这是您第一次使用优化大师，建议您立即进行检测',
-    'founder_optimizer_lastcheck' => '上次检测时间: ',
-    'founder_optimizer_findnum' => '，共发现 ',
-    'founder_optimizer_neednum' => ' 项需要优化',
-    'founder_optimizer_checking_js' => '检测中...，已检测',
-    'founder_optimizer_option_js' => '项',
-    'founder_optimizer_recheck_js' => '重新检测',
+        'This is your first time using Optimize Master, it is recommended that you check immediately',
+    'founder_optimizer_lastcheck' => 'Last detection time: ',
+    'founder_optimizer_findnum' => ', found ',
+    'founder_optimizer_neednum' => ' Items need to be optimized',
+    'founder_optimizer_checking_js' => 'Checking..., checked',
+    'founder_optimizer_option_js' => 'item',
+    'founder_optimizer_recheck_js' => 'test again',
     'founder_optimizer_check_complete_js' => 'Test completed, total test',
-    'founder_optimizer_optimizer' => '优化',
-    'founder_optimizer_view' => '查看',
-    'founder_optimizer_scan' => '扫描',
-    'founder_optimizer_check_option' => '检测项目',
-    'founder_optimizer_status' => '状态',
-    'founder_optimizer_security' => '安全测试',
-    'founder_optimizer_serversec' => '底层安全',
-    'founder_optimizer_performance' => '性能优化',
-    'founder_optimizer_low' => '低',
-    'founder_optimizer_middle' => '中',
-    'founder_optimizer_high' => '高',
-    'founder_optimizer_level' => '安全级别',
-    'founder_optimizer_needopti' => '可优化项',
-    'founder_optimizer_safe' => '安全项',
-    'founder_optimizer_notice' => '提示项',
+    'founder_optimizer_optimizer' => 'optimization',
+    'founder_optimizer_view' => 'Check',
+    'founder_optimizer_scan' => 'scanning',
+    'founder_optimizer_check_option' => 'Test items',
+    'founder_optimizer_status' => 'state',
+    'founder_optimizer_security' => 'Safety test',
+    'founder_optimizer_serversec' => 'Low-level security',
+    'founder_optimizer_performance' => 'Performance optimization',
+    'founder_optimizer_low' => 'Low',
+    'founder_optimizer_middle' => 'middle',
+    'founder_optimizer_high' => 'high',
+    'founder_optimizer_level' => 'Security Level',
+    'founder_optimizer_needopti' => 'Optimized items',
+    'founder_optimizer_safe' => 'Safety item',
+    'founder_optimizer_notice' => 'Prompt item',
     'nav_makehtml' => 'Quản lý HTML',
     'makehtml_topic' => 'Topic',
     'makehtml_article' => 'Article',
@@ -612,7 +612,7 @@ $lang = array(
     'makehtml_tips_topic' =>
         '<li>Generate HTML files of topics published after the specified start time</li>',
     'makehtml_recreate' => 'Regenerate',
-    'makehtml_allfilecomplete' => '全部文件生成完成',
+    'makehtml_allfilecomplete' => 'All files are generated',
     'makehtml_selectcategorycomplete' => '选择的频道全部生成完成',
     'makehtml_allarticlecomplete' => '全部文章生成完成',
     'makehtml_alltopiccomplete' => '全部专题生成完成',
@@ -903,12 +903,12 @@ $lang = array(
     'setting_access_register_link_name' => 'Tiêu đề đăng ký',
     'setting_access_register_link_name_comment' =>
         'Thiết lập hiển thị đăng ký trên site, mặc định "Đăng ký"',
-    'setting_access_register_strongpw' => 'Mật khẩu phức tạp',
+    'setting_access_register_strongpw' => 'Độ phức tạp mật khẩu',
     'setting_access_register_strongpw_comment' =>
         'Mật khẩu chọn lựa phải gồm cả số lẫn chữ',
-    'setting_access_register_strongpw_1' => 'Kỹ thuật',
-    'setting_access_register_strongpw_2' => 'Ít chữ quá',
-    'setting_access_register_strongpw_3' => 'Phân biệt chữ hoa',
+    'setting_access_register_strongpw_1' => 'Gồm số',
+    'setting_access_register_strongpw_2' => 'Chữ viết thường',
+    'setting_access_register_strongpw_3' => 'Chữ viết hoa',
     'setting_access_register_strongpw_4' => 'Ký tự đặc biệt',
     'setting_access_register_pwlength' => 'Độ dài tối thiểu',
     'setting_access_register_pwlength_comment' => 'Đăng ký rồi thì không điền',
@@ -1148,7 +1148,7 @@ $lang = array(
         'Cố định top navigation khi cuộn trang',
     'setting_styles_forumdisplay_threadpreview' => 'Tắt xem trước bài viết',
     'setting_styles_forumdisplay_threadpreview_comment' =>
-        '关闭后将不可在主题列表页预览帖子内容',
+        'After closing, you will not be able to preview the content of the post on the topic list page',
     'setting_styles_viewthread' => 'Bài viết',
     'setting_styles_viewthread_ppp' => 'Bài viết trên mỗi trang',
     'setting_styles_viewthread_ppp_comment' =>
@@ -2597,8 +2597,8 @@ $lang = array(
     'setting_sec_floodctrl' => 'Khoảng cách giữa 2 lần đăng bài(giây)',
     'setting_sec_floodctrl_comment' => 'Đặt 0 là không giới hạn',
     'setting_sec_seccode' => 'Mã xác nhận',
-    'setting_sec_seccode_rule_setting' => '规则设置',
-    'setting_sec_seccode_type_setting' => '显示设置',
+    'setting_sec_seccode_rule_setting' => 'Cài đặt quy tắc',
+    'setting_sec_seccode_type_setting' => 'Cài đặt hiển thị',
     'setting_sec_seccode_status' => 'Bật mã xác nhận',
     'setting_sec_seccode_status_register' => 'Thành viên mới đăng ký',
     'setting_sec_seccode_status_login' => 'Thành viên đăng nhập',
@@ -2669,56 +2669,56 @@ $lang = array(
         'After enabling, when the user\'s login IP is in the cloud suspicious IP library, the user\'s registration, login, publishing and other operations will automatically enable the verification code',
     'setting_sec_seccode_rule_min' => 'Phút',
     'setting_sec_seccode_rule_hour' => 'Giờ',
-    'setting_sec_seccode_rule_register' => '注册时启用验证码',
-    'setting_sec_seccode_rule_register_comment' => '设置注册时验证码的启用规则',
-    'setting_sec_seccode_rule_register_auto' => '智能启用',
-    'setting_sec_seccode_rule_register_on' => '启用',
-    'setting_sec_seccode_rule_register_off' => '不启用',
-    'setting_sec_seccode_rule_register_numlimit' => '一段时间内注册上限',
+    'setting_sec_seccode_rule_register' => 'Bật mã xác nhận khi đăng ký',
+    'setting_sec_seccode_rule_register_comment' => 'Bật mã xác nhận khi đăng ký tài khoản mới',
+    'setting_sec_seccode_rule_register_auto' => 'Kích hoạt thông minh',
+    'setting_sec_seccode_rule_register_on' => 'Bật',
+    'setting_sec_seccode_rule_register_off' => 'Tắt',
+    'setting_sec_seccode_rule_register_numlimit' => 'Giới hạn đăng ký tài khoản mới',
     'setting_sec_seccode_rule_register_numlimit_comment' =>
-        '当网站注册用户在选择的时间段内超过设置值时，全天用户注册均需要通过验证码验证，0 代表不启用此规则',
-    'setting_sec_seccode_rule_register_timelimit' => '时间段选择',
-    'setting_sec_seccode_rule_login' => '登录时启用验证码',
-    'setting_sec_seccode_rule_login_comment' => '设置登录时验证码的启用规则',
-    'setting_sec_seccode_rule_login_auto' => '智能启用',
-    'setting_sec_seccode_rule_login_on' => '启用',
-    'setting_sec_seccode_rule_login_off' => '不启用',
-    'setting_sec_seccode_rule_login_nolocal' => '异地登录时启用',
+        'When the registered users of the website exceed the set value in the selected time period, all users need to pass verification code verification for all-day user registration. 0 means that this rule is not enabled',
+    'setting_sec_seccode_rule_register_timelimit' => 'Khoảng thời gian',
+    'setting_sec_seccode_rule_login' => 'Bật mã xác nhận khi đăng nhập',
+    'setting_sec_seccode_rule_login_comment' => 'Bật mã xác nhận khi đăng nhập',
+    'setting_sec_seccode_rule_login_auto' => 'Kích hoạt thông minh',
+    'setting_sec_seccode_rule_login_on' => 'Bật',
+    'setting_sec_seccode_rule_login_off' => 'Tắt',
+    'setting_sec_seccode_rule_login_nolocal' => 'Bật khi đăng nhập từ xa',
     'setting_sec_seccode_rule_login_nolocal_comment' =>
-        '当用户本地登录 IP 为异地登录时启用验证码',
-    'setting_sec_seccode_rule_login_pwsimple' => '用户密码太简单时启用',
+        'Enable verification code when the user local login IP is remote login',
+    'setting_sec_seccode_rule_login_pwsimple' => 'Bật khi mật khẩu quá đơn giản',
     'setting_sec_seccode_rule_login_pwsimple_comment' =>
-        '当用户登录时使用的密码的长度与复杂度不符合后台设置时',
-    'setting_sec_seccode_rule_login_pwerror' => '尝试密码错误 2 次后启用',
-    'setting_sec_seccode_rule_login_numiptry' => '重复 IP 段尝试密码错误上限',
+        'When the length and complexity of the password used when the user logs in does not meet the background settings',
+    'setting_sec_seccode_rule_login_pwerror' => 'Bật sau 2 lần sai mật khẩu',
+    'setting_sec_seccode_rule_login_numiptry' => 'The upper limit of repeated IP segment attempts with incorrect password',
     'setting_sec_seccode_rule_login_numiptry_comment' =>
-        '当一个 IP 段在选择的时间段内错误次数超过设置时，该 IP 段再次登录需要输入验证码，0 代表不启用此规则',
-    'setting_sec_seccode_rule_login_timeiptry' => '时间段选择',
-    'setting_sec_seccode_rule_login_outofday' => '长时间未登录后 (天)',
+        'When the number of errors in an IP segment exceeds the setting in the selected time period, the IP segment needs to enter a verification code to log in again, and 0 means that this rule is not enabled',
+    'setting_sec_seccode_rule_login_timeiptry' => 'Time period selection',
+    'setting_sec_seccode_rule_login_outofday' => 'Sau lâu ngày không đăng nhập (ngày)',
     'setting_sec_seccode_rule_login_outofday_comment' =>
-        '当用户最近一次登录时间距离上次登录时间超过设置值时需要输入验证码，0 代表不启用此规则',
-    'setting_sec_seccode_rule_post' => '发表信息时启用验证码',
-    'setting_sec_seccode_rule_post_comment' => '设置发表信息时验证码的启用规则',
-    'setting_sec_seccode_rule_post_auto' => '智能启用',
-    'setting_sec_seccode_rule_post_on' => '启用',
-    'setting_sec_seccode_rule_post_off' => '不启用',
+        'When the last login time of the user exceeds the set value, the verification code needs to be entered. 0 means that this rule is not enabled',
+    'setting_sec_seccode_rule_post' => 'Bật mã xác nhận khi đăng bài',
+    'setting_sec_seccode_rule_post_comment' => 'Bật mã xác nhận khi đăng bài',
+    'setting_sec_seccode_rule_post_auto' => 'Kích hoạt thông minh',
+    'setting_sec_seccode_rule_post_on' => 'Bật',
+    'setting_sec_seccode_rule_post_off' => 'Tắt',
     'setting_sec_seccode_rule_post_numlimit' =>
-        '用户一段时间内发帖操作总次数上限',
+        'The upper limit of the total number of user posting operations in a period of time',
     'setting_sec_seccode_rule_post_numlimit_comment' =>
-        '当用户在选择的时间段内发表主题，回复总数超过设置值时需要输入验证码，0 代表不启用此规则',
-    'setting_sec_seccode_rule_post_timelimit' => '时间段选择',
-    'setting_sec_seccode_rule_post_nplimit' => '提交主题时间太短后启用 (秒)',
+        'When the user publishes a topic within the selected time period, and the total number of replies exceeds the set value, a verification code is required. 0 means that this rule is not enabled',
+    'setting_sec_seccode_rule_post_timelimit' => 'Time period selection',
+    'setting_sec_seccode_rule_post_nplimit' => 'Enable after submitting subject time is too short (seconds)',
     'setting_sec_seccode_rule_post_nplimit_comment' =>
-        '用户打开发帖页面到提交的最短时间，低于最短设置时间时需要输入验证码，0 代表不启用此规则',
-    'setting_sec_seccode_rule_post_vplimit' => '提交回复时间太短后启用 (秒)',
+        'The shortest time from the user’s opening of the development post page to the submission. The verification code needs to be entered when the time is less than the shortest setting time. 0 means that this rule is not enabled',
+    'setting_sec_seccode_rule_post_vplimit' => 'Enable after submission of response time is too short (seconds)',
     'setting_sec_seccode_rule_post_vplimit_comment' =>
-        '用户打开帖子页面到提交回复的最短时间，低于最短设置时间时需要输入验证码，0 代表不启用此规则',
-    'setting_sec_seccode_rule_password' => '修改密码时启用验证码',
+        'The shortest time from when the user opens the post page to submit a reply, the verification code needs to be entered when the time is less than the shortest setting time, 0 means this rule is not enabled',
+    'setting_sec_seccode_rule_password' => 'Enable verification code when changing password',
     'setting_sec_seccode_rule_password_comment' =>
-        '设置修改密码时是否启用验证码',
-    'setting_sec_seccode_rule_card' => '充值卡密时启用验证码',
+        'Set whether to enable the verification code when changing the password',
+    'setting_sec_seccode_rule_card' => 'Enable verification code when recharging card secret',
     'setting_sec_seccode_rule_card_comment' =>
-        '设置充值卡密时是否启用验证码 (推荐开启)',
+        'Whether to enable the verification code when setting the recharge card password (recommended)',
     'setting_sec_secqaa' => 'Câu hỏi an toàn',
     'setting_sec_secqaa_add' => 'Thêm câu hỏi mới',
     'setting_sec_secqaa_status' => 'Đặt câu hỏi an toàn tại',
@@ -2760,7 +2760,7 @@ $lang = array(
     'setting_datetime_timeoffset_comment' =>
         'Múi giờ GMT các địa phương là khác nhau',
     'setting_datetime_timezone' => array(
-        '' => '选择公共时区',
+        '' => 'Choose a public time zone',
         '-12' => '(GMT -12:00) Enewetak Island, Kwajalein Atoll',
         '-11' => '(GMT -11:00) Midway Island, Samoa',
         '-10' => '(GMT -10:00) Hawaii',
@@ -2820,26 +2820,26 @@ $lang = array(
     'setting_datetime_ban_downtime' => 'Thời gian cấm tải tập tin',
     'setting_datetime_ban_downtime_comment' =>
         'Trong khoảng thời gian này người sử dụng không thể không tải về các tài liệu đính kèm, định dạng và sử dụng như trên',
-    'setting_sec_accountguard_forcelogin' => '安全登录',
+    'setting_sec_accountguard_forcelogin' => 'Secure login',
     'setting_sec_accountguard_forcelogin_comment' =>
-        '设置用户组的用户是否强制使用指定的登录方式',
-    'setting_sec_accountguard_postqqonly' => '发帖需要绑定QQ号',
+        'Set whether users in the user group are forced to use the specified login method',
+    'setting_sec_accountguard_postqqonly' => 'Posting needs to bind QQ number',
     'setting_sec_accountguard_postqqonly_comment' =>
-        '开启后用户发帖必须先绑定QQ号',
-    'setting_sec_accountguard_loginpwcheck' => '弱密码登录检测',
+        'After opening, the user must first bind the QQ number to post',
+    'setting_sec_accountguard_loginpwcheck' => 'Weak password login detection',
     'setting_sec_accountguard_loginpwcheck_comment' =>
-        '当用户登录时使用的密码强度不符合“全局>注册与访问控制>注册>强制密码复杂度”设置时的操作。若启用强制修改，弱密码帐号会被暂时冻结，修改密码成功后自动解除',
-    'setting_sec_accountguard_loginpwcheck_none' => '不开启',
-    'setting_sec_accountguard_loginpwcheck_prompt' => '开启并提示',
-    'setting_sec_accountguard_loginpwcheck_force' => '开启并强制修改弱密码',
-    'setting_sec_accountguard_loginoutofdate' => '异常登录检测',
+        'The operation when the password strength used when the user logs in does not comply with the "Global>Registration and Access Control>Registration>Force Password Complexity" setting. If forced modification is enabled, accounts with weak passwords will be temporarily frozen, and will be automatically released after the password is successfully modified',
+    'setting_sec_accountguard_loginpwcheck_none' => 'Not open',
+    'setting_sec_accountguard_loginpwcheck_prompt' => 'Turn on and prompt',
+    'setting_sec_accountguard_loginpwcheck_force' => 'Turn on and force a weak password to be changed',
+    'setting_sec_accountguard_loginoutofdate' => 'Abnormal login detection',
     'setting_sec_accountguard_loginoutofdate_comment' =>
-        '当用户距离上次登录超过一定期限时，帐号会进入未审核组，用户可以通过验证邮箱或者申诉解冻帐号，QQ登录的用户不受此功能影响 <a href="' .
+        'When the user has logged in for more than a certain period of time, the account will enter the unreviewed group. The user can unfreeze the account by verifying the mailbox or appealing, and the QQ login user will not be affected by this function <a href="' .
         ADMINSCRIPT .
-        '?action=moderate&operation=members">审核用户</a>',
-    'setting_sec_accountguard_loginoutofdatenum' => '异常登录检测天数',
+        '?action=moderate&operation=members">Audit user</a>',
+    'setting_sec_accountguard_loginoutofdatenum' => 'Abnormal login detection days',
     'setting_sec_accountguard_loginoutofdatenum_comment' =>
-        '配置异常登录检测天数，默认值为 90 天',
+        'Configure the number of days for abnormal login detection, the default value is 90 days',
     'setting_attach' => 'Đính kèm',
     'setting_attach_basic' => 'Cơ bản',
     'setting_attach_basic_dir' => 'Thư mục lưu',
@@ -2895,7 +2895,7 @@ $lang = array(
         'ImageMagick 6 thủ tục cho tiến trình cài đặt của con đường. Tuy nhiên, các máy phục vụ cho các hệ điều hành Windows, con đường dài không sử dụng tên tập tin',
     'setting_attach_image_thumbstatus' => 'Thu nhỏ ảnh đính kèm',
     'setting_attach_image_thumbstatus_comment' =>
-        '您可以设置自动为用户上传的 JPG/PNG/GIF 图片附件添加缩略图或将图片附件缩到指定的大小。不支持动画 GIF 格式',
+        'You can set to automatically add thumbnails to JPG/PNG/GIF image attachments uploaded by users or shrink image attachments to a specified size. Does not support animated GIF format',
     'setting_attach_image_thumbstatus_none' => 'Không thu nhỏ hình',
     'setting_attach_image_thumbstatus_fixnone' =>
         'Ít hơn kích thước quy định, để duy trì tỷ lệ',
@@ -2910,7 +2910,7 @@ $lang = array(
         'Set the size of the original, larger than this size image attachment will be reduced to the specified size',
     'setting_attach_image_gdlimit' => 'GD picture pixel upper limit',
     'setting_attach_image_gdlimit_comment' =>
-        '设置 GD 图片像素点上限，数值越大需要的服务器内存也越多，超过默认值 16777216 的站点需要在 php.ini 中设置更大的 memory_limit 以适应此配置',
+        'Set the upper limit of GD picture pixels. The larger the value, the more server memory is required. Sites exceeding the default value of 16777216 need to set a larger memory_limit in php.ini to adapt to this configuration',
     'setting_attach_image_thumbquality' => 'Chất lượng ảnh',
     'setting_attach_image_thumbquality_comment' =>
         'Thiết đặt từ 0 đến 100',
@@ -3212,8 +3212,8 @@ $lang = array(
     'collection_name' => 'Tên',
     'collection_ctid' => 'Số ID',
     'collection_username' => 'Bộ sưu tập của ',
-    'collection_threadnum' => '淘专辑主题数',
-    'collection_commentnum' => '淘专辑评论数',
+    'collection_threadnum' => 'Number of album topics',
+    'collection_commentnum' => 'Amoy album comments',
     'collection_uid' => 'Bộ sưu tập của UID',
     'collection_result' => 'Số album đủ điều kiện',
     'collection_comment_message' => 'Nội dung',
@@ -3224,22 +3224,22 @@ $lang = array(
     'collection_comment_rate' => 'Điểm lớn hơn',
     'collection_comment_useip' => 'Địa chỉ IP',
     'collection_comment_result' => 'Số lượng các ý kiến đáp ứng các điều kiện',
-    'collection_recommend_settings' => '首页推荐选项',
-    'collection_recommend_existed' => '手动首页推荐',
+    'collection_recommend_settings' => 'Homepage recommendation options',
+    'collection_recommend_existed' => 'Manual homepage recommendation',
     'collection_recommend_tips' =>
         '还没有手动推荐任何淘专辑，去<a href="' .
         ADMINSCRIPT .
         '?action=collection&operation=admin">搜索几个专辑</a>然后推荐到首页吧！',
-    'collection_recommend_index_autonumber' => '首页推荐数量',
+    'collection_recommend_index_autonumber' => 'Recommended number of homepage',
     'collection_recommend_index_autonumber_comment' =>
-        '设置后，会在首页推荐指定数量的热门专辑，设为“0”则关闭推荐功能。当手动推荐数量未达到设置的数量时，系统会自动推荐专辑。',
+        'After setting, a specified number of popular albums will be recommended on the homepage, and set to "0" to turn off the recommendation function. When the number of manual recommendations does not reach the set number, the system will automatically recommend albums.',
     'usertag' => 'Người dùng tag',
     'usertag_list' => 'Quản lý',
     'usertag_count' => 'Hiện có {tagcount} người dùng tag',
     'usertag_golist' => 'Quay lại danh sách',
     'usertag_add' => 'Hàng loạt tiện ích',
     'usertag_add_tips' =>
-        '<li>可以给线下活动的用户批量贴标签</li><li>当只填写了标签，用户列表为空时，是批量添加用户标签</li><li>如果标签和用户列表都有输入，说明是给指定用户批量贴标签</li>',
+        '<li>You can tag offline users in batches</li><li>When only the tags are filled in and the user list is empty, the user tags are added in batches</li><li>If both the label and the user list are entered, it means that the specified users are labeled in batches</li>',
     'usertag_add_tags' => 'Tags',
     'usertag_add_tags_comment' =>
         'Có thể nhập nhiều thẻ, ngăn cách nhau bằng dấu ","',
@@ -3258,7 +3258,7 @@ $lang = array(
     'setting_mobile_allowmobile' => 'Mở chế độ duyệt web di động',
     'setting_mobile_allowmobile_comment' =>
         'Mở tính năng này người dùng truy cập vào diễn đàn bằng di động sẽ được tự chuyển sang giao diện Mobile<br />Cấu hình tên miền cho trang WAP Mobile: <a href="?action=domain&operation=app">Tổng thể - Tên miền - Ứng dụng tên miền</a><br />Chỉnh sửa thiết lập, chuyển hướng：<a href="?action=nav&operation=footernav">Sửa tên dưới Footer</a>',
-    'setting_mobile_allowmnew' => '启用本地化微社区前端',
+    'setting_mobile_allowmnew' => 'Enable localized micro-community front end',
     'setting_mobile_allowmnew_comment' =>
         '使用本地化微社区前端，本地化微社区前端的 URL 为“' .
         $_G['siteurl'] .
@@ -3496,9 +3496,9 @@ $lang = array(
     'forums_edit_basic_threadtable_norelate' => 'Không liên quan',
     'forums_edit_basic_keys' => 'Slug',
     'forums_edit_basic_keys_comment' =>
-        '绑定后当站点开启 URL 静态化后可通过别名访问此版块，如设置别名为“developer”那么版块的 URL 将变为“' .
+        'After binding, when the site is turned on and the URL is static, this section can be accessed through an alias. If the alias is set to "developer", then the section URL will become"' .
         $_G['siteurl'] .
-        'forum-developer-1.html”。注意：别名中只能包含字母或数字，且不能是纯数字',
+        'forum-developer-1.html". Note: Aliases can only contain letters or numbers, and cannot be pure numbers',
     'forums_edit_basic_binddomain' => 'Tên miền cố định',
     'forums_edit_basic_binddomain_comment' =>
         'Khi thiết đặt ta sẽ vào chuyên mục bằng tên miền riêng',
@@ -3557,9 +3557,9 @@ $lang = array(
     'forums_edit_extend_order_views' => 'Lần xem',
     'forums_edit_extend_order_desc' => 'Thứ tự giảm dần',
     'forums_edit_extend_order_asc' => 'Thứ tự tăng dần',
-    'forums_edit_extend_reply_background' => '快捷回复框背景图片',
+    'forums_edit_extend_reply_background' => 'Quick reply box background image',
     'forums_edit_extend_reply_background_comment' =>
-        '设置后将在快速回复框中展现该图片',
+        'After setting, the picture will be displayed in the quick reply box',
     'forums_edit_extend_threadcache' => 'Hệ số bộ nhớ đệm',
     'forums_edit_extend_threadcache_comment' =>
         'Hệ số giá trị từ 0 đến 100, giá trị đề nghị từ 20 đến 40, 0 là tắt bộ nhớ đệm. Trong trường hợp không gian đĩa cho phép, các hệ số thích hợp để tăng bộ nhớ cache, có thể cải thiện hiệu quả bộ nhớ cache<br />Cơ bản - tối ưu hóa -> cache, điều chỉnh thời gian đệm.',
@@ -3775,9 +3775,9 @@ $lang = array(
     'forums_edit_threadsorts_subforumsindex_comment' =>
         'Home section of the list in the section of the lower-profile shows that the bottom section of the names and links (if any). Note: This function does not consider the special sub-section view of the authority, that is, as long as there will be displayed. Select default will be used to set the overall situation ',
     'forums_edit_threadsorts_nonexistence' =>
-        '分类信息不存在，请到<a href="' .
+        'Classification information does not exist, please go to <a href="' .
         ADMINSCRIPT .
-        '?action=threadtypes&special=1">分类信息</a>设置',
+        '?action=threadtypes&special=1">Classified information</a> set up',
     'forums_edit_threadsorts_default' =>
         'Kích hoạt tính năng hiển thị mặc định các thể loại',
     'forums_edit_threadsorts_default_comment' =>
@@ -3786,9 +3786,9 @@ $lang = array(
     'forums_edit_threadsorts_template_house' => 'Mẫu bất động sản',
     'forums_edit_perm' => 'Quyền hạn chung',
     'forums_edit_perm_forum' => 'Quyền diễn đàn',
-    'forums_edit_perm_price' => '付费价格',
+    'forums_edit_perm_price' => 'Paid price',
     'forums_edit_perm_price_comment' =>
-        '当你设置了价格后，用户必须使用指定的交易积分付费后才可进入此版块。当价格增长时，用户还需要支付所增加的积分',
+        'After you set the price, users must use the specified transaction points to pay before they can enter this section. When the price increases, users also need to pay for the increased points',
     'forums_edit_perm_passwd' => 'Mật khẩu vào',
     'forums_edit_perm_passwd_comment' =>
         'Khi đặt mật khẩu xong thì thành viên phải nhập mật khẩu mới vào được diễn đàn này',
@@ -4216,29 +4216,29 @@ $lang = array(
     'styles_import' => 'Nhập giao diện',
     'styles_import_ignore_version' => 'Chấp nhận sai phiên bản(có thể gây lỗi)',
     'styles_import_version_invalid' =>
-        '版本号不匹配，当前版本：{cur_version}，系统版本：{set_version}',
+        'The version number does not match, the current version:{cur_version} ,system version:{set_version}',
     'styles_validator_nowupgrade' =>
-        '以下模板现在可以更新为新版本，点击安装更新',
-    'styles_validator_newversion' => '以下模板存在新版本，点击安装更新',
-    'styles_validator_error' => '以下模板不是正版模板，点击安装正版模板',
+        'The following templates can now be updated to the new version, click to install the update',
+    'styles_validator_newversion' => 'There is a new version of the following template, click to install the update',
+    'styles_validator_error' => 'The following template is not a genuine template, click to install a genuine template',
     'templates_admin' => 'Quản lý phong cách',
     'templates_admin_name' => 'Tên phong cách',
     'templates_add' => 'Thêm phong cách',
     'templates_add_tips' =>
         '<li><b>本功能仅供模板开发者使用。</b></li><li>模板开发人员在使用本功能前请务必仔细阅读《<a href="https://open.dismall.com/?!devdoc" target="_blank">Discuz! 技术文档</a>》中的内容。</li><li>警告: 不正确的模板设计或安装可能危及到整个站点的正常使用。</li>',
-    'templates_edit_name' => '模板名称(name)',
-    'templates_edit_name_comment' => '此模板的名称，中英文均可，最多 40 个字节',
-    'templates_edit_copyright' => '版权信息(copyright)',
+    'templates_edit_name' => 'Template name (name)',
+    'templates_edit_name_comment' => 'The name of this template, both in Chinese and English, up to 40 bytes',
+    'templates_edit_copyright' => 'Copyright',
     'templates_edit_copyright_comment' =>
-        '设置模板的版权信息，最多 100 个字节，一旦设置无法更改',
-    'templates_edit_identifier' => '唯一标识符(identifier)',
+        'Set the copyright information of the template, up to 100 bytes, once it is set, it cannot be changed',
+    'templates_edit_identifier' => 'Unique identifier',
     'templates_edit_identifier_comment' =>
-        '模板的唯一英文标识，不能够与现有模板标识重复。可使用字母、数字、下划线命名，不能包含其他符号或特殊字符，需以字母开头，最大 40 个字节',
-    'templates_edit_style' => '初始化模板设置',
+        'The unique English ID of the template, which cannot be duplicated with the existing template ID. Can use letters, numbers, underscores to name, can not contain other symbols or special characters, must start with a letter, maximum 40 bytes',
+    'templates_edit_style' => 'Initialize template settings',
     'templates_edit_style_comment' =>
-        '使用已经存在的模板设置初始化本模板，或创建空白设置的模板',
-    'templates_empty' => '空',
-    'templates_question' => '模板问题求助',
+        'Initialize this template with existing template settings, or create a template with blank settings',
+    'templates_empty' => 'Trống',
+    'templates_question' => 'Template problem for help',
     'templates_maint' => 'Phong cách chính',
     'templates_maint_default_comment' =>
         '<li>Bạn đang sửa đổi các mẫu mặc định, để tạo thuận lợi cho việc mở rộng của các mẫu khác, chúng tôi đề nghị bạn không sửa đổi nội dung của các mẫu mặc định.</ li> <li>Nếu bạn muốn thay đổi các file mẫu để sửa đổi các thư mục theo mẫu và sau đó sao chép vào những thay đổi khác.</ li> ',
@@ -4311,11 +4311,11 @@ $lang = array(
     'members_edit_password_comment' => 'Nếu không thay đổi xin để trống',
     'members_edit_clearquestion' => 'Xóa câu hỏi bảo mật',
     'members_edit_status' => 'Khóa người dùng hiện hành',
-    'members_edit_freeze' => '用户冻结状态',
-    'members_edit_freeze_false' => '未冻结',
-    'members_edit_freeze_password' => '需重置密码后解冻',
-    'members_edit_freeze_admincp' => '需后台审核后解冻',
-    'members_edit_freeze_email' => '需验证邮箱或后台审核后解冻',
+    'members_edit_freeze' => 'User freeze status',
+    'members_edit_freeze_false' => 'Not frozen',
+    'members_edit_freeze_password' => 'Need to reset the password and unfreeze',
+    'members_edit_freeze_admincp' => 'Need to unfreeze after background review',
+    'members_edit_freeze_email' => 'Need to verify the mailbox or unfreeze after background review',
     'members_edit_clearquestion_comment' =>
         'Chọn Yes là xóa câu hỏi an toàn, chọn No là ko thay đổi gì cả',
     'members_edit_nickname' => 'Tên thành viên',
@@ -4433,7 +4433,7 @@ $lang = array(
     'members_ban_delshare' => 'Share',
     'members_ban_postcomment' => 'Trả lời bài',
     'members_ban_delcomment' => 'Bình luận và phản hồi',
-    'members_ban_delprofile' => '用户资料',
+    'members_ban_delprofile' => 'User information',
     'members_ban_delavatar' => 'Avatar',
     'members_ban_reason' => 'Lý do',
     'members_ban_reason_comment' =>
@@ -4443,18 +4443,18 @@ $lang = array(
     'members_search_between' => 'Từ',
     'members_search_group' => 'Tìm trong các nhóm',
     'members_search_group_comment' => 'Bấm CTRL để chọn nhiều nhóm tìm kiếm',
-    'members_search_medal' => '勋章',
+    'members_search_medal' => 'medal',
     'members_search_medal_comment' =>
-        '设置拥有指定勋章的用户，可以按住 CTRL 多选',
-    'members_search_usertag' => '用户标签',
+        'Set up users with specified medals, you can hold down CTRL to select multiple',
+    'members_search_usertag' => 'User label',
     'members_search_usertag_comment' =>
-        '设置指定标签的用户，可以按住 CTRL 多选',
+        'Set the user of the specified label, you can hold down CTRL to select multiple',
     'members_search_extgroup' => 'Nhóm mở rộng',
-    'members_search_table' => '用户表',
+    'members_search_table' => 'user table',
     'members_search_table_comment' =>
-        '更新用户数据时，存档表中的用户相关数据不会更新',
-    'members_search_table_master' => '主表',
-    'members_search_table_archive' => '存档表',
+        'When updating user data, user-related data in the archive table will not be updated',
+    'members_search_table_master' => 'Primary table',
+    'members_search_table_archive' => 'Archive table',
     'members_search_user' => 'Tên người dùng',
     'members_search_user_comment' => 'Dùng dấu * để tìm ra nhiều kết quả hơn',
     'members_search_repeatuser' => 'Tên đăng nhập',
@@ -4481,7 +4481,7 @@ $lang = array(
     'members_search_nonexistence' =>
         'Bạn tìm kiếm không có thành viên nào phụ hợp. <a href="javascript:history.go(-1);" class="act"> Tìm lại </ a> ',
     'members_search_lockstatus' => 'Đã bị khoá',
-    'members_search_freezestatus' => '是否冻结',
+    'members_search_freezestatus' => 'Is it frozen',
     'members_search_emailstatus' => 'Đã xác nhận Email',
     'members_search_avatarstatus' => 'Có Avatar',
     'members_search_videostatus' => 'Có chứng nhận video',
@@ -4627,13 +4627,13 @@ $lang = array(
     'members_ipban_tips' =>
         '<li> Nếu bạn là Admin, bạn có thể thêm dấu * để cấm cả dải IP</ li>',
     'members_ipban_location' => 'Địa điểm',
-    'members_ipban_input' => '导入禁止 IP 列表',
+    'members_ipban_input' => 'Import banned IP list',
     'members_ipban_input_tips' =>
         '<li>此操作需要在管理组内开启相关权限，只有站点管理员可以使用。</li><li>可以使用以前导出的禁止IP列表，也可以手动编写以便批量禁止IP。</li><li>你可以 <a href="' .
         ADMINSCRIPT .
         '?action=members&operation=ipban&ipact=output">导出现有禁止IP库</a></li>',
     'members_ipban_input_comment' =>
-        '手动导入禁止 IP 的格式为“IP地址;有效天数”或者“IP地址”（有效期默认30天），每行一条；也可以导入以前导出的禁止IP地址列表。',
+        'The format of manually importing banned IP is "IP address; number of valid days" or "IP address" (the validity period is 30 days by default), one per line; you can also import the previously exported list of banned IP addresses.',
     'members_profile' => 'Thông tin thành viên',
     'members_profile_edit' => 'Chỉnh sửa',
     'members_profile_list' => 'Danh sách field',
@@ -4722,7 +4722,7 @@ $lang = array(
     'admingroup_edit_mod_thread_comment' =>
         'Thiết đặt này đối với trong phạm vi diễn đàn cho phép di chuyển, xóa đóng bài viết',
     'admingroup_edit_edit_post' => 'Sửa bài',
-    'admingroup_edit_edit_post_comment' => '设置是否允许编辑管理范围内的帖子',
+    'admingroup_edit_edit_post_comment' => 'Set whether to allow editing of posts within the scope of management',
     'admingroup_edit_edit_poll' => 'Bình chọn',
     'admingroup_edit_edit_poll_comment' =>
         'Thiết hay không cho phép chỉnh sửa trong phạm vi quản lý tùy chọn cho chủ đề để bình chọn',
@@ -4756,8 +4756,8 @@ $lang = array(
     'admingroup_edit_highlight_thread' => 'Được cho phép để làm nổi bật chủ đề',
     'admingroup_edit_highlight_thread_comment' =>
         'Thiết lập hay không để cho phép các chủ đề trong phạm vi quản lý nêu bật',
-    'admingroup_edit_live_thread' => '允许直播主题',
-    'admingroup_edit_live_thread_comment' => '设置是否允许直播管理范围内的主题',
+    'admingroup_edit_live_thread' => 'Allow live themes',
+    'admingroup_edit_live_thread_comment' => 'Set whether to allow topics within the scope of live broadcast management',
     'admingroup_edit_recommend_thread' => 'Cho phép giới thiệu ',
     'admingroup_edit_recommend_thread_comment' =>
         'Thiết hay không cho phép phạm vi quản lý trong các chủ đề được đề nghị (để được mở rộng trong các phần tương ứng được khuyến khích để thiết lập để mở tính năng bên trong các chủ đề)',
@@ -8304,59 +8304,59 @@ $lang = array(
         '1000 (giới thiệu người sử dụng máy chủ độc lập, có thể tăng tốc độ xử lý)',
     'postsplit_manage_submit' => 'Xác nhận các hoạt động bảng',
     'optimizer_security_tips' =>
-        '<li>体检可以帮助您发现网站问题，消除安全风险</li><li>设置项安全检测</li><li>安装插件安全及更新检测</li>',
+        '<li>Physical examination can help you find website problems and eliminate security risks</li><li>Setting item security check</li><li>Install plug-in security and update detection</li>',
     'optimizer_serversec_tips' =>
-        '<li>体检可以帮助您发现网站底层问题，消除安全风险</li>',
+        '<li>Physical examination can help you discover the underlying problems of the website and eliminate security risks</li>',
     'optimizer_performance_tips' =>
         '<li>Physical examination can help you discover website performance problems and enhance website performance</li>',
-    'optimizer_check_unit_optimizer_plugin' => '检测应用是否有新的更新',
-    'optimizer_check_unit_optimizer_upgrade' => '查看是否有新的产品版本',
-    'optimizer_check_unit_optimizer_patch' => '检测产品是有有漏洞补丁发布',
-    'optimizer_check_unit_optimizer_thread' => '检测是否需要对主题表进行优化',
-    'optimizer_check_unit_optimizer_setting' => '查看是否有设置项可以优化',
-    'optimizer_check_unit_optimizer_post' => '检测是否需要对帖子表进行优化',
-    'optimizer_check_unit_optimizer_member' => '检测是否需要对用户表进行优化',
-    'optimizer_check_unit_optimizer_dbbackup' => '检测数据是否需要进行备份',
-    'optimizer_check_unit_optimizer_filecheck' => '查看是否需要进行文件校验',
-    'optimizer_check_unit_optimizer_log' => '查看是否有需要优化清理的日志表',
-    'optimizer_check_unit_optimizer_seo' => '检测SEO优化设置',
+    'optimizer_check_unit_optimizer_plugin' => 'Check if the app has new updates',
+    'optimizer_check_unit_optimizer_upgrade' => 'Check if there is a new product version',
+    'optimizer_check_unit_optimizer_patch' => 'Check if the product has vulnerabilities and patches are released',
+    'optimizer_check_unit_optimizer_thread' => 'Check whether the topic table needs to be optimized',
+    'optimizer_check_unit_optimizer_setting' => 'Check if there are settings that can be optimized',
+    'optimizer_check_unit_optimizer_post' => 'Check whether the post table needs to be optimized',
+    'optimizer_check_unit_optimizer_member' => 'Check whether the user table needs to be optimized',
+    'optimizer_check_unit_optimizer_dbbackup' => 'Check whether the data needs to be backed up',
+    'optimizer_check_unit_optimizer_filecheck' => 'Check if file verification is required',
+    'optimizer_check_unit_optimizer_log' => 'Check if there are log tables that need to be optimized and cleaned up',
+    'optimizer_check_unit_optimizer_seo' => 'Check SEO optimization settings',
     'optimizer_check_unit_optimizer_dbbackup_clean' =>
-        '检测是否存在未删除的备份文件',
-    'optimizer_check_unit_optimizer_inviteregister' => '检测允许新用户注册项',
+        'Check if there are undeleted backup files',
+    'optimizer_check_unit_optimizer_inviteregister' => 'etection allows new users to register items',
     'optimizer_check_unit_optimizer_emailregister' =>
-        '检测通过邮件发送注册连接项',
-    'optimizer_check_unit_optimizer_pwlength' => '检测密码最小长度项',
-    'optimizer_check_unit_optimizer_regmaildomain' => '检测注册邮箱域名限制',
-    'optimizer_check_unit_optimizer_ipregctrl' => '检测限时注册的 IP 列表项',
-    'optimizer_check_unit_optimizer_newbiespan' => '检测新手见习期限',
+        'Detect registration connection items sent by email',
+    'optimizer_check_unit_optimizer_pwlength' => 'Check the minimum password length item',
+    'optimizer_check_unit_optimizer_regmaildomain' => 'Check the domain limit of registered email',
+    'optimizer_check_unit_optimizer_ipregctrl' => 'IP list items registered during detection time limit',
+    'optimizer_check_unit_optimizer_newbiespan' => 'Test novice probation period',
     'optimizer_check_unit_optimizer_editperdel' =>
-        '检测允许用户编辑帖子时删除帖子项',
-    'optimizer_check_unit_optimizer_recyclebin' => '检测版块是否开启回收站',
+        'Detect to delete post items when users are allowed to edit posts',
+    'optimizer_check_unit_optimizer_recyclebin' => 'Check whether the recycle bin is turned on',
     'optimizer_check_unit_optimizer_forumstatus' =>
-        '检测隐藏版块是否设置访问权限',
-    'optimizer_check_unit_optimizer_usergroup9' => '检测限制会员用户组权限设置',
-    'optimizer_check_unit_optimizer_usergroup4' => '检测禁止发言用户组权限设置',
-    'optimizer_check_unit_optimizer_usergroup5' => '检测禁止访问用户组权限设置',
-    'optimizer_check_unit_optimizer_usergroup6' => '检测禁止IP用户组权限设置',
-    'optimizer_check_unit_optimizer_cloudsecurity' => '检测防水墙设置',
-    'optimizer_check_unit_optimizer_attachexpire' => '检测防盗链设置',
+        'Check whether the hidden section is set to access permissions',
+    'optimizer_check_unit_optimizer_usergroup9' => 'Detect and limit the permission settings of member user groups',
+    'optimizer_check_unit_optimizer_usergroup4' => 'Detecting the permission setting of the user group that is prohibited to speak',
+    'optimizer_check_unit_optimizer_usergroup5' => 'Detecting permission settings for prohibiting access to user groups',
+    'optimizer_check_unit_optimizer_usergroup6' => 'Detection prohibits IP user group permission settings',
+    'optimizer_check_unit_optimizer_cloudsecurity' => 'Check the waterproof wall setting',
+    'optimizer_check_unit_optimizer_attachexpire' => 'Detect anti-leech setting',
     'optimizer_check_unit_optimizer_attachrefcheck' =>
-        '检测下载附件来路检查设置',
+        'Check the settings of the download attachments',
     'optimizer_check_unit_optimizer_loginpwcheck' =>
-        '检测弱密码登录检测是否开启提示或者强制修改密码',
+        'Detect weak password login detection whether to open the prompt or force the password to be changed',
     'optimizer_check_unit_optimizer_loginoutofdate' =>
-        '检测异地登录检测是否开启',
-    'optimizer_check_unit_optimizer_eviluser' => '检测防水墙违规用户',
-    'optimizer_check_unit_optimizer_white_list' => '检测防水墙白名单',
+        'Detect whether remote login detection is enabled',
+    'optimizer_check_unit_optimizer_eviluser' => 'Detect users who violate the waterproof wall',
+    'optimizer_check_unit_optimizer_white_list' => 'Detect whitelist of waterproof walls',
     'optimizer_check_unit_optimizer_security_daily' =>
-        '检测是否开启防水墙每日优化计划任务',
+        'Check whether the waterproof wall is turned on and optimize the scheduled task daily',
     'optimizer_check_unit_optimizer_postqqonly' =>
-        '检测发帖需要绑定QQ号检测是否开启',
+        'To detect posting, you need to bind a QQ number to detect whether it is turned on',
     'optimizer_check_unit_optimizer_aggid' =>
-        '检测“管理员，超级版主，版主”QQ登录检测是否开启',
+        'Check whether "Administrator, Super Moderator, Moderator" QQ login detection is enabled',
     'optimizer_check_unit_optimizer_dos8p3' =>
-        '检测 DOS 8.3 文件名支持是否开启',
-    'optimizer_check_unit_optimizer_httphost' => '检测空 HOST 访问是否开启',
+        'Check if DOS 8.3 file name support is enabled',
+    'optimizer_check_unit_optimizer_httphost' => 'Check whether empty HOST access is open',
     'domain_topic' => 'Chủ đề',
     'domain_home' => 'Không gian cá nhân',
     'domain_forum' => 'Diễn đàn',
@@ -8391,7 +8391,7 @@ $lang = array(
     'membersplit_lasttime_check' => 'Lần kiểm tra',
     'membersplit_has_no_check' =>
         'Trang web của bạn đã không bao giờ được sử dụng bảng tối ưu hóa, nó được đề nghị kiểm tra y tế ngay lập tức',
-    'membersplit_without_optimization' => '用户表良好，目前不用优化',
+    'membersplit_without_optimization' => 'The user table is good, no need to optimize at present',
     'membersplit_check_tips' =>
         '<li>Through the user optimization can significantly improve the performance of the website.</li><li>Slower due to medical operations, medical examination results will cache a day</li>',
     'membersplit_tips' =>

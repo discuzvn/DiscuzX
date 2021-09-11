@@ -2990,7 +2990,7 @@ $lang = array(
             52 => 'Cố định top navigation khi cuộn trang',
             53 => 'setting_styles_forumdisplay_threadpreview',
             54 => '关闭主题预览',
-            55 => '关闭后将不可在主题列表页预览帖子内容',
+            55 => 'After closing, you will not be able to preview the content of the post on the topic list page',
         ),
     ),
     235 => array(

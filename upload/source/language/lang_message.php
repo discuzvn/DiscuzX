@@ -725,7 +725,7 @@ $lang = array(
         'Có lỗi, Bạn không phải là thành viên {_G/setting/navs/3/navname}, không thể mời',
     'noperm_at_user' => 'Bạn không @ người dùng',
     'thread_at_usernum_limit' => 'Số người @ đã đạt tối đa',
-    'ranklist_status_off' => 'Bảng xếp hạng tắt',
+    'ranklist_status_off' => 'Bảng xếp hạng đang tạm đóng',
     'report_parameters_invalid' =>
         'Trang thông số lỗi, tạm thời không thể báo cáo',
     'report_succeed' => 'Báo cáo thành công ',

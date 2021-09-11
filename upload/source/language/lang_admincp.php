@@ -982,21 +982,21 @@ $lang = array(
     'setting_styles_global_creditnotice' => 'Nhắc nhở',
     'setting_styles_global_creditnotice_comment' =>
         'Khi một người sử dụng diễn đàn trong các hoạt động có một thay đổi trong điểm số cửa sổ pop-up tin nhắn sẽ thông báo cho người sử dụng',
-    'setting_styles_global_showusercard' => 'Hiển thị các thẻ thông tin',
+    'setting_styles_global_showusercard' => 'Hiển thị thẻ thông tin',
     'setting_styles_global_showusercard_comment' =>
         'Hiện thẻ thông tin người dùng khi rê chuột qua tên hoặc avatar',
     'setting_styles_global_anonymoustext' =>
-        'Vô danh của người sử dụng biệt danh',
+        'Tiêu đề cho tài khoản anonymous',
     'setting_styles_global_anonymoustext_comment' =>
         'Bài viết hoặc ý kiến để thiết lập các tin nhắn nặc danh trong văn bản người sử dụng.Chẳng hạn như : trang web của người dùng',
-    'setting_styles_global_home_style' => 'Phong cách trang chủ',
+    'setting_styles_global_home_style' => 'Cách hiện trang chủ',
     'setting_styles_global_home_style_comment' =>
-        'Chọn một nhật ký, album ảnh, chia sẻ, ghi âm, phát sóng, phong cách hiển thị',
-    'setting_styles_global_home_style_1' => 'SNS module',
-    'setting_styles_global_home_style_0' => 'Phong cách module diễn đàn',
+        'Chọn cách hiển thị blog, album ảnh, chia sẻ...',
+    'setting_styles_global_home_style_1' => 'Phong cách SNS',
+    'setting_styles_global_home_style_0' => 'Phong cách diễn đàn',
     'setting_styles_global_homepage_style' => 'Trang chủ cá nhân',
     'setting_styles_global_homepage_style_comment' => 'Hồ sơ cá nhân',
-    'setting_styles_global_homepage_style_1' => 'DIY phong cách',
+    'setting_styles_global_homepage_style_1' => 'DIY',
     'setting_styles_global_homepage_style_0' => 'Phong cách diễn đàn',
     'setting_styles_customnav' => 'Danh mục',
     'setting_styles_sitemessage' => 'Thông báo',
@@ -1042,7 +1042,7 @@ $lang = array(
         'Thu hẹp màn hình (cố định chiều rộng)',
     'setting_styles_index_allowwidthauto_0' => 'Màn hình rộng (toàn màn hình)',
     'setting_styles_index_switchwidthauto' =>
-        'Cho phép người dùng tự do chuyển đổi',
+        'Cho phép người dùng thay đổi',
     'setting_styles_index_switchwidthauto_comment' =>
         'Thiết lập cho phép người dùng có thể tự thay đổi bề rộng hay không?',
     'setting_styles_index_subforumsindex' => 'Hiện diễn đàn con',

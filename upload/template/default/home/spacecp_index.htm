@@ -638,7 +638,7 @@ function succeedhandle_$_GET['handlekey'] (url, message, values) {
 <!--{elseif $_GET['op'] == 'savespaceinfo'}-->
 
 <!--{eval $space[domainurl] = space_domain($space);}-->
-<strong id="spacename"><!--{if $space[spacename]}-->$space[spacename]<!--{else}-->$space[username]{lang somebody_space}<!--{/if}--></strong>
+<strong id="spacename"><!--{if $space[spacename]}-->$space[spacename]<!--{else}-->{lang somebody_space} $space[username]<!--{/if}--></strong>
 <a id="domainurl" href="$space[domainurl]" onclick="setCopy('$space[domainurl]', '{lang copy_space_address}');return false;" class="xs0 xw0">$space[domainurl]</a>
 <span id="spacedescription" class="xw0">$space[spacedescription]</span>
 <script type="text/javascript" reload="1">spaceDiy.initSpaceInfo();</script>
@@ -650,7 +650,7 @@ function succeedhandle_$_GET['handlekey'] (url, message, values) {
 	<input type="hidden" name="formhash" value="{FORMHASH}" />
 	<input type="hidden" name="savespaceinfosubmit" value="true" />
 	<strong class="pns mbm">
-		<em class="xw0 xs1">{lang my_space_name}: </em><input type="text" class="px vm" value="{if $space['spacename']}$space['spacename']{else}$space['username']{lang somebody_space}{/if}" name="spacename" />&nbsp;
+		<em class="xw0 xs1">{lang my_space_name}: </em><input type="text" class="px vm" value="{if $space['spacename']}$space['spacename']{else}{lang somebody_space} $space['username']{/if}" name="spacename" />&nbsp;
 		<button type="submit" class="pn pnc vm" onclick="spaceDiy.spaceInfoSave();"><em>{lang save}</em></button>
 		<button type="button" class="pn vm" onclick="spaceDiy.spaceInfoCancel();"><em>{lang cancel}</em></button>
 	</strong>

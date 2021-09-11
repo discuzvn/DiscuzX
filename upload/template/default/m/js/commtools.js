@@ -301,7 +301,7 @@ var TOOLS = {
 	showLoading: function (display, waiting, autoClose) {
 		var display = display || 'block';
 		var autoClose = autoClose || false;
-		waiting = waiting || '正在加载...';
+		waiting = waiting || 'Đang tải...';
 		if (display == 'block') {
 			TOOLS.dialog({id: 'loading', content: waiting, noMask: true, autoClose: autoClose});
 		} else {

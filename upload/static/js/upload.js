@@ -1096,7 +1096,7 @@ function fileQueued(file) {
 
 		}
 		if(createQueue) {
-			progress.setStatus("等待上传...");
+			progress.setStatus("Đang đợi...");
 		} else {
 			this.cancelUpload(file.id);
 			progress.setCancelled();
@@ -1197,7 +1197,7 @@ function uploadStart(file) {
 			preObj.innerHTML = '';
 		}
 		var progress = new FileProgress(file, this.customSettings.progressTarget);
-		progress.setStatus("上传中...");
+		progress.setStatus("Đang tải lên...");
 		progress.toggleCancel(true, this);
 		if(this.customSettings.uploadSource == 'forum') {
 			var objId = this.customSettings.uploadType == 'attach' ? 'attachlist' : 'imgattachlist';
@@ -1216,7 +1216,7 @@ function uploadProgress(file, bytesLoaded, bytesTotal) {
 		var percent = Math.ceil((bytesLoaded / bytesTotal) * 100);
 
 		var progress = new FileProgress(file, this.customSettings.progressTarget);
-		progress.setStatus("正在上传("+percent+"%)...");
+		progress.setStatus("Đang tải ("+percent+"%)...");
 
 	} catch (ex) {
 		this.debug(ex);

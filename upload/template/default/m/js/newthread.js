@@ -536,7 +536,7 @@ var newThread = {
 			function (error) {
 				TOOLS.hideLoading();
 				if (error.messageval == 'post_sort_isnull') {
-					TOOLS.showTips('手机上暂不支持发表分类信息，请移步PC进行操作', true);
+					TOOLS.showTips('The mobile phone does not support posting classified information, please move to the PC to operate', true);
 					return;
 				}
 				if (error.messageval == 'submit_seccode_invalid') {
@@ -549,7 +549,7 @@ var newThread = {
 			}
 		);
 		jq('#submitButton').disabled = true;
-		TOOLS.showLoading(null, '正在发帖中...', false);
+		TOOLS.showLoading(null, 'Posting...', false);
 	},
 	checkSecure: function (force) {
 		secure.checkSecure({
@@ -616,7 +616,7 @@ var newThread = {
 
 		jq('.cancelBtn').bind('click', function () {
 			if (jq('.photoList .attchImg').length > 0) {
-				var result = confirm('是否放弃当前内容?');
+				var result = confirm('Whether to abandon the current content?');
 			} else {
 				var result = true;
 			}

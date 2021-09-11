@@ -190,7 +190,7 @@ function uploadStart(file) {
 			preObj.innerHTML = '';
 		}
 		var progress = new FileProgress(file, this.customSettings.progressTarget);
-		progress.setStatus("上传中...");
+		progress.setStatus("Đang tải...");
 		progress.toggleCancel(true, this);
 		if(this.customSettings.uploadSource == 'forum') {
 			var objId = this.customSettings.uploadType == 'attach' ? 'attachlist' : 'imgattachlist';

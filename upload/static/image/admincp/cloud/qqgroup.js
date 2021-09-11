@@ -65,13 +65,13 @@ function ajaxChangeSearch() {
 }
 
 function ajaxGetSearchResultThreads() {
-	cloudj('#search_result').html('<tr><td colspan="3">加载中...</td></tr>');
+	cloudj('#search_result').html('<tr><td colspan="3">Loading...</td></tr>');
 	qqgroupajaxpost('search_form', 'search_result', 'search_result', null, null, function() {initSelect(); return false});
 	return false;
 }
 
 function ajaxGetPageResultThreads(page, mpurl) {
-	cloudj('#search_result').html('<tr><td colspan="3">加载中...</td></tr>');
+	cloudj('#search_result').html('<tr><td colspan="3">Loading...</td></tr>');
 	if (typeof page == 'undefined' || page === null) {
 		page = 1;
 	}
@@ -299,14 +299,14 @@ function removeNormalThreadRecall(displayorder, inNormalEditor) {
 		if (inNormalEditor) {
 			saveAllThread();
 		}
-		firstThreadLi.html('<div class="tips">点击左侧 <img src="static/image/admincp/cloud/qun_op_list.png" align="absmiddle" /> 将信息推送到列表</div>');
+		firstThreadLi.html('<div class="tips">Bấm bên trái để <img src="static/image/admincp/cloud/qun_op_list.png" align="absmiddle" /> đẩy thông tin vào danh sách</div>');
 		firstThreadLi.show();
 	}
 }
 
 function ajaxUploadQQGroupImage() {
 	cloudj('#uploadImageResult').parent().show();
-	cloudj('#uploadImageResult').text('图片上传中，请稍后...');
+	cloudj('#uploadImageResult').text('Đang tải, vui lòng đợi...');
 	qqgroupajaxpost('uploadImage', 'uploadImageResult', 'uploadImageResult', null, null, 'uploadRecall()');
 }
 

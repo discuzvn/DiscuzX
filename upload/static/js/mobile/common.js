@@ -808,7 +808,7 @@ var pullrefresh = {
 		.on('touchend', function(e) {
 			if(status == true) {
 				if(reloadflag) {
-					contentobj.html('<img src="'+ STATICURL + 'image/mobile/images/icon_load.gif" style="vertical-align:middle;margin-right:5px;">正在加载...');
+					contentobj.html('<img src="'+ STATICURL + 'image/mobile/images/icon_load.gif" style="vertical-align:middle;margin-right:5px;">Đang tải...');
 					contentobj.animate({'top': (-30 + 75) + 'px'}, 618, 'linear');
 					divobj.animate({'height': '75px'}, 618, 'linear', function() {
 						window.location.reload();

@@ -323,7 +323,7 @@ $lang = array(
     'topic_tplname_comment' =>
         'Xin vui lòng tải lên các tập tin mẫu vào template/default/portal, tên tập tin phải có dạng portal_topic_*.htm, *tuỳ chỉnh<br />Nếu bạn muốn chọn lại mẫu, hãy chắc chắn rằng các mẫu mới có thể được kéo với mẫu ban đầu với các ID cùng một khu vực, nếu không nó sẽ bị mất những đoạn dữ liệu hoặc tất cả các dữ liệu gốc.',
     'tplname' => 'Tên Mẫu',
-    'upload_from_local' => 'Tải lên từ',
+    'upload_from_local' => 'Tải lên',
     'yes' => 'Có',
     'article_inner_navigation' => 'Bài chuyển hướng',
     'article_inner_page' => 'Trang',

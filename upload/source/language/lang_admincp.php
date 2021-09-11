@@ -4010,7 +4010,7 @@ $lang = array(
     'misc_customnav_parent_comment' =>
         'Thiết lập này chuyển hướng trong chuyển hướng chính dưới đây',
     'misc_customnav_parent_top' => 'Menu Chính',
-    'misc_customnav_subtype' => 'Định hướng phong cách thứ cấp',
+    'misc_customnav_subtype' => 'Cách hiện submenu',
     'misc_customnav_subtype_comment' =>
         'Nếu sự tồn tại của trung chính hướng dẫn, định hướng thứ cấp phong cách trình đơn thiết lập được hiển thị, hoặc hiển thị theo chiều ngang',
     'misc_customnav_subtype_menu' => 'Menu Style',

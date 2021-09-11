@@ -513,7 +513,7 @@ var newReply = {
 			}
 		);
 		jq('#submitButton').disabled = true;
-		TOOLS.showLoading(null, '正在发帖中...', false);
+		TOOLS.showLoading(null, 'Posting...', false);
 	},
 	initForm: function () {
 		var storageContentKey = uid + "thread_content";

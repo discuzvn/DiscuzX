@@ -642,7 +642,7 @@ include_once template("portal/portalcp_article");
 function portalcp_get_summary($message) {
 	$message = preg_replace(array("/\[attach\].*?\[\/attach\]/", "/\&[a-z]+\;/i", "/\<script.*?\<\/script\>/"), '', $message);
 	$message = preg_replace("/\[.*?\]/", '', $message);
-	$message = getstr(strip_tags($message), 200);
+	$message = getstr(strip_tags($message), 255);
 	return $message;
 }
 

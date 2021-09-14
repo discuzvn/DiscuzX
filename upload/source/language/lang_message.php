@@ -311,7 +311,7 @@ $lang = array(
     'admin_split_new_invalid' =>
         'Có lỗi, Bạn chưa chọn chủ đề bạn muốn phân chia vào các bài mới',
     'view_images_do_not_exist' =>
-        'Có lỗi, Những hình ảnh bạn muốn xem không tồn tại hoặc đang được xem xét',
+        'Có lỗi, Những hình ảnh bạn muốn xem không tồn tại hoặc đang được kiểm duyệt',
     'view_to_info_did_not_exist' =>
         'Có lỗi, thông tin bạn muốn xem không tồn tại hoặc đã bị xóa...',
     'plugin_module_nonexistence' =>
@@ -490,7 +490,7 @@ $lang = array(
     'replynotice_success_1' => 'Thành công ',
     'replynotice_success_0' => 'Bỏ đặt thành công ',
     'replynotice_error' =>
-        'Có lỗi, Không phục hồi cài đặt thông báo, chủ đề không tồn tại hoặc đang được xem xét',
+        'Có lỗi, Không phục hồi cài đặt thông báo, chủ đề không tồn tại hoặc đang được kiểm duyệt',
     'no_privilege_indexheats' =>
         'Có lỗi, Bạn không có quyền để loại bỏ mục Diễn đàn nóng',
     'forum_nopermission' =>
@@ -604,7 +604,7 @@ $lang = array(
         'Giao dịch điểm bị đóng, xin vui lòng liên hệ với quản trị viên.',
     'forum_access_disallow' => 'Có lỗi, bạn không có quyền làm điều này',
     'post_check' =>
-        'Có lỗi, bài viết không tồn tại vì bị xoá hoặc đang được xem xét<br /><a href="forum.php?mod=viewthread&tid={tid}">[ Click vào đây để thử chủ đề khác ]</a>',
+        'Có lỗi, bài viết không tồn tại vì bị xoá hoặc đang được kiểm duyệt<br /><a href="forum.php?mod=viewthread&tid={tid}">[ Click vào đây để thử chủ đề khác ]</a>',
     'redirect_nextnewset_nonexistence' =>
         'Có lỗi, không có chủ đề mới hơn so với hiện tại',
     'redirect_nextoldset_nonexistence' =>
@@ -751,7 +751,7 @@ $lang = array(
     'topic_is_closed' => 'Có lỗi, Tính năng này hiện chưa mở',
     'view_no_article_id' => 'Có lỗi, Bạn không thể xem các bài viết ID',
     'view_article_no_exist' =>
-        'Có lỗi, bài viết bạn chỉ định không tồn tại hoặc đang được xem xét',
+        'Có lỗi, bài viết bạn chỉ định không tồn tại hoặc đang được kiểm duyệt',
     'search_album_closed' => 'Có lỗi, chức năng tìm kiếm Album đã đóng',
     'search_blog_closed' => 'Có lỗi, Chức năng tìm blog đã đóng',
     'search_forum_closed' => 'Có lỗi, Tìm kiếm trong diễn đàn đã đóng',

@@ -10,7 +10,7 @@ if (!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 $lang = array(
-    'blockclass_html' => 'Danh mục',
+    'blockclass_html' => 'Chuyên mục',
     'blockclass_html_html' => 'Module tĩnh',
     'blockclass_html_script_blank' => 'Mã HTML',
     'blockclass_html_script_search' => 'Điều tìm kiếm',
@@ -23,7 +23,7 @@ $lang = array(
     'blockclass_html_script_adv' => 'Quảng cáo',
     'blockclass_html_script_friendlink' => 'Liên kết',
     'blockclass_html_script_sort' => 'Rao vặt',
-    'blockclass_html_script_category' => 'Danh mục',
+    'blockclass_html_script_category' => 'Chuyên mục',
     'blockclass_html_announcement' => 'Thông báo',
     'blockclass_announcement_field_url' => 'Liên kết',
     'blockclass_announcement_field_title' => 'Tiêu đề',
@@ -144,11 +144,11 @@ $lang = array(
     'blockclass_article_script_articlehot' => 'Bài nổi bật',
     'blockclass_article_script_articlespecified' => 'Quy định',
     'blockclass_article_script_article' => 'Nâng cao',
-    'blockclass_portal_category' => 'Danh mục',
+    'blockclass_portal_category' => 'Chuyên mục',
     'blockclass_category_field_url' => 'Liên kết',
     'blockclass_category_field_title' => 'Tên mục',
     'blockclass_category_field_articles' => 'Bài viết',
-    'blockclass_category_script_portalcategory' => 'Danh mục',
+    'blockclass_category_script_portalcategory' => 'Chuyên mục',
     'blockclass_portal_topic' => 'Chủ đề',
     'blockclass_topic_field_url' => 'Liên kết',
     'blockclass_topic_field_title' => 'Tiêu đề',

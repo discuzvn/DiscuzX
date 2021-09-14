@@ -998,7 +998,7 @@ $lang = array(
     'setting_styles_global_homepage_style_comment' => 'Hồ sơ cá nhân',
     'setting_styles_global_homepage_style_1' => 'DIY',
     'setting_styles_global_homepage_style_0' => 'Phong cách diễn đàn',
-    'setting_styles_customnav' => 'Danh mục',
+    'setting_styles_customnav' => 'Chuyên mục',
     'setting_styles_sitemessage' => 'Thông báo',
     'setting_styles_sitemessage_time' => 'Thời gian hiện(giây)',
     'setting_styles_sitemessage_time_comment' =>
@@ -1872,7 +1872,7 @@ $lang = array(
         'Thiết lập Javascript The script directory. When the script directory is the cache directory, the system will be the default directory *.js Nén tập tin và sau đó lưu vào thư mục cache để cải thiện tốc độ đọc',
     'setting_serveropti_jspath_default' => 'Thư mục mặc định "include/js/"',
     'setting_serveropti_jspath_cache' => 'Thư mục Cache',
-    'setting_serveropti_jspath_custom' => 'Danh mục',
+    'setting_serveropti_jspath_custom' => 'Chuyên mục',
     'setting_serveropti_csspath' => 'CSS file URL:',
     'setting_serveropti_csspath_comment' =>
         'Set the URL of the site CSS file cache. You need to update the template cache after changing this setting',
@@ -6081,7 +6081,7 @@ $lang = array(
     'moderate_reasonpm' => 'Lý do',
     'moderate_bound' => 'Phạm vi kích hoạt',
     'moderate_dateline' => 'Được đăng',
-    'moderate_article_category' => 'Danh mục',
+    'moderate_article_category' => 'Chuyên mục',
     'moderate_content_keyword' => 'Nội dung',
     'moderate_title_keyword' => 'Tiêu đề',
     'moderate_showcensor' => 'Chữ hiển thị của bộ lọc',

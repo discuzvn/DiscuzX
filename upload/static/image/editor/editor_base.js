@@ -622,7 +622,7 @@ function changeEditFull(flag, ev) {
 		parent.changeEditFull(flag);
 		ev = ev || event;
 		var ele = ev.target || ev.srcElement;
-		ele.innerHTML = flag ? 'Trở lại' : 'Toàn màn hình';
+		ele.innerHTML = flag ? 'Thu nhỏ' : 'Phóng to';
 		ele.onclick = function() {changeEditFull(!flag, ev)};
 	}
 }

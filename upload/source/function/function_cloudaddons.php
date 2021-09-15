@@ -15,10 +15,10 @@ $addonsource = $_G['config']['addonsource'] ? $_G['config']['addonsource'] : ($_
 $addon = $addonsource ?
 	$_G['config']['addon'][$addonsource] :
 	array(
-		'website_url' => 'https://addon.dismall.com',
-		'download_url' => 'https://addon.dismall.com/index.php',
+		'website_url' => 'https://addons.discuzvn.org',
+		'download_url' => 'https://addons.discuzvn.org',
 		'download_ip' => '',
-		'check_url' => 'https://addon1.dismall.com/md5/',
+		'check_url' => 'https://addons.discuzvn.org/check',
 		'check_ip' => '',
 	);
 
@@ -34,18 +34,14 @@ function cloudaddons_md5($file) {
 
 function cloudaddons_getuniqueid() {
 	global $_G;
-	if(CLOUDADDONS_WEBSITE_URL == 'https://addon.dismall.com') {
-		return $_G['setting']['siteuniqueid'] ? $_G['setting']['siteuniqueid'] : C::t('common_setting')->fetch('siteuniqueid');
-	} else {
-		if(!$_G['setting']['addon_uniqueid']) {
-			$chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz';
-			$addonuniqueid = $chars[date('y')%60].$chars[date('n')].$chars[date('j')].$chars[date('G')].$chars[date('i')].$chars[date('s')].substr(md5($_G['clientip'].TIMESTAMP), 0, 4).random(6);
-			C::t('common_setting')->update('addon_uniqueid', $addonuniqueid);
-			require_once libfile('function/cache');
-			updatecache('setting');
-		}
-		return $_G['setting']['addon_uniqueid'];
+	if(!$_G['setting']['addon_uniqueid']) {
+		$chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz';
+		$addonuniqueid = $chars[date('y')%60].$chars[date('n')].$chars[date('j')].$chars[date('G')].$chars[date('i')].$chars[date('s')].substr(md5($_G['clientip'].TIMESTAMP), 0, 4).random(6);
+		C::t('common_setting')->update('addon_uniqueid', $addonuniqueid);
+		require_once libfile('function/cache');
+		updatecache('setting');
 	}
+	return $_G['setting']['addon_uniqueid'];
 }
 function cloudaddons_url($extra) {
 	global $_G;

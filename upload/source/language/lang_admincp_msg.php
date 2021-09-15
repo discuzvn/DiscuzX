@@ -158,8 +158,8 @@ $lang = array(
     'members_verify_update_succeed' =>
         'Thiết lập thẩm định cập nhật thành công ',
     'action_noaccess' => 'Có lỗi, bạn không có quyền sử dụng tính năng này',
-    'action_access_noexists' => '抱歉，站点配置文件中未配置需要的权限',
-    'action_noaccess_config' => '抱歉，站点配置文件中未配置本功能所需要的权限',
+    'action_access_noexists' => 'Sorry, the required permissions are not configured in the site configuration file',
+    'action_noaccess_config' => 'Sorry, the permissions required for this feature are not configured in the site configuration file',
     'members_delete_confirm' =>
         'Hành động này không thể được phục hồi, bạn chắc chắn muốn xóa {membernum} Người dùng？',
     'cloudaddons_check_write_error' =>
@@ -167,7 +167,7 @@ $lang = array(
     'cloudaddons_file_read_error' => 'File read error, please try again',
     'cloudaddons_file_write_error' => 'File write error, please try again',
     'cloudaddons_noaccess' =>
-        '只有网站创始人账号才能使用 <a href="https://addon.dismall.com/" target="_blank">Discuz! 应用中心</a> 安装插件和模板，如有疑问，请进入应用中心咨询应用中心客服：<a href="https://addon.dismall.com/" target="_blank">https://addon.dismall.com/</a>',
+        'cloudaddons_noaccess',
     'admingroups_edit_nonexistence' =>
         'Vui lòng chọn một nhóm quản lý hoạt động：',
     'adv_update_succeed' => 'Cập nhật danh sách quảng cáo thành công ',

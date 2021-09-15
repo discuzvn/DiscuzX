@@ -8511,7 +8511,7 @@ $lang = array(
     'plugins_validator_nowupgrade' =>
         'Plug-in có thể được cập nhật lên phiên bản mới, click vào cập nhật cài đặt',
     'plugins_validator_newversion' =>
-        'Plug-in phiên bản mới, hãy nhấp vào cài đặt cập nhật',
+        'Có bản cập nhật plugin mới',
     'plugins_validator_error' =>
         'Plug-in sau đây không phải là một plug-in chính hãng, bấm vào để cài đặt một chính hãng plug-in',
     'rewrite_message' => '<h1>Apache Web Server(Máy chủ độc lập)</h1>

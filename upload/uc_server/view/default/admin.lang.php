@@ -13,5 +13,5 @@ $lang = array(
     'user_addsubmit' => 'Thực hiện',
     'delete' => 'Xóa',
     'email' => 'Email',
-    'user_list' => 'Users List',
+    'user_list' => 'Danh sách users',
 );

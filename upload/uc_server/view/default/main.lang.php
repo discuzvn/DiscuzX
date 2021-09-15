@@ -61,5 +61,5 @@ $lang = array(
     'note_delete' => 'Xóa tin báo',
     'note_send' => 'Bổ sung tin báo',
     'dumpfile_exists' => 'Có file sao lưu',
-    'dumpfile_not_exists' => 'Không có back-up',
+    'dumpfile_not_exists' => 'Không có sao lưu',
 );

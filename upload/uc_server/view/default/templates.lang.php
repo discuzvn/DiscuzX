@@ -39,7 +39,7 @@ $languages = array(
     'menu_basic_setting' => 'Cơ bản',
     'menu_register_setting' => 'Register Config',
     'menu_mail_setting' => 'Thiết lập Mail',
-    'menu_manager_user' => 'User Manager',
+    'menu_manager_user' => 'Quản lý users',
     'menu_pm' => 'Tin hệ thống',
     'menu_credit_exchange' => 'Đổi điểm',
     'menu_censor_word' => 'Bộ lọc từ cấm',
@@ -199,7 +199,7 @@ $languages = array(
     'app_code_comment' =>
         'Khi các ứng dụng UCenter thông tin cấu hình có thể được sao chép vào các ứng dụng mã ở phía bên trái của các hồ sơ',
     'app_not_add_tips' =>
-        '不能通过 URL 添加应用的可能原因：1. 通过 URL 添加应用开关被关闭；2. 连续多次错误输入 UCenter 创始人密码',
+        'Possible reasons for not being able to add an application via URL: 1. The switch to add an application via URL is turned off; 2. Entering the UCenter founder password incorrectly several times in succession',
     'tag_tips' =>
         'Thiết lập ứng dụng hiện tại để thu hút TAG của ứng dụng khác. Trong giao diện "&#123;xxx&#125;" có nghĩa là đã lấy dữ liệu TAG biểu thị tương ứng tương đồng dữ liệu',
     'tag_global_template' => 'Giao diện chung',
@@ -319,12 +319,12 @@ $languages = array(
     'setting_pmfloodctrl' => 'prevent water',
     'setting_pmfloodctrl_comment' =>
         '0 không có hạn chế về việc di chuyển để giới hạn các máy móc thông qua hàng loạt quảng cáo',
-    'setting_addappbyurl' => '启用通过 URL 添加应用功能',
+    'setting_addappbyurl' => 'Enable the ability to add apps via URL',
     'setting_addappbyurl_comment' =>
-        '是否启用通过 URL 添加应用功能，建议只有必须通过 URL 添加应用时开启',
-    'setting_user_failedtime' => '允许用户登录失败次数',
+        'Whether to enable the function of adding applications via URL, it is recommended to enable it only when adding applications via URL',
+    'setting_user_failedtime' => 'Allow user login failure times',
     'setting_user_failedtime_comment' =>
-        '用户登录失败超过设置的次数，将在 15 分钟内无法登录，0 为使用默认设置，负数为不限制次数（不安全）',
+        'If the user fails to log in more than the set number of times, they will not be able to log in within 15 minutes, 0 means to use the default setting, and a negative number means unlimited times (unsafe)',
     'setting_register' => 'Thiết lập đăng ký',
     'setting_register_tips' =>
         'Cho phép/ Cấm Email, mỗi dòng một cái email, ví dụ @hotmail.com',
@@ -484,7 +484,7 @@ $languages = array(
     'home_member_count' => 'Tổng thành viên',
     'home_app_count' => 'Tổng ứng dụng',
     'home_env' => 'Hệ điều hành',
-    'home_envstatus' => '运行环境检测',
+    'home_envstatus' => 'Operating environment detection',
     'home_team' => 'Thông tin về mã nguồn',
     'admin_add_succeed' => 'Thêm $addname  làm quản lý',
     'admin_already_is_administrator' => '$addname đã là quản lý',
@@ -504,7 +504,7 @@ $languages = array(
     'admin_add_admin' => 'Thêm quản lý',
     'admin_modify_founder_pw' => 'Sửa mật khẩu',
     'admin_editfoundertips' =>
-        '此处密码仅为UCenter后台创始人登陆密码，与各应用管理员密码无关更不会自动同步更改，请务必妥善保存此密码',
+        'The password here is only the login password of the founder of UCenter backend. It has nothing to do with the administrator password of each application and will not be changed automatically. Please be sure to save this password properly.',
     'admin_privilege' => 'Quyền hạn',
     'admin_allow_setting' => 'Thiết lập',
     'admin_allow_app' => 'Ứng dụng',
@@ -539,11 +539,11 @@ $languages = array(
     'app_allowips' => 'IP cho phép',
     'app_allowips_comment' =>
         'Thiết lập IP đầu cuối để cho phép truy cập vào Ucenter',
-    'envstatus_result' => '检测结果',
+    'envstatus_result' => 'Test results',
     'envstatus_ver_too_low' =>
-        '您当前系统环境内的 $envstatus[req] 版本 ($envstatus[now_ver]) 过低，程序无法按预期正常运行。我们强烈建议您升级到 $envstatus[sug_ver] 版本，程序正常运行最低要求为 $envstatus[req_ver] 版本。',
+        'The version of $envstatus[req] ($envstatus[now_ver]) in your current system environment is too low, and the program cannot run normally as expected. We strongly recommend that you upgrade to the $envstatus[sug_ver] version. The minimum requirement for the program to run normally is the $envstatus[req_ver] version.',
     'envstatus_not_found' =>
-        '您当前系统环境内未安装或开启 $envstatus[req] 模块，程序无法按预期正常运行。我们强烈建议您安装或开启此模块，以满足程序正常运行的最低要求。',
+        'The $envstatus[req] module is not installed or enabled in your current system environment, and the program cannot run normally as expected. We strongly recommend that you install or enable this module to meet the minimum requirements for the normal operation of the program.',
     'envstatus_ok' =>
-        '您当前系统环境适合当前版本的 UCenter $envstatus[version] 。',
+        'Your current system environment is suitable for the current version UCenter $envstatus[version] 。',
 );

@@ -617,7 +617,7 @@ INSERT INTO pre_common_setting VALUES ('watermarktrans', 'a:3:{s:6:\"portal\";s:
 INSERT INTO pre_common_setting VALUES ('watermarktype', 'a:3:{s:6:\"portal\";s:3:\"png\";s:5:\"forum\";s:3:\"png\";s:5:\"album\";s:3:\"png\";}');
 INSERT INTO pre_common_setting VALUES ('welcomemsg','1');
 INSERT INTO pre_common_setting VALUES ('welcomemsgtitle','Xin chào {username}, cảm ơn bạn đã đăng ký, hãy đọc nội dung bên dưới');
-INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','{username} thân mến! Cám ơn bạn đã đăng ký và trở thành thành viên của {sitename} Chúc bạn có nhiều giây phút vui vẻ với chúng tôi và hãy tham gia tình nhé.\r\n Nếu có thắc mắc gì vui lòng email cho chúng tôi về email: {adminemail}.\r\n\r\n\r\n{bbname}\r\n{time}');
+INSERT INTO pre_common_setting VALUES ('welcomemsgtxt','{username} thân mến! Cám ơn bạn đã đăng ký và trở thành thành viên của {sitename} Chúc bạn có nhiều giây phút vui vẻ với chúng tôi và hãy tham gia nhiệt tình nhé.\r\n Nếu có thắc mắc gì vui lòng email cho chúng tôi về email: {adminemail}.\r\n\r\n\r\n{bbname}\r\n{time}');
 INSERT INTO pre_common_setting VALUES ('whosonlinestatus','3');
 INSERT INTO pre_common_setting VALUES ('whosonline_contract','0');
 INSERT INTO pre_common_setting VALUES ('zoomstatus','1	600');

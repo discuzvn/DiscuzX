@@ -357,13 +357,13 @@ $lang = array(
     'password_security' => 'Mật khẩu bảo mật',
     'increase' => 'Tăng',
     'friend_top' => 'TOP',
-    'connect_register_profile' => '创建新帐号',
-    'connect_register_bind' => '已有本站帐号',
-    'connect_member_login_tip' => '欢迎使用QQ帐号登录  {$_G[setting][bbname]}',
+    'connect_register_profile' => 'Tạo tài khoản mới',
+    'connect_register_bind' => 'Đã có một tài khoản trên trang web này',
+    'connect_member_login_tip' => 'Chào mừng bạn đăng nhập bằng tài khoản  {$_G[setting][bbname]}',
     'connect_config_newpassword_comment' =>
         'Bạn hiện đang sử dụng QQ tài khoản trên trang web, bạn có thể thiết lập mật khẩu cá nhân để có thể sử dụng chức năng tương ứng',
     'wechat_config_newpassword_comment' =>
-        '您目前使用的是微信帐号绑定本站，您可以在这里设置独立密码，只有设置了独立密码后本站需要填写密码的相应功能才可使用',
+        'You are currently using a WeChat account to bind this site. You can set an independent password here. Only after setting an independent password, this site can use the corresponding functions that need to fill in the password.',
     'email' => 'Email',
     'security_question' => 'Câu hỏi bảo mật',
     'security_question_0' => 'Không có câu hỏi bảo mật',

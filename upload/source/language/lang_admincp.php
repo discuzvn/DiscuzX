@@ -1389,9 +1389,9 @@ $lang = array(
     'setting_home_base_sendmailday' => 'E-mail thông báo cập nhật ngày',
     'setting_home_base_sendmailday_comment' =>
         '(Default 0) đơn vị: ngày, khi người sử dụng bao nhiêu ngày thời gian sẽ không truy cập vào trang web để gửi e-mail thông báo;<br>Đặt thành 0, không được kích hoạt e-mail thông báo;<br>Kích hoạt tính năng này sẽ là một xu hướng tăng nhẹ tải máy chủ',
-    'setting_home_base_recycle_bin' => '开启日志回收站',
+    'setting_home_base_recycle_bin' => 'Bật chức năng thùng rác',
     'setting_home_base_recycle_bin_comment' =>
-        '打开此功能后，所有被删除日志将被放在回收站中，而不会被直接删除',
+        'After turning on this function, all deleted logs will be placed in the recycle bin instead of being deleted directly',
     'setting_home_base_networkpage' =>
         'Danh sách thành viên được xem bằng theo thẻ',
     'setting_home_base_networkpage_comment' =>
@@ -2225,14 +2225,14 @@ $lang = array(
     'setting_functions_other_debug_comment' =>
         'Chọn "Yes" sẽ hiển thị số truy vấn trong bao lâu ở cuối trang',
     'setting_functions_other_onlyacceptfriendpm' =>
-        'Đặt mặc đình toàn forum chỉ nhận tin nhắn bạn bè?',
+        'Đặt mặc định chỉ nhận tin nhắn bạn bè',
     'setting_functions_other_onlyacceptfriendpm_comment' =>
         'Chọn “Yes” để thiết đặt trong cài đặt tin nhắn cá nhân sẽ mặc định chỉ nhận tin nhắn từ bạn bè',
     'setting_functions_other_pmreportuser' =>
         'Nhận thông tin báo cáo(UID，nhiều người thì sử dụng dấu phân cách)',
     'setting_functions_other_pmreportuser_comment' =>
         'Căn cứ vào thông báo hoặc nhắc nhở của người dùng, có thể kịp thời xử lý, xóa tin nhắn thành viên, để trống là không bật chức năng báo cáo.',
-    'setting_functions_other_at_anyone' => 'Tag bất cứ ai khi đăng bài',
+    'setting_functions_other_at_anyone' => 'Cho phép tag bất cứ ai khi đăng bài',
     'setting_functions_other_at_anyone_comment' =>
         'Nếu chọn "Không" chỉ có thể tag trong danh sách bạn bè',
     'setting_functions_other_chatpmrefreshtime' =>
@@ -2362,7 +2362,7 @@ $lang = array(
     'setting_permissions_editby_comment' =>
         'Sau 60s từ khi đăng bài nếu thành viên sửa bài thì sẽ có ghi chú(Do ai sửa, sửa lúc). Quản lý ko bị ảnh hưởng.',
     'setting_permissions_post_append' =>
-        'Bài viết chức năng bổ sung được kích hoạt',
+        'Bật chức năng bổ sung bài viết',
     'setting_permissions_post_append_comment' =>
         'Khi đã được kích hoạt khi người dùng có thể chỉnh sửa bài viết của bạn, bạn có thể thêm nội dung',
     'setting_permissions_nsprofiles' => 'Personal information is not displayed in the personal space',

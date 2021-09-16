@@ -8474,19 +8474,6 @@ $lang = array(
     'connect_setting_t_group' => 'Groups are allowed to push',
     'connect_setting_t_group_comment' =>
         'Set whether the subject published in the group can push Tencent microblogging',
-    'connect_setting_like_allow' => 'Show favorite links in QQ Space',
-    'connect_setting_like_allow_comment' =>
-        'Set whether to display the QQ authentication space, users can listen to at any time to receive certification certification spatial dynamics of space',
-    'connect_setting_like_url' => 'QQ number of certified space',
-    'connect_setting_like_url_comment' =>
-        'QQ space to set certification number, please submit applications for accreditation <a href="http://opensns.qq.com/" target="_blank">Click here</a>',
-    'connect_setting_turl_allow' =>
-        'Official site quickly shows listen button microblogging',
-    'connect_setting_turl_allow_comment' =>
-        'The user clicks the button quick listen, you can now listen to your set Tencent microblogging account',
-    'connect_setting_turl_code' => 'Listen to code fast',
-    'connect_setting_turl_code_comment' =>
-        'Please <a href="http://open.t.qq.com/apps/follow/explain.php" target="_blank">Open microblogging platform Tencent fast listening</a> Paste the code into. <strong>Get the code</strong>, style settings must choose to "listen to the text chain (the most succinct state)"',
     'connect_member_info' => 'Thông tin người dùng',
     'connect_member_bindlog' => 'Bắt buộc đăng nhập QQ',
     'connect_member_bindlog_type' => 'Hoạt động',

@@ -852,9 +852,6 @@ $lang = array(
         'When the authentication is enabled, the authentication name cannot be empty to modify',
     'members_verify_title_invalid' =>
         'You did not set a certification name for the enabled certification',
-    'connect_like_url_error' =>
-        'The favorite link of QQ space must be qq.com domain name',
-    'connect_like_url_miss' => 'You did not fill in the QQ space like link URL',
     'connect_update_succeed' => 'QQ binding settings updated successfully',
     'my_app_status_off' => 'Hãy mở trạng thái online',
     'moderate_articles_succeed' =>

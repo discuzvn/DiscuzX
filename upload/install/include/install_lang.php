@@ -307,6 +307,12 @@ $lang = array(
 <p align="right">康盛公司</p>
 
 </div>',
+
+    'php8_tips' => 'Phiên bản h iện tại chưa hỗ trợ PHP8, hãy sử dụng PHP 7.4 và thử lại',
+	'no_utf8_tips' => 'Hello, the version you are using is a localized encoding version such as GBK / BIG-5. This version is no longer the main push version. If you plan to build a new site [strongly] it is recommended that you use the latest official UTF-8 version to install.',
+	'no_latest_tips' => 'Hello, the version you are using is older, and there may be bugs and security risks. If there are no special circumstances, it is recommended that you use the latest official UTF-8 version to install.',
+	'unstable_tips' => 'Hello, the version you are using is an unofficial version, and there may be unknown bugs or defects. If you plan to formally build a website or purchase a plug-in, it is recommended that you use the latest official UTF-8 version to install.',
+	'next_tips' => '\r\nClick [OK] to jump to the latest official UTF-8 version download page, click [Cancel] to continue the installation (not recommended) ',
     'uc_installed' =>
         'Bạn đã cài đặt UCenter, nếu bạn muốn cài đặt lại vui lòng xóa tập tin data/install.lock',
     'i_agree' => 'Tôi đã đọc và đồng ý với các điều khoản',

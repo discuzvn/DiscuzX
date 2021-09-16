@@ -2348,6 +2348,8 @@ $lang = array(
     'setting_permissions_maxpostsize' => 'Số ký tự tối đa khi gửi bài mới',
     'setting_permissions_maxpostsize_comment' =>
         'Nhóm quản lý không bị ảnh hưởng',
+    'setting_permissions_mailinterval' => 'Email sending interval',
+    'setting_permissions_mailinterval_comment' => 'Set the mail sending interval, the default is 300 seconds',
     'setting_permissions_maxpolloptions' =>
         'Số lượng tối đa của tùy chọn bỏ phiếu',
     'setting_permissions_maxpolloptions_comment' =>

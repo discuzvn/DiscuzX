@@ -1675,7 +1675,7 @@ $lang = array(
     'freeze_pw_tips' =>
         'Tài khoản hiện tại của bạn đã bị đóng, vui lòng thay đổi mật khẩu của bạn để được mở lại tài khoản',
     'freeze_email_tips' =>
-        'Tài khoản của bạn bị vô hiệu. Bạn cần xác minh tài khoản để tiếp tục truy cập. <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1" class="xi2">bấm đề gửi lại email xác nhận</a>',
+        'Tài khoản của bạn đã bị khoá, bạn hãy bấm nút gửi lại email xác thực để khôi phục',
     'freeze_admincp_tips' =>
         'Tài khoản hiện tại của bạn đã bị đóng, bạn phải điền lý do kháng nghị trên trang này và nó có thể được gỡ bỏ sau khi được duyệt.',
     'freeze_reason' => 'Lý do khiếu nại',

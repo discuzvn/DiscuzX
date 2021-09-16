@@ -699,7 +699,7 @@ $lang = array(
     'getpasswd_send_succeed' =>
         'Thông báo đã được gửi tới Email hộp thư đến của bạn,<br />vui lòng kiểm tra để thay đổi mật khẩu của bạn',
     'getpasswd_has_send' =>
-        'Bạn đã đăng ký email lấy lại mật khẩu, nếu chưa nhận được, vui lòng đợi 15 phút và thử lại',
+        'Bạn đã đăng ký email lấy lại mật khẩu, nếu chưa nhận được, vui lòng đợi {interval} giây và thử lại',
     'submit_verify_succeed' =>
         'Kiểm toán yêu cầu gửi đi thành công và bây giờ sẽ trở lại cho cá nhân làm trung tâm',
     'buyinvitecode_no_count' =>
@@ -1147,7 +1147,7 @@ $lang = array(
     'send_activate_mail_succeed' =>
         'E-mail đã được gửi đi, bạn sẽ nhận được email sau vài phút!',
     'send_activate_mail_error' =>
-        'Có lỗi, E-mail không thành công, hãy thử lại sau hơn 5 phút để gửi email kích hoạt khác',
+        'Có lỗi, E-mail không thành công, hãy thử lại sau hơn {interval} giây để gửi email kích hoạt khác',
     'no_privilege_sendmailday' => 'Có lỗi, Trang web không mở e-mail cảnh báo',
     'email_input' =>
         'Có lỗi, Bạn đã không được thiết lập hộp thư, xin<a href="home.php?mod=spacecp&ac=profile&op=password">Liên hệ</a>để điền vào hộp thư của bạn chính xác',

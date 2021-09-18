@@ -721,7 +721,7 @@ drag.extend({
 		if (this.blocks.length > 0) {
 			var cur = this.blocksLen - this.blocks.length;
 			if($('allupdate')) {
-				$('allupdate').innerHTML = 'Total <span style="color:blue">'+this.blocksLen+'</span> Module,the first being updated<span style="color:red">'+cur+'</span> module, has been completed<span style="color:red">'+(parseInt(cur / this.blocksLen * 100)) + '%</span>';
+				$('allupdate').innerHTML = 'Có <span style="color:blue">'+this.blocksLen+'</span> blocks, <span style="color:red">'+cur+'</span> blocks đã hoàn thành <span style="color:red">'+(parseInt(cur / this.blocksLen * 100)) + '%</span>';
 				var bid = 'portal_block_'+this.blocks.pop();
 				this.blockForceUpdate(bid,true);
 			}
@@ -735,7 +735,7 @@ drag.extend({
 			this.blocks = this.allBlocks;
 		}
 		this.blocksLen = this.blocks.length;
-		showDialog('<div id="allupdate" style="width:350px;line-height:28px;">Start the update...</div>','confirm','Update module data', '', true, 'drag.endBlockForceUpdateBatch()');
+		showDialog('<div id="allupdate" style="width:350px;line-height:28px;">Bắt đầu update...</div>','confirm','Update dữ liệu block', '', true, 'drag.endBlockForceUpdateBatch()');
 		var wait = function() {
 			if($('fwin_dialog_submit')) {
 				$('fwin_dialog_submit').style.display = 'none';

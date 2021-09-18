@@ -778,9 +778,9 @@ $lang = array(
     'collection_non_creator' =>
         'Chỉ người tạo và người tham gia có thể quản lý album',
     'collection_thread_exists' => 'Chủ đề này đã có trong album',
-    'collection_collect_succ' => 'Thêm chủ đề vào album thành công',
+    'collection_collect_succ' => 'Thêm bài viết vào chủ đề thành công',
     'collection_no_thread' => 'Không thể tìm thấy chủ đề mà bạn muốn',
-    'collection_remove_thread' => 'Xóa chủ đề trong Album thành công',
+    'collection_remove_thread' => 'Xóa bài viết trong chủ đề thành công',
     'collection_teamworkers_noselect' =>
         'Bạn cũng có thể chọn để mời người dùng',
     'collection_no_teamworkers' => 'Thành viên bạn mời không tồn tại',
@@ -789,15 +789,15 @@ $lang = array(
     'collection_invite_succ' => 'Mời thành viên thành công',
     'collection_invite_accept' => 'Chấp nhận mời',
     'collection_remove_deny' =>
-        'Xin lỗi, chỉ có người sáng lập và quản trị viên có thể duy trì Album',
+        'Xin lỗi, chỉ có người sáng lập và quản trị viên có thể quản lý chủ đề',
     'collection_teamworkers_nonexists' => 'Xin lỗi, không tìm thấy thành viên',
     'collection_teamworkers_exit_succ' => 'Hủy tham gia thành công',
-    'collection_follow_limited' => 'Số lượng Album không thể nhiều hơn {limit}',
-    'collection_follow_succ' => 'Đăng ký Album thành công',
-    'collection_unfollow_succ' => 'Hủy đăng ký Album thành công',
+    'collection_follow_limited' => 'Số lượng chủ đề không thể nhiều hơn {limit}',
+    'collection_follow_succ' => 'Follow chủ đề thành công',
+    'collection_unfollow_succ' => 'Unfollow chủ đề thành công',
     'no_privilege_deluserapp' =>
         'Có lỗi, Bạn không được phép sử dụng ứng dụng này',
-    'email_check_sucess' => 'Email của bạn ({email}) kích hoạt thành công ',
+    'email_check_sucess' => 'Email của bạn ({email}) kích hoạt thành công',
     'email_check_account_invalid' =>
         'Sorry, protected users or founders cannot use email verification and directly modify user information.',
     'email_check_error' =>

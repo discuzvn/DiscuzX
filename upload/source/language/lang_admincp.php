@@ -3536,9 +3536,9 @@ $lang = array(
     'forums_edit_extend_widthauto_1' => 'Mở rộng màn hình (Mở rộng tối đa)',
     'forums_edit_extend_picstyle' => 'Mở chế độ danh sách hình ảnh',
     'forums_edit_extend_picstyle_comment' =>
-        '主题列表将以图片方式显示，主题封面可统一<a href="' .
+        'Danh sách chủ đề sẽ hiển thị dạng ảnh, bạn có thể <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=styles&anchor=forumdisplay">设置宽高</a>',
+        '?action=setting&operation=styles&anchor=forumdisplay">thiết đặt chiều rộng và chiều cao</a>',
     'forums_edit_extend_allowside' => 'Hiện Sidebar',
     'forums_edit_extend_allowside_comment' =>
         'Chọn "Yes" bên phải sẽ hiển thị SideBar',
@@ -3546,19 +3546,19 @@ $lang = array(
     'forums_edit_extend_disablecollect_comment' =>
         'Chọn "Yes" sẽ ngăn chặn người dùng từ các chủ đề bài viết ấn',
     'forums_edit_extend_defaultorderfield' =>
-        '<span class="spectitle">Chủ đề mặc định theo lĩnh vực</span>',
+        '<span class="spectitle">Sắp xếp chủ đề mặc định</span>',
     'forums_edit_extend_defaultorderfield_comment' =>
-        'Danh sách các chủ đề thiết lập hiển thị mặc định diễn đàn trường để phân loại. Mặc định "thời gian trả lời:" Sắp xếp Ngoài ra các thiết lập mặc định sẽ làm tăng gánh nặng trên máy chủ',
+        'Cách hiển thị sắp xếp bài viết mới, mặc định là theo thời gian trả lời cuối',
     'forums_edit_extend_defaultorder' =>
         '<span class=\\"spectitle\\">Sắp xếp theo mặc định</ span>',
     'forums_edit_extend_defaultorder_comment' =>
         'Thiết lập danh sách theo cách sắp xếp mặc định của các chủ đề Diễn đàn. Các mặc định là "thứ tự giảm dần", ngoài các thiết lập mặc định bên ngoài máy chủ khác sẽ làm tăng gánh nặng cho máy chủ',
-    'forums_edit_extend_order_lastpost' => 'Bài viết cuối',
-    'forums_edit_extend_order_starttime' => 'Công bố',
-    'forums_edit_extend_order_replies' => 'Trả lời',
-    'forums_edit_extend_order_views' => 'Lần xem',
-    'forums_edit_extend_order_desc' => 'Thứ tự giảm dần',
-    'forums_edit_extend_order_asc' => 'Thứ tự tăng dần',
+    'forums_edit_extend_order_lastpost' => 'Bài trả lời cuối',
+    'forums_edit_extend_order_starttime' => 'Ngày đặt bài',
+    'forums_edit_extend_order_replies' => 'Số trả lời',
+    'forums_edit_extend_order_views' => 'Số lần xem',
+    'forums_edit_extend_order_desc' => 'Giảm dần',
+    'forums_edit_extend_order_asc' => 'Tăng dần',
     'forums_edit_extend_reply_background' => 'Quick reply box background image',
     'forums_edit_extend_reply_background_comment' =>
         'After setting, the picture will be displayed in the quick reply box',
@@ -3786,12 +3786,12 @@ $lang = array(
         'Cho dù nó được kích hoạt theo thể loại màn hình mặc định, nếu cho phép trong các loại sau các thông tin mà sự lựa chọn',
     'forums_edit_threadsorts_template_default' => 'Mẫu mặc định',
     'forums_edit_threadsorts_template_house' => 'Mẫu bất động sản',
-    'forums_edit_perm' => 'Quyền hạn chung',
-    'forums_edit_perm_forum' => 'Quyền diễn đàn',
+    'forums_edit_perm' => 'Phân quyền',
+    'forums_edit_perm_forum' => 'Phân quyền diễn đàn',
     'forums_edit_perm_price' => 'Paid price',
     'forums_edit_perm_price_comment' =>
         'After you set the price, users must use the specified transaction points to pay before they can enter this section. When the price increases, users also need to pay for the increased points',
-    'forums_edit_perm_passwd' => 'Mật khẩu vào',
+    'forums_edit_perm_passwd' => 'Mật khẩu truy cập',
     'forums_edit_perm_passwd_comment' =>
         'Khi đặt mật khẩu xong thì thành viên phải nhập mật khẩu mới vào được diễn đàn này',
     'forums_edit_perm_formulapermmessage' =>
@@ -5009,10 +5009,10 @@ $lang = array(
     'usergroups_sepcial_add' => 'Add a new special user group',
     'usergroups_tips' =>
         '<li>System user groups and special user groups are intended to identify a group member points and privileges. The system groups and special groups can not be changed by a member himself.</li><li>System groups and special groups do not require to specify the user points range. Discuz! reserved eight built-in entitled system groups (from guests to the site administrator). Special user groups require a member must be edited for add to the group.</li><li>A user group points lower limit must bes equal or less than 0, otherwise it will be access problems for the group members.</Li>',
-    'usergroups_member' => 'User group members',
-    'usergroups_special' => 'Special group members',
-    'usergroups_specialadmin' => 'Special admin group members',
-    'usergroups_system' => 'System group members',
+    'usergroups_member' => 'Nhóm thành viên',
+    'usergroups_special' => 'Nhóm đặc biệt',
+    'usergroups_specialadmin' => 'Nhóm quản trị viên',
+    'usergroups_system' => 'Nhóm hệ thống',
     'usergroups_title' => 'Group title',
     'usergroups_stars' => 'Number of stars',
     'usergroups_color' => 'Title color',

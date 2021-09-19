@@ -468,22 +468,22 @@ function fileQueueError(errorCode) {
 		var err = '';
 		switch (errorCode) {
 		case 'F_EXCEED_SIZE':
-			err = '单个文件大小不得超过' + WebUploader.Base.formatSize(this.uploader.option('fileSingleSizeLimit')) + '！';
+			err = 'Kích thước file vượt quá ' + WebUploader.Base.formatSize(this.uploader.option('fileSingleSizeLimit')) + '!';
 			break;
 		case 'Q_EXCEED_NUM_LIMIT':
-			err = '最多只能上传' + this.settings.fileNumLimit + '个！';
+			err = 'Giới hạn số lượng ' + this.settings.fileNumLimit + ' đính kèm!';
 			break;
 		case 'Q_EXCEED_SIZE_LIMIT':
-			err = '上传文件总大小超出' + WebUploader.Base.formatSize(this.uploader.option('fileSizeLimit')) + '！';
+			err = 'Tổng kích thuóc file vượt quá ' + WebUploader.Base.formatSize(this.uploader.option('fileSizeLimit')) + '!';
 			break;
 		case 'Q_TYPE_DENIED':
-			err = '无效文件类型，请上传正确的文件格式！';
+			err = 'Định dạng không hỗ trợ!';
 			break;
 		case 'F_DUPLICATE':
-			err = '请不要重复上传相同文件！';
+			err = 'Trùng file!';
 			break;
 		default:
-			err = '上传错误，请刷新重试！' + code;
+			err = 'Tải lên lỗi, mã: ' + code;
 			break;
 		}
 		showDialog(err, 'notice', null, null, 0, null, null, null, null, sdCloseTime);

@@ -16,69 +16,61 @@ $lang = array(
     'moderate_member_validate' => 'Bởi',
     'get_passwd_subject' => 'Trợ giúp lấy mật khẩu',
     'get_passwd_message' => '
-<p>{username}，
-这封信是由 {bbname} 发送的。</p>
+<p>Xin chào {username},
+Email này gửi từ {bbname}.</p>
 
-<p>您收到这封邮件，是由于这个邮箱地址在 {bbname} 被登记为用户邮箱，
-且该用户请求使用 Email 密码重置功能所致。</p>
 <p>
 ----------------------------------------------------------------------<br />
-<strong>重要！</strong><br />
+<strong>Lưu ý:</strong><br />
 ----------------------------------------------------------------------</p>
 
-<p>如果您没有提交密码重置的请求或不是 {bbname} 的注册用户，请立即忽略
-并删除这封邮件。只有在您确认需要重置密码的情况下，才需要继续阅读下面的
-内容。</p>
+<p>Nếu bạn không yêu cầu lấy lại mật khẩu tại {bbname}, xin vui lòng bỏ qua</p>
 <p>
 ----------------------------------------------------------------------<br />
-<strong>密码重置说明</strong><br />
+<strong>Hướng dẫn lấy lại mật khẩu</strong><br />
 ----------------------------------------------------------------------</p>
 </p>
-您只需在提交请求后的三天内，通过点击下面的链接重置您的密码：<br />
+Bấm vào link dưới đây để khôi phục mật khẩu<br />
 
 <a href="{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}&amp;sign={sign}" target="_blank">{siteurl}member.php?mod=getpasswd&amp;uid={uid}&amp;id={idstring}&amp;sign={sign}</a>
 <br />
-(如果上面不是链接形式，请将该地址手工粘贴到浏览器地址栏再访问)</p>
+(Nếu không mở được link trên thì hãy paste nó lên trình duyệt)</p>
 
-<p>在上面的链接所打开的页面中输入新的密码后提交，您即可使用新的密码登录网站了。您可以在用户控制面板中随时修改您的密码。</p>
+<p>Sau đó điền mật khẩu mới để sử dụng cho lần đăng nhập tiếp theo.</p>
 
-<p>本请求提交者的 IP 为 {clientip}</p>
+<p>IP yêu cầu: {clientip}</p>
 
 
 <p>
-此致<br />
+Regards,<br />
 </p>
-<p>{bbname} 管理团队.
+<p>{bbname}.
 {siteurl}</p>',
     'email_verify_subject' => 'Xác minh địa chỉ email',
     'email_verify_message' => '<br />
-<p>{username}，<br />
-这封信是由 {bbname} 发送的。</p>
+<p>Xin chào {username},<br />
+Email này gửi từ {bbname}.</p>
 
-<p>您收到这封邮件，是由于在 {bbname} 进行了新用户注册，或用户修改 Email 使用
-了这个邮箱地址。如果您并没有访问过 {bbname}，或没有进行上述操作，请忽
-略这封邮件。您不需要退订或进行其他进一步的操作。</p>
+<p>Bạn nhận được email này từ {bbname} do bạn đăng ký tài khoản hoặc đổi email trên {bbname}. Nếu không phải bạn thao tác, vui lòng bỏ qua.</p>
 <br />
 ----------------------------------------------------------------------<br />
-<strong>帐号激活说明</strong><br />
+<strong>Hướng dẫn xác mình email</strong><br />
 ----------------------------------------------------------------------<br />
 <br />
-<p>如果您是 {bbname} 的新用户，或在修改您的注册 Email 时使用了本地址，我们需
-要对您的地址有效性进行验证以避免垃圾邮件或地址被滥用。</p>
 
-<p>您只需点击下面的链接即可激活您的帐号：<br />
+<p>Bấm vào link dưới đây để xác minh địa chỉ email<br />
 
 <a href="{url}" target="_blank">{url}</a>
 <br />
-(如果上面不是链接形式，请将该地址手工粘贴到浏览器地址栏再访问)</p>
+(Nếu không mở được link trên thì hãy paste nó lên trình duyệt)</p>
 
-<p>感谢您的访问，祝您使用愉快！</p>
+<p>Cảm ơn bạn đã xác minh email, mong bạn có những giây phút vui vẻ với {bbname}.</p>
 
 
 <p>
-此致<br />
+Regards<br />
 
-{bbname} 管理团队.<br />
+{bbname}<br />
 {siteurl}</p>',
     'email_register_subject' => 'Email đăng ký tài khoản',
     'email_register_message' => '<br />

@@ -697,7 +697,7 @@ $lang = array(
     'getpasswd_account_invalid' =>
         'Có lỗi, Người sáng lập của người sử dụng bảo vệ, thiết lập quyền với các trang web để lấy người dùng không thể sử dụng chức năng mật khẩu',
     'getpasswd_send_succeed' =>
-        'Thông báo đã được gửi tới Email hộp thư đến của bạn,<br />vui lòng kiểm tra để thay đổi mật khẩu của bạn',
+        'Yêu cầu lấy lại mật khẩu đã được gửi,<br />hãy kiểm tra email của bạn.',
     'getpasswd_has_send' =>
         'Bạn đã đăng ký email lấy lại mật khẩu, nếu chưa nhận được, vui lòng đợi {interval} giây và thử lại',
     'submit_verify_succeed' =>

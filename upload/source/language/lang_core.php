@@ -40,7 +40,7 @@ $lang = array(
     ),
     'dot' => '.',
     'archive' => 'Lưu trữ',
-    'portal' => 'Portal',
+    'portal' => 'Trang tin',
     'end' => 'Kết thúc',
     'seccode_image_tips' => 'Nhập các ký tự trong hình sau<br />',
     'seccode_image_ani_tips' => 'Nhập các chữ lớn nhất<br />',

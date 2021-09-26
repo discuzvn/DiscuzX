@@ -678,33 +678,33 @@ $lang = array(
         'Xin chúc mừng bạn đã hoàn thành nhiệm vụ, bạn sẽ nhận được thông báo thưởng, hãy kiểm tra',
     'task_giveup' => 'Bạn đã hủy bỏ nhiệm vụ này',
     'activate_succeed' =>
-        'Xin chào, {username}, tài khoản của bạn đã được kích hoạt, hệ thống đang chuyển tới trang chủ diễn đàn.',
-    'login_clearcookie' => 'Lịch sử đăng nhập đã xóa',
+        'Xin chào, {username}, tài khoản của bạn đã được kích hoạt, hệ thống sẽ chuyển tới trang chủ diễn đàn.',
+    'login_clearcookie' => 'Cookie đã được xóa',
     'register_verify_invalid' =>
         'Trang web hướng dẫn sử dụng thiết lập xác minh, xin vui lòng chờ xác minh',
     'email_verify_invalid' =>
-        'Có lỗi, Bạn chỉ được yêu cầu email kích hoạt 1 lần trong 1 ngày.',
+        'Có lỗi, bạn chỉ được yêu cầu email kích hoạt 1 lần trong 1 ngày.',
     'email_verify_succeed' =>
         'Đã gửi Email xác nhận, Hãy kiểm tra email và làm theo hướng dẫn để kích hoạt tài khoản',
     'getpasswd_illegal' =>
         'Có lỗi, ID đăng nhập không tồn tại hoặc đã quá hạn, không thể tìm lại mật khẩu',
     'getpasswd_succeed' =>
-        'Đã thay đổi mật khẩu, vui lòng đăng nhậ lại với mật khẩu mới',
+        'Đã thay đổi mật khẩu, vui lòng đăng nhập lại với mật khẩu mới',
     'lostpasswd_email_not_exist' =>
-        'Xin lỗi, Email người dùng không tồn tại, không thể được sử dụng để lấy lại mật khẩu',
+        'Xin lỗi, email này không tồn tại, không thể được sử dụng để lấy lại mật khẩu',
     'lostpasswd_many_users_use_email' =>
         'Xin lỗi, có nhiều người dùng Email này, xin vui lòng điền vào tên người dùng mà bạn cần phải lấy lại mật khẩu',
     'getpasswd_account_invalid' =>
-        'Có lỗi, Người sáng lập của người sử dụng bảo vệ, thiết lập quyền với các trang web để lấy người dùng không thể sử dụng chức năng mật khẩu',
+        'Có lỗi, đây là email của admin và được thiết lập để không khôi phục mật khẩu qua email',
     'getpasswd_send_succeed' =>
         'Yêu cầu lấy lại mật khẩu đã được gửi,<br />hãy kiểm tra email của bạn.',
     'getpasswd_has_send' =>
-        'Bạn đã đăng ký email lấy lại mật khẩu, nếu chưa nhận được, vui lòng đợi {interval} giây và thử lại',
+        'Đã gửi email hướng dẫn lấy lại mật khẩu, vui lòng kiểm tra email. Nếu bạn chưa nhận được, vui lòng thử lại sau {interval} giây',
     'submit_verify_succeed' =>
-        'Kiểm toán yêu cầu gửi đi thành công và bây giờ sẽ trở lại cho cá nhân làm trung tâm',
+        'Đã gửi yêu cầu kiểm duyệt thành công',
     'buyinvitecode_no_count' =>
-        'mã số bạn điền vào không phải là một mã lời mời, xin vui lòng quay trở lại',
-    'buyinvitecode_email_error' => 'Địa chỉ e-mail là không đúng hoặc bị sai',
+        'Mã số bạn điền vào không phải là một mã lời mời, xin vui lòng quay trở lại',
+    'buyinvitecode_email_error' => 'Địa chỉ email không đúng',
     'buyinvitecode_no_id' =>
         'Các lời mời đã không tìm thấy mã tương ứng, nếu có thắc mắc, xin vui lòng liên hệ với quản trị viên',
     'faq_content_empty' => 'Xin lỗi, nội dung không tồn tại',

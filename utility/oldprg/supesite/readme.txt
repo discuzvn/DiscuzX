@@ -1,23 +1,21 @@
 ===============================
-SS7 转换到 Discuz！ X1 注意事项
+Chuyển đổi SS7 sang Discuz! X1 các vấn đề cần chú ý
 ===============================
 
-问题：转换后的图片及附件地址不对？
-方案： 步骤如下：
-1. 在原 SS7 源码下找到图标 images/base/attachment.gif，放在 Disucuz！ X1 的目录 static/image/filetype/ 下；
-2. 找到 source/module/portal/portal_view.php 文件，在代码“$content['content'] = blog_bbcode($content['content']);”后换行添加以下代码：
+Câu hỏi: Hình ảnh được chuyển đổi và địa chỉ tệp đính kèm bị sai?
+Giải pháp: Các bước như sau:
+1. Tìm biểu tượng images / base / attachment.gif dưới mã nguồn SS7 ban đầu và đặt nó vào Disucuz! Trong thư mục static / image / filetype / of X1;
+2. Tìm tệp nguồn / module / portal / portal_view.php và thêm mã sau vào sau mã "$ content ['content'] = blog_bbcode ($ content ['content']);":
 
-$ss_url = 'http://your_ss_site_url/'; // 请将此链接地址改为您的 SS 站点地址！！！
-$findarr = array(
-	$ss_url.'batch.download.php?aid=', // 附件下载地址
-	$ss_url.'attachments/',  // 附件图片目录
-	$ss_url.'images/base/attachment.gif'  // 附件下载图标
+$ ss_url = 'http: // your_ss_site_url /'; // Vui lòng thay đổi địa chỉ liên kết này thành địa chỉ trang SS của bạn! ! !
+$ findarr = array (
+$ ss_url.'batch.download.php? aid = ', // Địa chỉ tải xuống tệp đính kèm
+$ ss_url.'attachments / ', // Thư mục ảnh đính kèm
+$ ss_url.'images / base / attachment.gif '// biểu tượng tải xuống tệp đính kèm
 );
-$replacearr = array(
-	'porta.php?mod=attachment&id=',
-	$_G['setting']['attachurl'].'/portal/',
-	STATICURL.'image/filetype/attachment.gif'
+$ Replacearr = array (
+'porta.php? mod = attachment & id =',
+$ _G ['setting'] ['attachmenturl']. '/ Portal /',
+STATICURL.'image / filetype / attachment.gif '
 );
-$content['content'] = str_replace($findarr, $replacearr, $content['content']);
-
-
+$ content ['content'] = str_replace ($ findarr, $ Replacearr, $ content ['content']);

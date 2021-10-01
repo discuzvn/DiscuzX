@@ -1114,7 +1114,7 @@ function fileQueueError(file, errorCode, message) {
 	try {
 		if (errorCode === SWFUpload.QUEUE_ERROR.QUEUE_LIMIT_EXCEEDED) {
 			message = parseInt(message);
-			showDialog("您选择的文件个数超过限制。\n"+(message === 0 ? "您已达到上传文件的上限了。" : "您还可以选择 " + message + " 个文件"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+			showDialog("Số lượt files vượt quá số lượng\n"+(message === 0 ? "Bạn đã đạt giới hạn số lượng tải lên" : "Bạn có thể chọn " + message + " tập tin"), 'notice', null, null, 0, null, null, null, null, sdCloseTime);
 			return;
 		}
 
@@ -1124,19 +1124,19 @@ function fileQueueError(file, errorCode, message) {
 
 		switch (errorCode) {
 			case SWFUpload.QUEUE_ERROR.FILE_EXCEEDS_SIZE_LIMIT:
-				progress.setStatus("文件太大.");
+				progress.setStatus("Dung lượng quá lớn.");
 				this.debug("Error Code: File too big, File name: " + file.name + ", File size: " + file.size + ", Message: " + message);
 				break;
 			case SWFUpload.QUEUE_ERROR.ZERO_BYTE_FILE:
-				progress.setStatus("不能上传零字节文件.");
+				progress.setStatus("Không thể tải lên tập file trống.");
 				this.debug("Error Code: Zero byte file, File name: " + file.name + ", File size: " + file.size + ", Message: " + message);
 				break;
 			case SWFUpload.QUEUE_ERROR.INVALID_FILETYPE:
-				progress.setStatus("禁止上传该类型的文件.");
+				progress.setStatus("Cấm tải lên loại file này.");
 				this.debug("Error Code: Invalid File Type, File name: " + file.name + ", File size: " + file.size + ", Message: " + message);
 				break;
 			case SWFUpload.QUEUE_ERROR.QUEUE_LIMIT_EXCEEDED:
-				alert("You have selected too many files.  " +  (message > 1 ? "You may only add " +  message + " more files" : "You cannot add any more files."));
+				alert("Bạn đã chọn quá nhiều files  " +  (message > 1 ? ". Bạn có thể chọn thêm " +  message + " files nữa" : "Bạn không thêm chọn thêm files"));
 				break;
 			default:
 				if (file !== null) {
@@ -1300,11 +1300,11 @@ function uploadSuccess(file, serverData) {
 				newTr.appendChild(newTd);
 				newTd = document.createElement("TD");
 				newTd.className = 'd';
-				newTd.innerHTML = '图片描述<br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
+				newTd.innerHTML = 'Mô tả ảnh <br/><textarea name="title['+data.picid+']" cols="40" rows="2" class="pt"></textarea>';
 				newTr.appendChild(newTd);
 				this.customSettings.imgBoxObj.appendChild(newTr);
 			} else {
-				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+				showDialog('Tải lên ảnh không thành công', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
 			}
 			$(file.id).style.display = 'none';
 		} else if(this.customSettings.uploadType == 'blog') {
@@ -1324,7 +1324,7 @@ function uploadSuccess(file, serverData) {
 				inputObj.value= data.picid;
 				tdObj.appendChild(inputObj);
 			} else {
-				showDialog('图片上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+				showDialog('Tải lên ảnh không thành công', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
 			}
 			$(file.id).style.display = 'none';
 		} else if(this.customSettings.uploadSource == 'portal') {
@@ -1341,8 +1341,8 @@ function uploadSuccess(file, serverData) {
 					$(file.id).style.display = 'none';
 				}
 			} else {
-				showDialog('上传失败', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
-				progress.setStatus("Cancelled");
+				showDialog('Tải lên thất bại', 'notice', null, null, 0, null, null, null, null, sdCloseTime);
+				progress.setStatus("Đã huỷ");
 				this.cancelUpload(file.id);
 				progress.setCancelled();
 				progress.toggleCancel(true, this);

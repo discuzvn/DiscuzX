@@ -1,14 +1,14 @@
 ===============
-程 序 说 明
+Mô tả chương trình
 ===============
-本目录中的程序主要作用是确保搜索引擎对您的网站的收录，以及避免一些旧帖当中
-一些链接失效。
+Chức năng chính của các chương trình trong thư mục này là đảm bảo rằng các công cụ tìm kiếm bao gồm trang web của bạn và tránh một số bài viết cũ.
+Một số liên kết bị hỏng.
 
-这些程序不是必须要安装的，对于一个新站点来讲，您不需要这些程序。如果搜索引擎
-对您的站点收录比较少，或者您不在乎这些收录失效，那么您也不必上传这些程序。
+Các chương trình này không bắt buộc phải được cài đặt. Đối với một trang web mới, bạn không cần các chương trình này. Nếu công cụ tìm kiếm
+Trên trang web của bạn có một số loại bao gồm hoặc nếu bạn không quan tâm đến việc vô hiệu của các bao gồm này, thì bạn không cần phải tải các chương trình này lên.
 
-安装方法：
-   选择您以前站点的程序目录，例如，您以前使用的是 Discuz! 论坛，则选择 discuz
-目录，上传目录中的程序到安装好的 Discuz! X 的根目录即可。
-   如果您曾经同时安装了 UCHome 等程序，您需要进入 uchome，将里面的文件也上传
-到 Discuz! X 的目录。
+phương pháp cài đặt:
+    Chọn thư mục chương trình của trang web trước đó của bạn, ví dụ: nếu bạn đã sử dụng Discuz! Forum, hãy chọn discuz
+Thư mục, tải chương trình trong thư mục lên thư mục gốc của Discuz! X đã cài đặt.
+    Nếu bạn đã cài đặt UCHome và các chương trình khác cùng lúc, bạn cần phải nhập uchome và tải lên các tệp bên trong
+Chuyển đến thư mục Discuz! X.

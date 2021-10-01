@@ -12,7 +12,7 @@ $sfile = DISCUZ_ROOT.'./source/'.$source.'/setting.ini';
 if(!submitcheck('submit')) {
 	show_form_header();
 	show_table_header();
-	show_table_row(array(array('colspan="3"', '编辑配置文件 source/'.$source.'/setting.ini')), 'title');
+	show_table_row(array(array('colspan="3"', 'Edit configuration file source/'.$source.'/setting.ini')), 'title');
 
 	foreach ($setting as $key => $value) {
 		if(is_array($value) && !empty($value)) {
@@ -56,10 +56,10 @@ if(!submitcheck('submit')) {
 		if($fp = @fopen($sfile, 'w')) {
 			fwrite($fp, implode("\n", $lines));
 			fclose($fp);
-			showmessage('设置已经更新完毕并成功保存', 'index.php', '', 1000);
+			showmessage('The settings have been updated and successfully saved', 'index.php', '', 1000);
 		} else {
-			showmessage('该设置文件为只读文件，无法保存，请返回');
+			showmessage('The setting file is read-only and cannot be saved, please return');
 		}
 	}
-	showmessage('您没有改变任何设置', 'index.php', '', 1000);
+	showmessage('You haven\'t changed any settings', 'index.php', '', 1000);
 }

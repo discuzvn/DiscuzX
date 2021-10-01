@@ -343,12 +343,12 @@ $lang = array(
         'Có lỗi, Bạn cần phải kích hoạt email để thực hiện tác vụ này, <a href="home.php?mod=spacecp&ac=profile&op=password">Nhấn vào đây để kích hoạt Email</a>',
     'no_privilege_friendnum' =>
         'Có lỗi, Bạn cần phải thêm {friendnum} Sau đó bạn có thể thực hiện thao tác này,<a href="home.php?mod=spacecp&ac=friend&op=find">Click vào đây để thêm bạn bè</a>',
-    'login_seccheck2' => '请输入验证码后继续登录',
+    'login_seccheck2' => 'Vui lòng nhập mã xác minh và tiếp tục đăng nhập',
     'login_succeed' => 'Chào mừng {usergroup} {username} quay trở lại....',
     'login_strike' =>
         'Sai mật khẩu quá nhiều lần, vui lòng đợi 15p rồi thử lại',
     'logout_succeed' =>
-        'Bạn đã đăng xuất thành công!<br /><a href="member.php?mod=clearcookies&formhash={formhash}">[Xóa Cookies]</a> {ucsynlogout} ',
+        'Bạn đã đăng xuất, đang chuyển về trang trước đó... {ucsynlogout} ',
     'location_logout_succeed_mobile' =>
         'You have logged out of the site, now you will be transferred to the page before logout as a visitor, please wait...',
     'register_activation_invalid' =>

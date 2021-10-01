@@ -44,7 +44,7 @@ if(submitcheck()) {
 	}
 }
 
-showtips('如果无法显示设置项目，请删除文件 data/config.inc.php');
+showtips('If the setting item cannot be displayed, please delete the file data/config.inc.php');
 $config = loadconfig('config.inc.php');
 if(empty($config)) {
 	$config = $config_default;

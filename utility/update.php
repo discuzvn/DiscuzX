@@ -58,17 +58,17 @@ $lockfile = DISCUZ_ROOT.'./data/update.lock';
 if($_GET['lock']){
     @touch($lockfile);
     @unlink(DISCUZ_ROOT.'./install/update.php');
-    show_msg('<span id="finalmsg">恭喜，数据库结构升级完成！</span>');
+    show_msg('<span id="finalmsg">Congratulations, the database structure upgrade is complete!</span>');
 }
 if(file_exists($lockfile) && !$_GET['from']) {
-	show_msg('请您先登录服务器ftp，手工删除 ./data/update.lock 文件，再次运行本文件进行升级。');
+	show_msg('Please log in to the server ftp first and delete manually ./data/update.lock file, run this file again to upgrade.');
 }
 
 $devmode = file_exists(DISCUZ_ROOT.'./install/data/install_dev.sql');
 $sqlfile = DISCUZ_ROOT.($devmode ? './install/data/install_dev.sql' : './install/data/install.sql');
 
 if(!file_exists($sqlfile)) {
-	show_msg('SQL文件 '.$sqlfile.' 不存在');
+	show_msg('SQL file '.$sqlfile.' does not exist');
 }
 $first_to_2_5 = !C::t('common_setting')->skey_exists('strongpw');
 $first_to_3_0 = !C::t('common_setting')->skey_exists('antitheft');
@@ -94,7 +94,7 @@ if($_POST['delsubmit']) {
 		}
 	}
 
-	show_msg('删除表和字段操作完成了', $theurl.'?step=style');
+	show_msg('Delete table and field operation is complete', $theurl.'?step=style');
 }
 
 function waitingdb($curstep, $sqlarray) {
@@ -116,14 +116,14 @@ if($_GET['step'] == 'start') {
 		C::t('common_setting')->update('bbclosed', 1);
 		require_once libfile('function/cache');
 		updatecache('setting');
-		show_msg('您的站点未关闭，正在关闭，请稍后...', $theurl.'?step=start', 5000);
+		show_msg('Your site is not closed, it is closing, please wait...', $theurl.'?step=start', 5000);
 	}
 	if(version_compare($version, '1.5.2') <= 0) {
-		show_msg('请先升级 UCenter 到 1.6.0 以上版本。<br>如果使用为Discuz! X自带UCenter，请先下载 UCenter 1.6.0, 在 utilities 目录下找到对应的升级程序，复制或上传到 Discuz! X 的 uc_server 目录下，运行该程序进行升级');
+		show_msg('Please upgrade UCenter to version 1.6.0 or above first. <br>If you are using Discuz! X with its own UCenter, please download UCenter 1.6.0 first, find the corresponding upgrade program in the utilities directory, copy or upload it to the uc_server directory of Discuz! X, and run the program to upgrade');
 	} else {
-		show_msg('说明：<br>本升级程序会参照最新的SQL文件，对数据库进行同步升级。<br>
-			请确保当前目录下 ./data/install.sql 文件为最新版本。<br><br>
-			升级完成后会关闭所有插件以确保正常运行，请站长逐个开启每一个插件检测是否兼容新版本。<br><br>
+		show_msg('说明：<br>This upgrade program will refer to the latest SQL file to synchronize the upgrade of the database.<br>
+		Please make sure that the current directory is ./data/install.sql the file is the latest version.<br><br>
+		After the upgrade is complete, all plug-ins will be closed to ensure normal operation. Please turn on each plug-in one by one to check whether it is compatible with the new version.<br><br>
 			<a href="'.$theurl.'?step=prepare'.($_GET['from'] ? '&from='.rawurlencode($_GET['from']).'&frommd5='.rawurlencode($_GET['frommd5']) : '').'">准备完毕，升级开始</a>');
 	}
 } elseif ($_GET['step'] == 'waitingdb') {
@@ -134,13 +134,13 @@ if($_GET['step'] == 'start') {
 		}
 	}
 	if(empty($list) && empty($_GET['sendsql'])) {
-		$msg = '准备进入下一步操作，请稍后...';
+		$msg = 'Ready to enter the next step, please wait...';
 		$notice = '';
 		$url = "?step=$_GET[nextstep]";
 		$time = 5;
 	} else {
-		$msg = '正在升级数据，请稍后...';
-		$notice = '<br><br><b>以下是正在执行的数据库升级语句:</b><br>'.$list.base64_decode($_GET['sendsql']);
+		$msg = 'Upgrading data, please wait...';
+		$notice = '<br><br><b>The following is the database upgrade statement being executed:</b><br>'.$list.base64_decode($_GET['sendsql']);
 		$sqlurl = implode('&sql[]=', $_GET['sql']);
 		$url = "?step=waitingdb&nextstep=$_GET[nextstep]&sql[]=".$sqlurl;
 		$time = 20;
@@ -151,7 +151,7 @@ if($_GET['step'] == 'start') {
 		C::t('forum_groupinvite')->truncate();
 	}
 	if(DB::fetch_first("SHOW COLUMNS FROM ".DB::table('forum_activityapply')." LIKE 'contact'")) {
-		$query = DB::query("UPDATE ".DB::table('forum_activityapply')." SET message=CONCAT_WS(' 联系方式:', message, contact) WHERE contact<>''");
+		$query = DB::query("UPDATE ".DB::table('forum_activityapply')." SET message=CONCAT_WS(' Contact information:', message, contact) WHERE contact<>''");
 		DB::query("ALTER TABLE ".DB::table('forum_activityapply')." DROP contact");
 	}
 	if($row = DB::fetch_first("SHOW COLUMNS FROM ".DB::table('forum_postcomment')." LIKE 'authorid'")) {
@@ -167,7 +167,7 @@ if($_GET['step'] == 'start') {
 		DB::query("ALTER TABLE ".DB::table('common_failedlogin')." ADD PRIMARY KEY ipusername (ip,username)");
 	}
 	if(!$row = DB::fetch_first("SHOW COLUMNS FROM ".DB::table('forum_forumfield')." LIKE 'seodescription'")) {
-		DB::query("ALTER TABLE ".DB::table('forum_forumfield')." ADD seodescription text NOT NULL default '' COMMENT '版块seo描述' AFTER keywords");
+		DB::query("ALTER TABLE ".DB::table('forum_forumfield')." ADD seodescription text NOT NULL default '' COMMENT 'Section seo description' AFTER keywords");
 		DB::query("UPDATE ".DB::table('forum_forumfield')." SET seodescription=description WHERE membernum='0'");
 	}
 	if(DB::fetch_first("SHOW TABLES LIKE '".DB::table('common_tagitem')."'")) {
@@ -229,7 +229,7 @@ if($_GET['step'] == 'start') {
 		DB::query('ALTER TABLE '.DB::table('common_template_block').' DROP PRIMARY KEY');
 	}
 
-	show_msg('准备完毕，进入下一步数据库结构升级', $theurl.'?step=sql');
+	show_msg('After the preparation is complete, proceed to the next step of database structure upgrade', $theurl.'?step=sql');
 } elseif ($_GET['step'] == 'sql') {
 
 	$sql = implode('', file($sqlfile));
@@ -237,13 +237,13 @@ if($_GET['step'] == 'start') {
 	$newtables = empty($matches[1])?array():$matches[1];
 	$newsqls = empty($matches[0])?array():$matches[0];
 	if(empty($newtables) || empty($newsqls)) {
-		show_msg('SQL文件内容为空，请确认');
+		show_msg('The content of the SQL file is empty, please confirm');
 	}
 
 	$i = empty($_GET['i'])?0:intval($_GET['i']);
 	$count_i = count($newtables);
 	if($i>=$count_i) {
-		show_msg('数据库结构升级完毕，进入下一步数据升级操作', $theurl.'?step=data');
+		show_msg('After the database structure has been upgraded, enter the next data upgrade operation', $theurl.'?step=data');
 	}
 	$newtable = $newtables[$i];
 
@@ -270,9 +270,9 @@ if($_GET['step'] == 'start') {
 		$usql = str_replace("CREATE TABLE pre_", 'CREATE TABLE '.$config['tablepre'], $usql);
 
 		if(!DB::query($usql, 'SILENT')) {
-			show_msg('添加表 '.DB::table($newtable).' 出错,请手工执行以下SQL语句后,再重新运行本升级程序:<br><br>'.dhtmlspecialchars($usql));
+			show_msg('Add table '.DB::table($newtable).'. If an error occurs, please execute the following SQL statement manually, and then re-run the upgrade program:<br><br>'.dhtmlspecialchars($usql));
 		} else {
-			$msg = '添加表 '.DB::table($newtable).' 完成';
+			$msg = 'Add table '.DB::table($newtable).' finish';
 		}
 	} else {
 		$value = DB::fetch($query);
@@ -334,9 +334,9 @@ if($_GET['step'] == 'start') {
 		if(!empty($updates)) {
 			$usql = "ALTER TABLE ".DB::table($newtable)." ".implode(', ', $updates);
 			if(!DB::query($usql, 'SILENT')) {
-				show_msg('升级表 '.DB::table($newtable).' 出错,请手工执行以下升级语句后,再重新运行本升级程序:<br><br><b>升级SQL语句</b>:<div style=\"position:absolute;font-size:11px;font-family:verdana,arial;background:#EBEBEB;padding:0.5em;\">'.dhtmlspecialchars($usql)."</div><br><b>Error</b>: ".DB::error()."<br><b>Errno.</b>: ".DB::errno());
+				show_msg('Upgrade table '.DB::table($newtable).' ff an error occurs, please execute the following upgrade statement manually, and then re-run the upgrade program:<br><br><b>升级SQL语句</b>:<div style=\"position:absolute;font-size:11px;font-family:verdana,arial;background:#EBEBEB;padding:0.5em;\">'.dhtmlspecialchars($usql)."</div><br><b>Error</b>: ".DB::error()."<br><b>Errno.</b>: ".DB::errno());
 			} else {
-				$msg = '升级表 '.DB::table($newtable).' 完成！';
+				$msg = 'Upgrade table '.DB::table($newtable).' finish!';
 			}
 		} else {
 			$msg = '检查表 '.DB::table($newtable).' 完成，不需升级，跳过';
@@ -365,7 +365,7 @@ if($_GET['step'] == 'start') {
 		if($i==0) {
 			$value = DB::fetch_first('SELECT * FROM '.DB::table('common_member_profile_setting')." WHERE fieldid = 'realname'");
 			if(!empty($value)) {
-				show_msg("实名功能升级完毕", "$theurl?step=data&op=$nextop");
+				show_msg("Real-name function upgrade completed", "$theurl?step=data&op=$nextop");
 			}
 			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('realname', '1', '0', '1', '真实姓名', '', '0', '0', '0', '0', '1', 'text', '0', '', '', '0', '0')");
 		}
@@ -391,10 +391,10 @@ if($_GET['step'] == 'start') {
 		$nextop = 'setting';
 		$value = DB::result_first('SELECT count(*) FROM '.DB::table('common_member_profile_setting')." WHERE fieldid = 'birthdist'");
 		if(!$value) {
-			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthdist', 1, 0, 0, '出生县', '出生行政区/县', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
-			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthcommunity', 1, 0, 0, '出生小区', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='出生地' WHERE fieldid = 'birthcity'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='居住地' WHERE fieldid = 'residecity'");
+			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthdist', 1, 0, 0, 'Nơi sinh', 'Quận/huyện nơi sinh', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
+			DB::query("INSERT INTO ".DB::table('common_member_profile_setting')." VALUES ('birthcommunity', 1, 0, 0, 'Khu vực sinh', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '')");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Nơi sinh' WHERE fieldid = 'birthcity'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Nơi cư trú' WHERE fieldid = 'residecity'");
 		}
 		$count = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_district')." WHERE `level`='1' AND `usetype`>'0'");
 		if(!$count) {
@@ -402,15 +402,15 @@ if($_GET['step'] == 'start') {
 		}
 		$profile = DB::fetch_first('SELECT * FROM '.DB::table('common_member_profile_setting')." WHERE fieldid = 'birthday'");
 		if($profile['title'] == '出生日期') {
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='生日' WHERE fieldid = 'birthday'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='证件类型' WHERE fieldid = 'idcardtype'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='支付宝' WHERE fieldid = 'alipay'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Sinh nhật' WHERE fieldid = 'birthday'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Loại giấy tờ' WHERE fieldid = 'idcardtype'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Alipay' WHERE fieldid = 'alipay'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='ICQ' WHERE fieldid = 'icq'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='QQ' WHERE fieldid = 'qq'");
 			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='MSN' WHERE fieldid = 'msn'");
-			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='阿里旺旺' WHERE fieldid = 'taobao'");
+			DB::query("UPDATE ".DB::table('common_member_profile_setting')." SET title='Taobao' WHERE fieldid = 'taobao'");
 		}
-		show_msg("用户栏目升级完毕", "$theurl?step=data&op=$nextop");
+		show_msg("User column upgrade completed", "$theurl?step=data&op=$nextop");
 	} elseif($_GET['op'] == 'setting') {
 		$nextop = 'admingroup';
 		$settings = $newsettings = array();
@@ -1780,7 +1780,7 @@ if($_GET['step'] == 'start') {
 		include $configfile;
 		DB::query("UPDATE ".DB::table('common_plugin')." SET available='0' WHERE modules NOT LIKE '%s:6:\"system\";i:2;%'");
 		if(save_config_file($configfile, $_config, $default_config, $deletevar)) {
-			show_msg("数据处理完成", "$theurl?step=delete");
+			show_msg("Data processing completed", "$theurl?step=delete");
 		} else {
 			show_msg('"config/config_global.php" 文件已更新，由于 "config/" 目录不可写入，我们已将更新的文件保存到 "data/" 目录下，请通过 FTP 软件将其转移到 "config/" 目录下覆盖源文件。<br /><br /><a href="'.$theurl.'?step=delete">当您完成上述操作后点击这里继续</a>');
 		}
@@ -1789,7 +1789,7 @@ if($_GET['step'] == 'start') {
 }elseif ($_GET['step'] == 'delete') {
 
 	if(!$devmode) {
-		show_msg("数据删除不处理，进入下一步", "$theurl?step=style");
+		show_msg("Data deletion is not processed, go to the next step", "$theurl?step=style");
 	}
 
 	$oldtables = array();

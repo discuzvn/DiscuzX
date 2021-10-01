@@ -245,7 +245,7 @@ class discuz_error
 </head>
 <body>
 <div id="container">
-<h1>Discuz! $title Error</h1>
+<h1>$title Error</h1>
 <div class='info'>$errormsg</div>
 
 

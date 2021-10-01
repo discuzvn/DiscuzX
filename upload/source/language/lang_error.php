@@ -34,9 +34,9 @@ $lang = array(
         'Website system initialization is complete, please <a href="index.php">Click here</ a> into the',
     'backtrace' => 'Operation information',
     'error_end_message' =>
-        '<a href="http://{host}">{host}</a> Có hồ sơ chi tiết của thông báo lỗi này, mà mang đến cho bạn truy cập để xin lỗi cho bất kỳ sự bất tiện chúng tôi',
+        '<a href="http://{host}">{host}</a> chúng tôi đã ghi nhận lỗi này, xin lỗi vì bất tiện đã gây ra',
     'mobile_error_end_message' =>
-        '<a href="http://{host}">{host}</a> 此错误给您带来的不便我们深感歉意',
+        '<a href="http://{host}">{host}</a> chúng tôi xin lỗi vì bất tiện này',
     'file_upload_error_-101' =>
         'Tải lên thất bại! File tải lên không tồn tại hoặc không hợp lệ, hãy thử lại',
     'file_upload_error_-102' =>

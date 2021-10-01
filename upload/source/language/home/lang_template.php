@@ -1305,10 +1305,10 @@ $lang = array(
     'credit_recharge' => 'Nạp tiền điểm',
     'delete_log_message' => '<p>Bạn có chắc chắn muốn xóa ?</p>',
     'friend_email_address' => 'Email bạn bè',
-    'friend_get' => 'Bạn bè nhận được ',
+    'friend_get' => 'Bạn bè nhận được',
     'friend_invite_link' => 'Liên kết lời mời bạn bè của tôi',
     'friend_invite_message' =>
-        'Bạn có thể gửi lời mời cho bạn bè qua: yahoo, QQ, MSN, ICQ ... hoặc gửi email cho họ. ',
+        'Bạn có thể gửi lời mời cho bạn bè qua: Facebook, Zalo hoặc email',
     'friend_invite_play' => 'Mời bạn bè cùng chơi',
     'friend_invite_success' => 'Đã mời thành công 1 người',
     'friend_play_together' => 'Bạn cùng chơi',
@@ -1335,7 +1335,7 @@ $lang = array(
     'resend' => 'Gửi lại',
     'send_invitation_email' => 'Gửi Email lời mời',
     'send_invitation_email_message' =>
-        'Gửi lời mời thông qua email, nếu gửi đồng thời cho nhiều người hãy nhập email của họ dùng dấu "," để phân biệt ví dụ: email A, email B.',
+        'Gửi lời mời thông qua email, gửi đồng thời cho nhiều người hãy nhập email của họ dùng dấu "," để phân biệt ví dụ: email A, email B.',
     'send_mail_again' => 'Gửi lại mail',
     'sure_resend' => 'Xác định gửi lại tin nhắn mời?',
     'you_get' => 'Bạn nhận được',

@@ -307,7 +307,7 @@ $lang = array(
 <p align="right">康盛公司</p>
 
 </div>',
-
+    'php_version_too_low' => 'Phiên bản PHP quá thấp, vui lòng nâng cấp lên bản tối thiểu '.$env_items['php']['r'],
     'php8_tips' => 'Phiên bản h iện tại chưa hỗ trợ PHP8, hãy sử dụng PHP 7.4 và thử lại',
 	'no_utf8_tips' => 'Hello, the version you are using is a localized encoding version such as GBK / BIG-5. This version is no longer the main push version. If you plan to build a new site [strongly] it is recommended that you use the latest official UTF-8 version to install.',
 	'no_latest_tips' => 'Hello, the version you are using is older, and there may be bugs and security risks. If there are no special circumstances, it is recommended that you use the latest official UTF-8 version to install.',

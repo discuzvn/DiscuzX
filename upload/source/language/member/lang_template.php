@@ -14,8 +14,8 @@ if (!defined('IN_DISCUZ')) {
 $lang = array(
     'getpassword' => 'Quên mật khẩu',
     'login_guest' =>
-        'Chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
-    'new_password' => 'Đổi mật khẩu',
+        'Bạn chưa có tài khoản? <a href="member.php?mod={$_G[setting][regname]}">{$_G[setting][reglinkname]}</a>',
+    'new_password' => 'Mật khẩu mới',
     'new_password_confirm' => 'Xác nhận',
     'password_weak' => 'Mật khẩu yếu, mật khẩu phải chứa',
     'strongpw_1' => 'số',
@@ -50,7 +50,7 @@ $lang = array(
     'register_message' => 'Đăng ký tại',
     'register_message1' =>
         'Bạn điền vào lý do đăng ký sẽ được coi như một tài liệu tham khảo quan trọng',
-    'register_password_length_tips1' => 'Chiều dài tối thiểu là ',
+    'register_password_length_tips1' => 'độ dài tối thiểu ',
     'register_password_length_tips2' => 'ký tự',
     'register_password_tips' => 'Điền mật khẩu',
     'register_repassword_tips' => 'Điền lại mật khẩu',

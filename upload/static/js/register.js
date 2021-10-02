@@ -83,9 +83,9 @@ function checkPwdComplexity(firstObj, secondObj, modify) {
 	};
 	firstObj.onkeyup = function () {
 		if(pwlength == 0 || $(firstObj.id).value.length >= pwlength) {
-			var passlevels = new Array('','Yếu','Tốt','Rất tốt');
+			var passlevels = new Array('', 'Yếu', 'Vừa', 'Mạnh');
 			var passlevel = checkstrongpw(firstObj.id);
-			errormessage(firstObj.id, '<span class="passlevel passlevel'+passlevel+'">Độ mạnh mật khẩu:'+passlevels[passlevel]+'</span>');
+			errormessage(firstObj.id, '<span class="passlevel passlevel'+passlevel+'">Độ mạnh mật khẩu: '+passlevels[passlevel]+'</span>');
 		}
 	};
 	secondObj.onblur = function () {
@@ -173,7 +173,7 @@ function trim(str) {
 	return str.replace(/^\s*(.*?)[\s\n]*$/g, '$1');
 }
 
-var emailMenuST = null, emailMenui = 0, emaildomains = ['gmail.com', 'yahoo.com', 'yahoo.com.vn', 'ymail.com', 'rocketmail.com', 'hotmail.com'];
+var emailMenuST = null, emailMenui = 0, emaildomains = ['gmail.com', 'hotmail.com', 'yahoo.com', 'outlook.com'];
 function emailMenuOp(op, e, id) {
 	if(op == 3 && BROWSER.ie && BROWSER.ie < 7) {
 		checkemail(id);

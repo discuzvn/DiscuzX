@@ -14,9 +14,9 @@ $lang = array(
     'moderate_member_invalidate' => 'Thành viên vô hiệu',
     'moderate_member_delete' => 'Xóa',
     'moderate_member_validate' => 'Bởi',
-    'get_passwd_subject' => 'Trợ giúp lấy mật khẩu',
+    'get_passwd_subject' => 'Hỗ trợ khôi phục mật khẩu',
     'get_passwd_message' => '
-<p>Xin chào {username},
+<p>Xin chào {username},<br />
 Email này gửi từ {bbname}.</p>
 
 <p>
@@ -42,7 +42,7 @@ Bấm vào link dưới đây để khôi phục mật khẩu<br />
 
 
 <p>
-Regards,<br />
+Trân trọng,<br />
 </p>
 <p>{bbname}</p>',
     'email_verify_subject' => 'Xác minh địa chỉ email',

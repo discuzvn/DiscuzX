@@ -25,7 +25,7 @@ $lang = array(
     'db_notfound_config' =>
         'Tập tin cấu hình "config_global.php" không tìm thấy hoặc không thể truy cập',
     'db_notconnect' => 'Không thể kết nối đến CSDL',
-    'db_security_error' => '查询语句安全威胁',
+    'db_security_error' => 'Security Threats to Query Statements',
     'db_query_sql' => 'Query',
     'db_query_error' => 'Query error',
     'db_config_db_not_found' =>

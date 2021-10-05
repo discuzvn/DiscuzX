@@ -46,7 +46,7 @@ $lang = array(
 								<li>Nếu bạn muốn quản lý không gian của bạn, nhật ký, album ảnh và sự riêng tư khác, hãy truy cập vào cài đặt bảo mật không gian của bạn</li>
 								<li>Chỉ có thể thiết lập các ứng dụng mặc định liên quan đến loại bỏ, nhưng vẫn được hiển thị sau khi loại bỏ các bên phải của trình đơn của bạn trong.</li></ol>',
     'open' => 'Mở rộng',
-    'recommend_unit' => '荐',
-    'myapp' => '我的应用',
-    'appcenter' => '应用中心',
+    'recommend_unit' => 'Đề xuất',
+    'myapp' => 'Ứng dụng của tôi',
+    'appcenter' => 'Trung tâm ứng dụng',
 );

@@ -148,8 +148,8 @@ $lang = array(
 							<input type="hidden" name="idtype" value="uid" />
 							<input type="hidden" name="commentsubmit" value="true" />'
             : ($_G['connectguest']
-                ? '<div class="pt hm">您需要 <a href="member.php?mod=connect" class="xi2">完善帐号信息</a> 或 <a href="member.php?mod=connect&ac=bind" class="xi2">绑定已有帐号</a> 后才可以回帖</div>'
-                : '<div class="pt hm">你需要登录后才可以留言 <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">登录</a> | <a href="member.php?mod=' .
+                ? '<div class="pt hm">Bạn cần <a href="member.php?mod=connect" class="xi2">hoàn thiện thông tin</a> hoặc <a href="member.php?mod=connect&ac=bind" class="xi2">kết nối tài khoản đã có</a>. Bạn có thể trả lời sau.</div>'
+                : '<div class="pt hm">Bạn cần đăng nhập trước khi điền tin nhắn <a href="member.php?mod=logging&action=login" onclick="showWindow(\'login\', this.href)" class="xi2">đăng nhập</a> | <a href="member.php?mod=' .
                     $_G['setting']['regname'] .
                     '" class="xi2">' .
                     $_G['setting']['reglinkname'] .
@@ -159,7 +159,7 @@ $lang = array(
         ($_G['uid']
             ? 'type="submit"'
             : 'type="button" onclick="showWindow(\'login\', \'member.php?mod=logging&action=login&guestmessage=yes\')"') .
-        ' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>留言</strong></button></p>
+        ' name="commentsubmit_btn" value="true" id="commentsubmit_btn" class="pn"><strong>Nhắn tin</strong></button></p>
 							<input type="hidden" name="handlekey" value="commentwall_{uid}" />
 							<span id="return_commentwall_{uid}"></span>
 							<input type="hidden" name="formhash" value="{FORMHASH}" />
@@ -285,7 +285,7 @@ $lang = array(
     'viewthread_userinfo_sharings' => 'Chia sẻ',
     'viewthread_userinfo_friends' => 'Bạn',
     'viewthread_userinfo_digest' => 'Bài hay',
-    'viewthread_userinfo_digestposts' => '精华',
+    'viewthread_userinfo_digestposts' => 'Tinh tế',
     'viewthread_userinfo_credits' => 'Điểm',
     'viewthread_userinfo_readperm' => 'Quyền đọc',
     'viewthread_userinfo_regtime' => 'Đăng ký',
@@ -295,8 +295,8 @@ $lang = array(
     'viewthread_userinfo_buyercredit' => 'Người mua tín dụng',
     'viewthread_userinfo_follower' => 'Số người theo dõi',
     'viewthread_userinfo_following' => 'Đang theo dõi',
-    'viewthread_userinfo_feeds' => '广播',
-    'viewthread_userinfo_privacy' => '保密',
+    'viewthread_userinfo_feeds' => 'Feeds',
+    'viewthread_userinfo_privacy' => 'Riêng tư',
     'follow_view_follow' => 'Tôi theo dõi',
     'follow_view_special' => 'Chú ý đến',
     'follow_view_other' => 'Loại khác',

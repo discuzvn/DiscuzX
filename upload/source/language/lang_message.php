@@ -127,7 +127,7 @@ $lang = array(
         'Xin lỗi, trong {searchctrl} giây có thể thực hiện một lần tìm kiếm',
     'search_toomany' =>
         'Xin lỗi, trang web thiết lập để đáp ứng các hệ thống tìm kiếm 5 lần/phút, hãy thử lại sau',
-    'search_closed' => '搜索功能已关闭',
+    'search_closed' => 'Search function is turned off',
     'no_privilege_myop' =>
         'Xin lỗi, hiện tại bạn không được phép sử dụng ứng dụng này, <a href="home.php?mod=spacecp&ac=usergroup">Click vào đây để xem quyền</a>',
     'collection_permission_deny' =>
@@ -167,7 +167,7 @@ $lang = array(
     'post_flood_ctrl' =>
         'Có lỗi, khoảng thời gian giữa 2 lần đăng bài liên tiếp tối thiểu là {floodctrl} giây, vui lòng chờ.',
     'post_flood_ctrl_posts_per_hour' =>
-        'Có lỗi, Bạn thuộc nhóm thành viên được phép đăng số bài mỗi giờ {posts_per_hour} 个,Vui lòng chờ đến khoảng thời gian tiếp theo',
+        'Có lỗi, bạn thuộc nhóm thành viên giới hạn {posts_per_hour} bài đăng mỗi giờ, vui lòng chờ đến khoảng thời gian tiếp theo',
     'trade_please_name' => 'Có lỗi, tên gian hàng không được để trống',
     'trade_price_between' =>
         'Có lỗi, RMB giá món hàng phải được {mintradeprice} Yếu tố để {maxtradeprice} Việt Nam đồng',
@@ -214,10 +214,7 @@ $lang = array(
     'submitcheck_error' => 'Có lỗi, Trình của bạn là không chính xác',
     'post_forum_newthread_nopermission' =>
         'Có lỗi, Diễn đàn này giới hạn thành viên được cấp phép mới có thể đăng bài',
-    'postperm_qqonly_nopermission' =>
-        '为避免您的帐号被盗用，请您绑定QQ帐号后发帖，绑定后请使用QQ帐号登录<br /><a href="connect.php?mod=config"><img src="' .
-        STATICURL .
-        'image/common/qq_bind_small.gif" /></a>',
+    'postperm_qqonly_nopermission' => 'postperm_qqonly_nopermission',
     'thread_flood_ctrl_threads_per_hour' =>
         'Xin lỗi nhóm người dùng của bạn chỉ được đăng mỗi giờ {threads_per_hour} bài.',
     'search_forum_invalid' =>
@@ -439,12 +436,12 @@ $lang = array(
     'group_create_max_failed' => 'Xin lỗi, số lượng {_G/setting/navs/3/navname} đã đến giưới hạn, không thể tạo thêm {_G/setting/navs/3/navname}
 
 ',
-    'group_category_error' => '抱歉，选择{_G/setting/navs/3/navname}分类错误',
+    'group_category_error' => 'Sorry, the selection {_G/setting/navs/3/navname} is incorrectly classified',
     'group_create_mod_succeed' =>
         'Yêu cầu {_G/setting/navs/3/navname} đã được gửi, chúng tôi sẽ xem xét sớm',
     'group_create_succeed' => 'Tạo {_G/setting/navs/3/navname} thành công',
     'group_edit_only_founder' =>
-        '抱歉，只有{_G/setting/navs/3/navname}创始人可以修改{_G/setting/navs/3/navname}名称或{_G/setting/navs/3/navname}分类',
+        'Sorry, only the founder of {_G/setting/navs/3/navname} can modify {_G/setting/navs/3/navname} name or {_G/setting/navs/3/navname} category',
     'group_close_only_founder' =>
         'Xin lỗi, chỉ  người sáng lập {_G/setting/navs/3/navname} mới có thể tắt {_G/setting/navs/3/navname}',
     'group_moderate_succeed' =>
@@ -580,9 +577,9 @@ $lang = array(
     'recommend_outoftimes' =>
         'Đánh giá <strong id="recommentc" class="xi1 xs2">{recommendc}</strong><br />Số lượt đánh giá trong ngày đã hết',
     'recommend_daycount_succeed' =>
-        '评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />您今天还能评价 {daycount} 次',
+        'Evaluation Index <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span><br />You can rate {daycount} times today',
     'recommend_succeed' =>
-        '评价指数 <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
+        'Evaluation Index <strong id="recommentc" class="xi1 xs2">{recommendc}</strong> <span id="recommentv" class="xg2 xs0">{recommendv}</span>',
     'thread_poll_voter_isnull' =>
         'Chưa có ai bình chọn, vì vậy bạn không thể thêm thẻ.',
     'thread_activityapply_isnull' =>
@@ -1192,7 +1189,7 @@ $lang = array(
     'usergroup_switch_not_allow' =>
         'Nhóm người sử dụng hiện tại của bạn không hết hạn, không thể chuyển sang các nhóm người dùng khác',
     'usergroup_switch_not_allowvisit' =>
-        '抱歉，您无法切换到不能访问论坛的用户组',
+        'Sorry, you cannot switch to a user group that cannot access the forum',
     'usergroups_switch_succeed' => 'Bạn đã chuyển sang nhóm {group}',
     'no_privilege_banpost' => 'Có lỗi, Bạn không có chủ đề mặt nạ cho phép',
     'admin_banpost_invalid' => 'Có lỗi, Bạn chưa chọn chặn bài viết',

@@ -47,7 +47,7 @@ $lang = array(
         '22' => 'D75',
         '255' => 'Khác',
     ),
-    'img_info' => array('文件信息' => '没有图片EXIF信息'),
+    'img_info' => array('Thông tin file' => 'Không có thông tin EXIF'),
     'FileName' => 'Tên tập tin',
     'FileType' => 'Loại tập tin',
     'MimeType' => 'Định dạng',

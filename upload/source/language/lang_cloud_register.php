@@ -10,8 +10,8 @@ if (!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 $lang = array(
-    'bindqq' => '您需要绑定QQ帐号后才能开启此应用',
+    'bindqq' => 'You need to bind your QQ account to open this application',
     'bindqq_link' =>
-        '<a href="javascript:;" class="lightlink" onclick="BindQQ()"><b>开始绑定QQ</b></a>',
-    'back' => '点击这里返回上一页',
+        '<a href="javascript:;" class="lightlink" onclick="BindQQ()"><b>Start to bind QQ</b></a>',
+    'back' => 'Click here to return to the last page',
 );

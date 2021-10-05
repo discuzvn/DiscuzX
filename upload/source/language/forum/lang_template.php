@@ -318,7 +318,7 @@ $lang = array(
     'forum_live_post' => 'Đăng',
     'forum_live_nocontent_error' => 'Xin lỗi, bạn chưa điền nội dung',
     'forum_live_nolength_error' =>
-        '\'您的帖子长度不符合要求。\\n\\n当前长度: \' + mb_strlen(theform.message.value) + \' 字节\\n系统限制: \' + postminchars + \' 到 \' + postmaxchars + \' 字节\'',
+        '\'Độ dài tiêu đề không phù hợp\\n\\nĐộ dài hiện tại: \' + mb_strlen(theform.message.value) + \' ký tự\\nGiới hạn hệ thống: từ \' + postminchars + \' đến \' + postmaxchars + \' ký tự\'',
     'modcp' => 'Khu vực quản lý',
     'post_newthread' => 'Đăng bài',
     'post_newthreadactivity' => 'Hoạt động',

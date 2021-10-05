@@ -118,21 +118,21 @@ Tính đến bây giờ, bạn đã bị cảnh báo {authorwarnings} lần, xin
     'reason_quickclear' =>
         '{cleartype} hãy xóa {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
     'reason_live_update' =>
-        '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 设置为直播贴 <div class="quote"><blockquote>{reason}</blockquote></div>',
+        'Chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Set by {actor} as live post <div class="quote"><blockquote>{reason}</blockquote></div>',
     'reason_live_cancle' =>
-        '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被 {actor} 取消直播 <div class="quote"><blockquote>{reason}</blockquote></div>',
+        'Chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> Live broadcast canceled by {actor} <div class="quote"><blockquote>{reason}</blockquote></div>',
     'modthreads_delete' =>
         'Chủ đề {threadsubject} không được chấp thuận, đã bị xóa !<div class="quote"><blockquote>{reason}</blockquote></div>',
     'modthreads_delete_reason' =>
-        '您发表的主题 {threadsubject} 未通过审核，现已被删除！<div class="quote"><blockquote>{reason}</blockquote></div>',
+        'Your topic {threadsubject} was not approved and has now been deleted!<div class="quote"><blockquote>{reason}</blockquote></div>',
     'modthreads_validate' =>
         'Chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{threadsubject}</a> đã được phê duyệt! &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">Xem &rsaquo;</a> <div class="quote"><blockquote>{reason}</blockquote></div>',
     'modreplies_delete' =>
         'Trả lời của bạn đã không được thông qua, hiện đã bị xóa! <p class="summary">Nội dung:<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
     'modreplies_delete_reason' =>
-        '您发表回复未通过审核，现已被删除！ <p class="summary">回复内容：<span>{post}</span></p><div class="quote"><blockquote>{reason}</blockquote></div>',
+        'Your reply was not approved and has now been deleted! <p class="summary">Reply content:<span>{post}</span></p><div class="quote"><blockquote>{reason}</blockquote></div>',
     'modreplies_validate' =>
-        'Trả lời của bạn đã được thông qua và công bố ! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Xem &rsaquo;</a> <p class="summary">Nội dung:<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
+        'Trả lời của bạn đã được duyệt và xuất bản! &nbsp; <a href="forum.php?mod=redirect&goto=findpost&pid={pid}&ptid={tid}" target="_blank" class="lit">Xem &rsaquo;</a> <p class="summary">Nội dung:<span>{post}</span></p> <div class="quote"><blockquote>{reason}</blockquote></div>',
     'transfer' => 'Bạn nhận được từ {actor} số điểm là {credit} &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=log&suboperation=creditslog" target="_blank" class="lit">Xem &rsaquo;</a>
 <p class="summary">{actor} Nhắn: <span>{transfermessage}</span></p>',
     'addfunds' => 'Bạn đã nạp điểm thành công, số tiền tương ứng đã được chuyển vào tài khoản của bạn ! &nbsp; <a href="home.php?mod=spacecp&ac=credit&op=base" target="_blank" class="lit">Xem &rsaquo;</a>
@@ -286,5 +286,5 @@ Tính đến bây giờ, bạn đã bị cảnh báo {authorwarnings} lần, xin
         'Chúc mừng chủ đề <a href="forum.php?mod=viewthread&tid={tid}">{threadname}</a> đã được thêm vào <a href="forum.php?mod=collection&action=view&ctid={ctid}">{collectionname}</a>!',
     'pmreportcontent' => '{pmreportcontent}',
     'thread_hidden' =>
-        '您的主题 <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> 被多个用户认定为垃圾帖，现已被隐藏 &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">查看 &rsaquo;</a>',
+        'Chủ đề <a href="forum.php?mod=viewthread&tid={tid}" target="_blank">{subject}</a> bị nhiều người đánh dấu là spam nên đã bị ẩn &nbsp; <a href="forum.php?mod=viewthread&tid={tid}" target="_blank" class="lit">xem chủ đề &rsaquo;</a>',
 );

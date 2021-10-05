@@ -57,7 +57,7 @@ $lang = array(
     'open' => 'Mở',
     'closed' => 'Đóng',
     'public' => 'Mở',
-    'freeze' => '已冻结',
+    'freeze' => 'Frozen',
     'operation' => 'Hoạt động',
     'operator' => 'Điều hành',
     'reason' => 'Lý do',
@@ -166,7 +166,7 @@ $lang = array(
     'search_result_item' => 'Với {number} kết quả',
     'sameinfo' => 'Thông tin',
     'newlist' => 'Danh sách mới nhất',
-    'bloglist' => '日志列表',
+    'bloglist' => 'Log list',
     'research' => 'Tìm lại',
     'result' => 'Kết quả',
     'return' => 'Quay lại',
@@ -244,7 +244,7 @@ $lang = array(
     'hide_search' => 'Ẩn tìm kiếm',
     'keywords' => 'Từ khóa',
     'startendtime' => 'Thời gian bắt đầu và kết thúc',
-    'plugin' => '插件',
+    'plugin' => 'Plug-in',
     'import_type' => 'Chọn cách nhập',
     'import_type_file' => 'Tải lên tập tin',
     'import_type_txt' => 'Nhập text',
@@ -419,7 +419,7 @@ $lang = array(
     'nav_members_newsletter' => 'Thông báo',
     'nav_members_newsletter_mobile' => 'Thông báo điện thoại',
     'nav_members_ipban' => 'Cấm IP',
-    'nav_members_ipban_output' => '导入/导出',
+    'nav_members_ipban_output' => 'Import and Export',
     'nav_members_select' => 'Chọn member',
     'nav_members_notify' => 'Nội dung thông báo',
     'nav_defaultuser' => 'Giới thiệu bạn',
@@ -613,28 +613,28 @@ $lang = array(
         '<li>Generate HTML files of topics published after the specified start time</li>',
     'makehtml_recreate' => 'Regenerate',
     'makehtml_allfilecomplete' => 'All files are generated',
-    'makehtml_selectcategorycomplete' => '选择的频道全部生成完成',
-    'makehtml_allarticlecomplete' => '全部文章生成完成',
-    'makehtml_alltopiccomplete' => '全部专题生成完成',
-    'makehtml_waitmaking' => '请稍等，正在生成首页...',
-    'makehtml_getcategoryid' => '获取所有要生成的频道ID并生成所有catids的文章',
-    'makehtml_gettopicid' => '获取所有要生成的专题ID并生成所有topicids的专题',
-    'makehtml_getarticleid' => '获取所有要生成的文章ID并生成所有aids的文章',
-    'makehtml_waitmakingcategory' => '请稍等，正在检查可生成的频道页面...',
-    'makehtml_nofindcategory' => '没有可生成的频道页面',
-    'makehtml_nofindtopic' => '没有可生成的专题页面',
-    'makehtml_nofindarticle' => '没有可生成的文章页面',
-    'makehtml_startmaketopic' => '现在开始生成专题文件...',
-    'makehtml_startmakeindex' => '现在开始生成主页文件...',
-    'makehtml_startmakecategory' => '现在开始生成频道文件...',
-    'makehtml_browser_error' => '如果您的浏览器没有反应，请点击继续...',
-    'makehtml_waitchecktopic' => '请稍等，正在检查可生成的专题页面...',
-    'makehtml_waitcheckarticle' => '请稍等，正在检查可生成的文章页面...',
-    'makehtml_createallcategory' => '生成所有频道',
-    'makehtml_selectcategory' => '选择频道',
-    'makehtml_startid' => '起始ID(空或0表示从头开始)',
-    'makehtml_endid' => '结束ID(空或0表示直到结束)',
-    'makehtml_allcategory' => '所有频道',
+    'makehtml_selectcategorycomplete' => 'All selected channels are generated',
+    'makehtml_allarticlecomplete' =>'All articles are generated complete',
+    'makehtml_alltopiccomplete' =>'All topics are generated complete',
+    'makehtml_waitmaking' =>'Please wait, the homepage is being generated...',
+    'makehtml_getcategoryid' =>'Get all the channel IDs to be generated and generate all catids articles',
+    'makehtml_gettopicid' =>'Get all topic IDs to be generated and generate topics of all topicids',
+    'makehtml_getarticleid' =>'Get all the article IDs to be generated and generate all aids articles',
+    'makehtml_waitmakingcategory' =>'Please wait, we are checking the available channel pages...',
+    'makehtml_nofindcategory' =>'No channel page can be generated',
+    'makehtml_nofindtopic' =>'No topic page can be generated',
+    'makehtml_nofindarticle' =>'No article page can be generated',
+    'makehtml_startmaketopic' =>'Now start to generate topic files...',
+    'makehtml_startmakeindex' =>'Now start to generate the home page file...',
+    'makehtml_startmakecategory' =>'Now start to generate channel files...',
+    'makehtml_browser_error' =>'If your browser does not respond, please click to continue...',
+    'makehtml_waitchecktopic' =>'Please wait, we are checking the topic pages that can be generated...',
+    'makehtml_waitcheckarticle' =>'Please wait, we are checking the generated article page...',
+    'makehtml_createallcategory' =>'Generate all channels',
+    'makehtml_selectcategory' =>'Select channel',
+    'makehtml_startid' =>'Start ID (empty or 0 means starting from the beginning)',
+    'makehtml_endid' =>'End ID (empty or 0 means until the end)',
+    'makehtml_allcategory' =>'all channels',
     'nav_report' => 'Báo cáo',
     'report_user' => 'Người báo cáo',
     'report_detail' => 'Chi tiết báo cáo',
@@ -1292,18 +1292,18 @@ $lang = array(
     'setting_styles_viewthread_guestviewthumb' => 'Khách xem ảnh nhỏ',
     'setting_styles_viewthread_guestviewthumb_comment' =>
         'Khi khách xem bài viết, hình ảnh sẽ hiển thị dạng nhỏ, có thể hiện to lên khi khách đăng nhập',
-    'setting_styles_viewthread_guestviewthumb_width' => '小图宽度',
+    'setting_styles_viewthread_guestviewthumb_width' => 'Small image width',
     'setting_styles_viewthread_guestviewthumb_width_comment' =>
-        '指定小图的宽度,默认值为100',
-    'setting_styles_viewthread_guestviewthumb_height' => '小图高度',
+        'Specify the width of the small image, the default value is 100',
+    'setting_styles_viewthread_guestviewthumb_height' => 'Small picture height',
     'setting_styles_viewthread_guestviewthumb_height_comment' =>
-        '指定小图的高度，默认值为100',
+        'Specify the height of the thumbnail, the default value is 100',
     'setting_styles_viewthread_guesttipsinthread' => 'Nhắc đăng nhập trong bài đăng',
     'setting_styles_viewthread_guesttipsinthread_comment' =>
         'Khi khách xem bài, 1 dòng chữ sẽ hiện lên trên đầu bài viết nhắc đăng nhập',
-    'setting_styles_viewthread_guesttipsinthread_text' => '登录提示提示文字',
+    'setting_styles_viewthread_guesttipsinthread_text' => 'Login prompt text',
     'setting_styles_viewthread_guesttipsinthread_text_comment' =>
-        '自定义显示提示文字,默认为：马上注册，结交更多好友，享用更多功能，让你轻松玩转社区。',
+        'Customize the display prompt text, the default is: register now, make more friends, enjoy more functions, and let you easily play in the community.',
     'setting_styles_viewthread_vtonlinestatus' => 'Trạng thái trực tuyến',
     'setting_styles_viewthread_vtonlinestatus_comment' =>
         'Để hiển thị trạng thái trực tuyến của bài viết.( rất nặng cho máy chủ )',
@@ -2439,9 +2439,9 @@ $lang = array(
     'setting_credits_policy_cycletype_3' => 'Khoảng phút',
     'setting_credits_policy_cycletype_4' => 'Mở',
     'setting_credits_policy_rewardnum' => 'Số giải thưởng',
-    'setting_credits_policy_mobile' => '手机版访问额外加分',
+    'setting_credits_policy_mobile' => 'Mobile version access extra points',
     'setting_credits_policy_mobile_comment' =>
-        '当手机版访问时，相应积分策略项获得的额外加分，仅对加分项目有效',
+        'When the mobile version is accessed, the extra points obtained by the corresponding points strategy item are only valid for the extra points items',
     'setting_credits_use_custom_credit' =>
         'Custom points of the strategy of the current forum',
     'setting_credits_formula' => 'Tổng số công thức',
@@ -4290,7 +4290,7 @@ $lang = array(
     'members_delete_pic' => 'Image',
     'members_delete_doing' => 'Doing',
     'members_delete_share' => 'Share',
-    'members_delete_feed' => '广播',
+    'members_delete_feed' => 'Broadcast',
     'members_delete_comment' => 'Comment',
     'members_delete_allitem' => 'All',
     'members_delete_user_processing_next' =>
@@ -5120,16 +5120,16 @@ $lang = array(
         'Open the anti-authentication mechanism can prevent irrigation irrigation machines, but will increase the degree of user friendly operation. Change Password against this limit, the open anti-irrigation verification code or verification questions and answers, the setting effective',
     'usergroups_edit_basic_disable_postctrl' => 'Published unrestricted',
     'usergroups_edit_basic_disable_postctrl_comment' =>
-        'Set is released and the maximum number of words from irrigation to prevent such',
-    'usergroups_edit_basic_forcesecques' => '强制设置安全提问',
+    'Set is released and the maximum number of words from irrigation to prevent such',
+    'usergroups_edit_basic_forcesecques' => 'mandatory set security questions',
     'usergroups_edit_basic_forcesecques_comment' =>
-        '选择“是”则此用户组的用户在登录后台前必须设置安全提问后才可登录后台, config中为全局开关',
-    'usergroups_edit_basic_forcelogin' => '安全登录方式',
+        'Select "Yes", users of this user group must set up security questions before logging in to the background before they can log in to the background. The config is a global switch.',
+    'usergroups_edit_basic_forcelogin' => 'Security login method',
     'usergroups_edit_basic_forcelogin_comment' =>
-        '选择此用户组用户安全登录的方式',
-    'usergroups_edit_basic_forcelogin_none' => '不开启',
-    'usergroups_edit_basic_forcelogin_qq' => 'QQ登录',
-    'usergroups_edit_basic_forcelogin_mail' => '邮箱登录',
+        'Choose the way for users of this user group to log in safely',
+    'usergroups_edit_basic_forcelogin_none' => 'Not open',
+    'usergroups_edit_basic_forcelogin_qq' => 'QQ login',
+    'usergroups_edit_basic_forcelogin_mail' => 'Mailbox login',
     'usergroups_edit_basic_ignore_censor' =>
         'Bỏ qua sự cần thiết phải xem xét các từ khóa',
     'usergroups_edit_basic_ignore_censor_comment' =>
@@ -5446,9 +5446,9 @@ $lang = array(
     'usergroups_edit_credit_exempt_inperm' => 'Phần thuộc sở hữu',
     'usergroups_edit_credit_exempt_outperm' => 'Ngoài phần sở hữu',
     'usergroups_edit_home' => 'Không gian',
-    'usergroups_edit_home_allow_viewprofile' => '允许查看用户资料',
+    'usergroups_edit_home_allow_viewprofile' =>'Allow viewing user profile',
     'usergroups_edit_home_allow_viewprofile_comment' =>
-        '设置是否允许查看其他用户的资料信息',
+         'Set whether to allow viewing other user profile information',
     'usergroups_edit_home_allow_blog' => 'Được đăng Blog',
     'usergroups_edit_home_allow_blog_mod' => 'Đăng Blog cần kiểm duyệt',
     'usergroups_edit_home_allow_doing' => 'Được đăng Tâm trạng',
@@ -5619,7 +5619,7 @@ $lang = array(
     'threads_rate' => 'Chủ đề đánh giá:',
     'threads_highlight' => 'Chủ đề chú ý:',
     'threads_save' => 'Lưu nháp',
-    'threads_hide' => '是否包含隐藏主题',
+    'threads_hide' => 'Whether to include hidden topics',
     'threads_batch' => 'Mở/Đóng hàng loạt',
     'threads_digest_one' => 'Tinh hoa I',
     'threads_digest_two' => 'Tinh hoa II',
@@ -6074,7 +6074,7 @@ $lang = array(
     'moderate_validate_list' =>
         '审核操作成功，共 {validates} 个主题被通过，{ignores} 个主题被忽略，{recycles} 个主题被放入回收站，{deletes} 个主题被删除。<br />您可以<a href="' .
         ADMINSCRIPT .
-        '?action=moderate&operation=threads">继续审核新主题</a>',
+        '?action=moderate&operation=threads">Continue to review new topics</a>',
     'moderate_none' => 'Không',
     'moderate_ignore' => 'Bỏ qua',
     'moderate_all_fields' => 'Tất cả diễn đàn',
@@ -6196,8 +6196,8 @@ $lang = array(
     'misc_link_tips' =>
         '<li>Nếu bạn không muốn hiện links, bạn có thể tuỳ chọn trọng <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=styles&anchor=index">cài đặt giao diện</a> để ẩn</li><li>未填写文字说明的项目将以紧凑型显示。</li>
-						<li>友情链接分组只供 DIY 的展示类模块使用。</li>',
+        '?action=setting&operation=styles&anchor=index">cài đặt giao diện</a> để ẩn</li><li>Items that are not filled in the text description will be displayed in a compact format.</li>
+						<li>The friendship link grouping is only for DIY display modules.</li>',
     'misc_link_edit' => 'Sửa Liên kết',
     'misc_link_edit_name' => 'Tên diễn đàn',
     'misc_link_edit_url' => 'Diễn đàn URL',
@@ -6300,9 +6300,9 @@ $lang = array(
     'misc_censor_batch_add_tips' =>
         '<li>Mỗi từ 1 dòng, giữa từ xấu và từ thay thế dùng dấu "=".</li><li>Để ngăn cấm việc xuất bản các văn bản có chứa một từ, không phải là một thay thế bộ lọc, thiết lập các nội dung tương ứng được thiết lập để {BANNED}; để khi người sử dụng phát hành các văn bản có chứa một từ, tự động gắn cờ để xem xét hướng dẫn, nhưng không trực tiếp hiển thị hoặc thay thế bộ lọc, hãy thay thế nội dung của tập {MOD} tương ứng.</li><li>Nếu bạn chỉ muốn thay thế một từ trực tiếp **, bạn chỉ có thể nhập các từ;</li><li>Ví dụ: <br />toobad<br />nobad<br />badword=good<br />sexword={BANNED}</li>',
     'misc_censor_batch_add_clear' =>
-        '清空当前词表后导入新词语，此操作不可恢复，建议首先 <a href="' .
+        'Import new words after clearing the current vocabulary. This operation cannot be restored. It is recommended first <a href="' .
         ADMINSCRIPT .
-        '?action=misc&operation=censor&do=export" target="_blank"><b><u>导出词表</u></b></a>，做好备份。<br />',
+        '?action=misc&operation=censor&do=export" target="_blank"><b><u>Export vocabulary</u></b></a>, make a backup.<br />',
     'misc_censor_batch_add_overwrite' =>
         'Sử dụng thiết đặt mới đè lên những từ đã tồn tại',
     'misc_censor_batch_add_no_overwrite' =>
@@ -6417,7 +6417,7 @@ $lang = array(
     'faq_identifier_comment' =>
         'Các mẫu để giúp thông tin cuộc gọi bàn trước, phía trước bàn mẫu có thể được sử dụng{faq Giúp xác định} hãy gọi trợ giúp này, các logo chỉ. Nếu không có nhu cầu đặc biệt Vui lòng không thay đổi',
     'faq_keywords' => 'Từ khóa',
-    'faq_keywords_comment' => '配合帮助标识用于帮助信息的前台的模版调用',
+    'faq_keywords_comment' => 'Cooperate with the help mark to call the template of the front desk for help information',
     'faq_content' => 'Nội dụng',
     'faq_content_comment' => 'Hỗ trợ HTML',
     'faq_additem' => 'Thêm trợ giúp',
@@ -6458,7 +6458,7 @@ $lang = array(
     'plugins_config_upgrade' => 'Nâng cấp plug-in',
     'plugins_config_delete' => 'Gỡ plug-in',
     'plugins_config_uninstall_tips' =>
-        '您确定要把 {pluginname} 插件卸载并不可逆的删除由 {pluginname} 插件产生的所有数据么？',
+        'Are you sure you want to uninstall the {pluginname} plugin and irreversibly delete all data generated by the {pluginname} plugin?',
     'plugins_config_upgrade_other' =>
         'Are you sure you want to upgrade the Plug-in {pluginname} {version} to the next version?',
     'plugins_config_uninstallplugin' => 'Uninstall the plug-in',
@@ -6492,7 +6492,7 @@ $lang = array(
         'If there is a language pack for the plug-in, select "Yes"',
     'plugins_edit_modules' => 'Plug-in modules, and custom menu',
     'plugins_edit_modules_name' => 'Module name (yêu cầu)',
-    'plugins_edit_modules_param' => '模块参数',
+    'plugins_edit_modules_param' => 'Module parameters',
     'plugins_edit_modules_menu' => 'Menu item name',
     'plugins_edit_modules_menu_url' => 'Direct Link URL',
     'plugins_edit_modules_navtitle' => 'Navigation Help',
@@ -6535,7 +6535,7 @@ $lang = array(
     'plugins_edit_vars' => 'Cấu hình Plug-in',
     'plugins_edit_vars_title' => 'Tên cấu hình',
     'plugins_edit_vars_title_comment' =>
-        'Max 100 chars. "Language Replace" is support here.Eg. in "admincp.lang.php" "\'myaction\'=>\'我的操作\'" was defined, you can specify myaction here to automatically mulitlanugaging.',
+        'Max 100 chars. "Language Replace" is support here.Eg. in "admincp.lang.php" "\'myaction\'=>\'My operation\'" was defined, you can specify myaction here to automatically mulitlanugaging.',
     'plugins_edit_vars_description' => 'Variable Description:',
     'plugins_edit_vars_description_comment' =>
         'Descprition of this variable, 255 chars max.',
@@ -6641,9 +6641,9 @@ $lang = array(
         '<li>When the card generating is disabled, Simple rules or the formation of smaller number of sheets number of sheets that could cause actual generation is less than the default number of sheets generated.</li>',
     'card_config_open' => 'Allow front recharge',
     'card_config_open_comment' =>
-        '设置是否允许前台充值，关闭前台充值功能，不影响后台卡密的生成<br />充值卡密验证码开关：<a href="' .
+        'Set whether to allow the front desk to recharge, close the front desk recharge function, does not affect the generation of the background card password<br />Recharge card password verification code switch:<a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=seccheck">全局->安全->验证设置</a>',
+        '?action=setting&operation=seccheck">Global -> Security -> Verification Settings</a>',
     'card_number' => 'Card secret',
     'card_number_unit' => 'items',
     'card_make_rule' => 'Secret Card build rules',
@@ -6781,11 +6781,11 @@ $lang = array(
     'tasks_install' => 'Cài đặt nhiệm vụ',
     'tasks_upgrade' => 'Nâng cấp',
     'tasks_uninstall' => 'Xóa',
-    'tasks_status' => '状态',
-    'tasks_status_0' => '未启用',
-    'tasks_status_1' => '未上线',
-    'tasks_status_2' => '进行中',
-    'tasks_status_3' => '已结束',
+    'tasks_status' => 'Status',
+    'tasks_status_0' => 'Not Enabled',
+    'tasks_status_1' => 'Not online',
+    'tasks_status_2' => 'In progress',
+    'tasks_status_3' => 'Over',
     'tasks_tips' =>
         ' <li>Chỉ có công việc được đánh dấu là "có" các thành viên sẽ nhìn thấy.</ li> ',
     'tasks_tips_edit' =>
@@ -6807,10 +6807,10 @@ $lang = array(
     'tasks_add_icon_comment' =>
         'Upload ảnh vào thư mục images/tasks <a href="images/tasks/task.gif" target="_blank"> Hình mặc định </a>. Thiết kế kích thước bằng 64x64 ',
     'tasks_add_starttime' => 'Thời gian bắt đầu (ngày)',
-    'tasks_add_starttime_comment' => '任务开始时间，留空表示任务立即开始',
+    'tasks_add_starttime_comment' => 'Task start time, leave it blank to indicate that the task will start immediately',
     'tasks_add_endtime' => 'Thời gian kết thúc (ngày)',
     'tasks_add_endtime_comment' =>
-        '任务结束时间，结束后会员将无法申请此任务，留空表示不限制',
+        'The end time of the task. After the end, members will not be able to apply for this task. Leave it blank to indicate unlimited',
     'tasks_add_periodtype' => 'Task interval cycle units',
     'tasks_add_periodtype_comment' => 'Set the task interval cycle unit <br />
 		Giờ: that after the specified hours to apply again for an interval period of hours filled interval <br />
@@ -6850,7 +6850,7 @@ $lang = array(
     'tasks_add_group_special' => 'Nhóm thiết kế',
     'tasks_add_relatedtask' => 'Phải hoàn tất việc phân công công việc',
     'tasks_add_relatedtask_comment' =>
-        '申请此任务是否需要先完成其他任务，利用此设置，可设计一个系列任务，通常为不限制',
+        'Bạn có cần phải hoàn thành các nhiệm vụ khác trước khi đăng ký nhiệm vụ này không? Hãy sử dụng cài đặt này để thiết kế một loạt nhiệm vụ, thường là không giới hạn',
     'tasks_add_conditions' => 'Điều kiện nhiệm vụ',
     'tasks_add_maxnum' => 'Tối đa số ứng dụng',
     'tasks_add_maxnum_comment' =>
@@ -6880,10 +6880,7 @@ $lang = array(
     'tasks_add_setting' => 'Cài đặt khác',
     'ec' => 'E-commerce',
     'ec_alipay' => 'Alipay settings',
-    'ec_alipay_tips' =>
-        '<li>“支付宝”(<a href="http://www.alipay.com" target="_blank">http://www.alipay.com</a>)是中国领先的网上支付平台，由全球最佳 B2B 公司阿里巴巴公司创建，为 Discuz! 用户提供积分购买及论坛 B2C、C2C 交易平台。您只需进行简单的设置，即可使论坛内容和人气，真成为除广告收入外的重要利润来源，从而实现论坛的规模化经营。</li><li><b>由于涉及现金交易，为避免因操作不当而造成的资金损失，请在开始使用支付宝积分交易功能(不包含支付宝按钮功能)前，务必仔细阅读《用户使用说明书》中有关电子商务的部分，当确认完全理解和接受相关流程及使用方法后再进行相关设置。</b></li><li>您可以设置允许用户通过现金在线支付的方式，为其交易积分账户充值，用于购买帖子内容、购买用户组权限、积分转账或用户组升级等功能。支付宝积分交易功能，需在“<a href="' .
-        $BASESCRIPT .
-        '?action=setting&operation=credits" target="_blank">积分设置</a>”中启用交易积分，并同时设置相应的积分策略以满足不同场合的需要。请务必正确设置您的收款支付宝账号，否则将造成用户付款后积分无法实时到账，造成大量需要人工处理的订单信息。</li><li>除 Discuz! 官方网站或官方论坛另行通知以外，Discuz! 提供的支付宝支付服务每笔交易收取 1.5% 的手续费。请及时关注相关业务的最新通知，各项政策或流程的变更、调整，以 Discuz! 官方网站或官方论坛提供的信息为准。</li><li>您使用支付宝服务是建立在完全自愿的基础上，除 Discuz! 因主观恶意的因素造成的资金损失以外，腾讯云不对因使用此功能造成的任何损失承担责任。</li><li>支付宝业务咨询 Email 为 <a href="mailto:6688@taobao.com">6688@taobao.com</a>；支付宝客户服务电话为 +86-0571-88156688。</li>',
+    'ec_alipay_tips' => 'ec_alipay_tips',
     'ec_alipay_account' => 'Alipay Account',
     'ec_alipay_account_comment' =>
         'If you enable the exchange or transaction capabilities, please enter a real and effective Alipay account, for allow users for cash transactions related to exchange money and points. If account is invalid or security code is incorrect, it will result in eerors in user transactions.<br />If you do not have Alipay account, you can <a href="http://www.alipay.com/redir.do?id=307&site=allbbs&target=https%3A%2F%2Fwww.alipay.com%2Fuser%2Fuser_register.htm" target="_blank">Register New Alipay Account</a>',
@@ -6930,8 +6927,7 @@ $lang = array(
     'ec_tenpay_checklink_credit' => 'Recharge points Order Test',
     'ec_tenpay_checklink_virtualgoods' => 'Virtual product order test',
     'ec_tenpay_checklink_goods' => 'Real product order test',
-    'ec_tenpay_tips' => '<li>"TenPay" (<a href="http://www.tenpay.com" target="_blank">http://www.tenpay.com</a>) is a leading online payment platform in China founded by Tencent. Discuz! users can use an integration with this platform for make transactions.</li>
-						    <li>For enable real-time recharge points into the user account, you have to use the payments through <b>Enterprise Edition</b> and enable <b>Immediately credited into account transactions</b>. Otherwise, you can just enable the "<b>Intermediary secure transactions</b>".</li> <li><b>If the cash transaction are enabled, in order to avoid improper operation resulting to the financial losses, please start using only the points payment general functionality (not include the TenPay button function). Be sure to carefully read the e-commerce section of the "User Manual", as confirmed fully understand and accept the processes and the related settings after use.</b></li><li>You can set to allow users to pay by online cash, recharge their account points for the purchase of post content, to buy the user group permissions, transfer points to users or groups, to upgrade and so on. TenPay integral transaction capabilities are required to enable the trade integration in the "Points Settings", and also set the corresponding points strategy to meet the needs of different occasions. Be sure to set correctly your TenPay account, otherwise payment will result to the user points can not be credited into account in real-time, and as a result cause a large number of orders that require manual processing.</li><li>In addition Discuz! Official website provide payment services through financial payment fee of 1% per transaction. Please read the official information and notices concerning this service at the Discuz! Official website or official forum.</li><li>If you use TenPay service built entirely on a voluntary basis, it can cause of financial losses caused by factors outside the Hong Sing Imagination (in Beijing) Technology Co. Ltd., and in such case the Comsenz ltd. is not responsible for your errors or financial problems</li><li>TenPay Service Hotline: 0755-83762288-2 (24-hour online service)</li>',
+    'ec_tenpay_tips' => 'ec_tenpay_tips',
     'ec_orders' => 'Maximum order points',
     'ec_orders_tips' =>
         '<li>You are at the starting points of using the transaction order management functionality (not included Alipay button function). Be sure to carefully read the "User Manual" in the part of electronic commerce, as confirmed fully understand and accept the processes and use then to delete.</li><li>If your users complained that after online payment their points can not be automatically recharge accounts, it is may be due to your Alipay account interface settings are wrong, or your website is not enabled to use regular paiments. You can log in to Alipay transaction management interface, and look for details of the transaction confirmed the relevant orders.</li><li>Order information retained for 60 days, so you can check and manage orders information within 60 days. After the 60 days the information will be automatically deleted.</li>',
@@ -7237,9 +7233,9 @@ $lang = array(
     'extended' => 'Mở rộng',
     'extended_tag' => 'Nhãn kết hợp',
     'extended_tag_tips' =>
-        '<li>论坛当前未开启主题标签功能，标签聚合开启后将无法根据主题的相关内容显示。<a href="' .
+        '<li>Diễn đàn hiện chưa bật chức năng thẻ chủ đề và tính năng tổng hợp thẻ sẽ không được hiển thị dựa trên nội dung liên quan của chủ đề sau khi bật tính năng tổng hợp thẻ.<a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=functions&anchor=tags">点这里打开主题标签功能</a></li>',
+        '?action=setting&operation=functions&anchor=tags">Nhấn vào đây để mở chức năng hashtag</a></li>',
     'extended_tag_on' => 'Hiển thị nhãn hiệu tập hợp',
     'extended_tag_on_comment' =>
         'Bật, các trang kết hợp chủ đề sẽ gọi những thông tin nhãn',
@@ -7291,7 +7287,7 @@ $lang = array(
     'hookcheck_tips_step1' =>
         'Embedded point calibration is the basis for Discuz! Official documents issued by check, click the button below to start - check the {template}',
     'hookcheck_tips' =>
-        '<li>"<font color="red">Embedded point</font>"Template file"&lt;!--{hook/xxx}--&gt;" Code template files are missing the point embedded code will cause the cloud services (such as QQ group, Tencent analysis, etc.) and other plug-in does not work properly.</li><li>缺失“<font color="red">Embedded point</font>"Template files that need to use the comparison tool, compared to the corresponding template file in the original file and the server to compare the missing code embedded point added</li>',
+        '<li>"<font color="red">Embedded point</font>"Template file"&lt;!--{hook/xxx}--&gt;" Code template files are missing the point embedded code will cause the cloud services (such as QQ group, Tencent analysis, etc.) and other plug-in does not work properly.</li><li>Missing"<font color="red">Embedded point</font>"Template files that need to use the comparison tool, compared to the corresponding template file in the original file and the server to compare the missing code embedded point added</li>',
     'hookcheck_completed' => 'Xác minh các kết quả',
     'hookcheck_delete' => 'Bị mất các tập tin của các điểm nhúng',
     'hookcheck_discuzhook' => 'Tập tin mã nguồn nhúng điểm',
@@ -7347,7 +7343,7 @@ $lang = array(
     'counter_album_picnum' => 'Thống kê lại Album',
     'counter_thread_cover' => 'Số chủ đề cập nhập lại',
     'counter_thread_cover_settime' => 'Phạm vi thời gian Chủ đề Bài viết cuối',
-    'counter_thread_heat' => '重建热点主题',
+    'counter_thread_heat' => 'Rebuild hot topics',
     'counter_forumid' => 'ID diễn đàn',
     'counter_have_cover' => 'Bao gồm cả chủ đề hiện tại',
     'counter_tips' => '<li>The following data is not normal, you can use this function to update the data correction. Please try to avoid the peak time of the member access</li>

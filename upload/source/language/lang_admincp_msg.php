@@ -86,10 +86,10 @@ $lang = array(
     'nav_not_found' =>
         'Không tìm thấy hoặc không phù hợp với loại chuyển hướng',
     'patch_successful' => 'Operation was successful',
-    'templates_edit_name_invalid' => '您没有输入模板名称',
+    'templates_edit_name_invalid' => 'Tên template không hợp lệ',
     'templates_edit_identifier_invalid' =>
-        '您输入的唯一标识符不合法或与现有模板重复',
-    'templates_add_succeed' => '模板已成功添加，请继续完成模板开发',
+        'Template ID không hợp lệ, hoặc đã bị trùng',
+    'templates_add_succeed' => 'Template đã được thêm thành công, hãy tiếp tục phát triển giao diện',
     'plugin_not_found' => 'Không tìm thấy plugin',
     'plugins_install_succeed' =>
         'Cài đặt plugin thành công！<br /> Bạn có thể kích hoạt, cấu hình và sử dụng',
@@ -317,8 +317,8 @@ $lang = array(
     'setting_domain_repeat_error' => 'Duplicate cấu hình tên miền',
     'setting_domain_need_default_error' => 'Please set the default domain name',
     'only_two_names_from_english_composition_and_figures' =>
-        '抱歉，您设置的二级域名只能含有英文和数字',
-    'two_domain_have_been_occupied' => '抱歉，二级域名已被占用',
+        'Sorry, the second-level domain name you set can only contain English and numbers',
+    'two_domain_have_been_occupied' => 'Sorry, the second-level domain name has been taken',
     'alipay_not_contract' => 'Xin vui lòng nhập thông tin thuê bao Alipay',
     'alipay_succeed' => 'hức năng thiết lập Alipay thành công ',
     'tenpay_bargainor_invalid' =>
@@ -373,8 +373,8 @@ $lang = array(
         'cập nhật thành công đội ngũ quản lý cơ quan ',
     'founder_perm_notifyusers_succeed' =>
         'quản lý để thông báo cho người nhận thiết lập thành công ',
-    'founder_optimizer_setting_succeed' => '设置项优化成功 ',
-    'founder_optimizer_setting_error' => '优化中出现问题 ',
+    'founder_optimizer_setting_succeed' => 'Setting item optimized successfully ',
+    'founder_optimizer_setting_error' => 'Problems in optimization ',
     'group_status_off' =>
         'Bật chức năng nhóm, bây giờ đi đến trang thiết lập nhóm',
     'group_update_succeed' => 'Thiết lập nhóm thành công ',
@@ -821,11 +821,11 @@ $lang = array(
     'usergroups_update_creditshigher_invalid' =>
         'You did not fill in the lower limit of points',
     'usergroups_update_credits_invalid' =>
-        '缺少积分下限为负数或 0 的会员用户组',
+        'Missing member user groups whose lower limit of points is negative or 0',
     'usergroups_update_credits_duplicate' =>
         'The lower limit of member user group points is set repeatedly',
     'usergroups_update_succeed' =>
-        '用户组更新成功。如您添加了新的用户组，<br />请不要忘记修改其相应的权限设置',
+        'The user group was updated successfully. If you add a new user group,<br />Please don’t forget to modify its corresponding permission settings',
     'usergroups_edit_nonexistence' =>
         'Please select the user group you want to operate:',
     'usergroups_edit_creditstrans_disabled' =>

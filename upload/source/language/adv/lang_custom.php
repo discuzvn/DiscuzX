@@ -12,15 +12,15 @@ if (!defined('IN_DISCUZ')) {
 $lang = array(
     'custom_name' => 'Tùy chọn quảng cáo',
     'custom_desc' =>
-        '通过在模版、HTML 文件中添加广告代码，可以在站点的任意页面添加广告。适用于懂得简单 HTML 知识的站长。<br /><br />
-		<a href="javascript:;" onclick="prompt(\'请复制(CTRL+C)以下内容并添加到模板中，添加此广告位\', \'<!--{ad/custom_' .
+        'By adding advertising code in the template and HTML files, you can add advertisements on any page of the site. Suitable for webmasters who understand simple HTML knowledge.<br /><br />
+		<a href="javascript:;" onclick="prompt(\'Bấm (CTRL+C) để copy nội dung sau đây để thêm vào ad slot\', \'<!--{ad/custom_' .
         $_GET['customid'] .
-        '}-->\')" />内部调用</a>&nbsp;
-		<a href="javascript:;" onclick="prompt(\'请复制(CTRL+C)以下内容并添加到 HTML 文件中，添加此广告位\', \'&lt;script type=\\\'text/javascript\\\' src=\\\'' .
+        '}-->\')" />Internal call</a>&nbsp;
+		<a href="javascript:;" onclick="prompt(\'Bấm (CTRL+C) để copy nội dung vào file HTML vào ad slot\', \'&lt;script type=\\\'text/javascript\\\' src=\\\'' .
         $_G['siteurl'] .
         'api.php?mod=ad&adid=custom_' .
         $_GET['customid'] .
-        '\\\'&gt;&lt;/script&gt;\')" />外部调用</a>',
+        '\\\'&gt;&lt;/script&gt;\')" />External call</a>',
     'custom_id_notfound' => 'Quảng cáo không tồn tại',
     'custom_codelink' => 'Code nội bộ',
     'custom_text' => 'Tùy chọn quảng cáo',

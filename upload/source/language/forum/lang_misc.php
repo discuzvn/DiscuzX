@@ -314,7 +314,7 @@ $lang = array(
     'seccode' => 'Mã xác nhận',
     'seccode_update' => 'Lấy mã khác',
     'seccode_player' =>
-        '<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" id="seccodeplay_{idhash}">播放验证码</a></span>',
+        '<span style="padding:2px"><img border="0" style="vertical-align:middle" src="static/image/common/seccodeplayer.gif" /> <a href="javascript:;" id="seccodeplay_{idhash}">Phát mã bảo mật</a></span>',
     'secqaa' => 'Câu trả lời xác minh',
     'mobileoem_creditrule' => 'Đăng nhập vào Diễn đàn trên mobile',
 );

@@ -10,4 +10,4 @@ if (!defined('IN_DISCUZ')) {
     exit('Access Denied');
 }
 $lang =
-    "\r\n<okbtn>确定</okbtn>\r\n<ctnbtn>继续</ctnbtn>\r\n<fileName>文件名</fileName>\r\n<size>文件大小</size>\r\n<stat>上传进度</stat>\r\n<browser>浏览</browser>\r\n<delete>删除</delete>\r\n<return>返回</return>\r\n<upload>上传</upload>\r\n<okTitle>上传完成</okTitle>\r\n<okMsg>文件上传完成</okMsg>\r\n<uploadTitle>正在上传</uploadTitle>\r\n<uploadMsg1>总共有</uploadMsg1>\r\n<uploadMsg2>个文件等待上传,正在上传第</uploadMsg2>\r\n<uploadMsg3>个文件</uploadMsg3>\r\n<bigFile>文件过大</bigFile>\r\n<uploaderror>上传失败</uploaderror>\r\n";
+    "\r\n<okbtn>Chắc chắn</okbtn>\r\n<ctnbtn>Tiếp tục</ctnbtn>\r\n<fileName>Tên file</fileName>\r\n<size>Kích thước file</size>\r\n<stat>Quá trình upload</stat>\r\n<browser>Browse</browser>\r\n<delete>Xoá</delete>\r\n<return>Trở lại</return>\r\n<upload>Upload</upload>\r\n<okTitle>OK</okTitle>\r\n<okMsg>Đã upload thành công</okMsg>\r\n<uploadTitle>Uploading</uploadTitle>\r\n<uploadMsg1>Tổng</uploadMsg1>\r\n<uploadMsg2>Đang chờ upload</uploadMsg2>\r\n<uploadMsg3>Các files</uploadMsg3>\r\n<bigFile>File quá lớn</bigFile>\r\n<uploaderror>Upload lỗi</uploaderror>\r\n";

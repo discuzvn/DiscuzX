@@ -1178,7 +1178,7 @@ $lang = array(
     'thread_author' => 'Tác giả',
     'thread_printable' => 'In',
     'thread_replycredit_tips1' =>
-        '回复本帖可获得 {$_G[forum_thread][replycredit_rule][extcredits]} {$_G[setting][extcredits][$_G[forum_thread][replycredit_rule][extcreditstype]][unit]}{$_G[setting][extcredits][$_G[forum_thread][replycredit_rule][extcreditstype]][title]}奖励!',
+        'Trả lời bài này để nhận {$_G[forum_thread][replycredit_rule][extcredits]} {$_G[setting][extcredits][$_G[forum_thread][replycredit_rule][extcreditstype]][unit]}{$_G[setting][extcredits][$_G[forum_thread][replycredit_rule][extcreditstype]][title]} thưởng!',
     'thread_replycredit_tips2' =>
         'Mỗi người {$_G[forum_thread][replycredit_rule][membertimes]} lần',
     'thread_replycredit_tips3' =>

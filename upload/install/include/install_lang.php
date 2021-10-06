@@ -253,59 +253,45 @@ $lang = array(
     'init_promotion_task' => 'Nhiệm vụ thưởng',
     'init_gift_task' => 'Nhiệm vụ nhận quà',
     'init_avatar_task' => 'Nhiệm vụ avatar',
-    'license' => '<div class="license"><h1>Điều khoản sử dụng</h1>
-
-<p>版权所有 (c) 2001-2021，腾讯云计算（北京）有限责任公司(原北京康盛新创科技有限责任公司)保留所有权利。</p>
-
-<p>感谢您选择康盛产品。希望我们的努力能为您提供一个高效快速、强大的站点解决方案，和强大的社区论坛解决方案。康盛公司网址为 http://www.comsenz.com，产品官方讨论区网址为 http://www.discuz.net。</p>
-
-<p>用户须知：本协议是您与康盛公司之间关于您使用康盛公司提供的各种软件产品及服务的法律协议。无论您是个人或组织、盈利与否、用途如何（包括以学习和研究为目的），均需仔细阅读本协议，包括免除或者限制康盛责任的免责条款及对您的权利限制。请您审阅并接受或不接受本服务条款。如您不同意本服务条款及/或康盛随时对其的修改，您应不使用或主动取消康盛公司提供的康盛产品。否则，您的任何对康盛产品中的相关服务的注册、登陆、下载、查看等使用行为将被视为您对本服务条款全部的完全接受，包括接受康盛对服务条款随时所做的任何修改。
-<p>本服务条款一旦发生变更, 康盛将在网页上公布修改内容。修改后的服务条款一旦在网站管理后台上公布即有效代替原来的服务条款。您可随时登陆康盛官方论坛查阅最新版服务条款。如果您选择接受本条款，即表示您同意接受协议各项条件的约束。如果您不同意本服务条款，则不能获得使用本服务的权利。您若有违反本条款规定，康盛公司有权随时中止或终止您对康盛产品的使用资格并保留追究相关法律责任的权利。</p>
-<p>在理解、同意、并遵守本协议的全部条款后，方可开始使用康盛产品。您可能与康盛公司直接签订另一书面协议，以补充或者取代本协议的全部或者任何部分。</p></p>
-
-<p>康盛拥有本软件的全部知识产权。本软件只供许可协议，并非出售。康盛只允许您在遵守本协议各项条款的情况下复制、下载、安装、使用或者以其他方式受益于本软件的功能或者知识产权。</p>
-
-<h3>I. 协议许可的权利</h3>
+    'license' => '<div class="license"><h1>License</h1>
+<p>Copyright (c) 2001-2021, Tencent Cloud Computing (Beijing) Co., Ltd. (formerly Beijing Kangsheng Xinchuang Technology Co., Ltd.) reserves all rights. </p>
+<p>Thank you for choosing Kangsheng products. Hope our efforts can provide you with an efficient, fast, and powerful site solution, and a powerful community forum solution. The website of Kangsheng Company is http://www.comsenz.com, and the website of the official product discussion forum is http://www.discuz.net. </p>
+<p>Note to users: This agreement is a legal agreement between you and Kangsheng regarding your use of various software products and services provided by Kangsheng. Regardless of whether you are an individual or an organization, profitable or not, and how you use it (including for the purpose of learning and research), you must carefully read this agreement, including the exemption clauses exempting or limiting Kangsheng’s liability and the limitation of your rights. Please review and accept or reject these terms of service. If you do not agree to these terms of service and/or Kangsheng’s amendments to them at any time, you should not use or voluntarily cancel the Kangsheng products provided by Kangsheng. Otherwise, any of your use of registration, login, downloading, viewing and other related services in Kangsheng products will be regarded as your complete acceptance of these terms of service, including accepting any amendments made by Kangsheng to the terms of service at any time .
+<p>Once the terms of service are changed, Kangsheng will publish the revised content on the webpage. Once the revised terms of service are published on the website management background, they will effectively replace the original terms of service. You can visit the Kangsheng official forum to check the latest version of the terms of service at any time. If you choose to accept these terms, it means that you agree to be bound by the terms of the agreement. If you do not agree to the terms of service, you cannot obtain the right to use the service. If you violate the provisions of these terms, Kangsheng Company has the right to suspend or terminate your qualification to use Kangsheng products at any time and reserves the right to pursue relevant legal liabilities. </p>
+<p>Only after understanding, agreeing, and complying with all the terms of this agreement can you start using Kangsheng products. You may directly sign another written agreement with Kangsheng to supplement or replace all or any part of this agreement. </p></p>
+<p>Kangsheng owns all intellectual property rights of this software. This software is for license agreement only, not for sale. Kangsheng only allows you to copy, download, install, use or otherwise benefit from the software\'s functions or intellectual property rights in compliance with the terms of this agreement. </p>
+<h3>I. Rights licensed under agreement</h3>
 <ol>
-   <li>您可以在完全遵守本许可协议的基础上，将本软件应用于非商业用途，而不必支付软件版权许可费用。</li>
-   <li>您可以在协议规定的约束和限制范围内修改康盛产品源代码(如果被提供的话)或界面风格以适应您的网站要求。</li>
-   <li>您拥有使用本软件构建的网站中全部会员资料、文章及相关信息的所有权，并独立承担与使用本软件构建的网站内容的审核、注意义务，确保其不侵犯任何人的合法权益，独立承担因使用康盛软件和服务带来的全部责任，若造成康盛公司或用户损失的，您应予以全部赔偿。</li>
-   <li>若您需将康盛软件或服务用户商业用途，必须另行获得康盛的书面许可，您在获得商业授权之后，您可以将本软件应用于商业用途，同时依据所购买的授权类型中确定的技术支持期限、技术支持方式和技术支持内容，自购买时刻起，在技术支持期限内拥有通过指定的方式获得指定范围内的技术支持服务。商业授权用户享有反映和提出意见的权力，相关意见将被作为首要考虑，但没有一定被采纳的承诺或保证。</li>
-   <li>您可以从康盛提供的应用中心服务中下载适合您网站的应用程序，但应向应用程序开发者/所有者支付相应的费用。</li>
+    <li>You can use this software for non-commercial purposes on the basis of fully complying with this license agreement without having to pay software copyright license fees. </li>
+    <li>You can modify the Kangsheng product source code (if provided) or interface style to suit your website requirements within the constraints and limitations stipulated in the agreement. </li>
+    <li>You have the ownership of all member materials, articles and related information in the website built with this software, and independently assume the review and care obligations of the website built with this software, to ensure that it does not infringe on anyone’s legitimate rights and interests. Independently assume all the responsibilities arising from the use of Kangsheng software and services. If the loss of the Kangsheng company or the user is caused, you shall make full compensation. </li>
+    <li>If you need to use the Kangsheng software or service users for commercial purposes, you must obtain a separate written permission from Kangsheng. After you have obtained the commercial authorization, you can use the software for commercial purposes, and at the same time according to the type of authorization purchased The determined technical support period, technical support method and technical support content, from the time of purchase, within the technical support period, have to obtain technical support services within the specified range through the specified method. Commercial authorized users have the right to reflect and put forward opinions. Related opinions will be considered as the primary consideration, but there is no promise or guarantee that they will be adopted. </li>
+    <li>You can download applications suitable for your website from the application center service provided by Kangsheng, but you should pay the corresponding fees to the application developers/owners. </li>
 </ol>
-
-<h3>II. 协议规定的约束和限制</h3>
+<h3>II. Restrictions and limitations stipulated in the agreement</h3>
 <ol>
-   <li>未获康盛公司书面商业授权之前，不得将本软件用于商业用途（包括但不限于企业网站、经营性网站、以营利为目或实现盈利的网站）。购买商业授权请登陆http://www.discuz.com参考相关说明，也可以致电8610-51282255了解详情。</li>
-   <li>不得对本软件或与之关联的商业授权进行出租、出售、抵押或发放子许可证。</li>
-   <li>无论如何，即无论用途如何、是否经过修改或美化、修改程度如何，只要使用康盛产品的整体或任何部分，未经书面许可，页面页脚处的康盛产品名称和康盛公司下属网站（http://www.comsenz.com、或 http://www.discuz.net） 的链接都必须保留，而不能清除或修改。</li>
-   <li>禁止在康盛产品的整体或任何部分基础上以发展任何派生版本、修改版本或第三方版本用于重新分发。</li>
-   <li>您从应用中心下载的应用程序，未经应用程序开发者/所有者的书面许可，不得对其进行反向工程、反向汇编、反向编译等，不得擅自复制、修改、链接、转载、汇编、发表、出版、发展与之有关的衍生产品、作品等。</li>
-   <li>如果您未能遵守本协议的条款，您的授权将被终止，所许可的权利将被收回，同时您应承担相应法律责任。</li>
+    <li>The software may not be used for commercial purposes (including but not limited to corporate websites, business websites, profit-making or profit-making websites) without the written commercial authorization of Kangsheng Company. To purchase a commercial license, please log on to http://www.discuz.com for reference, or call 8610-51282255 for details. </li>
+    <li>It is not allowed to rent, sell, mortgage or issue sub-licenses to this software or the commercial licenses associated with it. </li>
+    <li>In any case, regardless of the purpose, whether it has been modified or beautified, or the degree of modification, as long as the whole or any part of the Kangsheng product is used, without written permission, the name of the Kangsheng product and the Kangsheng company in the footer of the page The links to the affiliated websites (http://www.comsenz.com, or http://www.discuz.net) must be kept and cannot be cleared or modified. </li>
+    <li>It is forbidden to develop any derivative version, modified version or third-party version for redistribution based on the whole or any part of Kangsheng products. </li>
+    <li>The application you download from the application center, without the written permission of the application developer/owner, shall not be reverse engineered, reverse assembled, reverse compiled, etc., and may not be copied, modified, linked, or copied without authorization. Reprint, compile, publish, publish, and develop derivative products and works related to it. </li>
+    <li>If you fail to comply with the terms of this agreement, your authorization will be terminated, the rights you have licensed will be taken back, and you shall bear the corresponding legal responsibilities. </li>
 </ol>
-
-<h3>III. 有限担保和免责声明</h3>
+<h3>III. Limited Warranty and Disclaimer</h3>
 <ol>
-   <li>本软件及所附带的文件是作为不提供任何明确的或隐含的赔偿或担保的形式提供的。</li>
-   <li>用户出于自愿而使用本软件，您必须了解使用本软件的风险，在尚未购买产品技术服务之前，我们不承诺提供任何形式的技术支持、使用担保，也不承担任何因使用本软件而产生问题的相关责任。</li>
-   <li>康盛公司不对使用本软件构建的网站中或者论坛中的文章或信息承担责任，全部责任由您自行承担。</li>
-   <li>康盛公司无法全面监控由第三方上传至应用中心的应用程序，因此不保证应用程序的合法性、安全性、完整性、真实性或品质等；您从应用中心下载应用程序时，同意自行判断并承担所有风险，而不依赖于康盛公司。但在任何情况下，康盛公司有权依法停止应用中心服务并采取相应行动，包括但不限于对于相关应用程序进行卸载，暂停服务的全部或部分，保存有关记录，并向有关机关报告。由此对您及第三人可能造成的损失，康盛公司不承担任何直接、间接或者连带的责任。</li>
-   <li>康盛公司对康盛提供的软件和服务之及时性、安全性、准确性不作担保，由于不可抗力因素、康盛公司无法控制的因素（包括黑客攻击、停断电等）等造成软件使用和服务中止或终止，而给您造成损失的，您同意放弃追究康盛公司责任的全部权利。</li>
-   <li>康盛公司特别提请您注意，康盛公司为了保障公司业务发展和调整的自主权，康盛公司拥有随时经或未经事先通知而修改服务内容、中止或终止部分或全部软件使用和服务的权利，修改会公布于康盛公司网站相关页面上，一经公布视为通知。 康盛公司行使修改或中止、终止部分或全部软件使用和服务的权利而造成损失的，康盛公司不需对您或任何第三方负责。</li>
+    <li>This software and the accompanying files are provided as a form of not providing any explicit or implicit compensation or guarantee. </li>
+    <li>Users use this software voluntarily. You must understand the risks of using this software. Before purchasing the product and technical services, we do not promise to provide any form of technical support, warranty for use, or any use of this software. And the related responsibility for the problem. </li>
+    <li>Kangsheng Company is not responsible for the articles or information in the websites or forums constructed by using this software, and you are solely responsible for all the responsibilities. </li>
+    <li>Kangsheng Company cannot fully monitor the applications uploaded by third parties to the application center, so it does not guarantee the legality, safety, integrity, authenticity or quality of the application; when you download the application from the application center, Agree to make your own judgment and bear all risks without relying on Kangsheng. However, under any circumstances, Kangsheng has the right to stop the application center service in accordance with the law and take corresponding actions, including but not limited to uninstalling relevant applications, suspending all or part of the service, keeping relevant records, and reporting to relevant authorities. Kangsheng Company shall not be liable for any direct, indirect or joint liability for the losses that may be caused to you and the third party. </li>
+    <li>Kangsheng Company does not guarantee the timeliness, safety and accuracy of the software and services provided by Kangsheng Company. The software is caused by force majeure and factors beyond the control of Kangsheng Company (including hacker attacks, power outages, etc.). If the use and service are suspended or terminated and you cause losses, you agree to waive all the rights to hold Kangsheng Company responsible. </li>
+    <li>Kangsheng Company specially draws your attention to the fact that in order to protect the autonomy of the company’s business development and adjustment, Kangsheng Company has the right to modify the service content, suspend or terminate part or all of the software use and The right of the service, the modification will be announced on the relevant page of the Kangsheng company\'s website, once published, it will be regarded as a notice. If Kangsheng Company exercises the right to modify or suspend or terminate part or all of the software use and service and cause losses, Kangsheng Company shall not be liable to you or any third party. </li>
 </ol>
-
-<p>有关康盛产品最终用户授权协议、商业授权与技术服务的详细内容，均由康盛公司独家提供。康盛公司拥有在不事先通知的情况下，修改授权协议和服务价目表的权利，修改后的协议或价目表对自改变之日起的新授权用户生效。</p>
-
-<p>一旦您开始安装康盛产品，即被视为完全理解并接受本协议的各项条款，在享有上述条款授予的权利的同时，受到相关的约束和限制。协议许可范围以外的行为，将直接违反本授权协议并构成侵权，我们有权随时终止授权，责令停止损害，并保留追究相关责任的权力。</p>
-
-<p>本许可协议条款的解释，效力及纠纷的解决，适用于中华人民共和国大陆法律。</p>
-
-<p>若您和康盛之间发生任何纠纷或争议，首先应友好协商解决，协商不成的，您在此完全同意将纠纷或争议提交康盛所在地北京市海淀区人民法院管辖。康盛公司拥有对以上各项条款内容的解释权及修改权。</p>
-
-<p>（正文完）</p>
-
-<p align="right">康盛公司</p>
-
+<p>The details of the end-user license agreement, commercial authorization and technical services of Kangsheng products are exclusively provided by Kangsheng. Kangsheng Company has the right to modify the authorization agreement and service price list without prior notice, and the revised agreement or price list will be effective for newly authorized users from the date of the change. </p>
+<p>Once you start to install Kangsheng products, you are deemed to fully understand and accept the terms of this agreement. While enjoying the rights granted by the above terms, you are subject to relevant constraints and restrictions. Behavior outside the scope of the agreement will directly violate this authorization agreement and constitute an infringement. We have the right to terminate the authorization at any time, order the damage to be stopped, and reserve the right to pursue relevant liabilities. </p>
+<p>The interpretation, validity and dispute resolution of the terms of this license agreement are applicable to the laws of the Mainland of the People’s Republic of China. </p>
+<p>If any dispute or controversy occurs between you and Kangsheng, you should first settle it through friendly negotiation. If the negotiation fails, you hereby fully agree to submit the dispute or dispute to the People’s Court of Haidian District, Beijing, where Kangsheng is located. Kangsheng Company has the right to interpret and modify the contents of the above clauses. </p>
+<p>(End of text)</p>
+<p align="right">Kangsheng Company</p>
 </div>',
     'php_version_too_low' => 'Phiên bản PHP quá thấp, vui lòng nâng cấp lên bản tối thiểu '.$env_items['php']['r'],
     'php8_tips' => 'Phiên bản h iện tại chưa hỗ trợ PHP8, hãy sử dụng PHP 7.4 và thử lại',

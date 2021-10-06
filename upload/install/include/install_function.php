@@ -529,22 +529,11 @@ function show_license() {
 	</div>
 	<script type="text/javascript">
 	function checker() {
-		if(!$is_latest && confirm("$lang_nolatest")) {
-			window.location.href = "$hrefurl";
-			return false;
-		}
 		if($is_php8) {
 			alert("$lang_php8");
 			return false;
 		}
-		if($is_unstable && confirm("$lang_unstable")) {
-			window.location.href = "$hrefurl";
-			return false;
-		}
-		if(!$is_utf8 && confirm("$lang_noutf8")) {
-			window.location.href = "$hrefurl";
-			return false;
-		}
+		
 		return true;
 	}
 	</script>

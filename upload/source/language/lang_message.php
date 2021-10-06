@@ -1405,24 +1405,24 @@ $lang = array(
     'register_email_verify' =>
         'Cảm ơn bạn đã đăng ký {bbname},<br /> Hệ thống sẽ gửi mail kích hoạt, vui lòng kiểm tra để sử dụng',
     'register_email_verify_location' =>
-        '<a href="home.php?mod=spacecp&ac=profile&op=password">Lấy email kích hoạt lần nữa</a> <a href="home.php?mod=space&do=home">Mời ghé thăm</a>',
+        '<a href="home.php?mod=spacecp&ac=profile&op=password">Gửi lại email kích hoạt</a>',
     'register_manual_verify' =>
         'Cảm ơn bạn đã đăng ký ,vui lòng chờ xét duyệt tài khoản',
     'register_manual_verify_location' =>
-        '<a href="home.php?mod=space&do=home">Mời ghé thăm</a>',
+        '<a href="home.php?mod=space&do=home">Xem trang các nhân</a>',
     'register_succeed' =>
         'Cảm ơn bạn đã đăng ký tài khoản {bbname}, bạn thuộc nhóm {usergroup}.',
     'register_succeed_location' =>
-        '<a href="home.php?mod=spacecp">Để cập nhập thông tin</a> <a href="home.php?mod=space&do=home">mời ghé thăm</a>',
+        '<a href="home.php?mod=spacecp">Cập nhập thông tin</a> <a href="home.php?mod=space&do=home">Xem trang các nhân</a>',
     'task_offline' => 'Có lỗi, nhiệm vụ đang đóng ',
     'task_full' => 'Có lỗi, nhiệm vụ đã hết lượt thực hiện',
     'task_doing_rt' =>
         'Bạn đã hoàn thành nhiệm vụ {csc}%, còn lại {t} thời gian, để chơi!',
-    'task_doing' => 'Bạn đã hoàn thành nhiệm vụ {csc}%,tiếp nhiên liệu!',
+    'task_doing' => 'Bạn đã hoàn thành nhiệm vụ {csc}%!',
     'task_waiting_rt' => 'Bạn chưa bắt đầu nhiệm vụ,thời gian còn lại {t} giờ!',
     'task_waiting' => 'Bạn chưa thực hiện nhiệm vụ!',
     'board_closed' =>
-        'Có lỗi, trang web đang tạm thời đóng cửa, xin vui lòng <a href="mailto:"Liên hệ với quản trị viên</a>',
+        'Trang web đang tạm thời đóng cửa',
     'admin_cpanel_noaccess' =>
         'Có lỗi, Bạn không có quyền truy cập vào bảng quản trị, xin đăng nhập lại, và sau đó thử lại',
     'admin_cpanel_locked' =>

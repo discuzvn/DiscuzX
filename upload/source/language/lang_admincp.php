@@ -3107,7 +3107,7 @@ $lang = array(
     'setting_search_status_blog' => 'Tìm kiếm Blogs',
     'setting_search_status_album' => 'Tìm kiếm Album',
     'setting_search_status_group' => 'Tìm kiếm Nhóm',
-    'setting_search_status_collection' => '搜索淘专辑',
+    'setting_search_status_collection' => 'Tìm kiếm bộ sưu tập',
     'setting_search_status_comment' =>
         'Kiểm tra các cột mà bạn muốn mở các tìm kiếm',
     'setting_search_onoff' => 'Mở',
@@ -7260,7 +7260,7 @@ $lang = array(
     'fileperms_check_note' =>
         'Hãy kiểm tra xem các tài liệu chính và viết truy cập vào các thư mục, bấm vào nút bên dưới để bắt đầu việc kiểm tra.',
     'fileperms_check_waiting' =>
-        'Tiếp tục kiểm tra các tài liệu có thẩm quyền, xin vui lòng chờ :)......',
+        'Đang kiểm tra phân quyền files',
     'fileperms_tips' =>
         '<li>Nếu thự mục hoặc tập tin "không thể viết" hãy dùng FPT chmod tập tin và thư mục =0777 để tiếp tục.</li>',
     'fileperms_check_ok' => 'Danh mục tài liệu và tất cả các quyền thuộc tính',

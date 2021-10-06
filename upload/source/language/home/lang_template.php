@@ -1459,11 +1459,11 @@ $lang = array(
     'current_time' => 'Thời gian hiện tại',
     'email' => 'Email',
     'email_been_active' =>
-        '<img src="{IMGDIR}/mail_active.png" alt="Đã xác nhận" class="vm" /> <span class="xi1">Email đã xác nhận...</span>',
+        '<img src="{IMGDIR}/mail_active.png" alt="Đã xác nhận" class="vm" /> <span class="xi1">Email đã xác nhận</span>',
     'memcp_profile_email_comment' =>
-        'Nếu thay đổi địa chỉ, hệ thống sẽ thay đổi cả mật khẩu và phải cập nhập lại mới có hiệu lực.',
+        'Nếu thay đổi email, bạn cần điền mật khẫu cũ để xác nhận',
     'memcp_profile_passwd_comment' =>
-        'Nếu không cần phải thay đổi mật khẩu của bạn, xin vui lòng để trống.',
+        'Nếu bạn không muốn tạo mật khẩu mới, vui lòng để trống',
     'memcp_profile_security_answer_comment' =>
         'Nếu bạn chọn dùng câu hỏi bảo mật,hãy điền câu trả lời vào đây ',
     'memcp_profile_security_comment' =>

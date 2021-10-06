@@ -1465,14 +1465,14 @@ $lang = array(
     'memcp_profile_passwd_comment' =>
         'Nếu bạn không muốn tạo mật khẩu mới, vui lòng để trống',
     'memcp_profile_security_answer_comment' =>
-        'Nếu bạn chọn dùng câu hỏi bảo mật,hãy điền câu trả lời vào đây ',
+        'Nếu bạn chọn dùng câu hỏi bảo mật, hãy điền câu trả lời vào đây ',
     'memcp_profile_security_comment' =>
-        'Nếu dùng câu hỏi bảo mật, vui lòng điền',
+        'Nếu bạn muốn sử dụng câu hỏi bảo mật, vui lòng chọn',
     'memcp_profile_security_keep' => 'Giữ câu hỏi an toàn cũ',
     'modify' => 'Sửa đổi',
     'new_password_confirm' => 'Xác nhận mật khẩu mới',
     'old_password_comment' =>
-        'Bạn phải điền mật khẩu gốc để sửa đổi các thông tin sau',
+        'Bạn phải điền mật khẩu hiện tại để sửa đổi các thông tin sau',
     'preview' => 'Xem trước',
     'reminder' => 'Nhắc nhở',
     'required' => 'Bắt buộc',

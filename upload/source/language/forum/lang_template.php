@@ -805,7 +805,7 @@ $lang = array(
     'debate_viewpoint' => 'Lựa chọn',
     'draft' => 'Nháp',
     'img_unused' => 'Ảnh chưa dùng',
-    'modify' => 'Chỉnh sửa',
+    'modify' => 'Sửa',
     'post_message1' =>
         'Thêm thông tin sản phẩm, sau khi hoàn thành, tiếp tục thêm trong bài viết để có nhiều sản phẩm',
     'addfeed' => 'Thêm vào newsfeed',

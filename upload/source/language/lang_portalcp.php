@@ -39,7 +39,7 @@ $lang = array(
     'article_manage' => 'Bài viết',
     'article_tag' => 'Tags',
     'select_category' => 'Chọn một loại',
-    'blockstyle_diy' => 'Tùy chỉnh mẫu',
+    'blockstyle_diy' => 'Mẫu tuỳ chỉnh',
     'article_pushplus_info' =>
         '<p><center><i><a href="{url}" class="xg1 xs1">Nội dung do {author} cung cấp</a></i></center></p>',
     'diytemplate_name_null' => '[Not specified]',

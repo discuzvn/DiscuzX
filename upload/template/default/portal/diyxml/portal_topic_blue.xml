@@ -1430,7 +1430,7 @@
 			<item id="9">
 				<item id="styleid"><![CDATA[9]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
-				<item id="name"><![CDATA[帖子标题]]></item>
+				<item id="name"><![CDATA[Post title]]></item>
 				<item id="template">
 					<item id="loop"><![CDATA[<li><a href="{url}" title="{title}"{target}>{title}</a></li>]]></item>
 					<item id="footer"><![CDATA[
@@ -1454,7 +1454,7 @@
 			<item id="17">
 				<item id="styleid"><![CDATA[17]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
-				<item id="name"><![CDATA[帖子标题+摘要]]></item>
+				<item id="name"><![CDATA[Post title + abstract]]></item>
 				<item id="template">
 					<item id="loop"><![CDATA[<dl class="cl">
 	<dt><a href="{url}" title="{title}"{target}>{title}</a></dt>
@@ -1480,7 +1480,7 @@
 			<item id="47">
 				<item id="styleid"><![CDATA[47]]></item>
 				<item id="blockclass"><![CDATA[portal_article]]></item>
-				<item id="name"><![CDATA[文章标题]]></item>
+				<item id="name"><![CDATA[Tiêu đề bài viết]]></item>
 				<item id="template">
 					<item id="loop"><![CDATA[<li><a href="{url}" title="{title}"{target}>{title}</a></li>]]></item>
 					<item id="footer"><![CDATA[

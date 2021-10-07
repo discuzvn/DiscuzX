@@ -1934,8 +1934,8 @@
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[<ul class="xl xl1 cl">
-<li><a href="http://www.discuz.net/">这里是文字广告链接</a></li>
-<li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li>
+<li><a href="http://www.discuz.net/">Here is the text ad link</a></li>
+<li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li>
 </ul>]]></item>
 				<item id="uid"><![CDATA[1]]></item>
 				<item id="username"><![CDATA[admin]]></item>
@@ -1949,8 +1949,8 @@
 				<item id="script"><![CDATA[blank]]></item>
 				<item id="param">
 					<item id="content"><![CDATA[<ul class=\"xl xl1 cl\">
-<li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li>
-<li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li>
+<li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li>
+<li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li>
 </ul>]]></item>
 					<item id="items"><![CDATA[10]]></item>
 				</item>
@@ -3109,12 +3109,12 @@
 				<item id="bid"><![CDATA[62]]></item>
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[首页底部文字广告链接左]]></item>
+				<item id="name"><![CDATA[The text ad link at the bottom of the homepage left]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[<ul class="xl xl2 cl">
-<li><a href="http://www.discuz.net/">这里是文字广告链接</a></li>
-<li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li>
+<li><a href="http://www.discuz.net/">Here is the text ad link</a></li>
+<li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li>
 </ul>]]></item>
 				<item id="uid"><![CDATA[1]]></item>
 				<item id="username"><![CDATA[admin]]></item>
@@ -3128,8 +3128,8 @@
 				<item id="script"><![CDATA[blank]]></item>
 				<item id="param">
 					<item id="content"><![CDATA[<ul class=\"xl xl2 cl\">
-<li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li>
-<li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li>
+<li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li>
+<li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li>
 </ul>]]></item>
 					<item id="items"><![CDATA[10]]></item>
 				</item>
@@ -3145,11 +3145,11 @@
 				<item id="bid"><![CDATA[63]]></item>
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[首页底部文字广告链接右]]></item>
+				<item id="name"><![CDATA[The text ad link at the bottom of the homepage right]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[<ul class="xl xl2 cl">
-<li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li><li><a href="http://www.discuz.net/">这里是文字广告链接</a></li>
+<li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li><li><a href="http://www.discuz.net/">Here is the text ad link</a></li>
 </ul>]]></item>
 				<item id="uid"><![CDATA[1]]></item>
 				<item id="username"><![CDATA[admin]]></item>
@@ -3163,7 +3163,7 @@
 				<item id="script"><![CDATA[blank]]></item>
 				<item id="param">
 					<item id="content"><![CDATA[<ul class=\"xl xl2 cl\">
-<li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li><li><a href=\"http://www.discuz.net/\">这里是文字广告链接</a></li>
+<li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li><li><a href=\"http://www.discuz.net/\">Here is the text ad link</a></li>
 </ul>]]></item>
 					<item id="items"><![CDATA[10]]></item>
 				</item>
@@ -3327,7 +3327,7 @@
 			<item id="9">
 				<item id="styleid"><![CDATA[9]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
-				<item id="name"><![CDATA[[X1.5]帖子标题]]></item>
+				<item id="name"><![CDATA[[X1.5]Post title]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xl xl1">
 <ul>
@@ -3363,7 +3363,7 @@
 			<item id="17">
 				<item id="styleid"><![CDATA[17]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
-				<item id="name"><![CDATA[[X1.5]帖子标题+摘要]]></item>
+				<item id="name"><![CDATA[[X1.5]Post title + abstract]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xld">
 [loop]
@@ -3404,7 +3404,7 @@
 			<item id="20">
 				<item id="styleid"><![CDATA[20]]></item>
 				<item id="blockclass"><![CDATA[forum_attachment]]></item>
-				<item id="name"><![CDATA[[X1.5]帖子标题+摘要+附件缩略图]]></item>
+				<item id="name"><![CDATA[[X1.5]Post title + abstract + attachment thumbnail]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xld">
 [loop]
@@ -3448,7 +3448,7 @@
 			<item id="24">
 				<item id="styleid"><![CDATA[24]]></item>
 				<item id="blockclass"><![CDATA[group_thread]]></item>
-				<item id="name"><![CDATA[[X1.5]帖子标题]]></item>
+				<item id="name"><![CDATA[[X1.5]Post title]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xl xl1">
 <ul>
@@ -3598,7 +3598,7 @@
 			<item id="47">
 				<item id="styleid"><![CDATA[47]]></item>
 				<item id="blockclass"><![CDATA[portal_article]]></item>
-				<item id="name"><![CDATA[[X1.5]文章标题]]></item>
+				<item id="name"><![CDATA[[X1.5]Tiêu đề bài viết]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xl xl1">
 <ul>
@@ -4451,7 +4451,7 @@ runslideshow();
 			<item id="97">
 				<item id="styleid"><![CDATA[97]]></item>
 				<item id="blockclass"><![CDATA[portal_article]]></item>
-				<item id="name"><![CDATA[[X1.5]碎片式文章标题列表]]></item>
+				<item id="name"><![CDATA[[X1.5]Fragmented article title list]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xl xl1">
 <ul>
@@ -4491,7 +4491,7 @@ runslideshow();
 			<item id="111">
 				<item id="styleid"><![CDATA[111]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
-				<item id="name"><![CDATA[[X1.5]帖子缩略图＋主题＋摘要]]></item>
+				<item id="name"><![CDATA[[X1.5]Post thumbnail + subject + summary]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xld">
 [loop]

@@ -228,7 +228,6 @@ if($operation == 'admin') {
 		showsubmenu('styles_admin', array(
 			array('styles_list', 'styles', 1),
 			array('styles_import', 'styles&operation=import', 0),
-			$isfounder ? array('plugins_validator'.($updatecount ? '_new' : ''), 'styles&operation=upgradecheck', 0) : array(),
 		));
 		showtips('styles_home_tips');
 		showformheader('styles');
@@ -237,7 +236,7 @@ if($operation == 'admin') {
 		echo $stylelist;
 		showtablefooter();
 		showtableheader();
-		showsubmit('stylesubmit', 'submit', 'del', '<input onclick="this.form.updatecsscache.value=1" type="submit" class="btn" name="stylesubmit" value="'.cplang('styles_csscache_update').'">'.($isfounder ? '&nbsp;&nbsp;<a href="'.ADMINSCRIPT.'?action=cloudaddons&frame=no&operation=templates&from=more" target="_blank">'.cplang('cloudaddons_style_link').'</a>' : ''));
+		showsubmit('stylesubmit', 'submit', 'del', '<input onclick="this.form.updatecsscache.value=1" type="submit" class="btn" name="stylesubmit" value="'.cplang('styles_csscache_update').'">');
 		showtablefooter();
 		showformfooter();
 

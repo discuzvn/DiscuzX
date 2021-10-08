@@ -15,10 +15,10 @@ $addonsource = $_G['config']['addonsource'] ? $_G['config']['addonsource'] : ($_
 $addon = $addonsource ?
 	$_G['config']['addon'][$addonsource] :
 	array(
-		'website_url' => 'https://addon.dismall.com',
-		'download_url' => 'https://addon.dismall.com/index.php',
+		'website_url' => '',
+		'download_url' => '',
 		'download_ip' => '',
-		'check_url' => 'https://addon1.dismall.com/md5/',
+		'check_url' => '',
 		'check_ip' => '',
 	);
 
@@ -79,10 +79,6 @@ function cloudaddons_check() {
 
 function cloudaddons_open($extra, $post = '', $timeout = 15) {
 	return dfsockopen(cloudaddons_url('&from=s').$extra, 0, $post, '', false, CLOUDADDONS_DOWNLOAD_IP, $timeout);
-}
-
-function cloudaddons_pluginlogo_url($id) {
-	return CLOUDADDONS_WEBSITE_URL.'?_'.$id;
 }
 
 function cloudaddons_installlog($addonid) {

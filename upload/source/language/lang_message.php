@@ -735,28 +735,28 @@ $lang = array(
     'block_noexist' => 'Bạn chỉ định mà mô-đun không tồn tại',
     'block_nomore' =>
         'Bạn xác định mô-đun không tồn tại cho biết thêm thông tin',
-    'comment_no_aid_id' => 'Có lỗi, Bạn đã không thể xem các bài viết ID',
-    'comment_no_topicid_id' => 'Có lỗi, Bạn đã không thể xem các chủ đề  ID',
+    'comment_no_aid_id' => 'ID bài viết không tồn tại',
+    'comment_no_topicid_id' => 'ID chủ đề không tồn tại',
     'comment_aid_no_exist' =>
-        'Có lỗi, các bài viết mà bạn muốn xem không tồn tại',
+        'Bài viết không tồn tại',
     'comment_topicid_no_exist' =>
-        'Có lỗi, các chủ đề mà bạn muốn xem không tồn tại',
-    'list_choose_category' => 'Có lỗi, Bạn đã không chọn danh mục để xem',
+        'Chủ đề không tồn tại',
+    'list_choose_category' => 'Có lỗi, hãy chọn chuyên mục để xem',
     'list_category_noexist' =>
-        'Có lỗi, các thể loại bạn xác định không tồn tại',
-    'list_category_is_closed' => 'Có lỗi, các thể loại bạn xác định đã bị đóng',
-    'topic_is_closed' => 'Có lỗi, Tính năng này hiện chưa mở',
-    'view_no_article_id' => 'Có lỗi, Bạn không thể xem các bài viết ID',
+        'Chuyên mục không tồn tại',
+    'list_category_is_closed' => 'Chuyên mục này hiện đang tạm đóng',
+    'topic_is_closed' => 'Chủ đề này đang tạm đóng',
+    'view_no_article_id' => 'Bạn không thể xem bài viết này',
     'view_article_no_exist' =>
         'Có lỗi, bài viết bạn chỉ định không tồn tại hoặc đang được kiểm duyệt',
-    'search_album_closed' => 'Có lỗi, chức năng tìm kiếm Album đã đóng',
+    'search_album_closed' => 'Có lỗi, chức năng tìm kiếm album đã đóng',
     'search_blog_closed' => 'Có lỗi, Chức năng tìm blog đã đóng',
-    'search_forum_closed' => 'Có lỗi, Tìm kiếm trong diễn đàn đã đóng',
+    'search_forum_closed' => 'Có lỗi, tìm kiếm trong diễn đàn đã đóng',
     'search_group_closed' =>
         'Có lỗi, {_G/setting/navs/3/navname} tìm kiếm nhóm đã đóng',
     'search_portal_closed' => 'Có lỗi, chức năng tìm kiếm này đã đóng',
     'no_privilege_myapp' =>
-        'Có lỗi, Các ứng dụng không tồn tại hoặc đã bị vô hiệu, bạn có thể<a href="userapp.php?mod=manage&my_suffix=%2Fapp%2Flist">Chọn ứng dụng khác</a>',
+        'Có lỗi, Các ứng dụng không tồn tại hoặc đã bị vô hiệu, bạn có thể <a href="userapp.php?mod=manage&my_suffix=%2Fapp%2Flist">Chọn ứng dụng khác</a>',
     'collection_comment_closed' => 'Admin đã đóng nhận xét',
     'collection_comment_succ' => 'Nhận xét thành công',
     'collection_comment_remove_succ' => 'Xóa thành công',

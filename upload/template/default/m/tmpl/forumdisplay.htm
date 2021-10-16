@@ -72,7 +72,7 @@
                  </p>
                 <div class="detailCon">
                     <p>
-                    <% if(Variables.forum_threadlist[i].special == 3 && Variables.forum_threadlist[i].price > 0) { %><a href="javascript:;" class="showBtn br f11 c2 db">悬赏 <%= Variables.forum_threadlist[i].price %> <%= Variables.reward_unit %></a><% } %>
+                    <% if(Variables.forum_threadlist[i].special == 3 && Variables.forum_threadlist[i].price > 0) { %><a href="javascript:;" class="showBtn br f11 c2 db">Đưa ra phần thưởng <%= Variables.forum_threadlist[i].price %> <%= Variables.reward_unit %></a><% } %>
                     <% if(Variables.forum_threadlist[i].special == 3 && Variables.forum_threadlist[i].price < 0) { %><a href="javascript:;" class="showBtn br f11 c2 db">已解决</a><% } %>
                     <% if(Variables.forum_threadlist[i].special == 1) { %><a href="javascript:;" class="showBtn br f11 c2 db">投票</a><% } %>
                     <% if(Variables.forum_threadlist[i].special == 4) { %><a href="javascript:;" class="showBtn br f11 c2 db">活动</a><% } %>

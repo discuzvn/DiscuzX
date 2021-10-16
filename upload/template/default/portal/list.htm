@@ -24,7 +24,7 @@
 		<!--[diy=listcontenttop]--><div id="listcontenttop" class="area"></div><!--[/diy]-->
 		<div class="bm">
 			<div class="bm_h cl">
-				<!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="y xi2 rss" target="_blank" title="RSS">{lang rss_subscribe_this}</a><!--{/if}-->
+				<!--{if $_G[setting][rssstatus] && !$_GET['archiveid']}--><a href="portal.php?mod=rss&catid=$cat[catid]" class="y xi2 rss" title="RSS">{lang rss_subscribe_this}</a><!--{/if}-->
 				<!--{if ($_G['group']['allowpostarticle'] || $_G['group']['allowmanagearticle'] || $categoryperm[$catid]['allowmanage'] || $categoryperm[$catid]['allowpublish']) && empty($cat['disallowpublish'])}-->
 				<a href="portal.php?mod=portalcp&ac=article&catid=$cat[catid]" class="y xi2 addnew">{lang article_publish}</a>
 				<!--{/if}-->
@@ -44,9 +44,9 @@
 				<!--{eval $highlight = article_title_style($value);}-->
 				<!--{eval $article_url = fetch_article_url($value);}-->
 				<dl class="bbda cl">
-					<dt class="xs2"><a href="$article_url" target="_blank" class="xi2" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></dt>
+					<dt class="xs2"><a href="$article_url" class="xi2" $highlight>$value[title]</a> <!--{if $value[status] == 1}-->({lang moderate_need})<!--{/if}--></dt>
 					<dd class="xs2 cl">
-						<!--{if $value[pic]}--><div class="atc"><a href="$article_url" target="_blank"><img src="$value[pic]" alt="$value[title]" class="tn" /></a></div><!--{/if}-->
+						<!--{if $value[pic]}--><div class="atc"><a href="$article_url"><img src="$value[pic]" alt="$value[title]" class="tn" /></a></div><!--{/if}-->
 						$value[summary]
 					</dd>
 					<dd>

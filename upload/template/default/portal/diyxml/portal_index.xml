@@ -26,7 +26,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[今日]]></item>
+									<item id="text"><![CDATA[Hôm nay]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -68,7 +68,7 @@
 										</item>
 										<item id="style"><![CDATA[]]></item>
 										<item id="first">
-											<item id="text"><![CDATA[今日精彩推荐]]></item>
+											<item id="text"><![CDATA[Đề xuất hôm nay]]></item>
 											<item id="href"><![CDATA[]]></item>
 											<item id="color"><![CDATA[]]></item>
 											<item id="float"><![CDATA[]]></item>
@@ -90,7 +90,7 @@
 										</item>
 										<item id="style"><![CDATA[]]></item>
 										<item id="first">
-											<item id="text"><![CDATA[更多精彩专题]]></item>
+											<item id="text"><![CDATA[Các chủ đề thú vị]]></item>
 											<item id="href"><![CDATA[]]></item>
 											<item id="color"><![CDATA[]]></item>
 											<item id="float"><![CDATA[]]></item>
@@ -189,7 +189,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[热议]]></item>
+									<item id="text"><![CDATA[Thảo luận sôi nổi]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -267,7 +267,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[答问题 赚积分]]></item>
+									<item id="text"><![CDATA[Trả lời câu hỏi và kiếm điểm]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -345,7 +345,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[团队日志]]></item>
+									<item id="text"><![CDATA[Nhật ký nhóm]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[rgb(51, 51, 51)]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -374,7 +374,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[问题反馈]]></item>
+									<item id="text"><![CDATA[Phản hồi]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[rgb(51, 51, 51)]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -403,7 +403,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[站长交流]]></item>
+									<item id="text"><![CDATA[Webmaster communication]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[rgb(51, 51, 51)]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -459,7 +459,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[群组]]></item>
+									<item id="text"><![CDATA[Group]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -501,7 +501,7 @@
 										</item>
 										<item id="style"><![CDATA[]]></item>
 										<item id="first">
-											<item id="text"><![CDATA[最新成立]]></item>
+											<item id="text"><![CDATA[Mới tạo]]></item>
 											<item id="href"><![CDATA[]]></item>
 											<item id="color"><![CDATA[]]></item>
 											<item id="float"><![CDATA[]]></item>
@@ -523,7 +523,7 @@
 										</item>
 										<item id="style"><![CDATA[]]></item>
 										<item id="first">
-											<item id="text"><![CDATA[今日活跃群组]]></item>
+											<item id="text"><![CDATA[Nhóm hoạt động nhiều]]></item>
 											<item id="href"><![CDATA[]]></item>
 											<item id="color"><![CDATA[]]></item>
 											<item id="float"><![CDATA[]]></item>
@@ -643,7 +643,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[空间]]></item>
+									<item id="text"><![CDATA[Space]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -653,7 +653,7 @@
 									<item id="src"><![CDATA[]]></item>
 								</item>
 								<item id="0">
-									<item id="text"><![CDATA[ | 写真图集]]></item>
+									<item id="text"><![CDATA[ | Album ảnh]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[rgb(102, 102, 102)]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -682,7 +682,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[心情记录]]></item>
+									<item id="text"><![CDATA[Space logs]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -759,7 +759,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[精彩分享]]></item>
+									<item id="text"><![CDATA[Chia sẻ tuyệt vời]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -787,7 +787,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[找朋友]]></item>
+									<item id="text"><![CDATA[Tìm bạn]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -809,7 +809,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[榜上有名]]></item>
+									<item id="text"><![CDATA[Trên danh sách]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -845,7 +845,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[商品]]></item>
+									<item id="text"><![CDATA[hàng hóa]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -907,7 +907,7 @@
 								</item>
 								<item id="style"><![CDATA[]]></item>
 								<item id="first">
-									<item id="text"><![CDATA[推荐商铺]]></item>
+									<item id="text"><![CDATA[Cửa hàng được đề xuất]]></item>
 									<item id="href"><![CDATA[]]></item>
 									<item id="color"><![CDATA[]]></item>
 									<item id="float"><![CDATA[]]></item>
@@ -964,7 +964,7 @@
 				<item id="bid"><![CDATA[3]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[今日推荐]]></item>
+				<item id="name"><![CDATA[Đề xuất hôm nay]]></item>
 				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">今日</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
@@ -1293,7 +1293,7 @@
 				<item id="blockclass"><![CDATA[forum_attachment]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">今日精彩推荐</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">Đề xuất tuyệt vời của ngày hôm nay</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1333,7 +1333,7 @@
 				<item id="blockclass"><![CDATA[portal_topic]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">更多精彩专题</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">Các chủ đề thú vị hơn</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1366,7 +1366,7 @@
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div style="" class="blocktitle title"><span style="" class="titletext">广场</span></div>]]></item>
+				<item id="title"><![CDATA[<div style="" class="blocktitle title"><span style="" class="titletext">Quảng trường</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1482,7 +1482,7 @@
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">团队日志</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">Nhật ký nhóm</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1522,7 +1522,7 @@
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">问题反馈</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">Phản hồi</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1561,7 +1561,7 @@
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">站长交流</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="color: rgb(51, 51, 51);" class="titletext">Giao tiếp quản trị trang web</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1690,9 +1690,9 @@
 				<item id="bid"><![CDATA[23]]></item>
 				<item id="blockclass"><![CDATA[forum_thread]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[悬赏]]></item>
+				<item id="name"><![CDATA[Đưa ra phần thưởng]]></item>
 				<item id="title"><![CDATA[
-<DIV class="blocktitle title"><SPAN class=titletext>答问题 赚积分</SPAN></DIV>]]></item>
+<DIV class="blocktitle title"><SPAN class=titletext>Trả lời câu hỏi và kiếm điểm</SPAN></DIV>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -1930,7 +1930,7 @@
 				<item id="bid"><![CDATA[30]]></item>
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[文字广告链接]]></item>
+				<item id="name"><![CDATA[Liên kết quảng cáo văn bản]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[<ul class="xl xl1 cl">
@@ -2000,7 +2000,7 @@
 				<item id="blockclass"><![CDATA[group_group]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">最新成立</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">Mới thành lập</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -2033,7 +2033,7 @@
 				<item id="blockclass"><![CDATA[group_group]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">今日活跃群组</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">Nhóm hoạt động hôm nay</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -2507,7 +2507,7 @@
 				<item id="blockclass"><![CDATA[space_doing]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">心情记录</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="" class="titletext">Ghi lại tâm trạng</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[]]></item>
 				<item id="uid"><![CDATA[1]]></item>
@@ -2645,7 +2645,7 @@
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
 				<item id="name"><![CDATA[]]></item>
-				<item id="title"><![CDATA[<div class="blocktitle title"><span style="margin-left: 10px;" class="titletext">找朋友</span></div>]]></item>
+				<item id="title"><![CDATA[<div class="blocktitle title"><span style="margin-left: 10px;" class="titletext">Tìm bạn</span></div>]]></item>
 				<item id="classname"><![CDATA[]]></item>
 				<item id="summary"><![CDATA[<form action="home.php" method="get">
 	<table cellpadding="0" cellspacing="0" class="pns">
@@ -3562,7 +3562,7 @@
 			<item id="46">
 				<item id="styleid"><![CDATA[46]]></item>
 				<item id="blockclass"><![CDATA[group_group]]></item>
-				<item id="name"><![CDATA[[X1.5]群组名称（两列）]]></item>
+				<item id="name"><![CDATA[[X1.5]Tên nhóm (hai cột)]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl xl xl2">
 <ul>
@@ -3909,7 +3909,7 @@ runslideshow();
 			<item id="81">
 				<item id="styleid"><![CDATA[81]]></item>
 				<item id="blockclass"><![CDATA[forum_trade]]></item>
-				<item id="name"><![CDATA[[X1.5]商品列表]]></item>
+				<item id="name"><![CDATA[[X1.5]Danh sách sản phẩm]]></item>
 				<item id="template">
 					<item id="raw"><![CDATA[<div class="module cl ml">
 <ul>

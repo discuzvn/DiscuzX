@@ -1035,8 +1035,8 @@ $lang = array(
     'no_privilege' =>
         'Có lỗi, Hiện tại, bạn không được phép làm điều này <a href="home.php?mod=spacecp&ac=usergroup">Xem quyền hạn</a>',
     'favorite_cannot_favorite' => 'Có lỗi, Bạn có thể thu thập thông tin',
-    'favorite_repeat' => 'Bạn đã thích chủ đề này',
-    'favorite_do_success' => 'Thông tin bộ sưu tập thành công ',
+    'favorite_repeat' => 'Bạn đã like chủ đề này',
+    'favorite_do_success' => 'Đã like',
     'feed_no_found' =>
         'Có lỗi, Để xem các hoạt động mà bạn chỉ định không tồn tại',
     'no_privilege_feed_del' => 'Có lỗi, Bạn không có quyền xóa năng động',

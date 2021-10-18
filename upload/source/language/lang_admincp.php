@@ -1258,7 +1258,7 @@ $lang = array(
         '全局帖子快速回复框背景',
     'setting_styles_viewthread_global_reply_background_comment' =>
         '设置全局帖子快速回复框背景图片，版块设置优先',
-    'setting_threadprofile' => 'Thiết đặt layout',
+    'setting_threadprofile' => 'Cài đặt layout',
     'setting_styles_threadprofile' => 'Thông tin người dùng trong bài',
     'setting_styles_threadprofile_group' => 'Nhóm người dùng',
     'setting_styles_threadprofile_project' => 'Danh sách layout',
@@ -1884,7 +1884,7 @@ $lang = array(
     'setting_serveropti_maxspm' =>
         '<span class="spectitle">Số lần tìm kiếm trong 60s</u></i>',
     'setting_serveropti_maxspm_comment' =>
-        'Thiết đặt số lần tìm kiếm trong 60s, để 0 là ko hạn chế. Lưu ',
+        'Cài đặt số lần tìm kiếm trong 60s, để 0 là ko hạn chế. Lưu ',
     'setting_serveropti_maxsearchresults' => 'Kết quả tìm kiếm tối đa',
     'setting_serveropti_maxsearchresults_comment' =>
         'Mỗi khi tìm kiếm truy cập vào các kết quả của các đề xuất số lượng lớn nhất để thiết lập giá trị mặc định của 500, hoặc không nhiều hơn 1500 trong khuôn khổ các giá trị',
@@ -2085,7 +2085,7 @@ $lang = array(
     'setting_functions_recommend_ownthread' =>
         'Cho phép tác giả tự đánh giá bài mình',
     'setting_functions_recommend_ownthread_comment' =>
-        'Thiết đặt có hay không cho phép đánh giá của các chủ đề của riêng nó. Đánh giá các chủ đề riêng của mình mà không có điểm thưởng',
+        'Cài đặt có hay không cho phép đánh giá của các chủ đề của riêng nó. Đánh giá các chủ đề riêng của mình mà không có điểm thưởng',
     'setting_functions_recommend_iconlevels' => 'Biểu tượng cấp đánh giá',
     'setting_functions_recommend_iconlevels_comment' =>
         'Thiết lập danh sách các trang đánh giá chủ đề của các biểu tượng tương ứng cho mỗi cấp độ của chỉ số đánh giá. Kiến nghị cho cấp ba, sử dụng một dấu phẩy phân cách, chẳng hạn như: "0100200" là chủ đề của chỉ số đánh giá là lớn hơn 0-1, hơn 100, Level 2, khi hơn 200 3. 1 cấp độ và ở trên danh sách các chủ đề trong các trang chủ đề "chủ đề ca ngợi xem" trong danh sách. Trống hoặc 0 cho không có biểu tượng màn hình hiển thị',
@@ -2553,7 +2553,7 @@ $lang = array(
     'setting_mail_check_test_to' => 'Người nhận',
     'setting_mail_check_test_to_comment' =>
         'Nếu như muốn test hiện tên bạn không?, định dạng là “username &lt;user@domain.com&gt;”. muốn thêm email thì thêm dấu phẩy.',
-    'setting_mail_check_submit' => 'Thiết đặt kiểm tra email gửi',
+    'setting_mail_check_submit' => 'Cài đặt kiểm tra email gửi',
     'setting_mail_check_title_1' => 'Phương thức tiêu chuẩn gửi Email',
     'setting_mail_check_message_1' => 'Thông qua PHP máy chủ Unix sendmail gửi
 
@@ -2915,7 +2915,7 @@ $lang = array(
         'Set the upper limit of GD picture pixels. The larger the value, the more server memory is required. Sites exceeding the default value of 16777216 need to set a larger memory_limit in php.ini to adapt to this configuration',
     'setting_attach_image_thumbquality' => 'Chất lượng ảnh',
     'setting_attach_image_thumbquality_comment' =>
-        'Thiết đặt từ 0 đến 100',
+        'Cài đặt từ 0 đến 100',
     'setting_attach_image_disabledmobile' => 'Bật  tạo thumbnail cho phiên bản mobile',
     'setting_attach_image_disabledmobile_comment' =>
         'Set whether to generate a thumbnail of the mobile version for each attachment',
@@ -3606,7 +3606,7 @@ $lang = array(
         'Quy tắc chủ đề giới thiệu, chỉ có hiệu lực với tự động và bán tự động, và xếp xuống',
     'forums_edit_extend_recommend_maxlength' => 'Tiêu đề có số từ lớn nhất:',
     'forums_edit_extend_recommend_maxlength_comment' =>
-        'Thiết đặt này nếu chủ đề dài quá có thể rút ngắn lại, 0 là để nguyên',
+        'Cài đặt này nếu chủ đề dài quá có thể rút ngắn lại, 0 là để nguyên',
     'forums_edit_extend_recommend_cachelife' =>
         'Thời gian tồn tại cache(giây):',
     'forums_edit_extend_recommend_cachelife_comment' =>
@@ -3660,7 +3660,7 @@ $lang = array(
         'Chọn "Có" là khi tải ảnh lên thì ảnh sẽ không bị đóng dấu chìm vào.',
     'forums_edit_posts_tagstatus' => 'Sử dụng (TAG)',
     'forums_edit_posts_tagstatus_comment' =>
-        'Thiết đặt tính năng từ khóa (TAG) tại bài viết',
+        'Cài đặt tính năng từ khóa (TAG) tại bài viết',
     'forums_edit_posts_tagstatus_none' => 'Không dùng',
     'forums_edit_posts_tagstatus_use' => 'Sử dụng',
     'forums_edit_posts_tagstatus_quired' => 'Sử dụng nhưng phải điền vào',
@@ -3668,7 +3668,7 @@ $lang = array(
     'forums_edit_posts_trade_thread' => 'Hiển thị nút bán chủ đề',
     'forums_edit_posts_trade_type' => 'Loại sản phẩm',
     'forums_edit_posts_trade_type_comment' =>
-        'Thiết đặt diễn đàn không thể dùng loại chủ đề buôn bán, chức năng này chỉ có thể khởi động sau khi đã khởi động chủ đề mua bán',
+        'Cài đặt diễn đàn không thể dùng loại chủ đề buôn bán, chức năng này chỉ có thể khởi động sau khi đã khởi động chủ đề mua bán',
     'forums_edit_posts_trade_payto' => 'Hiển thị nút mua bán alipay',
     'forums_edit_posts_trade_payto_comment' =>
         'Diễn đàn bạn không phải dùng ở TQ thì không nên thiết đặt này',
@@ -3681,7 +3681,7 @@ $lang = array(
     'forums_edit_posts_allowspecialonly_comment' =>
         'Chỉ cho phép phát hành các chủ đề đặc biệt',
     'forums_edit_posts_trade_comment' =>
-        'Thiết đặt này có hay không hiển thị hoặc hỗ trợ diễn đàn mua bán trực tuyến',
+        'Cài đặt này có hay không hiển thị hoặc hỗ trợ diễn đàn mua bán trực tuyến',
     'forums_edit_posts_autoclose' => 'Chủ đề tự động đóng',
     'forums_edit_posts_autoclose_comment' =>
         'Có nên lập các chủ đề tự động đóng sau một thời gian nhất định, cấm người dùng mở lại',
@@ -3690,7 +3690,7 @@ $lang = array(
     'forums_edit_posts_autoclose_lastpost' => 'Theo thời gian người gửi cuối',
     'forums_edit_posts_autoclose_time' => 'Thời gian tự đóng(ngày)',
     'forums_edit_posts_autoclose_time_comment' =>
-        'Thiết đặt này phải mở cùng "Chủ đề tự động đóng" mới có công hiệu.',
+        'Cài đặt này phải mở cùng "Chủ đề tự động đóng" mới có công hiệu.',
     'forums_edit_posts_attach_ext' => 'Loại tệp đính kèm cho phép',
     'forums_edit_posts_attach_ext_comment' =>
         'Dùng dấu phẩy để cách nhiều loại. Để trống là cho phép theo nhóm người dùng.',
@@ -3712,7 +3712,7 @@ $lang = array(
     'forums_edit_attachtype' => 'Loại File đính kèm',
     'forums_edit_attachtype_tips' =>
         '<li>Tính năng này có thể giới hạn kích thước tối đa của một loại file đính kèm trong diễn đàn này, khi kích thước của tập hợp ở đây là ít hơn kích thước tối đa cho phép nhóm người sử dụng, chỉ định các loại giới hạn kích thước tập tin đính kèm sẽ có trong chủ đề này tập hợp. </li> <li> Bạn có thể thiết lập kích thước tối đa của một số loại file đính kèm cho lệnh cấm tổng thể về file đính kèm được tải lên. </li> kích thước loại tập tin đính kèm "<li> đây để thiết lập một chuỗi sản phẩm nào để sử dụng các thiết lập toàn cầu.</li>',
-    'forums_edit_credits' => 'Thiết đặt điểm ',
+    'forums_edit_credits' => 'Cài đặt điểm ',
     'forums_edit_credits_policy' => 'Chiến lược hội nhập',
     'forums_edit_credits_comment' =>
         'Dấu cộng(+) có nghĩa là số điểm được thêm và dấu trừ(-) là trừ điểm. Giới hạn trong -99～+99. Để trống là không tăng giảm. <a href="home.php?mod=spacecp&ac=credit&op=rule&fid={fid}" target="_blank"> Xem quy định điểm </ a> ',
@@ -3866,7 +3866,7 @@ $lang = array(
     'threadtype_infotypes_content' => 'Quản lý nội dung',
     'threadtype_infotypes_add' => 'Thêm loại thông tin',
     'threadtype_infotypes_option_config' =>
-        'Thiết đặt cơ bản chọn lựa phân loại',
+        'Cài đặt cơ bản chọn lựa phân loại',
     'threadtype_infotypes_add_option' => 'Thêm thông tin chọn lựa',
     'threadtype_infotypes_exist_option' => 'Đã tồn tại chọn lựa này',
     'threadtype_infotypes_insert_template' => 'Chèn bản',
@@ -4722,7 +4722,7 @@ $lang = array(
     'admingroup_edit_otherperm' => 'Quyền hạn khác',
     'admingroup_edit_mod_thread' => 'Quản lý chủ đề',
     'admingroup_edit_mod_thread_comment' =>
-        'Thiết đặt này đối với trong phạm vi diễn đàn cho phép di chuyển, xóa đóng bài viết',
+        'Cài đặt này đối với trong phạm vi diễn đàn cho phép di chuyển, xóa đóng bài viết',
     'admingroup_edit_edit_post' => 'Sửa bài',
     'admingroup_edit_edit_post_comment' => 'Set whether to allow editing of posts within the scope of management',
     'admingroup_edit_edit_poll' => 'Bình chọn',
@@ -4805,7 +4805,7 @@ $lang = array(
         'Thiết hay không cho phép quản lý cảnh báo bài viết trong phạm vi',
     'admingroup_edit_mod_post' => 'Kích hoạt chủ đề',
     'admingroup_edit_mod_post_comment' =>
-        'Thiết đặt này cho phép quản lý thông qua bài viết đang chờ kích hoạt',
+        'Cài đặt này cho phép quản lý thông qua bài viết đang chờ kích hoạt',
     'admingroup_edit_del_post' => 'Xóa bài viết',
     'admingroup_edit_del_post_comment' =>
         'Thiết lập có cho phép xóa bài viết trong phạm vi',
@@ -4841,7 +4841,7 @@ $lang = array(
         'Cài có hoặc không cho phép chỉnh sửa thông tin người dùng',
     'admingroup_edit_ban_user' => 'Cấm thành viên',
     'admingroup_edit_ban_user_comment' =>
-        'Thiết đặt này sẽ cấm thành viên gửi bài hoặc truy cập',
+        'Cài đặt này sẽ cấm thành viên gửi bài hoặc truy cập',
     'admingroup_edit_ban_user_visit' => 'Allow to disable user access',
     'admingroup_edit_ban_user_visit_comment' =>
         'Set whether to allow of disable user access',
@@ -5046,10 +5046,10 @@ $lang = array(
     'usergroups_merge_target_comment' => '选择要将源用户组合并到哪个用户组',
     'usergroups_merge_delete_source' => '同时删除源用户组',
     'usergroups_edit' => 'Sửa nhóm thành viên',
-    'usergroups_edit_basic' => 'Thiết đặt cơ bản',
+    'usergroups_edit_basic' => 'Cài đặt cơ bản',
     'usergroups_edit_basic_title' => 'Chức vụ nhóm:',
     'usergroups_edit_basic_scheme' => 'Thiết lập nhóm người sử dụng:',
-    'usergroups_edit_basic_visit' => 'Thiết đặt cơ bản',
+    'usergroups_edit_basic_visit' => 'Cài đặt cơ bản',
     'usergroups_edit_basic_visit_none' => 'Từ cấm',
     'usergroups_edit_basic_visit_normal' => 'Truy cập thường',
     'usergroups_edit_basic_visit_super' => 'Siêu truy cập',
@@ -5057,7 +5057,7 @@ $lang = array(
         'Nhóm này sẽ bị cấm truy cập vào diễn đàn nếu như bạn chọn không',
     'usergroups_edit_basic_read_access' => 'Quyền đọc',
     'usergroups_edit_basic_read_access_comment' =>
-        'Thiết đặt cấp bậc thành viên có quyền xem bài viết và đính kèm, phạm vi từ 0 đến 255, Nếu thiết đặt 0 thì khi có người đòi hỏi quyền cao hơn 1 thành viên coi như không thể xem được',
+        'Cài đặt cấp bậc thành viên có quyền xem bài viết và đính kèm, phạm vi từ 0 đến 255, Nếu thiết đặt 0 thì khi có người đòi hỏi quyền cao hơn 1 thành viên coi như không thể xem được',
     'usergroups_edit_basic_max_friend_number' => 'Up to a few friends',
     'usergroups_edit_basic_max_friend_number_comment' => '0 Unlimited',
     'usergroups_edit_basic_view_profile' =>
@@ -5069,7 +5069,7 @@ $lang = array(
         'Settings allow users to view the forum statistics',
     'usergroups_edit_basic_invisible' => 'Có thể ẩn danh:',
     'usergroups_edit_basic_invisible_comment' =>
-        'Thiết đặt này sẽ làm không hiện tên trong bảng danh sách truy cập',
+        'Cài đặt này sẽ làm không hiện tên trong bảng danh sách truy cập',
     'usergroups_edit_basic_multigroups' => ' Gia nhập/Rời bỏ nhóm: ',
     'usergroups_edit_basic_multigroups_comment' =>
         'Settings are in the control panel allows users to add or leave available to the public user group',
@@ -5078,13 +5078,13 @@ $lang = array(
         'Settings are in the control panel allows users to its own deal Lieutenant General points transferred to other users. Note: This function takes in the whole set points in the opening of trading before use ',
     'usergroups_edit_basic_allowsendpm' => 'Gửi tin nhắn:',
     'usergroups_edit_basic_allowsendpm_comment' =>
-        'Thiết đặt này là có hoặc không cho phép gửi tin nhắn',
+        'Cài đặt này là có hoặc không cho phép gửi tin nhắn',
     'usergroups_edit_basic_search' => 'Sử dụng tìm kiếm:',
     'usergroups_edit_basic_search_disable' => 'Cấm tìm kiếm',
     'usergroups_edit_basic_search_thread' => 'Chỉ cho phép tìm tiêu đề',
     'usergroups_edit_basic_search_post' => 'Cho phép tìm bài viết(toàn bộ)',
     'usergroups_edit_basic_search_post_comment' =>
-        'Thiết đặt này cho phép thành viên thông qua dữ liệu của diễn đàn tìm kiếm thông tin. Chú ý: khi dữ liệu quá nhiều có thể gây tốn nhiều tài nguyên mỗi lần tìm kiếm',
+        'Cài đặt này cho phép thành viên thông qua dữ liệu của diễn đàn tìm kiếm thông tin. Chú ý: khi dữ liệu quá nhiều có thể gây tốn nhiều tài nguyên mỗi lần tìm kiếm',
     'usergroups_edit_basic_search_comment' =>
         'Select the user group you want to open the search for this project',
     'usergroups_edit_basic_reasonpm' => 'PM lí do cho tác giả:',
@@ -5097,7 +5097,7 @@ $lang = array(
         'Thiết lập người dùng xếp hạng hoặc việc thực hiện quản lý để những người khác, cho dù bị buộc phải nhập các biện minh và thông báo với tác giả',
     'usergroups_edit_basic_blog' => 'Sử dụng blog',
     'usergroups_edit_basic_blog_comment' =>
-        'Thiết đặt này cho phép dùng một bài cho vào blog',
+        'Cài đặt này cho phép dùng một bài cho vào blog',
     'usergroups_edit_basic_cstatus' => 'Chức vụ mặc định: ',
     'usergroups_edit_basic_cstatus_comment' =>
         'Settings allow users to set their own names and titles appear in the post',
@@ -5107,10 +5107,10 @@ $lang = array(
         'Set per hour up to the number of hair theme, allows members to be in line with the the irrigation prevention function to further restrict a member\'s post, can be set to 1 to 255 within the value, 0 for no restriction. This feature will slightly increase the burden on the server and visitors invalid',
     'usergroups_edit_basic_hour_posts' => 'Giới hạn đăng bài trong thời gian: ',
     'usergroups_edit_basic_hour_posts_comment' =>
-        'Thiết đặt này nhằm chống spam bài viết, nó sẽ hạn chế bạn không thể viết quá bao nhiều bài / giờ ',
+        'Cài đặt này nhằm chống spam bài viết, nó sẽ hạn chế bạn không thể viết quá bao nhiều bài / giờ ',
     'usergroups_edit_basic_disable_periodctrl' => 'Giờ cấm:',
     'usergroups_edit_basic_disable_periodctrl_comment' =>
-        'Thiết đặt này sẽ hạn chế nhóm truy cập vào giờ giới nghiêm của diễn đàn',
+        'Cài đặt này sẽ hạn chế nhóm truy cập vào giờ giới nghiêm của diễn đàn',
     'usergroups_edit_basic_radminid' => 'Các quyền để quản lý:',
     'usergroups_edit_basic_radminid_comment' =>
         'With the user group associated with the type of management authority, if the choice of "none", this group of users without user permission management; otherwise, in accordance with the management team in this group the authority to give users administrative privileges',
@@ -5258,12 +5258,12 @@ $lang = array(
     'usergroups_edit_post_anonymous' => ' Gửi bài nặc danh',
     'usergroups_edit_post_anonymous_comment' =>
         'Sau thiết đặt này, nếu như lúc thành viên gửi bài mới có chọn mục này thì trên phần thông tin bài viết không hiện tên tác giả. Chỉ có quản lý trở lên mới xem được tên tác giả',
-    'usergroups_edit_post_set_read_perm' => 'Thiết đặt quyền đọc',
+    'usergroups_edit_post_set_read_perm' => 'Cài đặt quyền đọc',
     'usergroups_edit_post_set_read_perm_comment' =>
         'Sau khi thiết đặt này được kích hoạt cần phải có quyền đọc cao hơn yêu cầu mới xem được bài viết',
     'usergroups_edit_post_maxprice' => 'Tập tin đính kèm có giá cao nhất:',
     'usergroups_edit_post_maxprice_comment' =>
-        'Thiết đặt giá cho tập tin đính kèm',
+        'Cài đặt giá cho tập tin đính kèm',
     'usergroups_edit_post_tag' => 'Cho dùng Tag',
     'usergroups_edit_post_tag_comment' =>
         'Set whether to allow his new topic using labels',
@@ -5388,7 +5388,7 @@ $lang = array(
         'Khi mua công cụ sẽ có được giá ưu đãi, phạm vi từ 1 đến 9.<br>Ví dụ món hàng của bạn là 10 giảm giá có giá trị là 2 thì bạn mua món công cụ đó với giá 10-(10*0.2)=8. Để số 0 là không giảm giá',
     'usergroups_edit_magic_max' => 'Trọng tải cho phép',
     'usergroups_edit_magic_max_comment' =>
-        'Thiết đặt hạn chế nhóm mang bao nhiêu số công cụ, phạm vi từ 1 đến 65,533',
+        'Cài đặt hạn chế nhóm mang bao nhiêu số công cụ, phạm vi từ 1 đến 65,533',
     'usergroups_edit_magic_unallowed' =>
         'Không cho phép sử dụng, mua và chuyển nhượng',
     'usergroups_edit_magic_allow' => 'Cho phép sử dụng, mua',
@@ -5605,8 +5605,8 @@ $lang = array(
     'threads_delete_no_update_member' =>
         'Không giảm số bài viết và điểm của thành viên',
     'threads_delete_attach' => 'Xóa tệp đính kèm',
-    'threads_stick' => 'Thiết đặt chú ý hàng loạt',
-    'threads_add_digest' => 'Thiết đặt tinh hoa hàng loạt',
+    'threads_stick' => 'Cài đặt chú ý hàng loạt',
+    'threads_add_digest' => 'Cài đặt tinh hoa hàng loạt',
     'threads_open_close' => 'Đóng mở bài hàng loạt',
     'threads_move_forum' => 'Di chuyển bài hàng loạt',
     'threads_move_type' => 'Di chuyển đến phân loại hàng loạt',
@@ -6274,15 +6274,15 @@ $lang = array(
         '<ul><li>Bạn đang đối với hệ thống chỉnh sửa nhiệm vụ kế hoạch, trừ phi bạn quá hiểu kết cấu của Discuz, nếu không kiến nghị bạn đừng chỉnh sửa mặc định. </ul><ul><li>Xin mời trước khi chỉnh sửa hãy nhớ những thiết đặt gốc nhằm tránh những lỗi lầm có thể xảy ra.</ul>',
     'misc_cron_edit_weekday' => 'Trong tuần:',
     'misc_cron_edit_weekday_comment' =>
-        'Thiết đặt ngày trong tuần thực hiện nhiệm vụ, “*” không hạn chế. Thiết đặt này có thể đè thiết đặt ngày ở phía dưới',
+        'Cài đặt ngày trong tuần thực hiện nhiệm vụ, “*” không hạn chế. Cài đặt này có thể đè thiết đặt ngày ở phía dưới',
     'misc_cron_edit_day' => 'Ngày',
     'misc_cron_edit_day_comment' =>
-        'Thiết đặt ngày trong tháng, “*” không hạn chế',
+        'Cài đặt ngày trong tháng, “*” không hạn chế',
     'misc_cron_edit_hour' => 'Giờ',
-    'misc_cron_edit_hour_comment' => 'Thiết đặt giờ thực thi,“*” không hạn chế',
+    'misc_cron_edit_hour_comment' => 'Cài đặt giờ thực thi,“*” không hạn chế',
     'misc_cron_edit_minute' => 'Phút',
     'misc_cron_edit_minute_comment' =>
-        'Thiết đặt giờ thực thi, nhiều nhất có thể thiết đặt 12 cái một phút, “*” không hạn chế',
+        'Cài đặt giờ thực thi, nhiều nhất có thể thiết đặt 12 cái một phút, “*” không hạn chế',
     'misc_cron_edit_filename' => 'Tên tập tin chạy',
     'misc_cron_edit_filename_comment' =>
         'Hãy upload tập tin nhiệm vụ vào thư mục source/include/cron/',
@@ -6342,7 +6342,7 @@ $lang = array(
     'smilies_edit_filename' => 'Tập tin',
     'smilies_edit_image' => 'Hình',
     'smilies_edit_icon' => 'Biên tập chủ đề Smilies',
-    'smilies_edit_add_code' => 'Thiết đặt mã hàng loạt cho Smilies:',
+    'smilies_edit_add_code' => 'Cài đặt mã hàng loạt cho Smilies:',
     'smilies_edit_order_file' => 'Tên tập tin',
     'smilies_edit_order_radom' => 'Ngẫu nhiên',
     'smilies_edit_add_tips' =>
@@ -6422,7 +6422,7 @@ $lang = array(
     'faq_content_comment' => 'Hỗ trợ HTML',
     'faq_additem' => 'Thêm trợ giúp',
     'faq_addcat' => 'Thêm chuyên mục trợ giúp',
-    'plugins' => 'Thiết đặt',
+    'plugins' => 'Cài đặt',
     'plugins_home' => 'Giới thiệu',
     'plugins_visit' => 'Chi tiết',
     'plugins_editlink' => 'Thiết kế',
@@ -6450,7 +6450,7 @@ $lang = array(
     'plugins_import_ignore_version' =>
         'Không quan tâm phiên bản Discuz(Có thể dẫn đến sai sót)',
     'plugins_update_to' => 'Nâng cấp lên',
-    'plugins_config' => 'Thiết đặt tham số plugin',
+    'plugins_config' => 'Cài đặt tham số plugin',
     'plugins_config_module' => 'Module',
     'plugins_config_vars' => 'Biến',
     'plugins_config_install' => 'Cài đặt',
@@ -6711,7 +6711,7 @@ $lang = array(
     'magics' => 'Thẻ VIP',
     'magics_tips' =>
         '<li>Cài đặt thêm thẻ VIP bạn cần up lên source/class/magic/，Sau đó bạn có thể sử dụng danh sách dưới đây.</li><li>Ứng dụng ngoài bạn cần cẩn thân khi dùng <a href="http://dev.discuz.org/wiki" target="_blank">Discuz! Thư viện</a></li>',
-    'magics_config' => 'Thiết đặt cơ bản:',
+    'magics_config' => 'Cài đặt cơ bản:',
     'magics_config_open' => 'Mở chức năng công cụ:',
     'magics_config_open_comment' => 'Mở chức năng thẻ magic',
     'magics_config_discount' => 'Giảm giá công cụ:',
@@ -6741,7 +6741,7 @@ $lang = array(
     'magics_edit_identifier' => 'Đánh dấu đạo cụ',
     'magics_edit_supplytype' => 'Tự động thêm hàng',
     'magics_edit_supplytype_comment' =>
-        'Thiết đặt này sẽ có hiệu lực khi số lượng hàng về 0 sẽ tự động thêm',
+        'Cài đặt này sẽ có hiệu lực khi số lượng hàng về 0 sẽ tự động thêm',
     'magics_edit_supplynum' => 'Số hàng tự động thêm',
     'magics_edit_supplynum_comment' =>
         'Chức năng này đòi hỏi bạn phải mở tự động thêm hàng mới có hiệu lực',
@@ -6757,7 +6757,7 @@ $lang = array(
         'Thiết lập người dùng trong việc sử dụng số chu kỳ có thể sử dụng đạo cụ',
     'magics_edit_filename' => 'File đạo cụ',
     'magics_edit_filename_comment' =>
-        'Thiết đặt chương trình nhiệm vụ, không bao hàm đường dẫn thực. Để trong source/include/magic/',
+        'Cài đặt chương trình nhiệm vụ, không bao hàm đường dẫn thực. Để trong source/include/magic/',
     'magics_edit_description' => 'Miêu tả',
     'magics_edit_perm' => 'Quyền hạn',
     'magics_edit_usergroupperm' => 'Nhóm được phép',

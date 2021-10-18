@@ -127,7 +127,7 @@ $lang = array(
     'group_no_image_comment' =>
         'Khi‘{$_G[setting][navs][3][navname]} hình’ nếu sử dụng. {$_G[setting][navs][3][navname]} biểu tượng trong{$_G[setting][navs][3][navname]}không để hiển thị trang',
     'group_no_member_moderated' => 'Tạm thời chưa có thành viên đăng ký.',
-    'group_setup' => 'Thiết đặt {$_G[setting][navs][3][navname]}',
+    'group_setup' => 'Cài đặt {$_G[setting][navs][3][navname]}',
     'group_star_member_title' => 'Thành viên nổi bật',
     'group_threadtype' => 'Phân loại',
     'group_threadtype_limit_1' => 'Tối đa chỉ có',
@@ -203,7 +203,7 @@ $lang = array(
     'posts' => 'Bài viết',
     'create_group_message1' => 'Tạo nhóm riêng',
     'create_group_message2' =>
-        'Thiết đặt tinh năng {$_G[setting][navs][3][navname]}',
+        'Cài đặt tinh năng {$_G[setting][navs][3][navname]}',
     'create_group_message3' =>
         'Mời bạn bè gia nhập {$_G[setting][navs][3][navname]}',
     'create_group_message4' =>
@@ -215,7 +215,7 @@ $lang = array(
     'group_upgrade' => 'Nâng cấp {$_G[setting][navs][3][navname]}',
     'invite_friend' => 'Mời bạn bè',
     'my_group' => '{$_G[setting][navs][3][navname]} của tôi',
-    'personality_setting' => 'Thiết đặt',
+    'personality_setting' => 'Cài đặt',
     'recommend_group' => 'Giới thiệu {$_G[setting][navs][3][navname]}',
     'group_activities' => 'Độ sôi động',
     'group_category_no_groups' =>

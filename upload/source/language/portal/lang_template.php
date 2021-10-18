@@ -108,7 +108,7 @@ $lang = array(
     'block_item_display_num' => 'Hiển thị số bài',
     'block_itemdata' => 'Thư viện',
     'block_management' => 'Quản lý block',
-    'block_moreurl' => 'Thiết đặt xem thêm',
+    'block_moreurl' => 'Cài đặt xem thêm',
     'block_properties' => 'Thuộc tính',
     'block_properties_comment' =>
         'Xác định bởi các thuộc tính của dữ liệu mô-đun',

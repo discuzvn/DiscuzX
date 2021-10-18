@@ -653,7 +653,7 @@ $lang = array(
     'medal_not_get_credit' => 'Xin lỗi, bạn có {credit} điểm, không đủ để mua',
     'medal_get_succeed' => 'Xin chúc mừng bạn đã nhận được {medalname}',
     'medal_apply_succeed' =>
-        'Huy chương {medalname} thiết đặt thành công, xin vui lòng chờ phê duyệt quản trị viên.',
+        'Huy chương {medalname} cài đặt thành công, xin vui lòng chờ phê duyệt quản trị viên.',
     'enter_the_space' => 'Vào trang không gian cá nhân',
     'task_close' => 'Có lỗi, nhiệm vụ đã đóng',
     'task_relatedtask' =>

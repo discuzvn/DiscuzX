@@ -28,7 +28,7 @@ $lang = array(
     'login_tips' =>
         'Quản trị diễn đàn Discuz <a href="https://github.com/discuzvn/DiscuzX">Việt Nam</a>',
     'login_nosecques' =>
-        'Bạn chưa thiết đặt câu hỏi an toàn. Vui lòng vào <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">Trung tâm cá nhân</a> cài đặt câu hỏi an toàn.',
+        'Bạn chưa cài đặt câu hỏi an toàn. Vui lòng vào <a href="forum.php?mod=memcp&action=profile&typeid=1" target="_blank">Trung tâm cá nhân</a> cài đặt câu hỏi an toàn.',
     'login_cplock' =>
         'Trang quản lý đã bị khóa <br>Vui lòng đợi<b> {ltime} </b>giây nữa để thử lại',
     'login_user_lock' =>

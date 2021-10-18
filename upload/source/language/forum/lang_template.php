@@ -344,9 +344,9 @@ $lang = array(
     'replyperm_nopermission' =>
         'Xin lỗi, nhóm của bạn không có quyền trả lời. Xem chi tiết tại <a href="home.php?mod=spacecp&ac=usergroup&do=forum" class="xi2" target="_blank">đây</a>.',
     'post_thread_closed_by_dateline' =>
-        'Xin lỗi, quản trị viên thiết đặt diễn đàn này tự động đóng sau {$autoclose} ngày, và không nhận thêm bình luận mới',
+        'Xin lỗi, quản trị viên cài đặt diễn đàn này tự động đóng sau {$autoclose} ngày, và không nhận thêm bình luận mới',
     'post_thread_closed_by_lastpost' =>
-        'Xin lỗi, quản trị viên đã thiết đặt diễn đàn này không nhận thêm bình luận mới {$autoclose} ngày sau bình luận cuối cùng',
+        'Xin lỗi, quản trị viên đã cài đặt diễn đàn này không nhận thêm bình luận mới {$autoclose} ngày sau bình luận cuối cùng',
     'post_advancemode' => 'Soạn thảo nâng cao',
     'post_relay' => 'Thông báo tới người theo dõi',
     'post_sync_method' => 'Đồng bộ chủ đề này',
@@ -491,7 +491,7 @@ $lang = array(
     'mod_access_uploadimage' => 'Tải lên hình',
     'mod_access_viewthread' => 'Xem chủ đề',
     'mod_message_access_admin_invalid' =>
-        'Người dùng này đã bị quản trị viên đặt quyền hạn ở mức cao, bạn không thể thay đổi thiết đặt này',
+        'Người dùng này đã bị quản trị viên đặt quyền hạn ở mức cao, bạn không thể thay đổi cài đặt này',
     'mod_message_access_nonexistence' =>
         'Hiện chưa có quyền hạn thành viên đặc biệt',
     'mod_message_access_updatepermission' =>

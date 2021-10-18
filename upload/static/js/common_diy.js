@@ -1884,7 +1884,7 @@ var Util = {
 		cancel : function () {
 			var flag = false;
 			if (this.isChange) {
-				flag = confirm(this.cancelConfirm ? this.cancelConfirm : 'Việc thoát sẽ không lưu các thiết đặt của bạn, bạn có chắc chắn muốn đăng xuất không?');
+				flag = confirm(this.cancelConfirm ? this.cancelConfirm : 'Việc thoát sẽ không lưu các cài đặt của bạn, bạn có chắc chắn muốn đăng xuất không?');
 			}
 			if (!this.isChange || flag) {
 				location.href = location.href.replace(/[\?|\&]diy\=yes/g,'');

@@ -29,7 +29,7 @@ $lang = array(
         'Thiết lập các kênh hiện quảng cáo trên trang portal',
     'float_disableclose' => 'Liên kết đóng quảng cáo',
     'float_disableclose_comment' =>
-        'Nếu mã quảng cáo có thể đóng, thì link quảng cáo có thể đóng thiết đặt từ hệ thống',
+        'Nếu mã quảng cáo có thể đóng, thì link quảng cáo có thể đóng cài đặt từ hệ thống',
     'float_show' => 'Hiện',
     'float_hidden' => 'Ẩn',
 );

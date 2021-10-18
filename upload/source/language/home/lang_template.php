@@ -1451,7 +1451,7 @@ $lang = array(
     'update_presonal_profile' => 'Cập nhật thông tin',
     'view_my_certified_photo' => 'Xem hình ảnh xác nhận',
     'view_right_setting_effective' =>
-        'Xem quyền hạn thiết đặt trong mỗi blog có thể có hiệu quả',
+        'Xem quyền hạn cài đặt trong mỗi blog có thể có hiệu quả',
     'write_blog' => 'Viết Blog',
     'you_control_see_content' =>
         'Bạn có thể thiết lập cho phép ai có quyền xem trang chủ của bạn',
@@ -1539,7 +1539,7 @@ $lang = array(
     'year' => 'Năm',
     'activate_mailbox_first' => 'Bạn phải kích hoạt email trước',
     'activate_mailbox_message' =>
-        'Nhập email thường dùng của bạn, hệ thống sẽ gửi 1 email có kèm mã kích hoạt, hãy sao chép liên kết và dán vào trình duyệt để kích hoạt email của bạn, sau đó bạn có thể thiết đặt email nhắc nhở.',
+        'Nhập email thường dùng của bạn, hệ thống sẽ gửi 1 email có kèm mã kích hoạt, hãy sao chép liên kết và dán vào trình duyệt để kích hoạt email của bạn, sau đó bạn có thể cài đặt email nhắc nhở.',
     'click_activate_mailbox' => 'Bấm vào đây để gửi email xác nhận',
     'mail_blogcomment' => 'Bình luận Blog của tôi',
     'mail_clickblog' => 'Tình trạng Blog',

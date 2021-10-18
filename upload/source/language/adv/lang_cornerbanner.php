@@ -28,7 +28,7 @@ $lang = array(
         'Thiết lập các kênh hiện quảng cáo trên trang portal',
     'cornerbanner_disableclose' => 'Liên kết đóng quảng cáo',
     'cornerbanner_disableclose_comment' =>
-        'Nếu quảng cáo có thể đóng, thì link đóng quảng cáo thể đóng thiết đặt của hệ thống',
+        'Nếu quảng cáo có thể đóng, thì link đóng quảng cáo thể đóng cài đặt của hệ thống',
     'cornerbanner_show' => 'Hiện',
     'cornerbanner_hidden' => 'Ẩn',
 );

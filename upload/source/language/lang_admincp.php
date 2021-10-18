@@ -1255,9 +1255,9 @@ $lang = array(
     'setting_styles_viewthread_allow_replybg_comment' =>
         'Allows to add a background image to the post quick reply box after it is enabled',
     'setting_styles_viewthread_global_reply_background' =>
-        '全局帖子快速回复框背景',
+        'Global post quick reply box background',
     'setting_styles_viewthread_global_reply_background_comment' =>
-        '设置全局帖子快速回复框背景图片，版块设置优先',
+        'Set the background image of the global post quick reply box, and the section setting is prioritized',
     'setting_threadprofile' => 'Cài đặt layout',
     'setting_styles_threadprofile' => 'Thông tin người dùng trong bài',
     'setting_styles_threadprofile_group' => 'Nhóm người dùng',
@@ -1265,12 +1265,12 @@ $lang = array(
     'setting_styles_threadprofile_name' => 'Tên',
     'setting_styles_threadprofile_plan' => 'Layout',
     'setting_styles_threadprofile_addplan' => 'Thêm layout',
-    'setting_styles_threadprofile_attrcard' => '属性名片',
-    'setting_styles_threadprofile_groupicon' => '用户组图标',
-    'setting_styles_threadprofile_groupname' => '用户组名称',
-    'setting_styles_threadprofile_groupstep' => '等级进度',
-    'setting_styles_threadprofile_eccredit_seller' => '卖家信用',
-    'setting_styles_threadprofile_eccredit_buyer' => '买家信用',
+    'setting_styles_threadprofile_attrcard' => 'Property business card',
+    'setting_styles_threadprofile_groupicon' => 'User group icon',
+    'setting_styles_threadprofile_groupname' => 'User group name',
+    'setting_styles_threadprofile_groupstep' => 'Level progress',
+    'setting_styles_threadprofile_eccredit_seller' => 'Seller credit',
+    'setting_styles_threadprofile_eccredit_buyer' => 'Buyer credit',
     'setting_styles_threadprofile_leftinfoprofile' => 'Thông tin bên cột trái',
     'setting_styles_threadprofile_avatarprofile' => 'Thông tin trong menu avatar',
     'setting_styles_forumdisplay_disfixednv_viewthread' => 'Bỏ cố định thanh top navigation',
@@ -2227,7 +2227,7 @@ $lang = array(
     'setting_functions_other_onlyacceptfriendpm' =>
         'Đặt mặc định chỉ nhận tin nhắn bạn bè',
     'setting_functions_other_onlyacceptfriendpm_comment' =>
-        'Chọn “Yes” để thiết đặt trong cài đặt tin nhắn cá nhân sẽ mặc định chỉ nhận tin nhắn từ bạn bè',
+        'Chọn “Yes” để cài đặt trong cài đặt tin nhắn cá nhân sẽ mặc định chỉ nhận tin nhắn từ bạn bè',
     'setting_functions_other_pmreportuser' =>
         'Nhận thông tin báo cáo(UID，nhiều người thì sử dụng dấu phân cách)',
     'setting_functions_other_pmreportuser_comment' =>
@@ -3463,7 +3463,7 @@ $lang = array(
     'forums_edit_base_name_color' => 'Màu tên',
     'forums_edit_basic_scheme' => 'Loại diễn đàn',
     'forums_edit_basic_scheme_comment' =>
-        'Nếu như bạn chọn một trong số loại hình diễn đàn bên cạnh, thì nó sẽ tự thiết đặt theo mẫu như bạn đã chọn',
+        'Nếu như bạn chọn một trong số loại hình diễn đàn bên cạnh, thì nó sẽ tự cài đặt theo mẫu như bạn đã chọn',
     'forums_edit_basic_display' => 'Hiện diễn đàn',
     'forums_edit_basic_display_comment' =>
         'Chọn "Hiện" thì diễn đàn tạm thời ẩn, nhưng nội dung diễn đàn sẽ vẫn còn, và người dùng vẫn có thể truy cập vào',
@@ -3503,7 +3503,7 @@ $lang = array(
         'forum-developer-1.html". Note: Aliases can only contain letters or numbers, and cannot be pure numbers',
     'forums_edit_basic_binddomain' => 'Tên miền cố định',
     'forums_edit_basic_binddomain_comment' =>
-        'Khi thiết đặt ta sẽ vào chuyên mục bằng tên miền riêng',
+        'Khi cài đặt ta sẽ vào chuyên mục bằng tên miền riêng',
     'forums_edit_extend' => 'Thiết lập',
     'forums_edit_extend_style' => 'Phong cách',
     'forums_edit_extend_style_comment' =>
@@ -3538,7 +3538,7 @@ $lang = array(
     'forums_edit_extend_picstyle_comment' =>
         'Danh sách chủ đề sẽ hiển thị dạng ảnh, bạn có thể <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=styles&anchor=forumdisplay">thiết đặt chiều rộng và chiều cao</a>',
+        '?action=setting&operation=styles&anchor=forumdisplay">cài đặt chiều rộng và chiều cao</a>',
     'forums_edit_extend_allowside' => 'Hiện Sidebar',
     'forums_edit_extend_allowside_comment' =>
         'Chọn "Yes" bên phải sẽ hiển thị SideBar',
@@ -3613,7 +3613,7 @@ $lang = array(
         'Do một số tuần tự hành động kiểm tra này hơi tốn tài nguyên, kiến nghị bạn nên đặt 900, 0 là tắt(cũng có nghĩa là tốn nhiều tài nguyên nhất)',
     'forums_edit_extend_recommend_dateline' => 'Thời gian giới thiệu chủ đề:',
     'forums_edit_extend_recommend_dateline_comment' =>
-        'Theo tuần tự thiết đặt này, bạn biết diễn đàn thời gian truy cập lớn nhất vào lúc nào thì khi viết một bài sẽ tự động cập nhật bài viết giới thiệu,0 là bất cứ lúc nào',
+        'Theo tuần tự cài đặt này, bạn biết diễn đàn thời gian truy cập lớn nhất vào lúc nào thì khi viết một bài sẽ tự động cập nhật bài viết giới thiệu,0 là bất cứ lúc nào',
     'forums_edit_extend_recommend_top' => 'Show topics for global topping and category topping',
     'forums_edit_extend_recommend_top_comment' => 'Whether to display global topping and split topping in this version',
     'forums_edit_sub_multi_tips' =>
@@ -3621,7 +3621,7 @@ $lang = array(
     'forums_edit_posts' => 'Sửa bài viết',
     'forums_edit_posts_modposts' => 'Bài viết phải kiểm duyệt',
     'forums_edit_posts_modposts_comment' =>
-        'Chọn "có" thì thành viên sau khi gửi bài phải được quản lý cho phép mới thấy bài viết. Sau khi khởi động chức năng này, bạn có thể thiết đặt nhóm nào không bị thiết đặt này, cũng có thể thiêt đặt nhóm nào kích hoạt cho bài viết',
+        'Chọn "có" thì thành viên sau khi gửi bài phải được quản lý cho phép mới thấy bài viết. Sau khi khởi động chức năng này, bạn có thể cài đặt nhóm nào không bị cài đặt này, cũng có thể thiêt đặt nhóm nào kích hoạt cho bài viết',
     'forums_edit_posts_alloweditpost' => 'Cho phép sửa bài viết',
     'forums_edit_posts_alloweditpost_comment' =>
         'Chọn có thì thành viên sau khi viết bài có thể sửa bài viết của mình',
@@ -3671,7 +3671,7 @@ $lang = array(
         'Cài đặt diễn đàn không thể dùng loại chủ đề buôn bán, chức năng này chỉ có thể khởi động sau khi đã khởi động chủ đề mua bán',
     'forums_edit_posts_trade_payto' => 'Hiển thị nút mua bán alipay',
     'forums_edit_posts_trade_payto_comment' =>
-        'Diễn đàn bạn không phải dùng ở TQ thì không nên thiết đặt này',
+        'Diễn đàn bạn không phải dùng ở TQ thì không nên cài đặt này',
     'forums_edit_posts_allowpostspecial' => 'Cho phép gửi chủ đề đặc biệt',
     'forums_edit_posts_threadplugin' =>
         'Cho phép phát hành mở rộng chủ đề đặc biệt',
@@ -3838,18 +3838,18 @@ $lang = array(
     'forums_copy' => 'Sao chép',
     'forums_copy_comment' => 'Sao chép các cài đặt',
     'forums_copy_tips' =>
-        ' <li>Sao chép thiết đặt là có thể sao chép tất cả thuộc tính của diễn đàn này là thuộc tính cơ bản để làm thuộc tính chuẩn cho diễn đàn khác</li><ul><li>Nếu như bạn bấm OK! thì lập tức có hiệu lực không thể hồi phục được, xin bạn cẩn thận</li></ul> ',
+        ' <li>Sao chép cài đặt là có thể sao chép tất cả thuộc tính của diễn đàn này là thuộc tính cơ bản để làm thuộc tính chuẩn cho diễn đàn khác</li><ul><li>Nếu như bạn bấm OK! thì lập tức có hiệu lực không thể hồi phục được, xin bạn cẩn thận</li></ul> ',
     'forums_copy_source' => 'Diễn đàn gốc',
     'forums_copy_target' => 'Diễn đàn muốn sao chép:',
     'forums_copy_target_comment' =>
         'Chọn diễn đàn muốn sao chép, có thể giữ CTRL để chọn nhiều hơn',
-    'forums_copy_options' => 'Chọn thiết đặt: ',
+    'forums_copy_options' => 'Chọn cài đặt: ',
     'forums_copy_options_comment' =>
         'Chọn thuộc tính cần phải sao chép, giữ CTRL để chọn nhiều hơn',
     'forums_moderators' => 'Quản lý',
     'forums_moderators_comment' => 'Hiệu chỉnh quản lý',
     'forums_moderators_tips' =>
-        '<ul><li>Thừa hưởng từ diễn đàn cha có nghĩa quản lý này được thừa hưởng từ diễn đàn lớn hơn.</ul><ul><li>Thừa hưởng đến diễn đàn con là thiết đặt mặc định khi nó là chỉ một mục và không được chọn khi là một diễn đàn</ul>',
+        '<ul><li>Thừa hưởng từ diễn đàn cha có nghĩa quản lý này được thừa hưởng từ diễn đàn lớn hơn.</ul><ul><li>Thừa hưởng đến diễn đàn con là cài đặt mặc định khi nó là chỉ một mục và không được chọn khi là một diễn đàn</ul>',
     'forums_moderators_inherit' => 'Thừa hưởng đến diễn đàn con',
     'forums_moderators_inherited' => 'Thừa hưởng từ diễn đàn cha',
     'forums_moderators_edit' => 'Chỉnh sửa quản lý',
@@ -4383,7 +4383,7 @@ $lang = array(
     'members_group_extended_comment' =>
         'Chú ý: Nếu có giới hạn thì xin đặt kiểu thời gian theo yyyy-mm-dd, nếu như bỏ trống là không tự động quá hạn ',
     'members_group_validity' => 'Nhóm có hạn',
-    'members_group_validity_comment' => 'Để trống là bỏ qua thiết đặt này',
+    'members_group_validity_comment' => 'Để trống là bỏ qua cài đặt này',
     'members_group_validity_date' => 'Kiểu: yyyy-mm-dd',
     'members_group_validity_days' => 'Kể từ ngày',
     'members_group_orig_groupid' => 'Quá hạn nhóm quản lí sẽ trở thành',
@@ -5057,7 +5057,7 @@ $lang = array(
         'Nhóm này sẽ bị cấm truy cập vào diễn đàn nếu như bạn chọn không',
     'usergroups_edit_basic_read_access' => 'Quyền đọc',
     'usergroups_edit_basic_read_access_comment' =>
-        'Cài đặt cấp bậc thành viên có quyền xem bài viết và đính kèm, phạm vi từ 0 đến 255, Nếu thiết đặt 0 thì khi có người đòi hỏi quyền cao hơn 1 thành viên coi như không thể xem được',
+        'Cài đặt cấp bậc thành viên có quyền xem bài viết và đính kèm, phạm vi từ 0 đến 255, Nếu cài đặt 0 thì khi có người đòi hỏi quyền cao hơn 1 thành viên coi như không thể xem được',
     'usergroups_edit_basic_max_friend_number' => 'Up to a few friends',
     'usergroups_edit_basic_max_friend_number_comment' => '0 Unlimited',
     'usergroups_edit_basic_view_profile' =>
@@ -5163,7 +5163,7 @@ $lang = array(
     'usergroups_edit_system_buy' => 'Payed user group',
     'usergroups_edit_system_free' => 'Free user group',
     'usergroups_edit_system_public_comment' =>
-        'Chú ý! Bạn nên cẩn thận với chức năng này. Khi có thành viên gia nhập vào nhóm này, bạn không có quyền đá ra khỏi nhóm cho đến khi bạn thiết đặt nhóm này thành nhóm mở rộng. Cách giải quyết duy nhất là xóa nhóm này. Nhóm công cộng không thể link như quyền của admin, để tránh nguy cơ không an toàn về bảo mật.',
+        'Chú ý! Bạn nên cẩn thận với chức năng này. Khi có thành viên gia nhập vào nhóm này, bạn không có quyền đá ra khỏi nhóm cho đến khi bạn cài đặt nhóm này thành nhóm mở rộng. Cách giải quyết duy nhất là xóa nhóm này. Nhóm công cộng không thể link như quyền của admin, để tránh nguy cơ không an toàn về bảo mật.',
     'usergroups_edit_system_dailyprice' => 'Giá thu phí của nhóm công cộng:',
     'usergroups_edit_system_dailyprice_comment' =>
         'If you need to pay the appropriate user transaction can be added to the score after the user group, enter the date of this group of the purchase price, trading points for the units used by the unit. For example, is set to 2, the user to buy a 30-day Group of the authority, to be paid 2 * 30 = 60 points deal, valid for 30 days after the user will be automatically out of this group. If set to 0, this group of the public free of charge for groups of users. Note: This feature requires the user to set the first group to the public user group and set up effective trade integration before it becomes binding ',
@@ -5257,10 +5257,10 @@ $lang = array(
     'usergroups_edit_post_url_group' => 'Có cho dùng URL ngoài',
     'usergroups_edit_post_anonymous' => ' Gửi bài nặc danh',
     'usergroups_edit_post_anonymous_comment' =>
-        'Sau thiết đặt này, nếu như lúc thành viên gửi bài mới có chọn mục này thì trên phần thông tin bài viết không hiện tên tác giả. Chỉ có quản lý trở lên mới xem được tên tác giả',
+        'Sau cài đặt này, nếu như lúc thành viên gửi bài mới có chọn mục này thì trên phần thông tin bài viết không hiện tên tác giả. Chỉ có quản lý trở lên mới xem được tên tác giả',
     'usergroups_edit_post_set_read_perm' => 'Cài đặt quyền đọc',
     'usergroups_edit_post_set_read_perm_comment' =>
-        'Sau khi thiết đặt này được kích hoạt cần phải có quyền đọc cao hơn yêu cầu mới xem được bài viết',
+        'Sau khi cài đặt này được kích hoạt cần phải có quyền đọc cao hơn yêu cầu mới xem được bài viết',
     'usergroups_edit_post_maxprice' => 'Tập tin đính kèm có giá cao nhất:',
     'usergroups_edit_post_maxprice_comment' =>
         'Cài đặt giá cho tập tin đính kèm',
@@ -5582,7 +5582,7 @@ $lang = array(
     'threads_search_readpermmore' => 'Cần quyền đọc cao hơn',
     'threads_search_pricemore' => 'giá cao hơn:',
     'threads_search_time' =>
-        'Phạm vi thời gian gửi(dạng yyyy-mm-dd，không hạn chế thiết đặt bằng 0):',
+        'Phạm vi thời gian gửi(dạng yyyy-mm-dd，không hạn chế cài đặt bằng 0):',
     'threads_search_time_comment' =>
         'Format yyyy-mm-dd, please do not limit the importation of 0',
     'threads_search_noreplyday' =>
@@ -6271,10 +6271,10 @@ $lang = array(
     'misc_cron_run' => 'Chạy',
     'misc_cron_edit' => 'Biên tập kế hoạch nhiệm vụ',
     'misc_cron_edit_tips' =>
-        '<ul><li>Bạn đang đối với hệ thống chỉnh sửa nhiệm vụ kế hoạch, trừ phi bạn quá hiểu kết cấu của Discuz, nếu không kiến nghị bạn đừng chỉnh sửa mặc định. </ul><ul><li>Xin mời trước khi chỉnh sửa hãy nhớ những thiết đặt gốc nhằm tránh những lỗi lầm có thể xảy ra.</ul>',
+        '<ul><li>Bạn đang đối với hệ thống chỉnh sửa nhiệm vụ kế hoạch, trừ phi bạn quá hiểu kết cấu của Discuz, nếu không kiến nghị bạn đừng chỉnh sửa mặc định. </ul><ul><li>Xin mời trước khi chỉnh sửa hãy nhớ những cài đặt gốc nhằm tránh những lỗi lầm có thể xảy ra.</ul>',
     'misc_cron_edit_weekday' => 'Trong tuần:',
     'misc_cron_edit_weekday_comment' =>
-        'Cài đặt ngày trong tuần thực hiện nhiệm vụ, “*” không hạn chế. Cài đặt này có thể đè thiết đặt ngày ở phía dưới',
+        'Cài đặt ngày trong tuần thực hiện nhiệm vụ, “*” không hạn chế. Cài đặt này có thể đè cài đặt ngày ở phía dưới',
     'misc_cron_edit_day' => 'Ngày',
     'misc_cron_edit_day_comment' =>
         'Cài đặt ngày trong tháng, “*” không hạn chế',
@@ -6282,7 +6282,7 @@ $lang = array(
     'misc_cron_edit_hour_comment' => 'Cài đặt giờ thực thi,“*” không hạn chế',
     'misc_cron_edit_minute' => 'Phút',
     'misc_cron_edit_minute_comment' =>
-        'Cài đặt giờ thực thi, nhiều nhất có thể thiết đặt 12 cái một phút, “*” không hạn chế',
+        'Cài đặt giờ thực thi, nhiều nhất có thể cài đặt 12 cái một phút, “*” không hạn chế',
     'misc_cron_edit_filename' => 'Tên tập tin chạy',
     'misc_cron_edit_filename_comment' =>
         'Hãy upload tập tin nhiệm vụ vào thư mục source/include/cron/',
@@ -6304,7 +6304,7 @@ $lang = array(
         ADMINSCRIPT .
         '?action=misc&operation=censor&do=export" target="_blank"><b><u>Export vocabulary</u></b></a>, make a backup.<br />',
     'misc_censor_batch_add_overwrite' =>
-        'Sử dụng thiết đặt mới đè lên những từ đã tồn tại',
+        'Sử dụng cài đặt mới đè lên những từ đã tồn tại',
     'misc_censor_batch_add_no_overwrite' =>
         '<b>Không nhập những từ đã tồn tại</b>',
     'misc_censor_word_banned' => 'Cấm xem',
@@ -6403,7 +6403,7 @@ $lang = array(
     'misc_attachtype' => 'Loại hình quản lý tập tin đính kèm',
     'misc_attachtype_add' => 'Thêm mới loại tập tin đính kèm',
     'misc_attachtype_tips' =>
-        '<ul><li>Chức năng này hạn chế mặc định dành cho loại đính kèm nào đấy.</ul><ul><li>Bạn có thể thiết đặt độ lớn đính kèm là 0 tương ứng với cấm loại đính kèm này</ul>',
+        '<ul><li>Chức năng này hạn chế mặc định dành cho loại đính kèm nào đấy.</ul><ul><li>Bạn có thể cài đặt độ lớn đính kèm là 0 tương ứng với cấm loại đính kèm này</ul>',
     'misc_attachtype_ext' => 'Đuôi(viết thường)',
     'misc_attachtype_maxsize' => 'Lớn nhất(KB)(1MB = 1024K)',
     'faq' => 'Diễn đàn trợ giúp',
@@ -6440,7 +6440,7 @@ $lang = array(
     'plugins_empty' => 'Trống',
     'plugins_directory' => 'Thư mục plugin',
     'plugins_identifier' => 'ID plugin',
-    'plugins_vars_title' => 'Tên thiết đặt(bắt buộc)',
+    'plugins_vars_title' => 'Tên cài đặt(bắt buộc)',
     'plugins_vars_variable' => 'Tên biến(bắt buộc)',
     'plugins_vars_type' => 'Loại hình',
     'plugins_add' => 'Nhập dữ liệu plugin',
@@ -6593,7 +6593,7 @@ $lang = array(
     'plugins_list_new' => 'Plugin chưa cài',
     'medals' => 'Huy chương',
     'medals_tips' =>
-        '<ul><li>Chức năng này thiết đặt hiển thị huy chương ở phần thông tin thành viên tại bại viết tại thư mục  ./images/common </ul>',
+        '<ul><li>Chức năng này cài đặt hiển thị huy chương ở phần thông tin thành viên tại bại viết tại thư mục  ./images/common </ul>',
     'medals_edit' => 'Biên tập huy chương',
     'medals_list' => 'Order of the list',
     'medals_mod' => 'Xem xét lại huy chương',

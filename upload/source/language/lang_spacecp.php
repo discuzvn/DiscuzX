@@ -364,9 +364,9 @@ $lang = array(
     'filesize_lessthan' => 'Kích thước tập tin phải nhỏ hơn',
     'spacecp_message_prompt' => '({msg} hỗ trợ, tối đa 1000 kí tự)',
     'card_update_doing' => ' <a class="xi2" href="###">[Cập nhật Profile]</a>',
-    'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="Chưa xác minh" class="vm" /> <span class="xi1">Thư mới ({newemail}) chờ xác minh...</span><br />
+    'email_acitve_message' => '<img src="{imgdir}/mail_inactive.png" alt="Chưa xác minh" class="vm" /> <span class="xi1">Email mới ({newemail}) chờ xác minh...</span><br />
 								Hệ thống đã gửi email xác minh, vui lòng kiểm tra email của bạn để kích hoạt.<br>
-								Nếu bạn không nhận được email, hãy thử thay email khác hoặc <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1&formhash={formhash}" class="xi2">gửi lại email xác minh.</a>',
+								Nếu bạn không nhận được email, hãy thử email khác hoặc <a href="home.php?mod=spacecp&ac=profile&op=password&resend=1&formhash={formhash}" class="xi2">gửi lại email xác minh.</a>',
     'qq_set_status' => 'Set my QQ online status',
     'qq_dialog' => 'Start a QQ chat',
 );

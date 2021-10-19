@@ -196,7 +196,7 @@ Created & Modified by Alice, Monkey, Lushnis, Pony, Dfox & DragonLee.
 .tig_bottom{color:#B1B1B1;display:block;height:8px;top:56px;margin-left:20px;position:absolute;z-index: 99;}
 .tig_bottom1{color:#FEFEE9;display:block;height:8px;top:55px;margin-left:20px;position:absolute;z-index:111;}
 .vct{font: 12px/1.5 Tahoma;margin:0;}
-.container{border:1px solid #B1B1B1;margin-top:8px;margin-right:80px;background-color:#FEFEE9;border-radius: 3px;padding: 5px;width:120px;position:absolute;top:-80px;right:0;}
+.container{border:1px solid #B1B1B1;margin-top:8px;margin-right:80px;background-color:#FEFEE9;border-radius: 3px;width:120px;position:absolute;top:-80px;right:0;}
 	/* 点击加载下一页按钮样式  by Alice */
 	.pgbtn a { display: block; margin-bottom: 10px; border: 1px solid rgb(194, 213, 227); border-radius: 3px; text-align: center; }
 	.pgbtn a:hover { background: #fff; text-decoration: none; }

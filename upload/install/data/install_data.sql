@@ -75,11 +75,9 @@ INSERT INTO pre_common_member_profile_setting VALUES('address', 1, 1, 0, 'Địa
 INSERT INTO pre_common_member_profile_setting VALUES('zipcode', 1, 1, 0, 'Mã bưu điện', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('nationality', 0, 0, 0, 'Quốc tịch', '', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('birthprovince', 1, 0, 0, 'Tỉnh', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('birthcity', 1, 0, 0, 'Thành phố', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('birthdist', 1, 0, 0, 'Quận', 'Quận/Huyện', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('birthcommunity', 1, 0, 0, 'Phường/Xã', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('resideprovince', 1, 0, 0, 'Tỉnh', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
-INSERT INTO pre_common_member_profile_setting VALUES('residecity', 1, 0, 0, 'Thành phố', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('residedist', 1, 0, 0, 'Quận', 'Quận/Huyện', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('residecommunity', 1, 0, 0, 'Phường/Xã', '', 0, 0, 0, 0, 0, 0, 0, 'select', 0, '', '');
 INSERT INTO pre_common_member_profile_setting VALUES('residesuite', 0, 0, 0, 'Số nhà', 'Khu dân cư, toà nhà', 0, 0, 0, 0, 0, 0, 0, 'text', 0, '', '');

@@ -4671,7 +4671,7 @@ $lang = array(
     'members_profile_edit_choices_comment' =>
         'Giá trị trên mỗi dòng, ví dụ, nhập: <br /> <br />Quảng Ninh',
     'members_profile_edit_available' => 'Kích hoạt',
-    'members_profile_edit_unchangeable' => 'Không thể được sửa đổi sau khi nộp',
+    'members_profile_edit_unchangeable' => 'Không được thay đổi',
     'members_profile_edit_needverify' => 'Sửa đổi cần phải được kiểm duyệt',
     'members_profile_edit_required' => 'Cần kiểm duyệt',
     'members_profile_edit_invisible' => 'Trang hồ sơ ẩn',
@@ -4680,9 +4680,9 @@ $lang = array(
     'members_profile_edit_showincard' => 'Được hiển thị trong thẻ',
     'members_profile_edit_showinthread' => 'Được hiển thị trong bài',
     'members_profile_edit_showinthread_comment' =>
-        '选择是，还需在<a href="' .
+        'Nếu bạn chọn có, bạn sẽ cần <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=styles&anchor=viewthread" target="_blank">帖子内容页</a>中选择展示位置',
+        '?action=setting&operation=styles&anchor=viewthread" target="_blank">chọn vị trí hiển thị</a> trong trang nội dung bài viết',
     'members_profile_edit_showinregister' => 'Được hiển thị ở trang đăng ký',
     'members_profile_edit_allowsearch' => 'Cho phép tìm kiếm',
     'members_profile_edit_default_privacy' => 'Bảo mật mặc định',
@@ -4832,8 +4832,8 @@ $lang = array(
     'admingroup_edit_manage_collection' => 'Allow the management of Album',
     'admingroup_edit_manage_collection_comment' =>
         'Set whether to allow the management Album',
-    'admingroup_edit_allow_make_html' => '允许生成HTML文件',
-    'admingroup_edit_allow_make_html_comment' => '设置是否允许生成HTML文件',
+    'admingroup_edit_allow_make_html' => 'Allow HTML file generation',
+    'admingroup_edit_allow_make_html_comment' => 'Set whether to allow HTML file generation',
     'admingroup_edit_ban_ip' => 'Cấm IP',
     'admingroup_edit_ban_ip_comment' => 'Cài có hoặc không cấm IP',
     'admingroup_edit_edit_user' => 'Chỉnh sửa thành viên',
@@ -5035,16 +5035,16 @@ $lang = array(
     'usergroups_copy_options' => 'Lựa chọn',
     'usergroups_copy_options_comment' =>
         'Chọn nhóm người dùng mà bạn muốn thiết lập nguồn cho các nhóm người dùng mục tiêu, bấm và giữ phím CTRL và lựa chọn',
-    'usergroups_merge' => '用户组合并',
-    'usergroups_merge_link' => '合并',
+    'usergroups_merge' => 'Gộp nhóm người dùng',
+    'usergroups_merge_link' => 'Gộp',
     'usergroups_merge_comment' =>
-        '将本用户组的会员移动到其他用户组，并删除本用户组。',
+        'Move members of this user group to other user groups and delete this user group.',
     'usergroups_merge_tips' =>
-        '<li>用户组合并可将源用户组的用户合并进入所选的新用户组，并且可以选择删除源用户组。</li><li>用户组合并不可以操作管理组。</li><li>用户组合并一旦提交立即生效，并无法恢复，请仔细选择目标用户组和设置项目。</li>',
-    'usergroups_merge_source' => '源用户组',
-    'usergroups_merge_target' => '目标用户组',
-    'usergroups_merge_target_comment' => '选择要将源用户组合并到哪个用户组',
-    'usergroups_merge_delete_source' => '同时删除源用户组',
+        '<li>User combination can merge users of the source user group into the selected new user group, and can choose to delete the source user group.</li><li>User groups cannot operate management groups.</li><li>The user combination will take effect immediately once submitted and cannot be restored. Please carefully select the target user group and setting items.</li>',
+    'usergroups_merge_source' => 'Source user group',
+    'usergroups_merge_target' => 'Target user group',
+    'usergroups_merge_target_comment' => 'Select which user group to merge the source user group into',
+    'usergroups_merge_delete_source' => 'Also delete the source user group',
     'usergroups_edit' => 'Sửa nhóm thành viên',
     'usergroups_edit_basic' => 'Cài đặt cơ bản',
     'usergroups_edit_basic_title' => 'Chức vụ nhóm:',
@@ -5199,16 +5199,16 @@ $lang = array(
         'Select "Yes" to allow publish the forum thread for sale products',
     'usergroups_edit_special_trade_fee_mode' => 'Transaction fees calculating',
     'usergroups_edit_special_trade_fee_mode_comment' =>
-        '交易手续费的计算方式，本功能需要设置“允许发布商品”，在支付宝管理中设置“<a href="' .
+        'The calculation method of transaction fee, this function needs to set "allowed to publish goods", Set in Alipay management “<a href="' .
         ADMINSCRIPT .
-        '?action=ecommerce&operation=alipay">开启交易手续费</a>”后才有效',
+        '?action=ecommerce&operation=alipay">Open transaction fee</a>” only effective after',
     'usergroups_edit_special_trade_fee_mode_fixed' => 'Fixed value',
     'usergroups_edit_special_trade_fee_mode_per' => 'Percentage',
     'usergroups_edit_special_trade_fee' => 'Transaction fee',
     'usergroups_edit_special_trade_fee_comment' =>
-        '交易手续费计算方式设置为固定值时，手续费将按照固定的金额(单位：人民币 元)收取。设置为百分比时，手续费将按照每笔交易金额的百分比收取。本功能需要设置“允许发起交易”，在支付宝管理中设置“<a href="' .
+        'When the transaction fee calculation method is set to a fixed value, the fee will be charged at a fixed amount (unit: RMB). When it is set as a percentage, the handling fee will be charged as a percentage of the amount of each transaction. This function needs to set "Allow to initiate transaction", which is set in Alipay management “<a href="' .
         ADMINSCRIPT .
-        '?action=ecommerce&operation=alipay">开启交易手续费</a>”后才有效',
+        '?action=ecommerce&operation=alipay">Open transaction fee</a>” only effective after',
     'usergroups_edit_special_trade_min' => 'Minimum transaction amount',
     'usergroups_edit_special_trade_min_comment' =>
         'Set the minimum transaction amount per trade (unit: USD or points, the minimal value is 1 per transaction)',
@@ -5290,9 +5290,9 @@ $lang = array(
     'usergroups_edit_post_max_bio_size' =>
         'Số ký tự cho phép tại tự giới thiệu bản thân',
     'usergroups_edit_post_max_bio_size_comment' => 'Mặc định là 200',
-    'usergroups_edit_post_begincode' => '允许使用 [begin] 代码',
+    'usergroups_edit_post_begincode' => 'Allow [begin] code',
     'usergroups_edit_post_begincode_comment' =>
-        '设置是否允许帖子中使用 [begin] 开头动画标签',
+        'Set whether to allow the use of [begin] beginning animation tags in posts',
     'usergroups_edit_post_sig_bbcode' => 'BBcodes tại chữ ký',
     'usergroups_edit_post_sig_bbcode_comment' =>
         'Cài có hoặc không cho phép sử dụng BBcode tại chữ ký',
@@ -5337,9 +5337,9 @@ $lang = array(
         'Allow Comments Amoy album',
     'usergroups_edit_post_allowcommentcollection_comment' =>
         'Allows users to comment on the theme and Amoy album page.',
-    'usergroups_edit_post_allowimgcontent' => '允许主题内容生成图片',
+    'usergroups_edit_post_allowimgcontent' => 'Allow theme content to generate images',
     'usergroups_edit_post_allowimgcontent_comment' =>
-        '看帖时所有帖子正文内容将以字符形式生成图片展示。',
+        'When viewing a post, all the contents of the post body will be displayed in the form of characters.',
     'usergroups_edit_attach' => 'Đính kèm',
     'usergroups_edit_attach_get' => 'Được xem/tải đính kèm',
     'usergroups_edit_attach_get_comment' =>
@@ -5377,9 +5377,9 @@ $lang = array(
     'usergroups_edit_other' => 'Khác',
     'usergroups_edit_magic' => 'Công cụ',
     'usergroups_edit_magic_tips' =>
-        '<li>道具相关设置需要打开道具功能方生效，<a href="' .
+        '<li>Prop related settings need to turn on the props function to take effect. <a href="' .
         ADMINSCRIPT .
-        '?action=magics">点这里打开道具功能</a></li>',
+        '?action=magics">Click here to open the item function</a></li>',
     'usergroups_edit_magic_permission' => 'Cho phép sử dụng đạo cụ',
     'usergroups_edit_magic_permission_comment' =>
         'Có cho phép việc sử dụng đạo cụ, bao gồm cả bán',
@@ -5396,9 +5396,9 @@ $lang = array(
         'Cho phép sử dụng, mua và chuyển nhượng',
     'usergroups_edit_invite' => 'Mời đăng ký',
     'usergroups_edit_invite_tips' =>
-        '<li>邀请注册相关设置需要打开邀请注册功能方生效，<a href="' .
+        '<li>Invite registration related settings need to turn on the invite registration function to take effect. <a href="' .
         ADMINSCRIPT .
-        '?action=setting&operation=access">点这里打开邀请注册功能</a></li>',
+        '?action=setting&operation=access">Click here to open the invite registration function</a></li>',
     'usergroups_edit_invite_permission' => 'Sử dụng chức năng mời đăng ký',
     'usergroups_edit_invite_permission_comment' =>
         'Whether or not to allow the purchase of the invitation code of rights',
@@ -5541,7 +5541,7 @@ $lang = array(
     'groups_manage_founder_uid' => 'Creator UID',
     'groups_editgroup_name' => 'Group name',
     'groups_editgroup_category' => 'Group Category',
-    'groups_editgroup_category_comment' => '可以按住 CTRL 多选',
+    'groups_editgroup_category_comment' => 'You can hold down CTRL to select multiple',
     'group_mergetype' => 'Combined classification',
     'group_mergegroup' => 'Chuyển thành nhóm',
     'group_changetype' => 'Phân loại:',
@@ -5773,7 +5773,7 @@ $lang = array(
     'blog_result' => 'Số kết quả hiển thị',
     'blog_new_result' => 'The number of the latest log',
     'blog_succeed' => 'Có {deletecount} đủ điều kiện bị xóa. ',
-    'blog_restore_succeed' => '符合条件的 {restorecount} 篇日志被恢复',
+    'blog_restore_succeed' => '{restorecount} eligible logs were restored',
     'blog_condition_invalid' =>
         'Bạn không có khung thời gian quy định và cũng có thể chọn điều kiện tìm kiếm có liên quan.',
     'blog_mod_range_illegal' =>
@@ -6072,7 +6072,7 @@ $lang = array(
     'moderate_all_fold' => 'Thu gọn tất cả',
     'moderate_all_expand' => 'Mở rộng tất cả',
     'moderate_validate_list' =>
-        '审核操作成功，共 {validates} 个主题被通过，{ignores} 个主题被忽略，{recycles} 个主题被放入回收站，{deletes} 个主题被删除。<br />您可以<a href="' .
+        'The review operation was successful. A total of {validates} topics were passed, {ignores} topics were ignored, {recycles} topics were placed in the recycle bin, and {deletes} topics were deleted.<br />You can <a href="' .
         ADMINSCRIPT .
         '?action=moderate&operation=threads">Continue to review new topics</a>',
     'moderate_none' => 'Không',

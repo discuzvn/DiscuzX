@@ -54,7 +54,7 @@ $lang = array(
     'register_password_length_tips2' => 'ký tự',
     'register_password_tips' => 'Điền mật khẩu',
     'register_repassword_tips' => 'Điền lại mật khẩu',
-    'register_username_tips' => 'Từ 3 đến 15 ký tự',
+    'register_username_tips' => 'Tên tài khoản từ 3 đến 15 ký tự',
     'register_validate_email_tips' =>
         'Đăng ký cần xác nhận email, hãy chắc chắn để điền vào trong hộp thư chính xác, xin vui lòng kiểm tra email của bạn sau khi đăng ký. <br /> Bạn có thể cần phải chờ một vài phút để nhận được hộp thư đến e-mail , xin vui lòng kiểm tra hộp thư rác.',
     'rulemessage' => ' Điều khoản',

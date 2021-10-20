@@ -278,7 +278,7 @@ function checkusername(id) {
 	}
 	var unlen = username.replace(/[^\x00-\xff]/g, "**").length;
 	if(unlen < 3 || unlen > 15) {
-		errormessage(id, unlen < 3 ? 'Quá ngắn (ít hơn 3)' : 'Quá dài (nhiều hơn 15)');
+		errormessage(id, unlen < 3 ? 'Tên tài khoản quá ngắn (tối thiểu 3 kí tự)' : 'Tên tài khoản quá dài (tối đa 15 ký tự)');
 		return;
 	}
 	var x = new Ajax();
@@ -319,12 +319,12 @@ function checkpassword(id1, id2) {
 			}
 			if(strongpw[i] === 4 && !$(id1).value.match(/[^A-Za-z0-9]+/g)) {
 				strongpw_error = true;
-				strongpw_str[j] = 'Đặc biệt';
+				strongpw_str[j] = 'Ký tự đặc biệt';
 				j++;
 			}
 		}
 		if(strongpw_error) {
-			errormessage(id1, 'Mật khẩu cần có '+strongpw_str.join(','));
+			errormessage(id1, 'Mật khẩu cần có: ' + strongpw_str.join(','));
 			return;
 		}
 	}

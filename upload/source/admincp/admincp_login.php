@@ -118,21 +118,6 @@ function html_login_form() {
 		<p class="loginform">$loginuser</p>
 		<p class="logintitle">$lang[login_password]:</p>
 		<p class="loginform"><input name="admin_password" tabindex="1" type="password" class="txt" autocomplete="off" /></p>
-		<p class="logintitle">$lang[security_question]:</p>
-		<p class="loginform">
-			<select id="questionid" name="admin_questionid" tabindex="2">
-				$forcesecques
-				<option value="1">$lang[security_question_1]</option>
-				<option value="2">$lang[security_question_2]</option>
-				<option value="3">$lang[security_question_3]</option>
-				<option value="4">$lang[security_question_4]</option>
-				<option value="5">$lang[security_question_5]</option>
-				<option value="6">$lang[security_question_6]</option>
-				<option value="7">$lang[security_question_7]</option>
-			</select>
-		</p>
-		<p class="logintitle">$lang[security_answer]:</p>
-		<p class="loginform"><input name="admin_answer" tabindex="3" type="text" class="txt" autocomplete="off" /></p>
 		<p class="loginnofloat"><input name="submit" value="$lang[submit]"  tabindex="3" type="submit" class="btn" /></p>
 		</form>
 EOT;

@@ -35,7 +35,7 @@ $lang = array(
     'portal_attachment_big_img' => 'Chèn ảnh lớn',
     'portal_attachment_set_cover' => 'Thiết lập bìa',
     'portal_attachment_small_img' => 'Chèn ảnh nhỏ',
-    'latest_comment' => 'Bình luận mới nhất',
+    'latest_comment' => 'Bình luận',
     'view_all_comments' => 'Xem tất cả bình luận',
     'diyhelp_doit' =>
         'Trang chưa được cài đặt module, hãy click vào nút DIY để cài đặt',

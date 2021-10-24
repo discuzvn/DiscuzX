@@ -7959,13 +7959,13 @@ $lang = array(
     'portalcategory_is_closed' => 'Kích hoạt',
     'portalcategory_is_closed_comment' =>
         'Chọn Không để chỉ người quản trị có thể xem các chuyên mục',
-    'portalcategory_shownav' => 'Hiển thị chuyển hướng',
+    'portalcategory_shownav' => 'Hiển thị trên thanh navigation',
     'portalcategory_shownav_comment' =>
         'Option is displayed at the head of navigation',
     'portalcategory_allowcomment' => 'Bình luận',
     'portalcategory_allowcomment_comment' =>
         'Set this category is allowed to comment articles',
-    'portalcategory_noantitheft' => 'Turn off anti-acquisition',
+    'portalcategory_noantitheft' => 'Tắt chức năng chống copy bài',
     'portalcategory_noantitheft_comment' =>
         'Turning off the anti-collection function can save a small amount of server resources. It is recommended to turn off the anti-collection function for irrigation channels.',
     'portalcategory_perm' => 'Quyền hạn',
@@ -7995,7 +7995,7 @@ $lang = array(
     'portalcategory_listprimaltplname' => 'Template cho trang danh sách bài viết',
     'portalcategory_listprimaltplname_comment' =>
         'Upload template files to the template/default/portalDirectory, file name must be <font color="red">list</font>_*.htm, use * for custom file name<br />If you want to re-select a template, Please ensure that the new templates can be dragged with the original template has the same area ID, Otherwise it will lose some or all of the original DIY data',
-    'portalcategory_viewprimaltplname' => 'Article page template name',
+    'portalcategory_viewprimaltplname' => 'Template cho trang bài viết',
     'portalcategory_viewprimaltplname_comment' =>
         'Upload template files to the template/default/portal Directory, file name must be <font color="blue">view</font>_*.htm, use * for custom file name<br />If you want to re-select a template, Please ensure that the new templates can be dragged with the original template has the same area ID, Otherwise it will lose some or all of the original DIY data',
     'portalcategory_domain_duplicate' =>
@@ -8010,11 +8010,11 @@ $lang = array(
     'portalcategory_useheader' => 'Use for site header navigation',
     'portalcategory_usefooter' => 'Use in site footer navigation',
     'portalcategory_inheritancearticle' =>
-        'Inherit the parent article management permissioms',
+        'Kế thừa phân quyền tư chuyên mục cha',
     'portalcategory_inheritancearticle_comment' =>
         'Articles are inherited higher management permissions, including the publishing articles and articles management rights',
     'portalcategory_inheritanceblock' =>
-        'Inherit the parent module management rights',
+        'Kế thừa phân quyền từ module chat',
     'portalcategory_inheritanceblock_comment' =>
         'Module management inherits parent rights, including the module management page permissions and privileges DIY.',
     'portalcategory_allowpublish' => 'Xuất bản',
@@ -8058,10 +8058,10 @@ $lang = array(
         'Article template for separate category',
     'portalcategory_listtworanktplname' =>
         'article template for nested category',
-    'portalcategory_notshowarticlesummay' => 'Article Summary content pages',
+    'portalcategory_notshowarticlesummay' => 'Hiện thị tóm tắt bài viết',
     'portalcategory_notshowarticlesummay_comment' =>
         'Set this category contents of the article Summary page is displayed',
-    'portalcategory_perpage' => 'List the number of articles per page',
+    'portalcategory_perpage' => 'Số bài mỗi trang',
     'portalcategory_maxpages' => 'List of the largest sub-pages',
     'portalcategory_viewpage' => 'Article Content Page',
     'portalcategory_inheritupsetting' => 'Set a parent level to inherit',

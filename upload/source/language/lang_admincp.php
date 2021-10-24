@@ -7675,7 +7675,7 @@ $lang = array(
     'adv_edit_style_image_url' => 'Photo Address (yêu cầu):',
     'adv_edit_style_image_url_comment' =>
         'Please enter the picture image ads call Address',
-    'adv_edit_style_image_link' => 'Photo link (yêu cầu):',
+    'adv_edit_style_image_link' => 'Link quảng cáo (yêu cầu):',
     'adv_edit_style_image_link_comment' =>
         'Enter the URL of the image ads to link address',
     'adv_edit_style_image_width' => 'Width of the image (tuỳ chọn):',

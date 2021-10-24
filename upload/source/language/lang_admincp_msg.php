@@ -177,7 +177,7 @@ $lang = array(
     'adv_endtime_invalid' =>
         'Bạn nhập vào quảng cáo kết thúc trước thời điểm bắt đầu của thời hiện tại hoặc quảng cáo',
     'adv_parameter_invalid' =>
-        'Và cho thấy cách bạn không hoàn thành nội dung yêu cầu của tương ứng',
+        'Thông số cài đặt quảng cáo lỗi do không điền những trường bắt buộc',
     'adv_succeed' => 'Quảng cáo đã được thêm thành công',
     'album_move_succeed' => 'thành công chuyển đến các album thể loại nào',
     'album_choose_at_least_one_operation' => 'Chọn một hành động',

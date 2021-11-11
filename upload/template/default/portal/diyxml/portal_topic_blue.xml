@@ -707,7 +707,7 @@
 				<item id="bid"><![CDATA[1010]]></item>
 				<item id="blockclass"><![CDATA[portal_article]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[专题_第二屏左]]></item>
+				<item id="name"><![CDATA[Topic_Second Screen Left]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[t_xl_1]]></item>
 				<item id="summary"><![CDATA[]]></item>
@@ -747,7 +747,7 @@
 				<item id="bid"><![CDATA[1011]]></item>
 				<item id="blockclass"><![CDATA[html_html]]></item>
 				<item id="blocktype"><![CDATA[0]]></item>
-				<item id="name"><![CDATA[专题_第二屏左视频]]></item>
+				<item id="name"><![CDATA[Topic_The second screen left video]]></item>
 				<item id="title"><![CDATA[]]></item>
 				<item id="classname"><![CDATA[t_video]]></item>
 				<item id="summary"><![CDATA[<span id="flv_0U1"></span><script type="text/javascript" reload="1">$('flv_0U1').innerHTML=AC_FL_RunContent('width', '280', 'height', '223', 'allowNetworking', 'internal', 'allowScriptAccess', 'never', 'src', 'http://player.youku.com/player.php/sid/XMjM1NDM0NDA0.html/v.swf', 'quality', 'high', 'bgcolor', '#ffffff', 'wmode', 'transparent', 'allowfullscreen', 'true');</script>]]></item>

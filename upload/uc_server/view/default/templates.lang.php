@@ -26,7 +26,7 @@ $languages = array(
         '<em>Đăng nhập thất bại!</em><br />Tên thành viên hoặc mật khẩu không đúng.',
     'login_founder_incorrect' => 'Mật khẩu người sáng lập không hợp lệ',
     'login_admin_noexists' => 'Người Quản lý này không tồn tại',
-    'login_seccode_error' => 'Mã nghiệm chứng sai',
+    'login_seccode_error' => 'Sai mã xác thực',
     'login_failedlogin' => 'Mật khẩu nhập sai nhiều lần, 15 phút sau thử lại',
     'login_tips' =>
         'UCenter là một ứng dụng cầu nối, nó có thể chia sẻ dữ liệu thành viên, đồng nhất đăng nhập, đăng ký và quản lý thành viên.',

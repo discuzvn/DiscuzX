@@ -8010,11 +8010,11 @@ $lang = array(
     'portalcategory_useheader' => 'Use for site header navigation',
     'portalcategory_usefooter' => 'Use in site footer navigation',
     'portalcategory_inheritancearticle' =>
-        'Kế thừa phân quyền tư chuyên mục cha',
+        'Kế thừa phân quyền từ chuyên mục cha',
     'portalcategory_inheritancearticle_comment' =>
         'Articles are inherited higher management permissions, including the publishing articles and articles management rights',
     'portalcategory_inheritanceblock' =>
-        'Kế thừa phân quyền từ module chat',
+        'Kế thừa phân quyền từ module cha',
     'portalcategory_inheritanceblock_comment' =>
         'Module management inherits parent rights, including the module management page permissions and privileges DIY.',
     'portalcategory_allowpublish' => 'Xuất bản',

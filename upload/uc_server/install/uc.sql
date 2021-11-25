@@ -21,7 +21,7 @@ CREATE TABLE uc_applications (
 DROP TABLE IF EXISTS uc_members;
 CREATE TABLE uc_members (
   uid mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
-  username char(15) NOT NULL DEFAULT '',
+  username char(100) NOT NULL DEFAULT '',
   `password` char(32) NOT NULL DEFAULT '',
   email char(32) NOT NULL DEFAULT '',
   myid char(30)  NOT NULL DEFAULT '',

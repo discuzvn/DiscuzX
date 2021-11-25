@@ -649,7 +649,7 @@ DROP TABLE IF EXISTS pre_common_member;
 CREATE TABLE pre_common_member (
   uid mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
   email char(40) NOT NULL DEFAULT '',
-  username char(15) NOT NULL DEFAULT '',
+  username char(40) NOT NULL DEFAULT '',
   `password` char(32) NOT NULL DEFAULT '',
   `status` tinyint(1) NOT NULL DEFAULT '0',
   emailstatus tinyint(1) NOT NULL DEFAULT '0',

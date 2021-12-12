@@ -6,6 +6,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: discuz
+    volumes:
+      - ./db:/var/lib/mysql
   adminer:
     image: adminer
     depends_on:

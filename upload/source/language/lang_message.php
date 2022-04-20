@@ -10,7 +10,7 @@
  */
 $lang = array(
     'undefined_action' => 'Hành động không rõ',
-    'plugin_nonexistence' => 'Ứng dụng này không tồn tại hoặc đã bị đón',
+    'plugin_nonexistence' => 'Ứng dụng này không tồn tại hoặc đã bị đóng',
     'profile_username_protect' =>
         'Tên người dùng chứa các ký tự bị hệ thống chặn',
     'set_cover_faild' => 'Đặt cover không thành công',

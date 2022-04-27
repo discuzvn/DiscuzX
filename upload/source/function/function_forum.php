@@ -309,7 +309,7 @@ function typeselect($curtypeid = 0) {
 
 function updatemodworks($modaction, $posts = 1) {
 	global $_G;
-	$today = dgmdate(TIMESTAMP, 'd-m-Y');
+	$today = dgmdate(TIMESTAMP, 'Y-m-d');
 	if($_G['setting']['modworkstatus'] && $modaction && $posts) {
 		$affect_rows = C::t('forum_modwork')->increase_count_posts_by_uid_modaction_dateline(1, $posts, $_G['uid'], $modaction, $today);
 		if(!$affect_rows) {
